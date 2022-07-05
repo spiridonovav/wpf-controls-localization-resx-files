@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConditionalFormatEditor_AddCondition" xml:space="preserve">
+    <value>Добавить Условие</value>
+    <comment>Add Condition</comment>
+  </data>
+  <data name="ConditionalFormatEditor_CellColor" xml:space="preserve">
+    <value>Цвет ячейки</value>
+    <comment>Cell Color</comment>
+  </data>
+  <data name="ConditionalFormatEditor_ConditionName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>Name</comment>
+  </data>
+  <data name="ConditionalFormatEditor_ConditionsList" xml:space="preserve">
+    <value>Условия</value>
+    <comment>Conditions</comment>
+  </data>
+  <data name="ConditionalFormatEditor_ConditionType" xml:space="preserve">
+    <value>Тип условия</value>
+    <comment>Condition Type</comment>
+  </data>
+  <data name="ConditionalFormatEditor_Exception" xml:space="preserve">
+    <value>Пожалуйста, введите условное значение</value>
+    <comment>Please enter the conditional value</comment>
+  </data>
+  <data name="ConditionalFormatEditor_ExceptionCaption" xml:space="preserve">
+    <value>Сообщение об исключении : Редактор условного формата</value>
+    <comment>Exception Message : Conditional Format Editor</comment>
+  </data>
+  <data name="ConditionalFormatEditor_FontStyle" xml:space="preserve">
+    <value>Стиль шрифта</value>
+    <comment>Font Style</comment>
+  </data>
+  <data name="ConditionalFormatEditor_FontWeight" xml:space="preserve">
+    <value>Вес шрифта</value>
+    <comment>Font Weight</comment>
+  </data>
+  <data name="ConditionalFormatEditor_Foreground" xml:space="preserve">
+    <value>Передний план</value>
+    <comment>Foreground</comment>
+  </data>
+  <data name="ConditionalFormatEditor_HeaderText" xml:space="preserve">
+    <value>Редактор условных форматов</value>
+    <comment>Conditional Format Editor</comment>
+  </data>
+  <data name="ConditionalFormatEditor_Measure" xml:space="preserve">
+    <value>Мера</value>
+    <comment>Measure</comment>
+  </data>
+  <data name="ConditionalFormatEditor_PredicateType" xml:space="preserve">
+    <value>Тип предиката</value>
+    <comment>Predicate Type</comment>
+  </data>
+  <data name="ConditionalFormatEditor_Reset" xml:space="preserve">
+    <value>Удалите Все</value>
+    <comment>Remove All</comment>
+  </data>
+  <data name="ConditionalFormatEditor_Value1" xml:space="preserve">
+    <value>Значение 1</value>
+    <comment>Value1</comment>
+  </data>
+  <data name="ConditionalFormatEditor_Value2" xml:space="preserve">
+    <value>Значение 2</value>
+    <comment>Value2</comment>
+  </data>
+  <data name="OlapGrid_Column_Tooltip" xml:space="preserve">
+    <value>Колонка</value>
+    <comment>Column</comment>
+  </data>
+  <data name="OlapGrid_ContextMenu_Collapse" xml:space="preserve">
+    <value>Коллапс</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="OlapGrid_ContextMenu_Entirely" xml:space="preserve">
+    <value>Полностью</value>
+    <comment>Entirely</comment>
+  </data>
+  <data name="OlapGrid_ContextMenu_Expand" xml:space="preserve">
+    <value>Расширять</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="OlapGrid_ContextMenu_To" xml:space="preserve">
+    <value>To</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Background_Color" xml:space="preserve">
+    <value>Цвет фона</value>
+    <comment>Background Color</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Cancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="OlapGrid_Dialog_CellStyles" xml:space="preserve">
+    <value>Стили ячеек</value>
+    <comment>Cell Styles</comment>
+  </data>
+  <data name="OlapGrid_Dialog_ColumnHeader" xml:space="preserve">
+    <value>Заголовок столбца</value>
+    <comment>Column Header</comment>
+  </data>
+  <data name="OlapGrid_Dialog_ColumnSummary" xml:space="preserve">
+    <value>Сводка по колонке</value>
+    <comment>Column Summary</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Font_Color" xml:space="preserve">
+    <value>Цвет шрифта</value>
+    <comment>Font Color</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Font_Name" xml:space="preserve">
+    <value>Имя шрифта</value>
+    <comment>Font Name</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Font_Size" xml:space="preserve">
+    <value>размер шрифта</value>
+    <comment>Font Size</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Font_Style" xml:space="preserve">
+    <value>Стиль шрифта</value>
+    <comment>Font Style</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Foreground_Color" xml:space="preserve">
+    <value>Цвет переднего плана</value>
+    <comment>Foreground Color</comment>
+  </data>
+  <data name="OlapGrid_Dialog_HeaderFont" xml:space="preserve">
+    <value>Шрифт заголовка</value>
+    <comment>Header Font</comment>
+  </data>
+  <data name="OlapGrid_Dialog_HeaderStyle" xml:space="preserve">
+    <value>Стиль заголовка</value>
+    <comment>Header Style</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Ok" xml:space="preserve">
+    <value>ОК</value>
+    <comment>OK</comment>
+  </data>
+  <data name="OlapGrid_Dialog_RowHeader" xml:space="preserve">
+    <value>Заголовок строки</value>
+    <comment>Row Header</comment>
+  </data>
+  <data name="OlapGrid_Dialog_RowSummary" xml:space="preserve">
+    <value>Сводка строк</value>
+    <comment>Row Summary</comment>
+  </data>
+  <data name="OlapGrid_Dialog_SummaryFont" xml:space="preserve">
+    <value>Сводный шрифт</value>
+    <comment>Summary Font</comment>
+  </data>
+  <data name="OlapGrid_Dialog_SummaryStyle" xml:space="preserve">
+    <value>Стиль резюме</value>
+    <comment>Summary Style</comment>
+  </data>
+  <data name="OlapGrid_Dialog_Title" xml:space="preserve">
+    <value>Применить стиль</value>
+    <comment>Apply Style</comment>
+  </data>
+  <data name="OlapGrid_Measure_Tooltip" xml:space="preserve">
+    <value>Мера</value>
+    <comment>Measure</comment>
+  </data>
+  <data name="OlapGrid_Row_Tooltip" xml:space="preserve">
+    <value>Ряд</value>
+    <comment>Row</comment>
+  </data>
+  <data name="OlapGrid_Value_Tooltip" xml:space="preserve">
+    <value>Ценность</value>
+    <comment>Value</comment>
+  </data>
+  <data name="ConditionalFormatEditor_InvalidNameInfo" xml:space="preserve">
+    <value>Пожалуйста, укажите альтернативное имя. Условие уже существует как</value>
+    <comment>Please provide an alternate name. A condition already exists as</comment>
+  </data>
+  <data name="ConditionalFormatEditor_MessageBoxErrorInfo" xml:space="preserve">
+    <value>Ошибка</value>
+    <comment>Error</comment>
+  </data>
+  <data name="ConditionalFormatEditor_NoMeasureInfo" xml:space="preserve">
+    <value>Ни один элемент измерения не связан с текущим отчетом</value>
+    <comment>No Measure element is associated with the current report</comment>
+  </data>
+  <data name="ConditionalFormatEditor_NoNameInfo" xml:space="preserve">
+    <value>Пожалуйста, укажите имя для указанного условного формата</value>
+    <comment>Please provide a name for the specified Conditional format</comment>
+  </data>
+  <data name="ConditionalFormatEditor_InvalidValuesInfo" xml:space="preserve">
+    <value>Недопустимые значения: значение 1 должно быть меньше значения 2</value>
+    <comment>Invalid values: The value 1 must be lower than the value 2</comment>
+  </data>
+  <data name="ConditionalFormatEditor_RemoveCondition" xml:space="preserve">
+    <value>Выбранное условие будет удалено. Вы уверены, что хотите удалить это условие?</value>
+    <comment>The selected condition will be removed. Are you sure you want to remove the condition?</comment>
+  </data>
+  <data name="ConditionalFormatEditor_RemoveAllConditionsInfo" xml:space="preserve">
+    <value>Все примененные условные форматы будут удалены. Вы уверены, что продолжите?</value>
+    <comment>All the applied Conditional formats will be removed. Are you sure to proceed?</comment>
+  </data>
+  <data name="ConditionalFormatEditor_MessageInfo" xml:space="preserve">
+    <value>Удалить Условие</value>
+    <comment>Remove Condition</comment>
+  </data>
+  <data name="ConditionalFormatEditor_RemoveButtonToolTip" xml:space="preserve">
+    <value>Удаляет текущее состояние</value>
+    <comment>Removes the current condition</comment>
+  </data>
+  <data name="OlapGrid_HexStringToColor_Exception" xml:space="preserve">
+    <value>Недопустимая шестнадцатеричная строка</value>
+    <comment>Invalid Hexadecimal string</comment>
+  </data>
+  <data name="OlapGrid_PageNotFound_Exception" xml:space="preserve">
+    <value>Страница не найдена для указанного индекса в таблице подкачки.</value>
+    <comment>Page not found for the specified index in the paging grid.</comment>
+  </data>
+  <data name="StackTrace_Exception_Description" xml:space="preserve">
+    <value>Для получения более подробной информации, пожалуйста, обратитесь к файлу журнала из :</value>
+    <comment>For more details, please refer the log file from :</comment>
+  </data>
+</root>

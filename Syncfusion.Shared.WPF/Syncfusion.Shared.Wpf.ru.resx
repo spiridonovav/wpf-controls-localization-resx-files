@@ -1,0 +1,1134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessCalendarText" xml:space="preserve">
+    <value>Календарь</value>
+    <comment>Calendar</comment>
+  </data>
+  <data name="AccessClockText" xml:space="preserve">
+    <value>Часы</value>
+    <comment>Clock</comment>
+  </data>
+  <data name="AccessEmptyDateText" xml:space="preserve">
+    <value>Четкий</value>
+    <comment>Clear</comment>
+  </data>
+  <data name="AccessTodayText" xml:space="preserve">
+    <value>Сегодня</value>
+    <comment>Today</comment>
+  </data>
+  <data name="AccessWatchText" xml:space="preserve">
+    <value>Часы</value>
+    <comment>Watch</comment>
+  </data>
+  <data name="AutomaticText" xml:space="preserve">
+    <value>Автоматический</value>
+    <comment>Automatic</comment>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="CloseTooltip" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Close</comment>
+  </data>
+  <data name="ColorModelsText" xml:space="preserve">
+    <value>Цветовые модели:</value>
+    <comment>Color Models:</comment>
+  </data>
+  <data name="ColorsText" xml:space="preserve">
+    <value>Цвета:</value>
+    <comment>Colors:</comment>
+  </data>
+  <data name="CurrentText" xml:space="preserve">
+    <value>Текущий</value>
+    <comment>Current</comment>
+  </data>
+  <data name="CustomText" xml:space="preserve">
+    <value>Обычный</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="MaximizeTooltip" xml:space="preserve">
+    <value>Максимизировать</value>
+    <comment>Maximize</comment>
+  </data>
+  <data name="MinimizeTooltip" xml:space="preserve">
+    <value>Минимизировать</value>
+    <comment>Minimize</comment>
+  </data>
+  <data name="MoreColorsText" xml:space="preserve">
+    <value>Больше Цветов...</value>
+    <comment>More Colors...</comment>
+  </data>
+  <data name="NoColorText" xml:space="preserve">
+    <value>Нет Цвета</value>
+    <comment>No Color</comment>
+  </data>
+  <data name="NewText" xml:space="preserve">
+    <value>Новое</value>
+    <comment>New</comment>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="RecentlyUsedText" xml:space="preserve">
+    <value>Недавно Использованный</value>
+    <comment>Recently Used</comment>
+  </data>
+  <data name="RestoreTooltip" xml:space="preserve">
+    <value>Восстанавливать</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="StandardColorsText" xml:space="preserve">
+    <value>Стандартные цвета</value>
+    <comment>Standard Colors</comment>
+  </data>
+  <data name="StandardText" xml:space="preserve">
+    <value>Стандарт</value>
+    <comment>Standard</comment>
+  </data>
+  <data name="ThemeColorsText" xml:space="preserve">
+    <value>Тематические цвета</value>
+    <comment>Theme Colors</comment>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>Сегодня</value>
+    <comment>Today</comment>
+  </data>
+  <data name="OkLabel" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="CancelLabel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="PropertySupport_NotMemberAccessExpression_Exception" xml:space="preserve">
+    <value>Это выражение не является выражением доступа к члену.</value>
+    <comment>The expression is not a member access expression.</comment>
+  </data>
+  <data name="PropertySupport_ExpressionNotProperty_Exception" xml:space="preserve">
+    <value>Выражение доступа к элементу не имеет доступа к свойству.</value>
+    <comment>The member access expression does not access a property.</comment>
+  </data>
+  <data name="PropertySupport_StaticExpression_Exception" xml:space="preserve">
+    <value>Свойство, на которое ссылается ссылка, является статическим свойством.</value>
+    <comment>The referenced property is a static property.</comment>
+  </data>
+  <data name="MoreColorsWindowTitleText" xml:space="preserve">
+    <value>Цвета</value>
+    <comment>Colors</comment>
+  </data>
+  <data name="AlphaTooltipText" xml:space="preserve">
+    <value>Альфа</value>
+    <comment>Alpha</comment>
+  </data>
+  <data name="BlueTooltipText" xml:space="preserve">
+    <value>Синий</value>
+    <comment>Blue</comment>
+  </data>
+  <data name="GreenTooltipText" xml:space="preserve">
+    <value>Зеленый</value>
+    <comment>Green</comment>
+  </data>
+  <data name="HueTooltipText" xml:space="preserve">
+    <value>Hue.</value>
+    <comment>???</comment>
+  </data>
+  <data name="RedTooltipText" xml:space="preserve">
+    <value>Красный</value>
+    <comment>Red</comment>
+  </data>
+  <data name="SaturationTooltipText" xml:space="preserve">
+    <value>Насыщение.</value>
+    <comment>Saturation.</comment>
+  </data>
+  <data name="ValueTooltipText" xml:space="preserve">
+    <value>Значение/Яркость.</value>
+    <comment>Value/Brightness.</comment>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>выбрать все</value>
+    <comment>Select All</comment>
+  </data>
+  <data name="msgBoxMargin" xml:space="preserve">
+    <value>Поля перекрываются или находятся вне бумаги.
+Введите другой размер поля.</value>
+    <comment>The margins overlap or they are off the paper.
+Enter a different margin size.</comment>
+  </data>
+  <data name="PageSetup" xml:space="preserve">
+    <value>Настройка страницы</value>
+    <comment>Page Setup</comment>
+  </data>
+  <data name="SpellCheckerNotInDictionaryText" xml:space="preserve">
+    <value>Нет в Словаре:</value>
+    <comment>Not in Dictionary:</comment>
+  </data>
+  <data name="SpellCheckerAddToDictionaryText" xml:space="preserve">
+    <value>Добавить в словарь</value>
+    <comment>Add to Dictionary</comment>
+  </data>
+  <data name="SpellCheckerChangeAllText" xml:space="preserve">
+    <value>Изменить Все</value>
+    <comment>Change All</comment>
+  </data>
+  <data name="SpellCheckerChangeText" xml:space="preserve">
+    <value>Изменить</value>
+    <comment>Change</comment>
+  </data>
+  <data name="SpellCheckerCloseText" xml:space="preserve">
+    <value>Закрывать</value>
+    <comment>Close</comment>
+  </data>
+  <data name="SpellCheckerIgnoreAllText" xml:space="preserve">
+    <value>Игнорировать Все</value>
+    <comment>Ignore All</comment>
+  </data>
+  <data name="SpellCheckerIgnoreOnceText" xml:space="preserve">
+    <value>Игнорировать Один Раз</value>
+    <comment>Ignore Once</comment>
+  </data>
+  <data name="SpellCheckerSuggestionsText" xml:space="preserve">
+    <value>Предложения:</value>
+    <comment>Suggestions:</comment>
+  </data>
+  <data name="SpellCheckerHeaderText" xml:space="preserve">
+    <value>Проверка орфографии</value>
+    <comment>Spell Checker</comment>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>Предварительный просмотр печати</value>
+    <comment>Print Preview</comment>
+  </data>
+  <data name="Print_PageMargin_Wide" xml:space="preserve">
+    <value>Широкий</value>
+    <comment>Wide</comment>
+  </data>
+  <data name="QuickPrint" xml:space="preserve">
+    <value>Быстрая печать</value>
+    <comment>Quick Print</comment>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Печать</value>
+    <comment>Print</comment>
+  </data>
+  <data name="Print_PageMargin_CustomMargin" xml:space="preserve">
+    <value>Настраиваемые поля</value>
+    <comment>Custom Margins</comment>
+  </data>
+  <data name="Print_PageMargin_Narrow" xml:space="preserve">
+    <value>Узкий</value>
+    <comment>Narrow</comment>
+  </data>
+  <data name="Print_PageMargin_Moderate" xml:space="preserve">
+    <value>Умеренный</value>
+    <comment>Moderate</comment>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>Дно</value>
+    <comment>Bottom</comment>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Верхний</value>
+    <comment>Top</comment>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Правильно</value>
+    <comment>Right</comment>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Слева</value>
+    <comment>Left</comment>
+  </data>
+  <data name="Print_PageMargin_Normal" xml:space="preserve">
+    <value>Обычный</value>
+    <comment>Normal</comment>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Высота</value>
+    <comment>Height</comment>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Ширина</value>
+    <comment>Width</comment>
+  </data>
+  <data name="Print_MorePaperSizes" xml:space="preserve">
+    <value>Больше Форматов бумаги</value>
+    <comment>More Paper Sizes</comment>
+  </data>
+  <data name="Print_Orientation_Landscape" xml:space="preserve">
+    <value>Ландшафтная ориентация</value>
+    <comment>Landscape Orientation</comment>
+  </data>
+  <data name="Print_Orientation_Portrait" xml:space="preserve">
+    <value>Портретная ориентация</value>
+    <comment>Portrait Orientation</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Margins" xml:space="preserve">
+    <value>Прибыль</value>
+    <comment>Margins</comment>
+  </data>
+  <data name="Print_PaperSize" xml:space="preserve">
+    <value>Формат бумаги</value>
+    <comment>Paper Size</comment>
+  </data>
+  <data name="WeekNumbers" xml:space="preserve">
+    <value>Недели в</value>
+    <comment>Weeks in</comment>
+  </data>
+  <data name="BackgroundText" xml:space="preserve">
+    <value>Фон</value>
+    <comment>Background</comment>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Синий</value>
+    <comment>Blue</comment>
+  </data>
+  <data name="BrightText" xml:space="preserve">
+    <value>Яркий</value>
+    <comment>Bright</comment>
+  </data>
+  <data name="DarkerText" xml:space="preserve">
+    <value>Темный</value>
+    <comment>Dark</comment>
+  </data>
+  <data name="LightText" xml:space="preserve">
+    <value>Свет</value>
+    <comment>Light</comment>
+  </data>
+  <data name="Pink" xml:space="preserve">
+    <value>Розовый</value>
+    <comment>Pink</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Красный</value>
+    <comment>Red</comment>
+  </data>
+  <data name="TextName" xml:space="preserve">
+    <value>Текст</value>
+    <comment>Text</comment>
+  </data>
+  <data name="White" xml:space="preserve">
+    <value>Белый</value>
+    <comment>White</comment>
+  </data>
+  <data name="LighterText" xml:space="preserve">
+    <value>Свет</value>
+    <comment>Light</comment>
+  </data>
+  <data name="EndPoint" xml:space="preserve">
+    <value>Конечная точкам</value>
+    <comment>End Point</comment>
+  </data>
+  <data name="StartPoint" xml:space="preserve">
+    <value>Начальная точка</value>
+    <comment>Start Point</comment>
+  </data>
+  <data name="AText" xml:space="preserve">
+    <value>A</value>
+    <comment>A</comment>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Центр</value>
+    <comment>Center</comment>
+  </data>
+  <data name="GradientOrigin" xml:space="preserve">
+    <value>ГрадиентОригин</value>
+    <comment>Gradient Origin</comment>
+  </data>
+  <data name="LinearGradient" xml:space="preserve">
+    <value>Линейный Градиент</value>
+    <comment>Linear Gradient</comment>
+  </data>
+  <data name="RadialGradient" xml:space="preserve">
+    <value>Радиальный Градиент</value>
+    <comment>Radial Gradient</comment>
+  </data>
+  <data name="Radius" xml:space="preserve">
+    <value>Радиус</value>
+    <comment>Radius</comment>
+  </data>
+  <data name="Solid" xml:space="preserve">
+    <value>Твердый</value>
+    <comment>Solid</comment>
+  </data>
+  <data name="Accent" xml:space="preserve">
+    <value>Акцент</value>
+    <comment>Accent</comment>
+  </data>
+  <data name="AliceBlue" xml:space="preserve">
+    <value>Алиса Блу</value>
+    <comment>Alice Blue</comment>
+  </data>
+  <data name="AntiqueWhite" xml:space="preserve">
+    <value>Античный Белый</value>
+    <comment>Antique White</comment>
+  </data>
+  <data name="Aqua" xml:space="preserve">
+    <value>Аква</value>
+    <comment>Aqua</comment>
+  </data>
+  <data name="Aquamarine" xml:space="preserve">
+    <value>Аквамарин</value>
+    <comment>Aquamarine</comment>
+  </data>
+  <data name="Azure" xml:space="preserve">
+    <value>Лазурь</value>
+    <comment>Azure</comment>
+  </data>
+  <data name="Beige" xml:space="preserve">
+    <value>Бежевый</value>
+    <comment>Beige</comment>
+  </data>
+  <data name="Bisque" xml:space="preserve">
+    <value>Суп-пюре</value>
+    <comment>Bisque</comment>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Черный</value>
+    <comment>Black</comment>
+  </data>
+  <data name="BlanchedAlmond" xml:space="preserve">
+    <value>Бланшированный миндаль</value>
+    <comment>Blanched Almond</comment>
+  </data>
+  <data name="BlueViolet" xml:space="preserve">
+    <value>Blue Violet</value>
+    <comment>Синий Фиолетовый</comment>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Коричневый</value>
+    <comment>Brown</comment>
+  </data>
+  <data name="BurlyWood" xml:space="preserve">
+    <value>Берливуд</value>
+    <comment>BurlyWood</comment>
+  </data>
+  <data name="CadetBlue" xml:space="preserve">
+    <value>Кадетский Синий</value>
+    <comment>Cadet Blue</comment>
+  </data>
+  <data name="Chartreuse" xml:space="preserve">
+    <value>Шартрез</value>
+    <comment>Chartreuse</comment>
+  </data>
+  <data name="Chocolate" xml:space="preserve">
+    <value>Шоколад</value>
+    <comment>Chocolate</comment>
+  </data>
+  <data name="Coral" xml:space="preserve">
+    <value>Коралловый</value>
+    <comment>Coral</comment>
+  </data>
+  <data name="CornflowerBlue" xml:space="preserve">
+    <value>Васильковый Цвет</value>
+    <comment>Cornflower Blue</comment>
+  </data>
+  <data name="CornSilk" xml:space="preserve">
+    <value>Кукурузный Шелк</value>
+    <comment>Corn Silk</comment>
+  </data>
+  <data name="Crimson" xml:space="preserve">
+    <value>Малиновый</value>
+    <comment>Crimson</comment>
+  </data>
+  <data name="Cyan" xml:space="preserve">
+    <value>Голубой</value>
+    <comment>Cyan</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>тёмно-синий</value>
+    <comment>Dark Blue</comment>
+  </data>
+  <data name="DarkCyan" xml:space="preserve">
+    <value>Темно-Голубой</value>
+    <comment>Dark Cyan</comment>
+  </data>
+  <data name="DarkGoldenrod" xml:space="preserve">
+    <value>Темный Золотарник</value>
+    <comment>Dark Goldenrod</comment>
+  </data>
+  <data name="DarkGray" xml:space="preserve">
+    <value>Темно-Серый</value>
+    <comment>Dark Gray</comment>
+  </data>
+  <data name="DarkGreen" xml:space="preserve">
+    <value>темно-зеленый</value>
+    <comment>Dark Green</comment>
+  </data>
+  <data name="DarkKhaki" xml:space="preserve">
+    <value>Темно-хаки</value>
+    <comment>Dark Khaki</comment>
+  </data>
+  <data name="DarkMagenta" xml:space="preserve">
+    <value>Темно-Пурпурный</value>
+    <comment>Dark Magenta</comment>
+  </data>
+  <data name="DarkOliveGreen" xml:space="preserve">
+    <value>Темно-Оливково-Зеленый</value>
+    <comment>Dark OliveGreen</comment>
+  </data>
+  <data name="DarkOrange" xml:space="preserve">
+    <value>Темно-Оранжевый</value>
+    <comment>Dark Orange</comment>
+  </data>
+  <data name="DarkOrchid" xml:space="preserve">
+    <value>Темная орхидея</value>
+    <comment>Dark Orchid</comment>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Темно-Красный</value>
+    <comment>Dark Red</comment>
+  </data>
+  <data name="DarkSalmon" xml:space="preserve">
+    <value>Темный Лосось</value>
+    <comment>Dark Salmon</comment>
+  </data>
+  <data name="DarkSeaGreen" xml:space="preserve">
+    <value>Темная морская зелень</value>
+    <comment>Dark SeaGreen</comment>
+  </data>
+  <data name="DarkSlateBlue" xml:space="preserve">
+    <value>Темный сланцево-голубой</value>
+    <comment>Dark SlateBlue</comment>
+  </data>
+  <data name="DarkSlateGray" xml:space="preserve">
+    <value>Темный сланцевый песок</value>
+    <comment>Dark SlateGray</comment>
+  </data>
+  <data name="DarkTurquoise" xml:space="preserve">
+    <value>Темно-Бирюзовый</value>
+    <comment>Dark Turquoise</comment>
+  </data>
+  <data name="DarkViolet" xml:space="preserve">
+    <value>Темно-Фиолетовый</value>
+    <comment>Dark Violet</comment>
+  </data>
+  <data name="DeepPink" xml:space="preserve">
+    <value>Темно-розовый</value>
+    <comment>Deep Pink</comment>
+  </data>
+  <data name="DeepSkyBlue" xml:space="preserve">
+    <value>Глубокий небесно-голубой</value>
+    <comment>Deep SkyBlue</comment>
+  </data>
+  <data name="DimGray" xml:space="preserve">
+    <value>Тускло-Серый</value>
+    <comment>Dim Gray</comment>
+  </data>
+  <data name="DodgerBlue" xml:space="preserve">
+    <value>Доджер Блю</value>
+    <comment>Dodger Blue</comment>
+  </data>
+  <data name="Firebrick" xml:space="preserve">
+    <value>Огнеупорный кирпич</value>
+    <comment>Firebrick</comment>
+  </data>
+  <data name="FloralWhite" xml:space="preserve">
+    <value>Цветочный Белый</value>
+    <comment>Floral White</comment>
+  </data>
+  <data name="ForestGreen" xml:space="preserve">
+    <value>лесной зеленый</value>
+    <comment>Forest Green</comment>
+  </data>
+  <data name="Fuchsia" xml:space="preserve">
+    <value>Фуксия</value>
+    <comment>Fuchsia</comment>
+  </data>
+  <data name="Gainsboro" xml:space="preserve">
+    <value>Гейнсборо</value>
+    <comment>Gainsboro</comment>
+  </data>
+  <data name="GhostWhite" xml:space="preserve">
+    <value>Призрачно-белый</value>
+    <comment>Ghost White</comment>
+  </data>
+  <data name="Gold" xml:space="preserve">
+    <value>Золото</value>
+    <comment>Gold</comment>
+  </data>
+  <data name="Goldenrod" xml:space="preserve">
+    <value>Золотарник</value>
+    <comment>Goldenrod</comment>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Серый</value>
+    <comment>Gray</comment>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Зеленый</value>
+    <comment>Green</comment>
+  </data>
+  <data name="GreenYellow" xml:space="preserve">
+    <value>Зеленый Желтый</value>
+    <comment>Green Yellow</comment>
+  </data>
+  <data name="Honeydew" xml:space="preserve">
+    <value>Медовая роса</value>
+    <comment>Honeydew</comment>
+  </data>
+  <data name="HotPink" xml:space="preserve">
+    <value>ХотПинк</value>
+    <comment>HotPink</comment>
+  </data>
+  <data name="Ice" xml:space="preserve">
+    <value>Лед</value>
+    <comment>Ice</comment>
+  </data>
+  <data name="IndianRed" xml:space="preserve">
+    <value>Индийский Красный</value>
+    <comment>IndianRed</comment>
+  </data>
+  <data name="Indigo" xml:space="preserve">
+    <value>Индиго</value>
+    <comment>Indigo</comment>
+  </data>
+  <data name="Ivory" xml:space="preserve">
+    <value>Слоновая кость</value>
+    <comment>Ivory</comment>
+  </data>
+  <data name="Khaki" xml:space="preserve">
+    <value>Хаки</value>
+    <comment>Khaki</comment>
+  </data>
+  <data name="Lavender" xml:space="preserve">
+    <value>Лаванда</value>
+    <comment>Lavender</comment>
+  </data>
+  <data name="LavenderBlush" xml:space="preserve">
+    <value>Лавандовый румянец</value>
+    <comment>Lavender Blush</comment>
+  </data>
+  <data name="LawnGreen" xml:space="preserve">
+    <value>Газон Зеленый</value>
+    <comment>Lawn Green</comment>
+  </data>
+  <data name="LemonChiffon" xml:space="preserve">
+    <value>Лимонный Шифон</value>
+    <comment>Lemon Chiffon</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>светло-синий</value>
+    <comment>Light Blue</comment>
+  </data>
+  <data name="LightCoral" xml:space="preserve">
+    <value>Светло-Коралловый</value>
+    <comment>Light Coral</comment>
+  </data>
+  <data name="LightCyan" xml:space="preserve">
+    <value>Светло-Голубой</value>
+    <comment>Light Cyan</comment>
+  </data>
+  <data name="LightGoldenrodYellow" xml:space="preserve">
+    <value>Светло-золотисто-желтый</value>
+    <comment>Light GoldenrodYellow</comment>
+  </data>
+  <data name="LightGray" xml:space="preserve">
+    <value>Светло-Серый</value>
+    <comment>Light Gray</comment>
+  </data>
+  <data name="LightGreen" xml:space="preserve">
+    <value>светло-зеленый</value>
+    <comment>Light Green</comment>
+  </data>
+  <data name="LightPink" xml:space="preserve">
+    <value>Светло-Розовый</value>
+    <comment>Light Pink</comment>
+  </data>
+  <data name="LightSalmon" xml:space="preserve">
+    <value>Светлый Лосось</value>
+    <comment>Light Salmon</comment>
+  </data>
+  <data name="LightSeaGreen" xml:space="preserve">
+    <value>Светло-зеленый цвет морской волны</value>
+    <comment>Light SeaGreen</comment>
+  </data>
+  <data name="LightSkyBlue" xml:space="preserve">
+    <value>Светло-Небесно-Голубой</value>
+    <comment>Light SkyBlue</comment>
+  </data>
+  <data name="LightSlateGray" xml:space="preserve">
+    <value>Светло-Сланцево-серый</value>
+    <comment>Light SlateGray</comment>
+  </data>
+  <data name="LightSteelBlue" xml:space="preserve">
+    <value>Светло-Стальной Синий</value>
+    <comment>Light SteelBlue</comment>
+  </data>
+  <data name="LightYellow" xml:space="preserve">
+    <value>Светло-Желтый</value>
+    <comment>Light Yellow</comment>
+  </data>
+  <data name="Lime" xml:space="preserve">
+    <value>Лайм</value>
+    <comment>Lime</comment>
+  </data>
+  <data name="LimeGreen" xml:space="preserve">
+    <value>Зеленый Лайм</value>
+    <comment>Lime Green</comment>
+  </data>
+  <data name="Linen" xml:space="preserve">
+    <value>Белье</value>
+    <comment>Linen</comment>
+  </data>
+  <data name="Magenta" xml:space="preserve">
+    <value>Пурпурный</value>
+    <comment>Magenta</comment>
+  </data>
+  <data name="Maroon" xml:space="preserve">
+    <value>Темно-бордовый</value>
+    <comment>Maroon</comment>
+  </data>
+  <data name="MediumAquamarine" xml:space="preserve">
+    <value>Средний Аквамарин</value>
+    <comment>Medium Aquamarine</comment>
+  </data>
+  <data name="MediumBlue" xml:space="preserve">
+    <value>Средний Синий</value>
+    <comment>Medium Blue</comment>
+  </data>
+  <data name="MediumOrchid" xml:space="preserve">
+    <value>Средняя орхидея</value>
+    <comment>Medium Orchid</comment>
+  </data>
+  <data name="MediumPurple" xml:space="preserve">
+    <value>Средний Фиолетовый</value>
+    <comment>Medium Purple</comment>
+  </data>
+  <data name="MediumSeaGreen" xml:space="preserve">
+    <value>Средняя морская зелень</value>
+    <comment>Medium SeaGreen</comment>
+  </data>
+  <data name="MediumSlateBlue" xml:space="preserve">
+    <value>Средний Сланцево-Голубой</value>
+    <comment>Medium SlateBlue</comment>
+  </data>
+  <data name="MediumSpringGreen" xml:space="preserve">
+    <value>Средний Весенний Зеленый</value>
+    <comment>Medium SpringGreen</comment>
+  </data>
+  <data name="MediumTurquoise" xml:space="preserve">
+    <value>Средний Бирюзовый</value>
+    <comment>Medium Turquoise</comment>
+  </data>
+  <data name="MediumVioletRed" xml:space="preserve">
+    <value>Средне-фиалковый</value>
+    <comment>Medium VioletRed</comment>
+  </data>
+  <data name="MidnightBlue" xml:space="preserve">
+    <value>полуночный черный</value>
+    <comment>Midnight Blue</comment>
+  </data>
+  <data name="MintCream" xml:space="preserve">
+    <value>Мятный крем</value>
+    <comment>Mint Cream</comment>
+  </data>
+  <data name="MistyRose" xml:space="preserve">
+    <value>Мисти Роуз</value>
+    <comment>Misty Rose</comment>
+  </data>
+  <data name="Moccasin" xml:space="preserve">
+    <value>Мокасины</value>
+    <comment>Moccasin</comment>
+  </data>
+  <data name="NavajoWhite" xml:space="preserve">
+    <value>Белый навахо</value>
+    <comment>Navajo White</comment>
+  </data>
+  <data name="Navy" xml:space="preserve">
+    <value>Флот</value>
+    <comment>Navy</comment>
+  </data>
+  <data name="OldLace" xml:space="preserve">
+    <value>ОлдЛейс</value>
+    <comment>OldLace</comment>
+  </data>
+  <data name="Olive" xml:space="preserve">
+    <value>Оливка</value>
+    <comment>Olive</comment>
+  </data>
+  <data name="OliveDrab" xml:space="preserve">
+    <value>Оливково-серый</value>
+    <comment>Olive Drab</comment>
+  </data>
+  <data name="OliveGreen" xml:space="preserve">
+    <value>Оливково-Зеленый</value>
+    <comment>Olive Green</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Оранжевый</value>
+    <comment>Orange</comment>
+  </data>
+  <data name="OrangeRed" xml:space="preserve">
+    <value>Оранжево-Красный</value>
+    <comment>Orange Red</comment>
+  </data>
+  <data name="Orchid" xml:space="preserve">
+    <value>Орхидея</value>
+    <comment>Orchid</comment>
+  </data>
+  <data name="PaleGoldenrod" xml:space="preserve">
+    <value>Бледный Золотарник</value>
+    <comment>Pale Goldenrod</comment>
+  </data>
+  <data name="PaleGreen" xml:space="preserve">
+    <value>Бледно-Зеленый</value>
+    <comment>Pale Green</comment>
+  </data>
+  <data name="PaleTurquoise" xml:space="preserve">
+    <value>Бледно-Бирюзовый</value>
+    <comment>Pale Turquoise</comment>
+  </data>
+  <data name="PaleVioletRed" xml:space="preserve">
+    <value>Бледно-Фиолетово-Красный</value>
+    <comment>Pale VioletRed</comment>
+  </data>
+  <data name="PapayaWhip" xml:space="preserve">
+    <value>Кнут из папайи</value>
+    <comment>Papaya Whip</comment>
+  </data>
+  <data name="PeachPuff" xml:space="preserve">
+    <value>Персиковое слоеное тесто</value>
+    <comment>Peach Puff</comment>
+  </data>
+  <data name="Periwinkle" xml:space="preserve">
+    <value>Барвинок</value>
+    <comment>Periwinkle</comment>
+  </data>
+  <data name="Peru" xml:space="preserve">
+    <value>Перу</value>
+    <comment>Peru</comment>
+  </data>
+  <data name="Plum" xml:space="preserve">
+    <value>Слива</value>
+    <comment>Plum</comment>
+  </data>
+  <data name="PowderBlue" xml:space="preserve">
+    <value>Пудрово-голубой</value>
+    <comment>Powder Blue</comment>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Фиолетовый</value>
+    <comment>Purple</comment>
+  </data>
+  <data name="Rose" xml:space="preserve">
+    <value>Роза</value>
+    <comment>Rose</comment>
+  </data>
+  <data name="RosyBrown" xml:space="preserve">
+    <value>Розово-Коричневый</value>
+    <comment>Rosy Brown</comment>
+  </data>
+  <data name="RoyalBlue" xml:space="preserve">
+    <value>Королевский Синий</value>
+    <comment>Royal Blue</comment>
+  </data>
+  <data name="SaddleBrown" xml:space="preserve">
+    <value>Седло Коричневое</value>
+    <comment>Saddle Brown</comment>
+  </data>
+  <data name="Salmon" xml:space="preserve">
+    <value>Лосось</value>
+    <comment>Salmon</comment>
+  </data>
+  <data name="SandyBrown" xml:space="preserve">
+    <value>Песочно-коричневый</value>
+    <comment>Sandy Brown</comment>
+  </data>
+  <data name="SeaGreen" xml:space="preserve">
+    <value>Морская Зелень</value>
+    <comment>Sea Green</comment>
+  </data>
+  <data name="SeaShell" xml:space="preserve">
+    <value>морская ракушка</value>
+    <comment>SeaShell</comment>
+  </data>
+  <data name="Sienna" xml:space="preserve">
+    <value>Сиенна</value>
+    <comment>Sienna</comment>
+  </data>
+  <data name="Silver" xml:space="preserve">
+    <value>Серебро</value>
+    <comment>Silver</comment>
+  </data>
+  <data name="Sky" xml:space="preserve">
+    <value>Небо</value>
+    <comment>Sky</comment>
+  </data>
+  <data name="SkyBlue" xml:space="preserve">
+    <value>Небесно-голубой</value>
+    <comment>Sky Blue</comment>
+  </data>
+  <data name="SlateBlue" xml:space="preserve">
+    <value>Сланцево-голубой</value>
+    <comment>Slate Blue</comment>
+  </data>
+  <data name="SlateGray" xml:space="preserve">
+    <value>Сланцево-серый</value>
+    <comment>Slate Gray</comment>
+  </data>
+  <data name="Snow" xml:space="preserve">
+    <value>Снег</value>
+    <comment>Snow</comment>
+  </data>
+  <data name="SpringGreen" xml:space="preserve">
+    <value>Весенняя Зелень</value>
+    <comment>SpringGreen</comment>
+  </data>
+  <data name="SteelBlue" xml:space="preserve">
+    <value>Стальной Синий</value>
+    <comment>SteelBlue</comment>
+  </data>
+  <data name="Tan" xml:space="preserve">
+    <value>Загар</value>
+    <comment>Tan</comment>
+  </data>
+  <data name="TanColor" xml:space="preserve">
+    <value>Коричневый Цвет</value>
+    <comment>TanColor</comment>
+  </data>
+  <data name="Teal" xml:space="preserve">
+    <value>Чирок</value>
+    <comment>Teal</comment>
+  </data>
+  <data name="Thistle" xml:space="preserve">
+    <value>Чертополох</value>
+    <comment>Thistle</comment>
+  </data>
+  <data name="Tomato" xml:space="preserve">
+    <value>Помидор</value>
+    <comment>Tomato</comment>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>Прозрачный</value>
+    <comment>Transparent</comment>
+  </data>
+  <data name="Turquoise" xml:space="preserve">
+    <value>Бирюзовый</value>
+    <comment>Turquoise</comment>
+  </data>
+  <data name="UnknownColor" xml:space="preserve">
+    <value>Неизвестный Цвет</value>
+    <comment>UnknownColor</comment>
+  </data>
+  <data name="Violet" xml:space="preserve">
+    <value>Фиолетовый цвет</value>
+    <comment>Violet</comment>
+  </data>
+  <data name="Wheat" xml:space="preserve">
+    <value>Пшеница</value>
+    <comment>Wheat</comment>
+  </data>
+  <data name="WhiteSmoke" xml:space="preserve">
+    <value>Белый Дым</value>
+    <comment>White Smoke</comment>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Желтый</value>
+    <comment>Yellow</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Желто-Зеленый</value>
+    <comment>Yellow Green</comment>
+  </data>
+  <data name="HSV" xml:space="preserve">
+    <value>HSV</value>
+    <comment>???</comment>
+  </data>
+  <data name="RGB" xml:space="preserve">
+    <value>RGB</value>
+    <comment>RGB</comment>
+  </data>
+  <data name="PrintPreview_UpDown_GreaterThanToolTip" xml:space="preserve">
+    <value>Запись должна быть больше или равна</value>
+    <comment>The entry must be greater than or equal to</comment>
+  </data>
+  <data name="PrintPreview_UpDown_LessThanToolTip" xml:space="preserve">
+    <value>Запись должна быть меньше или равна</value>
+    <comment>The entry must be less than or equal to</comment>
+  </data>
+  <data name="PrintPreview_UpDown_NegativeToolTip" xml:space="preserve">
+    <value>Запись должна быть положительным числом</value>
+    <comment>The entry must be a positive number</comment>
+  </data>
+  <data name="PrintPreview_UpDown_NonNumericToopTip" xml:space="preserve">
+    <value>Запись не может содержать никаких символов, которые не являются числовыми</value>
+    <comment>The entry cannot contain any characters that are not numeric</comment>
+  </data>
+  <data name="PrintPreview_AllPages" xml:space="preserve">
+    <value>Печать Всех Страниц</value>
+    <comment>Print All Pages</comment>
+  </data>
+  <data name="PrintPreview_AllPages_ToolTip" xml:space="preserve">
+    <value>Все это дело</value>
+    <comment>The whole thing</comment>
+  </data>
+  <data name="PrintPreview_Collated" xml:space="preserve">
+    <value>Сопоставленный</value>
+    <comment>Collated</comment>
+  </data>
+  <data name="PrintPreview_Copies" xml:space="preserve">
+    <value>Копии</value>
+    <comment>Copies</comment>
+  </data>
+  <data name="PrintPreview_CurrentPage" xml:space="preserve">
+    <value>Печать Текущей Страницы</value>
+    <comment>Print Current Page</comment>
+  </data>
+  <data name="PrintPreview_CurrentPage_ToolTip" xml:space="preserve">
+    <value>Текущая страница</value>
+    <comment>Current Page</comment>
+  </data>
+  <data name="PrintPreview_Pages" xml:space="preserve">
+    <value>Страницы</value>
+    <comment>Pages</comment>
+  </data>
+  <data name="PrintPreview_Printer" xml:space="preserve">
+    <value>Принтер</value>
+    <comment>Printer</comment>
+  </data>
+  <data name="PrintPreview_To" xml:space="preserve">
+    <value>К</value>
+    <comment>To</comment>
+  </data>
+  <data name="PrintPreview_UnCollated" xml:space="preserve">
+    <value>Неуплаченный</value>
+    <comment>Uncollated</comment>
+  </data>
+  <data name="PrintPreview_UserPages" xml:space="preserve">
+    <value>Пользовательская печать</value>
+    <comment>Custom Print</comment>
+  </data>
+  <data name="PrintPreview_UserPages_ToolTip" xml:space="preserve">
+    <value>Введите конкретные страницы для печати</value>
+    <comment>Enter specific pages to print</comment>
+  </data>
+  <data name="NoRecords" xml:space="preserve">
+    <value>Записей Не Найдено</value>
+    <comment>No Records Found</comment>
+  </data>
+</root>

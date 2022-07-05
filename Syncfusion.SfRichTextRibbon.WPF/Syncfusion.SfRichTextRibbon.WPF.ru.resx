@@ -1,0 +1,1228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTableToolTip" xml:space="preserve">
+    <value>Таблица - отличный способ упорядочить информацию в вашем документе.</value>
+    <comment>A table is a great way to organize information with in your document.</comment>
+  </data>
+  <data name="AddTableToolTipHeader" xml:space="preserve">
+    <value>Добавление таблицы</value>
+    <comment>Add a Table</comment>
+  </data>
+  <data name="AlignCenter" xml:space="preserve">
+    <value>Центр</value>
+    <comment>Center</comment>
+  </data>
+  <data name="AlignCenterToolTip" xml:space="preserve">
+    <value>Центрируйте свой контент на странице.</value>
+    <comment>Center your content on the page.</comment>
+  </data>
+  <data name="AlignCenterToolTipHeader" xml:space="preserve">
+    <value>Центр (Ctrl+E)</value>
+    <comment>Center (Ctrl+E)</comment>
+  </data>
+  <data name="AlignJustify" xml:space="preserve">
+    <value>Оправдывать</value>
+    <comment>Justify</comment>
+  </data>
+  <data name="AlignJustifyToolTip" xml:space="preserve">
+    <value>Равномерно распределите текст по полям.</value>
+    <comment>Distribute your text evenly between the margin.</comment>
+  </data>
+  <data name="AlignJustifyToolTipHeader" xml:space="preserve">
+    <value>Выравнивание (Ctrl+J)</value>
+    <comment>Justify (Ctrl+J)</comment>
+  </data>
+  <data name="AlignLeft" xml:space="preserve">
+    <value>Слева</value>
+    <comment>Left</comment>
+  </data>
+  <data name="AlignLeftToolTip" xml:space="preserve">
+    <value>Выровняйте содержимое по левому краю.</value>
+    <comment>Align your content with the left margin.</comment>
+  </data>
+  <data name="AlignLeftToolTipHeader" xml:space="preserve">
+    <value>Выровнять по левому краю (Ctrl+L)</value>
+    <comment>Align Left (Ctrl+L)</comment>
+  </data>
+  <data name="AlignRight" xml:space="preserve">
+    <value>Справо</value>
+    <comment>Right</comment>
+  </data>
+  <data name="AlignRightToolTip" xml:space="preserve">
+    <value>Выровняйте содержимое по правому краю.</value>
+    <comment>Align your content with the right margin.</comment>
+  </data>
+  <data name="AlignRightToolTipHeader" xml:space="preserve">
+    <value>Выровнять по правому краю (Ctrl+R)</value>
+    <comment>Align Right (Ctrl+R)</comment>
+  </data>
+  <data name="AvailableTemplates" xml:space="preserve">
+    <value>Доступные шаблоны</value>
+    <comment>Available Templates</comment>
+  </data>
+  <data name="BlankDocument" xml:space="preserve">
+    <value>Пустой документ</value>
+    <comment>Blank Document</comment>
+  </data>
+  <data name="BlankDocumentToolTip" xml:space="preserve">
+    <value>Он создает новый пустой документ.</value>
+    <comment>It creates the new empty document.</comment>
+  </data>
+  <data name="BlueHighlightToolTip" xml:space="preserve">
+    <value>Синий</value>
+    <comment>Blue</comment>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Жирный</value>
+    <comment>Bold</comment>
+  </data>
+  <data name="BoldToolTip" xml:space="preserve">
+    <value>Выделите текст жирным шрифтом.</value>
+    <comment>Make your text bold.</comment>
+  </data>
+  <data name="BoldToolTipHeader" xml:space="preserve">
+    <value>Жирный шрифт (Ctrl+B)</value>
+    <comment>Bold (Ctrl+B)</comment>
+  </data>
+  <data name="BrightGreenHighlightToolTip" xml:space="preserve">
+    <value>Ярко-Зеленый</value>
+    <comment>Bright Green</comment>
+  </data>
+  <data name="BulletLibrary" xml:space="preserve">
+    <value>Bullet Library</value>
+    <comment>???</comment>
+  </data>
+  <data name="BulletsToolTip" xml:space="preserve">
+    <value>Create bullet list.</value>
+    <comment>???</comment>
+  </data>
+  <data name="BulletsToolTipHeader" xml:space="preserve">
+    <value>Bullets</value>
+    <comment>???</comment>
+  </data>
+  <data name="BulletsToolTipMore" xml:space="preserve">
+    <value>Click the arrow to change look of the bullet.</value>
+    <comment>???</comment>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Буфер обмена</value>
+    <comment>Clipboard</comment>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Комментарии</value>
+    <comment>Comments</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="CopyToolTip" xml:space="preserve">
+    <value>Поместите копию выделенного фрагмента в буфер обмена, чтобы вы могли вставить его куда-нибудь еще.</value>
+    <comment>Put a copy of the selection on the clipboard so you can paste it somewhere else.</comment>
+  </data>
+  <data name="CopyToolTipHeader" xml:space="preserve">
+    <value>Копировать (Ctrl+C)</value>
+    <comment>Copy (Ctrl+C)</comment>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Создавать</value>
+    <comment>Create</comment>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Резать</value>
+    <comment>Cut</comment>
+  </data>
+  <data name="CutToolTip" xml:space="preserve">
+    <value>Удалите выделение и поместите его в буфер обмена, чтобы вы могли вставить его куда-нибудь еще.</value>
+    <comment>Remove the selection and put it on the Clipboard so you can paste it somewhere else.</comment>
+  </data>
+  <data name="CutToolTipHeader" xml:space="preserve">
+    <value>Вырезать (Ctrl+X)</value>
+    <comment>Cut (Ctrl+X)</comment>
+  </data>
+  <data name="DarkBlueHighlightToolTip" xml:space="preserve">
+    <value>тёмно-синий</value>
+    <comment>Dark Blue</comment>
+  </data>
+  <data name="DarkRedHighlightToolTip" xml:space="preserve">
+    <value>Темно-Красный</value>
+    <comment>Dark Red</comment>
+  </data>
+  <data name="DarkYellowHighlightToolTip" xml:space="preserve">
+    <value>Темно-Желтый</value>
+    <comment>Dark Yellow</comment>
+  </data>
+  <data name="DecreaseFont" xml:space="preserve">
+    <value>Уменьшить шрифт</value>
+    <comment>Decrease Font</comment>
+  </data>
+  <data name="DecreaseFontSizeToolTip" xml:space="preserve">
+    <value>Сделайте свой текст немного меньше.</value>
+    <comment>Make your text a bit smaller.</comment>
+  </data>
+  <data name="DecreaseFontSizeToolTipHeader" xml:space="preserve">
+    <value>Уменьшить Размер шрифта (Ctrl+Shift+&lt;)</value>
+    <comment>Decrease Font Size (Ctrl+Shift+&lt;)</comment>
+  </data>
+  <data name="DecreaseIndentToolTip" xml:space="preserve">
+    <value>Переместите свой абзац ближе к полям.</value>
+    <comment>Move your paragraph closer to the margin.</comment>
+  </data>
+  <data name="DecreaseIndentToolTipHeader" xml:space="preserve">
+    <value>Уменьшить Отступ</value>
+    <comment>Decrease Indent</comment>
+  </data>
+  <data name="DefineList" xml:space="preserve">
+    <value>Определите новый Многоуровневый Список...</value>
+    <comment>Define new Multilevel List...</comment>
+  </data>
+  <data name="DeleteComment" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="DeleteCommentToolTip" xml:space="preserve">
+    <value>Удалите выбранный комментарий.</value>
+    <comment>Delete the selected comment.</comment>
+  </data>
+  <data name="DeleteCommentToolTipHeader" xml:space="preserve">
+    <value>Удалить комментарий</value>
+    <comment>Delete Comment</comment>
+  </data>
+  <data name="Editing" xml:space="preserve">
+    <value>Редактирование</value>
+    <comment>Editing</comment>
+  </data>
+  <data name="EncryptWithPassword" xml:space="preserve">
+    <value>Шифрование с помощью пароля</value>
+    <comment>Encrypt with password</comment>
+  </data>
+  <data name="EncryptWithPasswordToolTip" xml:space="preserve">
+    <value>Защитите этот документ паролем.</value>
+    <comment>Password-protect this document.</comment>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value>Найди</value>
+    <comment>Find</comment>
+  </data>
+  <data name="FindToolTip" xml:space="preserve">
+    <value>Найдите текст или другое содержимое в документе.</value>
+    <comment>Find text or other content in the document.</comment>
+  </data>
+  <data name="FindToolTipHeader" xml:space="preserve">
+    <value>Найти (Ctrl+F)</value>
+    <comment>Find (Ctrl+F)</comment>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Шрифт</value>
+    <comment>Font</comment>
+  </data>
+  <data name="FontColor" xml:space="preserve">
+    <value>Цвет шрифта</value>
+    <comment>Font Color</comment>
+  </data>
+  <data name="FontColorToolTip" xml:space="preserve">
+    <value>Измените цвет вашего текста.</value>
+    <comment>Change the color of you text.</comment>
+  </data>
+  <data name="FontSizeToolTip" xml:space="preserve">
+    <value>Измените размер вашего текста.</value>
+    <comment>Change the size of your text.</comment>
+  </data>
+  <data name="FontSizeToolTipHeader" xml:space="preserve">
+    <value>Размер шрифта (Ctrl+Shift+P)</value>
+    <comment>Font Size (Ctrl+Shift+P)</comment>
+  </data>
+  <data name="FontToolTip" xml:space="preserve">
+    <value>Выберите новый шрифт для вашего текста.</value>
+    <comment>Pick a new font for your text.</comment>
+  </data>
+  <data name="FontToolTipHeader" xml:space="preserve">
+    <value>Шрифт (Ctrl+Shift+F)</value>
+    <comment>Font (Ctrl+Shift+F)</comment>
+  </data>
+  <data name="GettingStarted" xml:space="preserve">
+    <value>приступая к работе</value>
+    <comment>Getting Started</comment>
+  </data>
+  <data name="GettingStartedToolTip" xml:space="preserve">
+    <value>Полная информация об элементе управления Syncfusion RichTextBox и его использовании.</value>
+    <comment>A complete information on Syncfusion RichTextBox control and its usage.</comment>
+  </data>
+  <data name="Gray25HighlightToolTip" xml:space="preserve">
+    <value>Серый-25%</value>
+    <comment>Gray-25%</comment>
+  </data>
+  <data name="Gray50HighlightToolTip" xml:space="preserve">
+    <value>Серый-50%</value>
+    <comment>Gray-50%</comment>
+  </data>
+  <data name="GreenHighlightToolTip" xml:space="preserve">
+    <value>Зеленый</value>
+    <comment>Green</comment>
+  </data>
+  <data name="GrowFont" xml:space="preserve">
+    <value>Увеличьте Шрифт</value>
+    <comment>Grow Font</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Помогите</value>
+    <comment>Help</comment>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Домой</value>
+    <comment>Home</comment>
+  </data>
+  <data name="HtmlDocument" xml:space="preserve">
+    <value>Html-документ</value>
+    <comment>Html Document</comment>
+  </data>
+  <data name="HtmlDocumentToolTip" xml:space="preserve">
+    <value>Сохраните файл как Html-документ</value>
+    <comment>Save the file as Html document</comment>
+  </data>
+  <data name="Hyperlink" xml:space="preserve">
+    <value>Гиперссылка</value>
+    <comment>Hyperlink</comment>
+  </data>
+  <data name="HyperlinkToolTip" xml:space="preserve">
+    <value>Создайте ссылку в своем документе для быстрого доступа к веб-странице и файлам.</value>
+    <comment>Create a link in your document for quick access to webpage and files.</comment>
+  </data>
+  <data name="HyperlinkToolTipHeader" xml:space="preserve">
+    <value>Добавить гиперссылку (Ctrl+K)</value>
+    <comment>Add a Hyperlink (Ctrl+K)</comment>
+  </data>
+  <data name="Illustrations" xml:space="preserve">
+    <value>Иллюстрации</value>
+    <comment>Illustrations</comment>
+  </data>
+  <data name="IncreaseFontSizeToolTip" xml:space="preserve">
+    <value>Сделайте свой текст немного больше.</value>
+    <comment>Make your text a bit bigger.</comment>
+  </data>
+  <data name="IncreaseFontSizeToolTipHeader" xml:space="preserve">
+    <value>Увеличить Размер шрифта (Ctrl+Shift+&gt;)</value>
+    <comment>Increase Font Size (Ctrl+Shift+&gt;)</comment>
+  </data>
+  <data name="IncreaseIndentToolTip" xml:space="preserve">
+    <value>Переместите абзац дальше от поля.</value>
+    <comment>Move your paragraph farther away from the margin.</comment>
+  </data>
+  <data name="IncreaseIndentToolTipHeader" xml:space="preserve">
+    <value>Увеличить отступ</value>
+    <comment>Increase Indent</comment>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Инфо</value>
+    <comment>Info</comment>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+    <comment>Information</comment>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Insert</comment>
+  </data>
+  <data name="InsertCommentToolTip" xml:space="preserve">
+    <value>Добавьте примечание об этой части документа.</value>
+    <comment>Add a note about this part of the document.</comment>
+  </data>
+  <data name="InsertCommentToolTipHeader" xml:space="preserve">
+    <value>Вставить комментарий</value>
+    <comment>Insert a Comment</comment>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Вставить таблицу...</value>
+    <comment>Insert Table...</comment>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Курсивный</value>
+    <comment>Italic</comment>
+  </data>
+  <data name="ItalicToolTip" xml:space="preserve">
+    <value>Выделите свой текст курсивом.</value>
+    <comment>Italicize your text.</comment>
+  </data>
+  <data name="ItalicToolTipHeader" xml:space="preserve">
+    <value>Курсив (Ctrl+I)</value>
+    <comment>Italic (Ctrl+I)</comment>
+  </data>
+  <data name="LineSpacingToolTip" xml:space="preserve">
+    <value>Выберите, сколько места должно быть между строками текста.</value>
+    <comment>Choose how much space appears between lines of text.</comment>
+  </data>
+  <data name="LineSpacingToolTipHeader" xml:space="preserve">
+    <value>Межстрочный интервал</value>
+    <comment>Line Spacing</comment>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>Связи</value>
+    <comment>Links</comment>
+  </data>
+  <data name="ListLibrary" xml:space="preserve">
+    <value>Библиотека списков</value>
+    <comment>List Library</comment>
+  </data>
+  <data name="MultilevelListToolTip" xml:space="preserve">
+    <value>Создайте многоуровневый список для упорядочивания элементов или создания схемы.</value>
+    <comment>Create a multilevel list to organize items or create an outline.</comment>
+  </data>
+  <data name="MultilevelListToolTipHeader" xml:space="preserve">
+    <value>Многоуровневый список</value>
+    <comment>Multilevel List</comment>
+  </data>
+  <data name="MultiplePagesView" xml:space="preserve">
+    <value>Несколько Страниц</value>
+    <comment>Multiple Pages</comment>
+  </data>
+  <data name="MultiplePagesViewToolTip" xml:space="preserve">
+    <value>Увеличьте масштаб документа, чтобы вы могли видеть несколько страниц в окне.</value>
+    <comment>Zoom the document so you can see multiple pages in the window.</comment>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Новое</value>
+    <comment>New</comment>
+  </data>
+  <data name="NewComment" xml:space="preserve">
+    <value>Новый комментарий</value>
+    <comment>New Comment</comment>
+  </data>
+  <data name="NextComment" xml:space="preserve">
+    <value>Следующий</value>
+    <comment>Next</comment>
+  </data>
+  <data name="NextCommentToolTip" xml:space="preserve">
+    <value>Переходите к следующему комментарию.</value>
+    <comment>Jump to the next comment.</comment>
+  </data>
+  <data name="NextCommentToolTipHeader" xml:space="preserve">
+    <value>Следующий комментарий</value>
+    <comment>Next Comment</comment>
+  </data>
+  <data name="NoColor" xml:space="preserve">
+    <value>Нет Цвета</value>
+    <comment>No Color</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Никто</value>
+    <comment>None</comment>
+  </data>
+  <data name="NumberingLibrary" xml:space="preserve">
+    <value>Библиотека нумерации</value>
+    <comment>Numbering Library</comment>
+  </data>
+  <data name="NumberingToolTip" xml:space="preserve">
+    <value>Создайте нумерованный список.</value>
+    <comment>Create numbered list.</comment>
+  </data>
+  <data name="NumberingToolTipHeader" xml:space="preserve">
+    <value>Нумерация</value>
+    <comment>Numbering</comment>
+  </data>
+  <data name="NumberingToolTipMore" xml:space="preserve">
+    <value>Щелкните стрелку для получения дополнительных форматов нумерации.</value>
+    <comment>Click the arrow for more numbering formats.</comment>
+  </data>
+  <data name="NumberLeftAlignment" xml:space="preserve">
+    <value>Выравнивание номера: По левому краю</value>
+    <comment>Number alignment: Left</comment>
+  </data>
+  <data name="NumberRightAlignment" xml:space="preserve">
+    <value>Выравнивание номера: Справа</value>
+    <comment>Number alignment: Right</comment>
+  </data>
+  <data name="OnePageView" xml:space="preserve">
+    <value>Одна Страница</value>
+    <comment>One Page</comment>
+  </data>
+  <data name="OnePageViewToolTip" xml:space="preserve">
+    <value>Увеличьте масштаб документа так, чтобы вы могли видеть всю страницу в окне.</value>
+    <comment>Zoom the document so that you can see the entire page in window.</comment>
+  </data>
+  <data name="OnlineHelp" xml:space="preserve">
+    <value>Онлайн-Справка</value>
+    <comment>Online Help</comment>
+  </data>
+  <data name="OnlineHelpToolTip" xml:space="preserve">
+    <value>UG documents помогает понять использование наших компонентов пользовательского интерфейса Syncfusion.</value>
+    <comment>UG documents helps understanding the usage of our Syncfusion UI components.</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Открыть</value>
+    <comment>Open</comment>
+  </data>
+  <data name="PageWidth" xml:space="preserve">
+    <value>Ширина страницы</value>
+    <comment>Page Width</comment>
+  </data>
+  <data name="PageWidthToolTip" xml:space="preserve">
+    <value>Увеличьте масштаб документа так, чтобы ширина страницы соответствовала ширине окна.</value>
+    <comment>Zoom the document so that the width of the page matches the width of the window.</comment>
+  </data>
+  <data name="Paragraph" xml:space="preserve">
+    <value>Параграф</value>
+    <comment>Paragraph</comment>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Paste</comment>
+  </data>
+  <data name="PasteToolTip" xml:space="preserve">
+    <value>Добавьте содержимое из буфера обмена в свой документ.</value>
+    <comment>Add content on the Clipboard to your document.</comment>
+  </data>
+  <data name="PasteToolTipHeader" xml:space="preserve">
+    <value>Вставить (Ctrl+V)</value>
+    <comment>Paste (Ctrl+V)</comment>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Картинки</value>
+    <comment>Pictures</comment>
+  </data>
+  <data name="PictureToolTip" xml:space="preserve">
+    <value>Вставляйте изображения со своего компьютера или с других компьютеров, к которым вы подключены.</value>
+    <comment>Insert pictures from your computer or from other computers that you're connected to.</comment>
+  </data>
+  <data name="PictureToolTipHeader" xml:space="preserve">
+    <value>Из Файла</value>
+    <comment>From File</comment>
+  </data>
+  <data name="PinkHighlightToolTip" xml:space="preserve">
+    <value>Розовый</value>
+    <comment>Pink</comment>
+  </data>
+  <data name="PreviousComment" xml:space="preserve">
+    <value>Предыдущий</value>
+    <comment>Previous</comment>
+  </data>
+  <data name="PreviousCommentToolTip" xml:space="preserve">
+    <value>Перейдите к предыдущему комментарию.</value>
+    <comment>Jump to the previous comment.</comment>
+  </data>
+  <data name="PreviousCommentToolTipHeader" xml:space="preserve">
+    <value>Предыдущий комментарий</value>
+    <comment>Previous Comment</comment>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Печать</value>
+    <comment>Print</comment>
+  </data>
+  <data name="PrintLayout" xml:space="preserve">
+    <value>Макет для печати</value>
+    <comment>Print Layout</comment>
+  </data>
+  <data name="PrintLayoutToolTip" xml:space="preserve">
+    <value>Посмотрите, как будет выглядеть ваш документ при печати.</value>
+    <comment>Check out how your document will look when it's printed.</comment>
+  </data>
+  <data name="ProtectDocument" xml:space="preserve">
+    <value>Защитить документ</value>
+    <comment>Protect Document</comment>
+  </data>
+  <data name="ProtectDocumentToolTip" xml:space="preserve">
+    <value>Контролируйте, какие изменения пользователи могут вносить в этот документ.</value>
+    <comment>Control what types of changes people can make to this document.</comment>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Только для чтения</value>
+    <comment>ReadOnly</comment>
+  </data>
+  <data name="ReadOnlyToolTip" xml:space="preserve">
+    <value>Ограничьте редактирование содержимого и изменения форматирования.</value>
+    <comment>Restrict the content editing and formatting changes.</comment>
+  </data>
+  <data name="RedHighlightToolTip" xml:space="preserve">
+    <value>Красный</value>
+    <comment>Red</comment>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Переделывать</value>
+    <comment>Redo</comment>
+  </data>
+  <data name="RedoToolTip" xml:space="preserve">
+    <value>Повторить (Ctrl+Y)</value>
+    <comment>Redo (Ctrl+Y)</comment>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Заменять</value>
+    <comment>Replace</comment>
+  </data>
+  <data name="ReplaceToolTip" xml:space="preserve">
+    <value>Найдите текст, который вы хотели бы изменить, и замените его чем-то другим.</value>
+    <comment>Search for text you'd like to change and replace it with something else.</comment>
+  </data>
+  <data name="ReplaceToolTipHeader" xml:space="preserve">
+    <value>Заменить (Ctrl+H)</value>
+    <comment>Replace (Ctrl+H)</comment>
+  </data>
+  <data name="RestrictEditing" xml:space="preserve">
+    <value>Ограничить редактирование</value>
+    <comment>Restrict Editing</comment>
+  </data>
+  <data name="RestrictEditingToolTip" xml:space="preserve">
+    <value>Ограничивает редактирование этим документом.</value>
+    <comment>Restricts editing to this document.</comment>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Обзор</value>
+    <comment>Review</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Save</comment>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Сохранить как</value>
+    <comment>Save as</comment>
+  </data>
+  <data name="SaveToolTip" xml:space="preserve">
+    <value>Сохранить (Ctrl+S)</value>
+    <comment>Save (Ctrl+S)</comment>
+  </data>
+  <data name="ShowCommentsToolTip" xml:space="preserve">
+    <value>Смотрите все комментарии рядом с документом.</value>
+    <comment>See all the comments alongside the document.</comment>
+  </data>
+  <data name="ShowCommentsToolTipHeader" xml:space="preserve">
+    <value>Показывать комментарии</value>
+    <comment>Show Comments</comment>
+  </data>
+  <data name="SingleStrike" xml:space="preserve">
+    <value>Одиночный удар</value>
+    <comment>SingleStrike</comment>
+  </data>
+  <data name="StrikethroughToolTip" xml:space="preserve">
+    <value>Вычеркните что-нибудь, проведя через это линию.</value>
+    <comment>Cross something out by drawing a line through it.</comment>
+  </data>
+  <data name="StrikethroughToolTipHeader" xml:space="preserve">
+    <value>Зачеркнуто</value>
+    <comment>Strikethrough</comment>
+  </data>
+  <data name="SubScript" xml:space="preserve">
+    <value>Индекс</value>
+    <comment>SubScript</comment>
+  </data>
+  <data name="SubScriptToolTip" xml:space="preserve">
+    <value>Введите очень маленькую букву прямо над строкой текста.</value>
+    <comment>Type very small letter just just above the line of text.</comment>
+  </data>
+  <data name="SubScriptToolTipHeader" xml:space="preserve">
+    <value>Нижний индекс (Ctrl+=)</value>
+    <comment>Subscript (Ctrl+=)</comment>
+  </data>
+  <data name="SuperScript" xml:space="preserve">
+    <value>Верхний индекс</value>
+    <comment>SuperScript</comment>
+  </data>
+  <data name="SuperScriptToolTip" xml:space="preserve">
+    <value>Введите очень маленькую букву прямо над строкой текста.</value>
+    <comment>Type very small letter just above the line of text.</comment>
+  </data>
+  <data name="SuperScriptToolTipHeader" xml:space="preserve">
+    <value>Верхний индекс (Ctrl+Shift++)</value>
+    <comment>Superscript (Ctrl+Shift++)</comment>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>Table</value>
+    <comment>???</comment>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>Таблицы</value>
+    <comment>Tables</comment>
+  </data>
+  <data name="TealHighlightToolTip" xml:space="preserve">
+    <value>Teal</value>
+    <comment>???</comment>
+  </data>
+  <data name="TextDocument" xml:space="preserve">
+    <value>Текстовый документ</value>
+    <comment>Text Document</comment>
+  </data>
+  <data name="TextDocumentToolTip" xml:space="preserve">
+    <value>Сохраните файл в виде текстового документа</value>
+    <comment>Save the file as Text document</comment>
+  </data>
+  <data name="TextHighlightColor" xml:space="preserve">
+    <value>Цвет выделения текста</value>
+    <comment>Text Highlight Color</comment>
+  </data>
+  <data name="TextHighlightColorToolTip" xml:space="preserve">
+    <value>Сделайте свой текст заметным, выделив его ярким цветом.</value>
+    <comment>Make your text pop by highlighting it in a bright color.</comment>
+  </data>
+  <data name="TurquoiseHighlightToolTip" xml:space="preserve">
+    <value>Бирюзовый</value>
+    <comment>Turquoise</comment>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Подчеркивать</value>
+    <comment>Underline</comment>
+  </data>
+  <data name="UnderlineToolTip" xml:space="preserve">
+    <value>Подчеркните свой текст.</value>
+    <comment>Underline your text.</comment>
+  </data>
+  <data name="UnderlineToolTipHeader" xml:space="preserve">
+    <value>Подчеркивание (Ctrl+U)</value>
+    <comment>Underline (Ctrl+U)</comment>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Undo</comment>
+  </data>
+  <data name="UndoToolTip" xml:space="preserve">
+    <value>Отменить (Ctrl+Z)</value>
+    <comment>Undo (Ctrl+Z)</comment>
+  </data>
+  <data name="UserInterfaceHelp" xml:space="preserve">
+    <value>Справка по пользовательскому интерфейсу Syncfusion</value>
+    <comment>Syncfusion User Interface Help</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Смотреть</value>
+    <comment>View</comment>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>Просмотры</value>
+    <comment>Views</comment>
+  </data>
+  <data name="VioletHighlightToolTip" xml:space="preserve">
+    <value>Фиолетовый цвет</value>
+    <comment>Violet</comment>
+  </data>
+  <data name="WebLayout" xml:space="preserve">
+    <value>Веб-Макет</value>
+    <comment>Web Layout</comment>
+  </data>
+  <data name="WebLayoutToolTip" xml:space="preserve">
+    <value>Посмотрите, как будет выглядеть ваш документ в виде веб-страницы. Этот макет также отлично подходит, если в вашем документе есть широкие таблицы.</value>
+    <comment>See how your document would look as a webpage. This layout is also great if you have wide tables in your document.</comment>
+  </data>
+  <data name="WordDoc" xml:space="preserve">
+    <value>Документ Word 97 - 2003</value>
+    <comment>Word 97 - 2003 Document</comment>
+  </data>
+  <data name="WordDocToolTip" xml:space="preserve">
+    <value>Сохраните копию как Word 97-2003</value>
+    <comment>Save a copy as Word 97-2003</comment>
+  </data>
+  <data name="WordDocx" xml:space="preserve">
+    <value>Документ Word</value>
+    <comment>Word Document</comment>
+  </data>
+  <data name="WordDocxToolTip" xml:space="preserve">
+    <value>Сохраните файл как документ Word</value>
+    <comment>Save the file as Word document</comment>
+  </data>
+  <data name="XamlDocument" xml:space="preserve">
+    <value>Xml-документ</value>
+    <comment>Xaml Document</comment>
+  </data>
+  <data name="XamlDocumentToolTip" xml:space="preserve">
+    <value>Сохраните файл в виде Xml-документа</value>
+    <comment>Save the file as Xaml document</comment>
+  </data>
+  <data name="YellowHighlightToolTip" xml:space="preserve">
+    <value>Желтый</value>
+    <comment>Yellow</comment>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Увеличение</value>
+    <comment>Zoom</comment>
+  </data>
+  <data name="Zoom100" xml:space="preserve">
+    <value>100%</value>
+    <comment>100%</comment>
+  </data>
+  <data name="Zoom100ToolTip" xml:space="preserve">
+    <value>Увеличьте масштаб документа до 100%.</value>
+    <comment>Zoom your document to 100%.</comment>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Увеличьте Масштаб</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="ZoomInToolTip" xml:space="preserve">
+    <value>Увеличьте уровень масштабирования</value>
+    <comment>Increase the zoom level</comment>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Уменьшите масштаб</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="ZoomOutToolTip" xml:space="preserve">
+    <value>Уменьшите масштаб изображения.</value>
+    <comment>Decrease the zoom level.</comment>
+  </data>
+  <data name="RibbonStatusBarPage" xml:space="preserve">
+    <value>Страница</value>
+    <comment>Page</comment>
+  </data>
+  <data name="RibbonStatusBarPageOf" xml:space="preserve">
+    <value>От</value>
+    <comment>Of</comment>
+  </data>
+  <data name="RibbonStatusBarPageToolTip" xml:space="preserve">
+    <value>Номер страницы в документе.</value>
+    <comment>Page number in document.</comment>
+  </data>
+  <data name="Proofing" xml:space="preserve">
+    <value>Расстойка</value>
+    <comment>Proofing</comment>
+  </data>
+  <data name="Spelling" xml:space="preserve">
+    <value>Написание</value>
+    <comment>Spelling</comment>
+  </data>
+  <data name="SpellingToolTip" xml:space="preserve">
+    <value>Опечатки? Не в наше время. Позвольте нам проверить вашу орфографию.</value>
+    <comment>Typos? Not on our watch. Let us check your spelling.</comment>
+  </data>
+  <data name="SpellingToolTipHeader" xml:space="preserve">
+    <value>Правописание (F7)</value>
+    <comment>Spelling (F7)</comment>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Выравнивание</value>
+    <comment>Alignment</comment>
+  </data>
+  <data name="CellMargins" xml:space="preserve">
+    <value>Поля ячеек</value>
+    <comment>Cell Margins</comment>
+  </data>
+  <data name="CellMarginsToolTipHeader" xml:space="preserve">
+    <value>Поля ячеек</value>
+    <comment>Cell Margins</comment>
+  </data>
+  <data name="CellMarginsToolTip" xml:space="preserve">
+    <value>Настройте поля ячеек и расстояние между ячейками.</value>
+    <comment>Customize cell margins and spacing between cells.</comment>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Данные</value>
+    <comment>Data</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="DeleteToolTipHeader" xml:space="preserve">
+    <value>Удалить таблицу</value>
+    <comment>Delete Table</comment>
+  </data>
+  <data name="DeleteToolTip" xml:space="preserve">
+    <value>Удалите строки, столбцы или всю таблицу целиком.</value>
+    <comment>Delete rows, columns, or the entire table.</comment>
+  </data>
+  <data name="InsertRowAbove" xml:space="preserve">
+    <value>Вставка Выше</value>
+    <comment>Insert Above</comment>
+  </data>
+  <data name="InsertRowBelow" xml:space="preserve">
+    <value>Вставить Ниже</value>
+    <comment>Insert Below</comment>
+  </data>
+  <data name="InsertColumnLeftToolTipHeader" xml:space="preserve">
+    <value>Вставьте столбцы слева</value>
+    <comment>Insert Columns to the Left</comment>
+  </data>
+  <data name="InsertColumnLeftToolTip" xml:space="preserve">
+    <value>Добавьте новый столбец непосредственно слева от текущего столбца.</value>
+    <comment>Add a new column directly to the left of the current column.</comment>
+  </data>
+  <data name="InsertColumnRightToolTipHeader" xml:space="preserve">
+    <value>Вставьте столбцы справа</value>
+    <comment>Insert Columns to the Right</comment>
+  </data>
+  <data name="InsertColumnRightToolTip" xml:space="preserve">
+    <value>Добавьте новый столбец непосредственно справа от текущего столбца.</value>
+    <comment>Add a new column directly to the Right of the current column.</comment>
+  </data>
+  <data name="InsertColumnLeft" xml:space="preserve">
+    <value>Вставить Левую</value>
+    <comment>Insert Left</comment>
+  </data>
+  <data name="InsertColumnRight" xml:space="preserve">
+    <value>Вставить Справа</value>
+    <comment>Insert Right</comment>
+  </data>
+  <data name="InsertRowAboveToolTipHeader" xml:space="preserve">
+    <value>Вставить Строки Выше</value>
+    <comment>Insert Rows Above</comment>
+  </data>
+  <data name="InsertRowAboveToolTip" xml:space="preserve">
+    <value>Добавьте новую строку непосредственно над текущей строкой.</value>
+    <comment>Add a new row directly above the current row.</comment>
+  </data>
+  <data name="InsertRowBelowToolTipHeader" xml:space="preserve">
+    <value>Вставьте Строки Ниже</value>
+    <comment>Insert Rows Below</comment>
+  </data>
+  <data name="InsertRowBelowToolTip" xml:space="preserve">
+    <value>Добавьте новую строку непосредственно под текущей строкой.</value>
+    <comment>Add a new row directly below the current row.</comment>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Расположение</value>
+    <comment>Layout</comment>
+  </data>
+  <data name="Merge" xml:space="preserve">
+    <value>Поглощать</value>
+    <comment>Merge</comment>
+  </data>
+  <data name="MergeCells" xml:space="preserve">
+    <value>Объединение ячеек</value>
+    <comment>Merge Cells</comment>
+  </data>
+  <data name="MergeCellsToolTipHeader" xml:space="preserve">
+    <value>Объединение ячеек</value>
+    <comment>Merge Cells</comment>
+  </data>
+  <data name="MergeCellsToolTip" xml:space="preserve">
+    <value>Объедините выделенные ячейки в одну ячейку.</value>
+    <comment>Merge the selected cells into one cell.</comment>
+  </data>
+  <data name="TablePropertiesToolTipHeader" xml:space="preserve">
+    <value>Свойства таблицы</value>
+    <comment>Table Properties</comment>
+  </data>
+  <data name="TablePropertiesToolTip" xml:space="preserve">
+    <value>Откройте диалоговое окно Свойств таблицы, чтобы изменить дополнительные свойства таблицы, такие как отступы.</value>
+    <comment>Show the Table Properties dialog to change advanced table properties, such as indentation.</comment>
+  </data>
+  <data name="RepeatHeaderRows" xml:space="preserve">
+    <value>Повторяющиеся строки заголовка</value>
+    <comment>Repeat Header Rows</comment>
+  </data>
+  <data name="RepeatHeaderRowsToolTipHeader" xml:space="preserve">
+    <value>Повторяющиеся строки заголовка</value>
+    <comment>Repeat Header Rows</comment>
+  </data>
+  <data name="RepeatHeaderRowsToolTip" xml:space="preserve">
+    <value>Пометьте несколько строк как строки заголовка. Если ваша таблица занимает несколько страниц, строки заголовка будут отображаться на каждой странице для удобства использования.</value>
+    <comment>Mark multiple rows as header rows. If your table spans multiple pages the header rows will appear on every page for easy reference.</comment>
+  </data>
+  <data name="RowsAndColumns" xml:space="preserve">
+    <value>Строки и столбцы</value>
+    <comment>Rows &amp; Columns</comment>
+  </data>
+  <data name="TableTools" xml:space="preserve">
+    <value>Настольные инструменты</value>
+    <comment>Table Tools</comment>
+  </data>
+  <data name="TableProperties" xml:space="preserve">
+    <value>Свойства</value>
+    <comment>Properties</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выбрать</value>
+    <comment>Select</comment>
+  </data>
+  <data name="SelectToolTipHeader" xml:space="preserve">
+    <value>Выберите таблицу</value>
+    <comment>Select Table</comment>
+  </data>
+  <data name="SelectToolTip" xml:space="preserve">
+    <value>Выберите текущую ячейку, строку, столбец или всю таблицу.</value>
+    <comment>Select the current cell, row, column, or entire table.</comment>
+  </data>
+  <data name="CellContentAlignBottomCenterToolTip" xml:space="preserve">
+    <value>Отцентрируйте текст и выровняйте его по нижней части ячейки.</value>
+    <comment>Center text and align it to the bottom of the cell.</comment>
+  </data>
+  <data name="CellContentAlignBottomCenterToolTipHeader" xml:space="preserve">
+    <value>Выровнять Нижний Центр</value>
+    <comment>Align Bottom Center</comment>
+  </data>
+  <data name="CellContentAlignBottomLeftToolTip" xml:space="preserve">
+    <value>Выровняйте текст по левому нижнему углу ячейки.</value>
+    <comment>Align text to the bottom left corner of the cell.</comment>
+  </data>
+  <data name="CellContentAlignBottomLeftToolTipHeader" xml:space="preserve">
+    <value>Выровнять Нижний Левый угол</value>
+    <comment>Align Bottom Left</comment>
+  </data>
+  <data name="CellContentAlignBottomRightToolTip" xml:space="preserve">
+    <value>Выровняйте текст по правому нижнему углу ячейки.</value>
+    <comment>Align text to the bottom right corner of the cell.</comment>
+  </data>
+  <data name="CellContentAlignBottomRightToolTipHeader" xml:space="preserve">
+    <value>Выровнять Нижний Правый угол</value>
+    <comment>Align Bottom Right</comment>
+  </data>
+  <data name="CellContentAlignCenterLeftToolTip" xml:space="preserve">
+    <value>Центрируйте текст по вертикали и выровняйте его по левой стороне ячейки.</value>
+    <comment>Center text vertically and align it to the left side of the cell.</comment>
+  </data>
+  <data name="CellContentAlignCenterLeftToolTipHeader" xml:space="preserve">
+    <value>Выровнять по Центру Слева</value>
+    <comment>Align Center Left</comment>
+  </data>
+  <data name="CellContentAlignCenterRightToolTip" xml:space="preserve">
+    <value>Отцентрируйте текст по вертикали и выровняйте его по правой стороне ячейки.</value>
+    <comment>Center text vertically and align it to the right side of the cell.</comment>
+  </data>
+  <data name="CellContentAlignCenterRightToolTipHeader" xml:space="preserve">
+    <value>Выровнять по Центру Вправо</value>
+    <comment>Align Center Right</comment>
+  </data>
+  <data name="CellContentAlignCenterToolTip" xml:space="preserve">
+    <value>Центрируйте текст по горизонтали и вертикали внутри ячейки.</value>
+    <comment>Center text horizontally and vertically within the cell.</comment>
+  </data>
+  <data name="CellContentAlignCenterToolTipHeader" xml:space="preserve">
+    <value>Выровнять по центру</value>
+    <comment>Align Center</comment>
+  </data>
+  <data name="CellContentAlignTopCenterToolTip" xml:space="preserve">
+    <value>Отцентрируйте текст и выровняйте его по верхней части ячейки.</value>
+    <comment>Center text and align it to the top of the cell.</comment>
+  </data>
+  <data name="CellContentAlignTopCenterToolTipHeader" xml:space="preserve">
+    <value>Выровнять Верхнюю Часть По Центру</value>
+    <comment>Align Top Center</comment>
+  </data>
+  <data name="CellContentAlignTopLeftToolTip" xml:space="preserve">
+    <value>Выровняйте текст по левому верхнему углу ячейки.</value>
+    <comment>Align text to the top left corner of the cell.</comment>
+  </data>
+  <data name="CellContentAlignTopLeftToolTipHeader" xml:space="preserve">
+    <value>Выровнять по Верхнему Левому краю</value>
+    <comment>Align Top Left</comment>
+  </data>
+  <data name="CellContentAlignTopRightToolTip" xml:space="preserve">
+    <value>Выровняйте текст по правому верхнему углу ячейки.</value>
+    <comment>Align text to the top right corner of the cell.</comment>
+  </data>
+  <data name="CellContentAlignTopRightToolTipHeader" xml:space="preserve">
+    <value>Выровнять По Правому Верхнему Краю</value>
+    <comment>Align Top Right</comment>
+  </data>
+  <data name="DeleteColumns" xml:space="preserve">
+    <value>Удаление столбцов</value>
+    <comment>Delete Columns</comment>
+  </data>
+  <data name="DeleteRows" xml:space="preserve">
+    <value>Удаление строк</value>
+    <comment>Delete Rows</comment>
+  </data>
+  <data name="DeleteTable" xml:space="preserve">
+    <value>Удалить таблицу</value>
+    <comment>Delete Table</comment>
+  </data>
+  <data name="SelectCell" xml:space="preserve">
+    <value>Выберите ячейку</value>
+    <comment>Select Cell</comment>
+  </data>
+  <data name="SelectColumn" xml:space="preserve">
+    <value>Выберите столбец</value>
+    <comment>Select Column</comment>
+  </data>
+  <data name="SelectRow" xml:space="preserve">
+    <value>Выберите строку</value>
+    <comment>Select Row</comment>
+  </data>
+  <data name="SelectTable" xml:space="preserve">
+    <value>Выберите таблицу</value>
+    <comment>Select Table</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+    <comment>File</comment>
+  </data>
+  <data name="LeftToRightToolTip" xml:space="preserve">
+    <value>Установите текст так, чтобы он читался слева направо.</value>
+    <comment>Set the text to read from left to right.</comment>
+  </data>
+  <data name="LeftToRightToolTipHeader" xml:space="preserve">
+    <value>Направление текста слева направо</value>
+    <comment>Left-to-Right Text Direction</comment>
+  </data>
+  <data name="RightToLeftToolTip" xml:space="preserve">
+    <value>Установите текст так, чтобы он читался справа налево.</value>
+    <comment>Set the text to read from right to left.</comment>
+  </data>
+  <data name="RightToLeftToolTipHeader" xml:space="preserve">
+    <value>Направление текста справа налево</value>
+    <comment>Right-to-Left Text Direction</comment>
+  </data>
+  <data name="AutoFit" xml:space="preserve">
+    <value>Автоматическая настройка</value>
+    <comment>AutoFit</comment>
+  </data>
+  <data name="AutoFitContents" xml:space="preserve">
+    <value>Содержимое автоматической настройки</value>
+    <comment>AutoFit Contents</comment>
+  </data>
+  <data name="AutoFitToolTip" xml:space="preserve">
+    <value>Автоматическое изменение размера столбцов в вашей таблице.</value>
+    <comment>Automatically resize the columns in your table.</comment>
+  </data>
+  <data name="AutoFitToolTipHeader" xml:space="preserve">
+    <value>Автоматическая настройка</value>
+    <comment>AutoFit</comment>
+  </data>
+  <data name="AutoFitWindow" xml:space="preserve">
+    <value>Окно автоматической настройки</value>
+    <comment>AutoFit Window</comment>
+  </data>
+  <data name="FixedColumnWidth" xml:space="preserve">
+    <value>Фиксированная Ширина Столбца</value>
+    <comment>Fixed Column Width</comment>
+  </data>
+  <data name="CellSize" xml:space="preserve">
+    <value>Размер ячейки</value>
+    <comment>Cell Size</comment>
+  </data>
+  <data name="PageBreak" xml:space="preserve">
+    <value>Разрыв страницы</value>
+    <comment>Page Break</comment>
+  </data>
+  <data name="PageBreakToolTip" xml:space="preserve">
+    <value>Завершите текущую страницу здесь и перейдите на следующую страницу.</value>
+    <comment>End the current page here and move to the next page.</comment>
+  </data>
+  <data name="PageBreakToolTipHeader" xml:space="preserve">
+    <value>Вставить разрыв страницы (Ctrl+Return)</value>
+    <comment>Insert a Page Break (Ctrl+Return)</comment>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Страницы</value>
+    <comment>Pages</comment>
+  </data>
+  <data name="Styles" xml:space="preserve">
+    <value>Стили</value>
+    <comment>Styles</comment>
+  </data>
+  <data name="ClearFormatting" xml:space="preserve">
+    <value>Очистить форматирование</value>
+    <comment>Clear Formatting</comment>
+  </data>
+  <data name="CreateStyle" xml:space="preserve">
+    <value>Создайте стиль</value>
+    <comment>Create a Style</comment>
+  </data>
+  <data name="PreviewText" xml:space="preserve">
+    <value>AaBbCcDdEe</value>
+    <comment>???</comment>
+  </data>
+</root>

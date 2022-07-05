@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="MoreButton" xml:space="preserve">
+    <value>Параметры Mo_re...</value>
+    <comment>Mo_re Options...</comment>
+  </data>
+  <data name="PivotGrid_Collapse_All_Header" xml:space="preserve">
+    <value>_ Свернуть Все Узлы</value>
+    <comment>_Collapse All Nodes</comment>
+  </data>
+  <data name="ShowFieldsButton" xml:space="preserve">
+    <value>Показать Поля</value>
+    <comment>Show Fields</comment>
+  </data>
+  <data name="PivotGrid_ComputationList_Title" xml:space="preserve">
+    <value>Список вычислений</value>
+    <comment>Computation List</comment>
+  </data>
+  <data name="PivotGrid_Collapse_Header" xml:space="preserve">
+    <value>C_collapse Этот Узел</value>
+    <comment>C_ollapse This Node</comment>
+  </data>
+  <data name="PivotGrid_ContextMenu_Order" xml:space="preserve">
+    <value>_ Порядок</value>
+    <comment>_Order</comment>
+  </data>
+  <data name="PivotGrid_ContextMenu_ReloadData" xml:space="preserve">
+    <value>_ Загрузить данные</value>
+    <comment>_Reload Data</comment>
+  </data>
+  <data name="PivotGrid_BusyIndicator" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PivotGrid_BusyIndicator_Loading" xml:space="preserve">
+    <value>Ожидание загрузки pivot. Это окно закроется после завершения операции.</value>
+    <comment>Waiting for pivot to load. This window will close when the operation is complete.</comment>
+  </data>
+  <data name="PivotGrid_ContextMenu_ShowFieldList" xml:space="preserve">
+    <value>Показать список полей _Field</value>
+    <comment>Show _Field List</comment>
+  </data>
+  <data name="PivotGrid_ContextMenu_CalculatedField" xml:space="preserve">
+    <value>Вычисленное поле F_ield</value>
+    <comment>Calculated F_ield</comment>
+  </data>
+  <data name="CalculatedField_Dialog_HeaderText" xml:space="preserve">
+    <value>Вставить Вычисляемое поле</value>
+    <comment>Insert CalculatedField</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Name" xml:space="preserve">
+    <value>_Имя</value>
+    <comment>_Name</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Formula" xml:space="preserve">
+    <value>For_mula</value>
+    <comment>???</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Add" xml:space="preserve">
+    <value>_Add</value>
+    <comment>???</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Delete" xml:space="preserve">
+    <value>_ удалить</value>
+    <comment>_Delete</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_InsertField" xml:space="preserve">
+    <value>Вставить Fi_eld</value>
+    <comment>Insert Fi_eld</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Fields" xml:space="preserve">
+    <value>_ Поля</value>
+    <comment>_Fields</comment>
+  </data>
+  <data name="PivotGrid_ContextSubMenu_Beginning" xml:space="preserve">
+    <value>Перейти к Be_ginning</value>
+    <comment>Move to Be_ginning</comment>
+  </data>
+  <data name="PivotGrid_ContextSubMenu_End" xml:space="preserve">
+    <value>Перейти к _End</value>
+    <comment>Move to _End</comment>
+  </data>
+  <data name="PivotGrid_ContextSubMenu_Ascending" xml:space="preserve">
+    <value>_ От наименьшего к наибольшему</value>
+    <comment>_Smallest to largest</comment>
+  </data>
+  <data name="PivotGrid_ContextSubMenu_Descending" xml:space="preserve">
+    <value>_ От самого большого к самому маленькому</value>
+    <comment>_Largest to smallest</comment>
+  </data>
+  <data name="PivotGrid_ContextSubMenu_Left" xml:space="preserve">
+    <value>Перейти к L_eft</value>
+    <comment>Move to L_eft</comment>
+  </data>
+  <data name="PivotGrid_ContextSubMenu_Right" xml:space="preserve">
+    <value>Перейти к _Right</value>
+    <comment>Move to _Right</comment>
+  </data>
+  <data name="PivotGrid_DropColumnFields" xml:space="preserve">
+    <value>Удалите Поля Столбцов Здесь</value>
+    <comment>Drop Column Fields Here</comment>
+  </data>
+  <data name="PivotGrid_DropRowFields" xml:space="preserve">
+    <value>Удалите Поля Строк Здесь</value>
+    <comment>Drop Row Fields Here</comment>
+  </data>
+  <data name="PivotGrid_Expand_All_Header" xml:space="preserve">
+    <value>_ Расширить Все Узлы</value>
+    <comment>_Expand All Nodes</comment>
+  </data>
+  <data name="PivotGrid_Collapse_EntireField" xml:space="preserve">
+    <value>Colla_pse Все Поле Целиком</value>
+    <comment>Colla_pse Entire Field</comment>
+  </data>
+  <data name="PivotGrid_Expand_EntireField" xml:space="preserve">
+    <value>Поле Expanded_entire</value>
+    <comment>Expand E_ntire Field</comment>
+  </data>
+  <data name="PivotGrid_Expand_Collapse_Header" xml:space="preserve">
+    <value>Развернуть/Свернуть</value>
+    <comment>Expand/Collapse</comment>
+  </data>
+  <data name="PivotGrid_Expand_Header" xml:space="preserve">
+    <value>E_расширить Этот Узел</value>
+    <comment>E_xpand This Node</comment>
+  </data>
+  <data name="PivotGrid_GroupingBar_DropFilterFileds" xml:space="preserve">
+    <value>Удалите Поля Фильтра Здесь</value>
+    <comment>Drop Filter Fields Here</comment>
+  </data>
+  <data name="PivotGrid_GroupingBar_DropCalculations" xml:space="preserve">
+    <value>Сбросьте Расчеты Здесь</value>
+    <comment>Drop Calculations Here</comment>
+  </data>
+  <data name="PivotGrid_Header_GrandTotal" xml:space="preserve">
+    <value>Великий</value>
+    <comment>Grand</comment>
+  </data>
+  <data name="PivotGrid_Header_SubTotal" xml:space="preserve">
+    <value>Весь</value>
+    <comment>Total</comment>
+  </data>
+  <data name="PivotSchema_Button_Update" xml:space="preserve">
+    <value>Обновление</value>
+    <comment>Update</comment>
+  </data>
+  <data name="PivotSchema_CheckBox_DeferUpdate" xml:space="preserve">
+    <value>Отложить Обновление Макета</value>
+    <comment>Defer Layout Update</comment>
+  </data>
+  <data name="PivotSchema_CheckBox_ShowCalulation" xml:space="preserve">
+    <value>Показывать вычисления в виде столбца</value>
+    <comment>Show Calculations as column</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Caption_Description" xml:space="preserve">
+    <value>_ Описание</value>
+    <comment>_Description</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Caption_Fieldname" xml:space="preserve">
+    <value>Имя поля</value>
+    <comment>Field Name</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Caption_Format" xml:space="preserve">
+    <value>For_mat</value>
+    <comment>For_mat</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Caption_SummaryType" xml:space="preserve">
+    <value>_ Суммировать Значение С Помощью</value>
+    <comment>_Summarize Value By</comment>
+  </data>
+  <data name="PivotSchema_FilterWindow_Popup_Caption_Filter" xml:space="preserve">
+    <value>Фильтр</value>
+    <comment>Filter</comment>
+  </data>
+  <data name="PivotSchema_HeaderPanel_Properties" xml:space="preserve">
+    <value>Свойства</value>
+    <comment>Properties</comment>
+  </data>
+  <data name="PivotSchema_Header_AddReport" xml:space="preserve">
+    <value>Выберите поле для добавления в отчет</value>
+    <comment>Choose Field to add to report</comment>
+  </data>
+  <data name="PivotSchema_Header_DragArea" xml:space="preserve">
+    <value>Перетащите поля между областями ниже:</value>
+    <comment>Drag fields between areas below:</comment>
+  </data>
+  <data name="PivotSchema_Header_PivotTableFieldList" xml:space="preserve">
+    <value>Список полей сводной таблицы</value>
+    <comment>PivotTable Field List</comment>
+  </data>
+  <data name="PivotSchema_ListBox_ColumnLabel" xml:space="preserve">
+    <value>Метка столбца</value>
+    <comment>Column Label</comment>
+  </data>
+  <data name="PivotSchema_ListBox_ReportFilter" xml:space="preserve">
+    <value>Фильтр отчетов</value>
+    <comment>Report Filter</comment>
+  </data>
+  <data name="PivotSchema_ListBox_RowLabel" xml:space="preserve">
+    <value>Метка строки</value>
+    <comment>Row Label</comment>
+  </data>
+  <data name="PivotSchema_ListBox_Values" xml:space="preserve">
+    <value>Ценности</value>
+    <comment>Values</comment>
+  </data>
+  <data name="ShowFieldList_Dialog_HeaderText" xml:space="preserve">
+    <value>Список полей сводной таблицы</value>
+    <comment>PivotTable Field List</comment>
+  </data>
+  <data name="PivotGrid_ToolTip_Column" xml:space="preserve">
+    <value>Колонка:</value>
+    <comment>Column:</comment>
+  </data>
+  <data name="PivotGrid_ToolTip_Row" xml:space="preserve">
+    <value>Ряд:</value>
+    <comment>Row:</comment>
+  </data>
+  <data name="PivotGrid_ToolTip_Value" xml:space="preserve">
+    <value>Ценность:</value>
+    <comment>Value:</comment>
+  </data>
+  <data name="PivotGrid_ToolTip_Empty" xml:space="preserve">
+    <value>(Пусто)</value>
+    <comment>(Empty)</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Caption_CalculationType" xml:space="preserve">
+    <value>Показать V_alue Как</value>
+    <comment>Show V_alue As</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Caption_BaseField" xml:space="preserve">
+    <value>Базовое _поле</value>
+    <comment>Base _Field</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_Caption_BaseItem" xml:space="preserve">
+    <value>Базовый _Item</value>
+    <comment>Base _Item</comment>
+  </data>
+  <data name="PivotSchema_ComputationalInfoDialog_FilterHeader" xml:space="preserve">
+    <value>Поле _Header</value>
+    <comment>Field _Header</comment>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Двигаться _ вниз</value>
+    <comment>Move _Down</comment>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Двигаться _ вверх</value>
+    <comment>Move _Up</comment>
+  </data>
+  <data name="Pivot_Value_Chooser" xml:space="preserve">
+    <value>Средство выбора сводного значения</value>
+    <comment>Pivot Value Chooser</comment>
+  </data>
+  <data name="Insert_Calculated_Field" xml:space="preserve">
+    <value>Вставить Вычисляемое поле</value>
+    <comment>Insert Calculated Field</comment>
+  </data>
+  <data name="PopUp_Window" xml:space="preserve">
+    <value>Всплывающее окно</value>
+    <comment>PopUpWindow</comment>
+  </data>
+  <data name="Pivot_Computation_Information" xml:space="preserve">
+    <value>Сводная вычислительная информация</value>
+    <comment>Pivot Computation Information</comment>
+  </data>
+  <data name="Double_Total_Sum" xml:space="preserve">
+    <value>Двойная итоговая сумма</value>
+    <comment>DoubleTotalSum</comment>
+  </data>
+  <data name="Double_Average" xml:space="preserve">
+    <value>DoubleAverage</value>
+    <comment>DoubleAverage</comment>
+  </data>
+  <data name="Double_Maximun" xml:space="preserve">
+    <value>Двойное Среднее значение</value>
+    <comment>DoubleAverage</comment>
+  </data>
+  <data name="Double_Minimun" xml:space="preserve">
+    <value>Двойной Минимум</value>
+    <comment>DoubleMinimum</comment>
+  </data>
+  <data name="Double_StandardDeviation" xml:space="preserve">
+    <value>Двойное стандартное отклонение</value>
+    <comment>DoubleStandardDeviation</comment>
+  </data>
+  <data name="Double_Variance" xml:space="preserve">
+    <value>Двойная дисперсия</value>
+    <comment>DoubleVariance</comment>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Рассчитывать</value>
+    <comment>Count</comment>
+  </data>
+  <data name="Decimal_Total_Sum" xml:space="preserve">
+    <value>Десятичная Общая Сумма</value>
+    <comment>DecimalTotalSum</comment>
+  </data>
+  <data name="Int_Total_Sum" xml:space="preserve">
+    <value>Int Общая сумма</value>
+    <comment>IntTotalSum</comment>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Обычный</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="Display_IfDiscrete_ValuesEqual" xml:space="preserve">
+    <value>Отображение, Если Дискретные Значения Равны</value>
+    <comment>DisplayIfDiscreteValuesEqual</comment>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Сумма</value>
+    <comment>Sum</comment>
+  </data>
+  <data name="Average" xml:space="preserve">
+    <value>Средний</value>
+    <comment>Average</comment>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Макс</value>
+    <comment>Max</comment>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Минута</value>
+    <comment>Min</comment>
+  </data>
+  <data name="CountNumbers" xml:space="preserve">
+    <value>Подсчитайте Числа</value>
+    <comment>CountNumbers</comment>
+  </data>
+  <data name="Var" xml:space="preserve">
+    <value>Var</value>
+    <comment>???</comment>
+  </data>
+  <data name="VarP" xml:space="preserve">
+    <value>VarP</value>
+    <comment>???</comment>
+  </data>
+  <data name="StdDev" xml:space="preserve">
+    <value>StdDev</value>
+    <comment>???</comment>
+  </data>
+  <data name="StdDevP" xml:space="preserve">
+    <value>StdDevP</value>
+    <comment>???</comment>
+  </data>
+  <data name="No_Calculation" xml:space="preserve">
+    <value>Никаких Расчетов</value>
+    <comment>NoCalculation</comment>
+  </data>
+  <data name="PercentageOf_GrandTotal" xml:space="preserve">
+    <value>Процент От Общей Суммы</value>
+    <comment>PercentageOfGrandTotal</comment>
+  </data>
+  <data name="PercentageOf_ColumnTotal" xml:space="preserve">
+    <value>Процент От Общего Числа Столбцов</value>
+    <comment>PercentageOfColumnTotal</comment>
+  </data>
+  <data name="PercentageOf_RowTotal" xml:space="preserve">
+    <value>Процент От Общего Числа Строк</value>
+    <comment>PercentageOfRowTotal</comment>
+  </data>
+  <data name="PercentageOf_Parent_ColumnTotal" xml:space="preserve">
+    <value>Процент От Общего Числа Родительских Столбцов</value>
+    <comment>PercentageOfParentColumnTotal</comment>
+  </data>
+  <data name="PercentageOf_Parent_RowTotal" xml:space="preserve">
+    <value>Процент От Общего Числа Родительских Строк</value>
+    <comment>PercentageOfParentRowTotal</comment>
+  </data>
+  <data name="PercentageOf_Parent_Total" xml:space="preserve">
+    <value>Процент От Общего Числа Родителей</value>
+    <comment>PercentageOfParentTotal</comment>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Индекс</value>
+    <comment>Index</comment>
+  </data>
+  <data name="Formula" xml:space="preserve">
+    <value>Формула</value>
+    <comment>Formula</comment>
+  </data>
+  <data name="PercentageOf" xml:space="preserve">
+    <value>Процент От</value>
+    <comment>PercentageOf</comment>
+  </data>
+  <data name="Difference_From" xml:space="preserve">
+    <value>Отличие От</value>
+    <comment>DifferenceFrom</comment>
+  </data>
+  <data name="PercentageOf_Difference_From" xml:space="preserve">
+    <value>Процент Разницы От</value>
+    <comment>PercentageOfDifferenceFrom</comment>
+  </data>
+  <data name="Running_TotalIn" xml:space="preserve">
+    <value>Текущая Общая Сумма В</value>
+    <comment>RunningTotalIn</comment>
+  </data>
+  <data name="PercentageOf_Running_TotalIn" xml:space="preserve">
+    <value>Процент От Общего Объема Работ В</value>
+    <comment>PercentageOfRunningTotalIn</comment>
+  </data>
+  <data name="Rank_SmallestToLargest" xml:space="preserve">
+    <value>Ранг От Наименьшего К Наибольшему</value>
+    <comment>RankSmallestToLargest</comment>
+  </data>
+  <data name="Rank_LargestToSmallest" xml:space="preserve">
+    <value>Ранг От Наибольшего К Наименьшему</value>
+    <comment>RankLargestToSmallest</comment>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Применять</value>
+    <comment>Apply</comment>
+  </data>
+  <data name="ContextMenu_AllowFiltering" xml:space="preserve">
+    <value>Разрешить _фильтрацию</value>
+    <comment>Allow _Filtering</comment>
+  </data>
+  <data name="ContextMenu_AllowSorting" xml:space="preserve">
+    <value>Разрешить _сортировку</value>
+    <comment>Allow _Sorting</comment>
+  </data>
+  <data name="ContextMenu_ClearFilters" xml:space="preserve">
+    <value>Очистить фильтры</value>
+    <comment>Clear Filters</comment>
+  </data>
+  <data name="ContextMenu_ClearSorts" xml:space="preserve">
+    <value>Четкие Виды</value>
+    <comment>Clear Sorts</comment>
+  </data>
+  <data name="ContextMenu_DisableFiltering" xml:space="preserve">
+    <value>_ Настраиваемая фильтрация</value>
+    <comment>_Disable Filtering</comment>
+  </data>
+  <data name="ContextMenu_DisableSorting" xml:space="preserve">
+    <value>Отключить So_rting</value>
+    <comment>Disable So_rting</comment>
+  </data>
+  <data name="ContextMenu_HideColumn" xml:space="preserve">
+    <value>Скрыть столбец</value>
+    <comment>Hide Column</comment>
+  </data>
+  <data name="ContextMenu_ShowPivotValueChooser" xml:space="preserve">
+    <value>Показать Средство выбора сводного значения</value>
+    <comment>Show Pivot Value Chooser</comment>
+  </data>
+  <data name="PivotGrid_Collapse_Group" xml:space="preserve">
+    <value>Свернуть В</value>
+    <comment>Collap_se To</comment>
+  </data>
+  <data name="PivotGrid_Expand_Group" xml:space="preserve">
+    <value>Exp_and Для</value>
+    <comment>Exp_and To</comment>
+  </data>
+  <data name="FilterPopUp_All" xml:space="preserve">
+    <value>(Все)</value>
+    <comment>(All)</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_Beginning" xml:space="preserve">
+    <value>Перейти к Be_ginning</value>
+    <comment>Move to Be_ginning</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_Down" xml:space="preserve">
+    <value>Переместить _ вниз</value>
+    <comment>Move _Down</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_End" xml:space="preserve">
+    <value>Перейти к _Последнему</value>
+    <comment>Move to _End</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_Up" xml:space="preserve">
+    <value>Двигаться _ вверх</value>
+    <comment>Move _Up</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_ToColumn" xml:space="preserve">
+    <value>Перейти к столбцу</value>
+    <comment>Move to Column</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_ToFilter" xml:space="preserve">
+    <value>Перейти к фильтру</value>
+    <comment>Move to Filter</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_ToRow" xml:space="preserve">
+    <value>Перейти к строке</value>
+    <comment>Move to Row</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_ToValues" xml:space="preserve">
+    <value>Перейти к значениям</value>
+    <comment>Move to Values</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_Exit" xml:space="preserve">
+    <value>Выход</value>
+    <comment>Exit</comment>
+  </data>
+  <data name="PivotSchema_ContextMenu_RemoveField" xml:space="preserve">
+    <value>Удалить поле</value>
+    <comment>Remove Field</comment>
+  </data>
+  <data name="Filter_ComboBox_BeginsWith" xml:space="preserve">
+    <value>начинается с</value>
+    <comment>begins with</comment>
+  </data>
+  <data name="Filter_ContextMenu_BeginsWith" xml:space="preserve">
+    <value>Начинается с W_ith...</value>
+    <comment>Begins W_ith...</comment>
+  </data>
+  <data name="Filter_ComboBox_Between" xml:space="preserve">
+    <value>между</value>
+    <comment>between</comment>
+  </data>
+  <data name="Filter_ComboBox_Contains" xml:space="preserve">
+    <value>содержит</value>
+    <comment>contains</comment>
+  </data>
+  <data name="Filter_ContextMenu_Between" xml:space="preserve">
+    <value>Bet_ween...</value>
+    <comment>???</comment>
+  </data>
+  <data name="Filter_ContextMenu_DoesNotContains" xml:space="preserve">
+    <value>_ Не Содержит...</value>
+    <comment>_Does Not Contains...</comment>
+  </data>
+  <data name="Filter_ContextMenu_DoesnotBeginsWith" xml:space="preserve">
+    <value>Does No_t Начинается С...</value>
+    <comment>Does No_t Begins With...</comment>
+  </data>
+  <data name="Filter_ComboBox_DoesnotBeginsWith" xml:space="preserve">
+    <value>не начинается с</value>
+    <comment>does not begins with</comment>
+  </data>
+  <data name="Filter_ContextMenu_NotBetween" xml:space="preserve">
+    <value>Не между ними...</value>
+    <comment>Not _Between...</comment>
+  </data>
+  <data name="Filter_ComboBox_DoesNotContains" xml:space="preserve">
+    <value>не содержит</value>
+    <comment>does not contains</comment>
+  </data>
+  <data name="Filter_ContextMenu_DoesnotEndsWith" xml:space="preserve">
+    <value>Не Заканчивается Wit_h...</value>
+    <comment>Does Not Ends Wit_h...</comment>
+  </data>
+  <data name="Filter_ComboBox_DoesnotEndsWith" xml:space="preserve">
+    <value>не заканчивается на</value>
+    <comment>does not ends with</comment>
+  </data>
+  <data name="Filter_ContextMenu_NotEquals" xml:space="preserve">
+    <value>Не Равнозначно...</value>
+    <comment>Does _Not Equal...</comment>
+  </data>
+  <data name="Filter_ComboBox_NotEquals" xml:space="preserve">
+    <value>не равно</value>
+    <comment>does not equals</comment>
+  </data>
+  <data name="Filter_ComboBox_EndsWith" xml:space="preserve">
+    <value>заканчивается тем, что</value>
+    <comment>ends with</comment>
+  </data>
+  <data name="Filter_ContextMenu_EndsWith" xml:space="preserve">
+    <value>Заканчивается Wi_th...</value>
+    <comment>Ends Wi_th...</comment>
+  </data>
+  <data name="Filter_ComboBox_Equals" xml:space="preserve">
+    <value>равняется</value>
+    <comment>equals</comment>
+  </data>
+  <data name="Filter_ContextMenu_Equals" xml:space="preserve">
+    <value>_ Равных...</value>
+    <comment>_Equals...</comment>
+  </data>
+  <data name="Filter_ContextMenu_GreaterThan" xml:space="preserve">
+    <value>__ Больше, Чем...</value>
+    <comment>_GreaterThan...</comment>
+  </data>
+  <data name="Filter_ContextMenu_GreaterThanOrEqual" xml:space="preserve">
+    <value>Больше, Чем _ или Равно...</value>
+    <comment>Greater Than _Or Equal To...</comment>
+  </data>
+  <data name="Filter_ContextMenu_Contains" xml:space="preserve">
+    <value>Cont_ains...</value>
+    <comment>Cont_ains...</comment>
+  </data>
+  <data name="Filter_ComboBox_GreaterThan" xml:space="preserve">
+    <value>больше, чем</value>
+    <comment>is greater than</comment>
+  </data>
+  <data name="Filter_ComboBox_GreaterThanOrEqual" xml:space="preserve">
+    <value>больше или равно</value>
+    <comment>is greater than or equal to</comment>
+  </data>
+  <data name="Filter_ComboBox_LessThan" xml:space="preserve">
+    <value>составляет менее</value>
+    <comment>is less than</comment>
+  </data>
+  <data name="Filter_ComboBox_LessThanOrEqual" xml:space="preserve">
+    <value>меньше или равно</value>
+    <comment>is less than or equal to</comment>
+  </data>
+  <data name="Filter_ContextMenu_LessThan" xml:space="preserve">
+    <value>_ Меньше, Чем...</value>
+    <comment>_Less Than...</comment>
+  </data>
+  <data name="Filter_ContextMenu_LessThanOrEqual" xml:space="preserve">
+    <value>Меньше Или Равно E_qual...</value>
+    <comment>Less Than Or E_qual To...</comment>
+  </data>
+  <data name="Filter_ComboBox_NotBetween" xml:space="preserve">
+    <value>не между</value>
+    <comment>not between</comment>
+  </data>
+  <data name="Top10" xml:space="preserve">
+    <value> _Toп 10 фильтров</value>
+    <comment>_Top10 Filter</comment>
+  </data>
+  <data name="Filter_TextBlock_And" xml:space="preserve">
+    <value>и</value>
+    <comment>and</comment>
+  </data>
+  <data name="Filter_TextBlock_LabelFilterTextWildCharacter" xml:space="preserve">
+    <value>Использовать? для представления любого отдельного символа</value>
+    <comment>Use ? to represent any single character</comment>
+  </data>
+  <data name="Filter_TextBlock_LabelFilterTextWildCharacterforseries" xml:space="preserve">
+    <value>Используйте * для представления любой серии символов</value>
+    <comment>Use * to represent any series of characters</comment>
+  </data>
+  <data name="Filter_TextBlock_ShowItems" xml:space="preserve">
+    <value>Показывать Элементы, Для Которых</value>
+    <comment>Show Items For Which</comment>
+  </data>
+  <data name="MoreSortOptions_TextBlock_ShowItems" xml:space="preserve">
+    <value>Параметры сортировки</value>
+    <comment>Sort options</comment>
+  </data>
+  <data name="MoreOptions_TextBlock_ShowItems" xml:space="preserve">
+    <value>Автоспорт</value>
+    <comment>AutoSort</comment>
+  </data>
+  <data name="MoreOptions_TextBlock1_ShowItems" xml:space="preserve">
+    <value>Порядок сортировки по первому ключу</value>
+    <comment>First key sort order</comment>
+  </data>
+  <data name="MoreOptions_TextBlock2_ShowItems" xml:space="preserve">
+    <value>Сортировать по</value>
+    <comment>Sort By</comment>
+  </data>
+  <data name="MoreOptions_CheckBox_ShowItems" xml:space="preserve">
+    <value>_ Сортировка автоматически при каждом обновлении отчета</value>
+    <comment>_Sort automatically every time the report is updated</comment>
+  </data>
+  <data name="MoreSortOptions_TextBlock_SummaryShowItems" xml:space="preserve">
+    <value>Резюме</value>
+    <comment>Summary</comment>
+  </data>
+  <data name="MoreSortOptions_RadioButton1_ShowItems" xml:space="preserve">
+    <value>_Manual (вы можете перетаскивать элементы, чтобы изменить их порядок)</value>
+    <comment>_Manual (you can drag items to rearrange them)</comment>
+  </data>
+  <data name="MoreSortOptions_RadioButton2_ShowItems" xml:space="preserve">
+    <value>_ восходящий (от А до Я) на:</value>
+    <comment>_Ascending (A to Z) by:</comment>
+  </data>
+  <data name="MoreSortOptions_RadioButton3_ShowItems" xml:space="preserve">
+    <value>_ Убывающий (от Z до A) на:</value>
+    <comment>_Descending (Z to A) by:</comment>
+  </data>
+  <data name="MoreOptions_RadioButton1_ShowItems" xml:space="preserve">
+    <value>Общая сумма</value>
+    <comment>Grand Total</comment>
+  </data>
+  <data name="LabelFilter_Window_Title" xml:space="preserve">
+    <value>Фильтр этикеток</value>
+    <comment>Label Filter</comment>
+  </data>
+  <data name="MoreSortOptions_Window_Title" xml:space="preserve">
+    <value>Сортировать</value>
+    <comment>Sort</comment>
+  </data>
+  <data name="MoreOptions_Window_Title" xml:space="preserve">
+    <value>Дополнительные параметры Сортировки</value>
+    <comment>More Sort Options</comment>
+  </data>
+  <data name="Top10Filter_ComboBox_Bottom" xml:space="preserve">
+    <value>Дно</value>
+    <comment>Bottom</comment>
+  </data>
+  <data name="Top10Filter_ComboBox_Items" xml:space="preserve">
+    <value>Предметы</value>
+    <comment>Items</comment>
+  </data>
+  <data name="Top10Filter_ComboBox_Percent" xml:space="preserve">
+    <value>Процент</value>
+    <comment>Percent</comment>
+  </data>
+  <data name="Top10Filter_ComboBox_Sum" xml:space="preserve">
+    <value>Сумма</value>
+    <comment>Sum</comment>
+  </data>
+  <data name="Top10Filter_ComboBox_Top" xml:space="preserve">
+    <value>Верхний</value>
+    <comment>Top</comment>
+  </data>
+  <data name="Top10Filter_TextBlock_By" xml:space="preserve">
+    <value>около</value>
+    <comment>by</comment>
+  </data>
+  <data name="Top10Filter_Window_Title" xml:space="preserve">
+    <value>Топ 10 Фильтров</value>
+    <comment>Top10 Filter</comment>
+  </data>
+  <data name="ValueFilter_Window_Title" xml:space="preserve">
+    <value>Фильтр значений</value>
+    <comment>Value Filter</comment>
+  </data>
+  <data name="CalculatedField_Decimal_Operator" xml:space="preserve">
+    <value>.</value>
+    <comment>???</comment>
+  </data>
+  <data name="Filter_ContextMenu_ClearFilters" xml:space="preserve">
+    <value>_чистые фильтры</value>
+    <comment>_Clear Filters</comment>
+  </data>
+  <data name="Filter_ContextMenu_LabelFilters" xml:space="preserve">
+    <value>Фильтры _этикетки</value>
+    <comment>_Label Filters</comment>
+  </data>
+  <data name="Filter_ContextMenu_ValueFilters" xml:space="preserve">
+    <value>Фильтры _Value</value>
+    <comment>_Value Filters</comment>
+  </data>
+  <data name="Filter_ContextMenu_SortAscending" xml:space="preserve">
+    <value>_ Сортировка от А до Я</value>
+    <comment>_Sort A to Z</comment>
+  </data>
+  <data name="Filter_ContextMenu_SortDescending" xml:space="preserve">
+    <value>S_ort Z to A</value>
+    <comment>???</comment>
+  </data>
+  <data name="Filter_ContextMenu_MoreSortOptions" xml:space="preserve">
+    <value>_ Больше Вариантов Сортировки...</value>
+    <comment>_More Sort Options...</comment>
+  </data>
+  <data name="AddDuplicateCalculatedFieldErrorMessage" xml:space="preserve">
+    <value>Вычисляемое поле с таким же именем уже существует.</value>
+    <comment>CalculatedField with same name is already exist.</comment>
+  </data>
+  <data name="AddEmptyCalculatedFieldFormulaErrorMessage" xml:space="preserve">
+    <value>Пожалуйста, укажите формулу для добавления нового вычисляемого поля в сводные вычисления.</value>
+    <comment>Please provide formula to add new calculated field into PivotCalculations.</comment>
+  </data>
+  <data name="AddEmptyCalculatedFieldNameErrorMessage" xml:space="preserve">
+    <value>Пожалуйста, укажите название поля для вставки.</value>
+    <comment>Please provide name of the field to insert.</comment>
+  </data>
+  <data name="CalculatedFieldFormulaErrorMessage" xml:space="preserve">
+    <value>Пожалуйста, укажите формулу для вычисляемого поля.</value>
+    <comment>Please provide formula to the calculated field.</comment>
+  </data>
+  <data name="CalculatedFieldOkButtonErrorMessage" xml:space="preserve">
+    <value>Пожалуйста, добавьте новое вычисляемое поле в Сводные вычисления, прежде чем нажимать кнопку OK.</value>
+    <comment>Please add a new calculated field into PivotCalculations before pressing the OK button.</comment>
+  </data>
+  <data name="IncompleteFormula" xml:space="preserve">
+    <value>Формула является неполной. Пожалуйста, сверьтесь с предоставленной вами формулой.</value>
+    <comment>Formula is incomplete. Please check with the formula you have provided.</comment>
+  </data>
+</root>

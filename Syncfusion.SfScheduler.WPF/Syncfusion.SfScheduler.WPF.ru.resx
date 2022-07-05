@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alert" xml:space="preserve">
+    <value>Тревога</value>
+    <comment>Text for Alert</comment>
+  </data>
+  <data name="AllDay" xml:space="preserve">
+    <value>весь день</value>
+    <comment>Text for All Day</comment>
+  </data>
+  <data name="April" xml:space="preserve">
+    <value>Апрель</value>
+    <comment>Text for April</comment>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>Август</value>
+    <comment>Text for August</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>отменять</value>
+    <comment>Content for Cancel button</comment>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Рассчитывать</value>
+    <comment>Text for Count</comment>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>Ежедневный</value>
+    <comment>Text for Daily</comment>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>День</value>
+    <comment>Text for Day</comment>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>День(ы)</value>
+    <comment>Text for Day(s)</comment>
+  </data>
+  <data name="December" xml:space="preserve">
+    <value>Декабрь</value>
+    <comment>Text for December</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>УДАЛИТЬ</value>
+    <comment>Content for Delete button</comment>
+  </data>
+  <data name="DeleteOccurrence" xml:space="preserve">
+    <value>Удалите это событие</value>
+    <comment>Text for Delete this Occurrence</comment>
+  </data>
+  <data name="DeleteRecurringDialogContent" xml:space="preserve">
+    <value>Вы хотите удалить все случаи повторяющейся встречи [] или только эту?</value>
+    <comment>'[]' replaced by selected appointemnt subject</comment>
+  </data>
+  <data name="DeleteRecurringDialogHeader" xml:space="preserve">
+    <value>Подтвердите Удаление</value>
+    <comment>Title content of dialog that is displayed when deleting a recurring appointment.</comment>
+  </data>
+  <data name="DeleteSeries" xml:space="preserve">
+    <value>Удалить эту серию</value>
+    <comment>Content for series radio button that is displayed when delete recurring appointment</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+    <comment>Text for Description</comment>
+  </data>
+  <data name="EditEventTitle" xml:space="preserve">
+    <value>Редактировать Событие</value>
+    <comment>Text for Edit Event</comment>
+  </data>
+  <data name="EditRecurringDialogContent" xml:space="preserve">
+    <value>Это одна встреча из серии. Что вы хотите открыть?</value>
+    <comment>Edit confirmation dialog content that is displayed when editing a recurring appointment</comment>
+  </data>
+  <data name="EditRecurringDialogHeader" xml:space="preserve">
+    <value>Открыть Повторяющийся Элемент</value>
+    <comment>Title content of dialog that is displayed when Editing a recurring appointment.</comment>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Конец</value>
+    <comment>Text for End</comment>
+  </data>
+  <data name="EndTimezone" xml:space="preserve">
+    <value>Конечный часовой пояс</value>
+    <comment>Text for End Timezone</comment>
+  </data>
+  <data name="February" xml:space="preserve">
+    <value>Февраль</value>
+    <comment>Text for February</comment>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Первый</value>
+    <comment>Text for First</comment>
+  </data>
+  <data name="Fourth" xml:space="preserve">
+    <value>Четвёртый</value>
+    <comment>Text for Fourth</comment>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Пятница</value>
+    <comment>Text for Friday</comment>
+  </data>
+  <data name="InValidEndTimeMessageAlert" xml:space="preserve">
+    <value>Дата окончания, которую вы ввели, предшествует дате начала.</value>
+    <comment>Message alert for invalid end time</comment>
+  </data>
+  <data name="InvalidOccurrenceEditingMessageAlert" xml:space="preserve">
+    <value>Два случая [] не могут произойти в один и тот же день.</value>
+    <comment>'[]' replaced by selected appointemnt subject</comment>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Январь</value>
+    <comment>Text for January</comment>
+  </data>
+  <data name="July" xml:space="preserve">
+    <value>Июль</value>
+    <comment>Text for July</comment>
+  </data>
+  <data name="June" xml:space="preserve">
+    <value>Июнь</value>
+    <comment>Text for June</comment>
+  </data>
+  <data name="JustThisOne" xml:space="preserve">
+    <value>Только этот</value>
+    <comment>Text for Just this one</comment>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Последний</value>
+    <comment>Text for Last</comment>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Местоположение</value>
+    <comment>Text for Location</comment>
+  </data>
+  <data name="March" xml:space="preserve">
+    <value>Март</value>
+    <comment>Text for March</comment>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>Май</value>
+    <comment>Text for May</comment>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Понедельник</value>
+    <comment>Text for Monday</comment>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>Ежемесячно</value>
+    <comment>Text for Monthly</comment>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>Месяц(ы)</value>
+    <comment>Text for Month(s)</comment>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Больше</value>
+    <comment>test for More</comment>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Никогда</value>
+    <comment>Text for Never</comment>
+  </data>
+  <data name="NewEvent" xml:space="preserve">
+    <value>Новое Событие</value>
+    <comment>Title for Editor UI when create new appointment</comment>
+  </data>
+  <data name="NoDateSelected" xml:space="preserve">
+    <value>Дата Не Выбрана</value>
+    <comment>Text for No Date Selected</comment>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Никаких Событий</value>
+    <comment>Text for No Events</comment>
+  </data>
+  <data name="November" xml:space="preserve">
+    <value>Ноябрь</value>
+    <comment>Text for November</comment>
+  </data>
+  <data name="October" xml:space="preserve">
+    <value>Октябрь</value>
+    <comment>Text for October</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Text for OK</comment>
+  </data>
+  <data name="OutRangeOccurrencedEditingMessageAlert" xml:space="preserve">
+    <value>Невозможно перенести событие повторяющейся встречи [], если оно пропускает более позднее событие той же встречи.</value>
+    <comment>[]' replaced by selected appointemnt subject</comment>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>Повторять</value>
+    <comment>Text for Repeat</comment>
+  </data>
+  <data name="RepeatEvery" xml:space="preserve">
+    <value>Повторяйте Каждый</value>
+    <comment>Text for Repeat Every</comment>
+  </data>
+  <data name="RepeatOn" xml:space="preserve">
+    <value>Повторите На</value>
+    <comment>Text for Repeat On</comment>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Суббота</value>
+    <comment>Text for Saturday</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>сохранить</value>
+    <comment>Text for Save</comment>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>Второй</value>
+    <comment>Text for Second</comment>
+  </data>
+  <data name="September" xml:space="preserve">
+    <value>Сентябрь</value>
+    <comment>Text for September</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Начать</value>
+    <comment>Text for Start</comment>
+  </data>
+  <data name="StartTimeZone" xml:space="preserve">
+    <value>Часовой пояс Начала</value>
+    <comment>Text for Start Timezone</comment>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Воскресенье</value>
+    <comment>Text for Sunday</comment>
+  </data>
+  <data name="TheEntireSeries" xml:space="preserve">
+    <value>Вся серия</value>
+    <comment>Text for The entire series</comment>
+  </data>
+  <data name="Third" xml:space="preserve">
+    <value>Третий</value>
+    <comment>Text for Third</comment>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Четверг</value>
+    <comment>Text for Thursday</comment>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Часовой пояс</value>
+    <comment>Text for Time zone</comment>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>Text for Title</comment>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Вторник</value>
+    <comment>Text for Tuesday</comment>
+  </data>
+  <data name="Until" xml:space="preserve">
+    <value>До тех пор</value>
+    <comment>Text for Until</comment>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Среда</value>
+    <comment>Text for Wednesday</comment>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>Еженедельно</value>
+    <comment>Text for Weekly</comment>
+  </data>
+  <data name="Weeks" xml:space="preserve">
+    <value>Неделя(недели)</value>
+    <comment>Text for Week(s)</comment>
+  </data>
+  <data name="Yearly" xml:space="preserve">
+    <value>Working week</value>
+    <comment>Text for Yearly</comment>
+  </data>
+  <data name="Years" xml:space="preserve">
+    <value>Год(ы)</value>
+    <comment>Text for Year(s)</comment>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Ресурс(ы)</value>
+    <comment>Text for Resource(s)</comment>
+  </data>
+  <data name="AddReminder" xml:space="preserve">
+    <value>ДОБАВИТЬ НАПОМИНАНИЕ</value>
+    <comment>Text for AddReminder</comment>
+  </data>
+  <data name="ClickSnooze" xml:space="preserve">
+    <value>Нажмите кнопку Повтор, чтобы получить напоминание в:</value>
+    <comment>Text for Click Snooze</comment>
+  </data>
+  <data name="DismissAll" xml:space="preserve">
+    <value>УВОЛИТЬ ВСЕХ</value>
+    <comment>Text for DismissAll</comment>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>Час</value>
+    <comment>Text for Hour</comment>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Минут</value>
+    <comment>Text for Minutes</comment>
+  </data>
+  <data name="Reminder" xml:space="preserve">
+    <value>Напоминание</value>
+    <comment>Text for Reminder</comment>
+  </data>
+  <data name="Snooze" xml:space="preserve">
+    <value>вздремнуть</value>
+    <comment>Text for Snooze</comment>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Неделя</value>
+    <comment>Text for Week</comment>
+  </data>
+  <data name="NoReminder" xml:space="preserve">
+    <value>Нет никаких напоминаний, которые нужно показывать.</value>
+    <comment>Text for NoReminder</comment>
+  </data>
+  <data name="Reminders" xml:space="preserve">
+    <value>Напоминания</value>
+    <comment>Text for Reminders</comment>
+  </data>
+  <data name="DaysIntervalTypeReminder" xml:space="preserve">
+    <value>Дни</value>
+    <comment>Text for Days</comment>
+  </data>
+  <data name="HoursIntervalTypeReminder" xml:space="preserve">
+    <value>Часов</value>
+    <comment>Text for Hours</comment>
+  </data>
+  <data name="MinutesIntervalTypeReminder" xml:space="preserve">
+    <value>Минут</value>
+    <comment>Text for Minutes</comment>
+  </data>
+  <data name="WeeksIntervalTypeReminder" xml:space="preserve">
+    <value>Недели</value>
+    <comment>Text for Weeks</comment>
+  </data>
+  <data name="EmptyAppointmentSubject" xml:space="preserve">
+    <value>(Без названия)</value>
+    <comment>Text for empty appointment subject</comment>
+  </data>
+  <data name="NextNavigationButton" xml:space="preserve">
+    <value>Следующая навигация</value>
+    <comment>Text for next navigation button</comment>
+  </data>
+  <data name="PreviousNavigationButton" xml:space="preserve">
+    <value>Предыдущая навигация</value>
+    <comment>Text for previous navigation button</comment>
+  </data>
+  <data name="BlackoutDay" xml:space="preserve">
+    <value>День затемнения</value>
+    <comment>Text for Blackout day</comment>
+  </data>
+  <data name="WeekNumber" xml:space="preserve">
+    <value>Номер недели</value>
+    <comment>Text for Week number</comment>
+  </data>
+  <data name="Dismiss" xml:space="preserve">
+    <value>Увольнять</value>
+    <comment>ToolTip for Dismiss</comment>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Фон</value>
+    <comment>Text for Background</comment>
+  </data>
+  <data name="Foreground" xml:space="preserve">
+    <value>Передний план</value>
+    <comment>Text for Foreground</comment>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Месяц</value>
+    <comment>Text for Month</comment>
+  </data>
+  <data name="TimelineDay" xml:space="preserve">
+    <value>День временной шкалы</value>
+    <comment>Text for Timeline day</comment>
+  </data>
+  <data name="TimelineMonth" xml:space="preserve">
+    <value>Сроки месяц</value>
+    <comment>Text for Timeline month</comment>
+  </data>
+  <data name="TimelineWeek" xml:space="preserve">
+    <value>График недели</value>
+    <comment>Text for Timeline week</comment>
+  </data>
+  <data name="TimelineWorkWeek" xml:space="preserve">
+    <value>График работы рабочая неделя</value>
+    <comment>Text for Timeline work week</comment>
+  </data>
+  <data name="WorkWeek" xml:space="preserve">
+    <value>Рабочая неделя</value>
+    <comment>Text for Work week</comment>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Сегодня</value>
+    <comment>Text for Today</comment>
+  </data>
+</root>

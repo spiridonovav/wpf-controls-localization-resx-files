@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CollapseallText" xml:space="preserve">
+    <value>Свернуть Все</value>
+    <comment>Collapse All</comment>
+  </data>
+  <data name="CommentlinesText" xml:space="preserve">
+    <value>Строки комментариев</value>
+    <comment>Comment Lines</comment>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Копировать</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="CutText" xml:space="preserve">
+    <value>Cut</value>
+    <comment>???</comment>
+  </data>
+  <data name="DecreaseindentText" xml:space="preserve">
+    <value>Уменьшить Отступ</value>
+    <comment>Decrease Indent</comment>
+  </data>
+  <data name="ExpandallText" xml:space="preserve">
+    <value>Развернуть Все</value>
+    <comment>Expand All</comment>
+  </data>
+  <data name="FindallText" xml:space="preserve">
+    <value>Найти Все</value>
+    <comment>Find All</comment>
+  </data>
+  <data name="FindnextText" xml:space="preserve">
+    <value>Найти следующие</value>
+    <comment>Find Next</comment>
+  </data>
+  <data name="FindoptionText" xml:space="preserve">
+    <value>Поиск Вариантов</value>
+    <comment>Find Options</comment>
+  </data>
+  <data name="IncreaseindentText" xml:space="preserve">
+    <value>Увеличить отступ</value>
+    <comment>Increase Indent</comment>
+  </data>
+  <data name="OutliningText" xml:space="preserve">
+    <value>Изложение</value>
+    <comment>Outlining</comment>
+  </data>
+  <data name="PasteText" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Paste</comment>
+  </data>
+  <data name="QuickfindText" xml:space="preserve">
+    <value>Быстрый Поиск</value>
+    <comment>Quick Find</comment>
+  </data>
+  <data name="QuickreplaceText" xml:space="preserve">
+    <value>Быстрая замена</value>
+    <comment>Quick Replace</comment>
+  </data>
+  <data name="RedoText" xml:space="preserve">
+    <value>Переделывать</value>
+    <comment>Redo</comment>
+  </data>
+  <data name="ReplaceallText" xml:space="preserve">
+    <value>Замените Все</value>
+    <comment>Replace All</comment>
+  </data>
+  <data name="ReplaceText" xml:space="preserve">
+    <value>Заменять</value>
+    <comment>Replace</comment>
+  </data>
+  <data name="SelectallText" xml:space="preserve">
+    <value>выбрать все</value>
+    <comment>Select All</comment>
+  </data>
+  <data name="SwitchtoquickreplacetooltipText" xml:space="preserve">
+    <value>Переключитесь на быструю замену</value>
+    <comment>Switch to Quick Replace</comment>
+  </data>
+  <data name="UncommentlinesText" xml:space="preserve">
+    <value>Раскомментируйте строки</value>
+    <comment>Uncomment Lines</comment>
+  </data>
+  <data name="UndoText" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Undo</comment>
+  </data>
+  <data name="FindSymbolResultText" xml:space="preserve">
+    <value>Результаты поиска символов</value>
+    <comment>Find Symbol Results</comment>
+  </data>
+  <data name="FindwhatText" xml:space="preserve">
+    <value>Fin_d what</value>
+    <comment>???</comment>
+  </data>
+  <data name="LookinText" xml:space="preserve">
+    <value>_ Загляни в</value>
+    <comment>_Look in</comment>
+  </data>
+  <data name="MatchcaseText" xml:space="preserve">
+    <value>Match _case</value>
+    <comment>???</comment>
+  </data>
+  <data name="MatchwholewordText" xml:space="preserve">
+    <value>Сопоставьте _ целое слово</value>
+    <comment>Match _whole word</comment>
+  </data>
+  <data name="PrefixText" xml:space="preserve">
+    <value>Префикс_ix</value>
+    <comment>Pref_ix</comment>
+  </data>
+  <data name="ReplacewithText" xml:space="preserve">
+    <value>Re_place with</value>
+    <comment>???</comment>
+  </data>
+  <data name="SearchhiddenText" xml:space="preserve">
+    <value>Поиск _скрытого текста</value>
+    <comment>Search _hidden text</comment>
+  </data>
+  <data name="SearchupText" xml:space="preserve">
+    <value>Search _up</value>
+    <comment>???</comment>
+  </data>
+  <data name="SubstringText" xml:space="preserve">
+    <value>_Substring</value>
+    <comment>???</comment>
+  </data>
+  <data name="WholewordText" xml:space="preserve">
+    <value>_Whole word</value>
+    <comment>????</comment>
+  </data>
+  <data name="CurrentdocumentText" xml:space="preserve">
+    <value>Текущий документ</value>
+    <comment>Current Document</comment>
+  </data>
+  <data name="FindandreplaceheaderText" xml:space="preserve">
+    <value>Найти и заменить</value>
+    <comment>Find and Replace</comment>
+  </data>
+  <data name="FindsymbolText" xml:space="preserve">
+    <value>Найти Символ</value>
+    <comment>Find Symbol</comment>
+  </data>
+  <data name="SelectionText" xml:space="preserve">
+    <value>Выбор</value>
+    <comment>Selection</comment>
+  </data>
+  <data name="SwitchtofindsymboltooltipText" xml:space="preserve">
+    <value>Переключитесь на поиск символа</value>
+    <comment>Switch to Find Symbol</comment>
+  </data>
+  <data name="SwitchtoquickfindtooltipText" xml:space="preserve">
+    <value>Переключитесь на Быстрый поиск</value>
+    <comment>Switch to Quick Search</comment>
+  </data>
+  <data name="OKButtonText" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="GoToLineHeaderText" xml:space="preserve">
+    <value>Перейти К Строке</value>
+    <comment>Go To Line</comment>
+  </data>
+  <data name="LineNumberText" xml:space="preserve">
+    <value>Номер строки</value>
+    <comment>Line number</comment>
+  </data>
+  <data name="SaveChangesMessage" xml:space="preserve">
+    <value>Файл был изменен, вы хотите сохранить файл?</value>
+    <comment>File was changed, do you want to save the file?</comment>
+  </data>
+  <data name="SaveChangesTitle" xml:space="preserve">
+    <value>Сохранить изменения</value>
+    <comment>Save changes</comment>
+  </data>
+  <data name="ColumnNumberText" xml:space="preserve">
+    <value>Col</value>
+    <comment>???</comment>
+  </data>
+  <data name="CurrentLineNumberText" xml:space="preserve">
+    <value>Ln</value>
+    <comment>???</comment>
+  </data>
+  <data name="StatusMessageText" xml:space="preserve">
+    <value>Готов</value>
+    <comment>Ready</comment>
+  </data>
+  <data name="NoResultsFoundText" xml:space="preserve">
+    <value>Поиск не дал результатов</value>
+    <comment>Search found no results</comment>
+  </data>
+  <data name="NoOccuranceFoundText" xml:space="preserve">
+    <value>There are no more occurances of the text specified</value>
+    <comment>????</comment>
+  </data>
+  <data name="TextNotFoundText" xml:space="preserve">
+    <value>Указанный текст не может быть найден</value>
+    <comment>The specified text cannot be found</comment>
+  </data>
+  <data name="FindReachedStartingPointText" xml:space="preserve">
+    <value>Найти достигнутую начальную точку указанного текста</value>
+    <comment>Find reached the starting point of the text specified</comment>
+  </data>
+  <data name="MatchesFoundText" xml:space="preserve">
+    <value>совпадения найдены</value>
+    <comment>matches found</comment>
+  </data>
+  <data name="ReplaceTextOccurence" xml:space="preserve">
+    <value>вхождения указанного текста были заменены</value>
+    <comment>occureances of the text specified have been replaced</comment>
+  </data>
+</root>

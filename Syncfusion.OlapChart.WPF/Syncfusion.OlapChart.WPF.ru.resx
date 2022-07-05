@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OlapChart_Dialog_Appearance_Tab" xml:space="preserve">
+    <value>Внешность</value>
+    <comment>Appearance</comment>
+  </data>
+  <data name="OlapChart_Dialog_AxisLabel_FontColor" xml:space="preserve">
+    <value>Цвет шрифта</value>
+    <comment>Font Color</comment>
+  </data>
+  <data name="OlapChart_Dialog_AxisLabel_FontFace" xml:space="preserve">
+    <value>Font Face</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Dialog_AxisLabel_FontStyle" xml:space="preserve">
+    <value>Стиль шрифта</value>
+    <comment>Font Style</comment>
+  </data>
+  <data name="OlapChart_Dialog_Axis_Tab" xml:space="preserve">
+    <value>Метки осей</value>
+    <comment>Axis Labels</comment>
+  </data>
+  <data name="OlapChart_Dialog_BackgroundStyle_Header" xml:space="preserve">
+    <value>Стиль фона</value>
+    <comment>Background Style</comment>
+  </data>
+  <data name="OlapChart_Dialog_BorderColor" xml:space="preserve">
+    <value>Цвет</value>
+    <comment>Color</comment>
+  </data>
+  <data name="OlapChart_Dialog_BorderStyle_Header" xml:space="preserve">
+    <value>Стиль границы</value>
+    <comment>Border Style</comment>
+  </data>
+  <data name="OlapChart_Dialog_BorderWidth" xml:space="preserve">
+    <value>Ширина</value>
+    <comment>Width</comment>
+  </data>
+  <data name="OlapChart_Dialog_CancleButton" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="OlapChart_Dialog_ChartBackground" xml:space="preserve">
+    <value>Управление диаграммой</value>
+    <comment>Chart Control</comment>
+  </data>
+  <data name="OlapChart_Dialog_ChartInterior" xml:space="preserve">
+    <value>Интерьер диаграммы</value>
+    <comment>Chart Interior</comment>
+  </data>
+  <data name="OlapChart_Dialog_ChartPalette" xml:space="preserve">
+    <value>Палитра диаграмм</value>
+    <comment>Chart Palette</comment>
+  </data>
+  <data name="OlapChart_Dialog_ChartStyle_Header" xml:space="preserve">
+    <value>Стиль диаграммы</value>
+    <comment>Chart Style</comment>
+  </data>
+  <data name="OlapChart_Dialog_ChartType" xml:space="preserve">
+    <value>Тип диаграммы</value>
+    <comment>Chart Type</comment>
+  </data>
+  <data name="OlapChart_Dialog_Chart_Tab" xml:space="preserve">
+    <value>Диаграмма</value>
+    <comment>Chart</comment>
+  </data>
+  <data name="OlapChart_Dialog_CircleAsSymbol" xml:space="preserve">
+    <value>Круг</value>
+    <comment>Circle</comment>
+  </data>
+  <data name="OlapChart_Dialog_LabelVisibility_Header" xml:space="preserve">
+    <value>Видимость этикетки</value>
+    <comment>Label Visibility</comment>
+  </data>
+  <data name="OlapChart_Dialog_LegendCheckBoxVisiblity" xml:space="preserve">
+    <value>Показать флажок</value>
+    <comment>Show CheckBox</comment>
+  </data>
+  <data name="OlapChart_Dialog_LegendPosition" xml:space="preserve">
+    <value>Позиция</value>
+    <comment>Position</comment>
+  </data>
+  <data name="OlapChart_Dialog_Legends_Header" xml:space="preserve">
+    <value>Legends</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Dialog_LegendVisibility" xml:space="preserve">
+    <value>Show Legend</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Dialog_OkButton" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="OlapChart_Context_Menu" xml:space="preserve">
+    <value>Типы диаграмм</value>
+    <comment>Chart Types</comment>
+  </data>
+  <data name="OlapChart_Dialog_Point_Labels_Tab" xml:space="preserve">
+    <value>Точечные метки</value>
+    <comment>Point Labels</comment>
+  </data>
+  <data name="OlapChart_Dialog_RectanglAsSymbol" xml:space="preserve">
+    <value>Прямоугольник</value>
+    <comment>Rectangle</comment>
+  </data>
+  <data name="OlapChart_Dialog_SeriesNameAsLabelContent" xml:space="preserve">
+    <value>Название серии</value>
+    <comment>Series Name</comment>
+  </data>
+  <data name="OlapChart_Dialog_SymbolVisibility_Header" xml:space="preserve">
+    <value>Видимость символа</value>
+    <comment>Symbol Visibility</comment>
+  </data>
+  <data name="OlapChart_Dialog_Title" xml:space="preserve">
+    <value>Диалоговое окно Отображения диаграммы</value>
+    <comment>Chart Appearance Dialog</comment>
+  </data>
+  <data name="OlapChart_Dialog_TriangleAsSymbol" xml:space="preserve">
+    <value>Треугольник</value>
+    <comment>Triangle</comment>
+  </data>
+  <data name="OlapChart_Dialog_XAxis_Header" xml:space="preserve">
+    <value>Ось X</value>
+    <comment>X Axis</comment>
+  </data>
+  <data name="OlapChart_Dialog_XValueAsLabelContent" xml:space="preserve">
+    <value>Значение X</value>
+    <comment>X Value</comment>
+  </data>
+  <data name="OlapChart_Dialog_Yaxis_Header" xml:space="preserve">
+    <value>Ось Y</value>
+    <comment>Y Axis</comment>
+  </data>
+  <data name="OlapChart_Dialog_YValueAsLabelContent" xml:space="preserve">
+    <value>Значение Y</value>
+    <comment>Y Value</comment>
+  </data>
+  <data name="OlapChart_ImageExport_Message" xml:space="preserve">
+    <value>Вы хотите просмотреть изображение?</value>
+    <comment>Do you want to view the image?</comment>
+  </data>
+  <data name="OlapChart_ImageExport_Success" xml:space="preserve">
+    <value>Сохраненное изображение</value>
+    <comment>Image Saved</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Area" xml:space="preserve">
+    <value>Область</value>
+    <comment>Area</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Bar" xml:space="preserve">
+    <value>Bar</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Column" xml:space="preserve">
+    <value>Колонка</value>
+    <comment>Column</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Funnel" xml:space="preserve">
+    <value>Воронка</value>
+    <comment>Funnel</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Line" xml:space="preserve">
+    <value>Линия</value>
+    <comment>Line</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Pie" xml:space="preserve">
+    <value>Pie</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Radar" xml:space="preserve">
+    <value>Радар</value>
+    <comment>Radar</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_RotatedSpline" xml:space="preserve">
+    <value>Повернутый Сплайн</value>
+    <comment>Rotated Spline</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Scatter" xml:space="preserve">
+    <value>Разброс</value>
+    <comment>Scatter</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_Spline" xml:space="preserve">
+    <value>Spline</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_SplineArea" xml:space="preserve">
+    <value>Spline Area</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_StackingArea" xml:space="preserve">
+    <value>Зона штабелирования</value>
+    <comment>Stacking Area</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_StackingBar" xml:space="preserve">
+    <value>Штабелирующая планка</value>
+    <comment>Stacking Bar</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_StackingColumn" xml:space="preserve">
+    <value>Штабелирующая колонна</value>
+    <comment>Stacking Column</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_StackingColumn100" xml:space="preserve">
+    <value>Штабелирующая колонна 100</value>
+    <comment>Stacking Column 100</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_StepArea" xml:space="preserve">
+    <value>Область шага</value>
+    <comment>Step Area</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartTypes_StepLine" xml:space="preserve">
+    <value>Шаговая линия</value>
+    <comment>Step Line</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_Analog" xml:space="preserve">
+    <value>Аналог</value>
+    <comment>Analog</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_Colorful" xml:space="preserve">
+    <value>Красочный</value>
+    <comment>Colorful</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_Custom" xml:space="preserve">
+    <value>Обычай</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_Earthtone" xml:space="preserve">
+    <value>Earth Tone</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_GrayScale" xml:space="preserve">
+    <value>Gray Scale</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_Nature" xml:space="preserve">
+    <value>Nature</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_Pastel" xml:space="preserve">
+    <value>Pastel</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_Triad" xml:space="preserve">
+    <value>Triad</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_WarmCold" xml:space="preserve">
+    <value>Warm Cold</value>
+    <comment>???</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_Default" xml:space="preserve">
+    <value>По умолчанию</value>
+    <comment>Default</comment>
+  </data>
+  <data name="OlapChart_Appearance_ChartColorPalette_DefaultAlpha" xml:space="preserve">
+    <value>Альфа-версия по умолчанию</value>
+    <comment>Default Alpha</comment>
+  </data>
+  <data name="OlapChart_Appearance_Dialog_Error" xml:space="preserve">
+    <value>Ошибка при открытии диалогового окна свойств</value>
+    <comment>Error in Opening Property Dialog</comment>
+  </data>
+  <data name="OlapChart_ImageExport_NotValid_Message" xml:space="preserve">
+    <value>это недопустимый формат изображения.</value>
+    <comment>is not a valid image format.</comment>
+  </data>
+  <data name="OlapChart_ImageExport_Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+    <comment>Warning</comment>
+  </data>
+  <data name="OlapChart_AfterRefreshEvent" xml:space="preserve">
+    <value>Событие AfterRefresh</value>
+    <comment>AfterRefresh event</comment>
+  </data>
+  <data name="OlapChart_AreaBorder_Exception" xml:space="preserve">
+    <value>Диаграмма OLAP должна иметь границу с именем \"PART_Area Border\" в корне ее дерева шаблонов</value>
+    <comment>OLAP Chart must have border with name \"PART_AreaBorder\" in the root of its template tree</comment>
+  </data>
+  <data name="OlapChart_BeforeRefreshEvent" xml:space="preserve">
+    <value>Перед событием обновления</value>
+    <comment>BeforeRefresh event</comment>
+  </data>
+  <data name="OlapChart_ChartArea_Exception" xml:space="preserve">
+    <value>Шаблон диаграммы Olap должен содержать область диаграммы Olap</value>
+    <comment>OlapChart template must contain OlapChartArea</comment>
+  </data>
+  <data name="OlapChart_ColorModelProperty" xml:space="preserve">
+    <value>Свойство цветовой модели</value>
+    <comment>ColorModel property</comment>
+  </data>
+  <data name="OlapChart_LabelPanel_Exception" xml:space="preserve">
+    <value>Обратное преобразование не поддерживается панелью Olap</value>
+    <comment>Back conversion is not supported by OlapPanel</comment>
+  </data>
+  <data name="OlapChart_LabelPanel_OrientationException" xml:space="preserve">
+    <value>ориентация не поддерживается панелью Olap</value>
+    <comment>orientation is not supported by OlapPanel</comment>
+  </data>
+  <data name="OlapChart_OnSaveCommand_Exception" xml:space="preserve">
+    <value>\"\"Часть шаблона PART_OlapArea\" элемента управления диаграммой не может быть извлечена.</value>
+    <comment>\"\"PART_OlapArea\" template part of chart control cannot be retrieved.</comment>
+  </data>
+  <data name="OlapChart_PrimaryAxis_Exception" xml:space="preserve">
+    <value>Используйте свойство PrimaryOlapAxis для OlapArea</value>
+    <comment>Use PrimaryOlapAxis property for OlapArea</comment>
+  </data>
+  <data name="OlapChart_SeriesProperty" xml:space="preserve">
+    <value>Свойство серии</value>
+    <comment>Series property</comment>
+  </data>
+  <data name="OlapChart_SeriesToolTip_Converter_Exception" xml:space="preserve">
+    <value>Не удается преобразовать всплывающую подсказку в соответствующий тип диаграммы</value>
+    <comment>Cannot convert ToolTip to corresponding chart type</comment>
+  </data>
+  <data name="OlapChart_VerifyAreaAccess_Exception" xml:space="preserve">
+    <value>Шаблон диаграммы Olap должен быть применен перед доступом</value>
+    <comment>OlapChart template should be applied before accessing</comment>
+  </data>
+  <data name="StackTrace_Exception_Description" xml:space="preserve">
+    <value>Для получения более подробной информации, пожалуйста, обратитесь к файлу журнала из :</value>
+    <comment>For more details, please refer the log file from :</comment>
+  </data>
+</root>

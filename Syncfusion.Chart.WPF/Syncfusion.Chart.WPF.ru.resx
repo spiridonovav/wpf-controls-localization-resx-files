@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Analog" xml:space="preserve">
+    <value>Analog</value>
+    <comment>????</comment>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Область</value>
+    <comment>Area</comment>
+  </data>
+  <data name="Bar" xml:space="preserve">
+    <value>Bar</value>
+    <comment>???</comment>
+  </data>
+  <data name="BoxAndWhisker" xml:space="preserve">
+    <value>Box And Whisker</value>
+    <comment>???</comment>
+  </data>
+  <data name="Bubble" xml:space="preserve">
+    <value>Пузырь</value>
+    <comment>Bubble</comment>
+  </data>
+  <data name="Candle" xml:space="preserve">
+    <value>Свеча</value>
+    <comment>Candle</comment>
+  </data>
+  <data name="ChangeType" xml:space="preserve">
+    <value>Изменить Тип</value>
+    <comment>Change Type</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+    <comment>Close</comment>
+  </data>
+  <data name="Colorful" xml:space="preserve">
+    <value>Красочный</value>
+    <comment>Colorful</comment>
+  </data>
+  <data name="ColorPalette" xml:space="preserve">
+    <value>Цветовая палитра</value>
+    <comment>Color Palette</comment>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Колонка</value>
+    <comment>Column</comment>
+  </data>
+  <data name="contextMenuPalettes" xml:space="preserve">
+    <value>Палитры</value>
+    <comment>Palettes</comment>
+  </data>
+  <data name="contextMenuSeries" xml:space="preserve">
+    <value>Серии</value>
+    <comment>Series</comment>
+  </data>
+  <data name="contextMenuZoomAll" xml:space="preserve">
+    <value>Увеличить Все</value>
+    <comment>Zoom All</comment>
+  </data>
+  <data name="contextMenuZooming" xml:space="preserve">
+    <value>Масштабирование</value>
+    <comment>Zooming</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Custom</value>
+    <comment>???</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>По умолчанию</value>
+    <comment>Default</comment>
+  </data>
+  <data name="DefaultAlpha" xml:space="preserve">
+    <value>Альфа-версия по умолчанию</value>
+    <comment>DefaultAlpha</comment>
+  </data>
+  <data name="DefaultDark" xml:space="preserve">
+    <value>По умолчанию Темный</value>
+    <comment>DefaultDark</comment>
+  </data>
+  <data name="Doughnut" xml:space="preserve">
+    <value>Doughnut</value>
+    <comment>???</comment>
+  </data>
+  <data name="EarthTone" xml:space="preserve">
+    <value>Земляной оттенок</value>
+    <comment>EarthTone</comment>
+  </data>
+  <data name="EnableZooming" xml:space="preserve">
+    <value>Включить масштабирование</value>
+    <comment>Enable Zooming</comment>
+  </data>
+  <data name="FastColumn" xml:space="preserve">
+    <value>Быстрая колонка</value>
+    <comment>FastColumn</comment>
+  </data>
+  <data name="FastHiLoOpenClose" xml:space="preserve">
+    <value>FastHiLoOpenClose</value>
+    <comment>???</comment>
+  </data>
+  <data name="FastLine" xml:space="preserve">
+    <value>Быстрая линия</value>
+    <comment>FastLine</comment>
+  </data>
+  <data name="FastScatter" xml:space="preserve">
+    <value>FastScatter</value>
+    <comment>????</comment>
+  </data>
+  <data name="FastStackingColumn" xml:space="preserve">
+    <value>Колонна Быстрого штабелирования</value>
+    <comment>FastStackingColumn</comment>
+  </data>
+  <data name="Funnel" xml:space="preserve">
+    <value>Воронка</value>
+    <comment>Funnel</comment>
+  </data>
+  <data name="Gantt" xml:space="preserve">
+    <value>Gantt</value>
+    <comment>???</comment>
+  </data>
+  <data name="Gradient" xml:space="preserve">
+    <value>Градиент</value>
+    <comment>Gradient</comment>
+  </data>
+  <data name="Grayscale" xml:space="preserve">
+    <value>Полутоновый</value>
+    <comment>Grayscale</comment>
+  </data>
+  <data name="HiLo" xml:space="preserve">
+    <value>HiLo</value>
+    <comment>???</comment>
+  </data>
+  <data name="HiLoArea" xml:space="preserve">
+    <value>HiLoArea</value>
+    <comment>???</comment>
+  </data>
+  <data name="HiLoOpenClose" xml:space="preserve">
+    <value>HiLoOpenClose</value>
+    <comment>???</comment>
+  </data>
+  <data name="Histogram" xml:space="preserve">
+    <value>Гистограмма</value>
+    <comment>Histogram</comment>
+  </data>
+  <data name="Kagi" xml:space="preserve">
+    <value>Kagi</value>
+    <comment>???</comment>
+  </data>
+  <data name="LegendWindowCancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="LegendWindowCheckBox" xml:space="preserve">
+    <value>CheckBox</value>
+    <comment>???</comment>
+  </data>
+  <data name="LegendWindowIcon" xml:space="preserve">
+    <value>Иконка</value>
+    <comment>Icon</comment>
+  </data>
+  <data name="LegendWindowOK" xml:space="preserve">
+    <value>Ок</value>
+    <comment>Ok</comment>
+  </data>
+  <data name="LegendWindowTitle" xml:space="preserve">
+    <value>Свойства условных обозначений диаграммы</value>
+    <comment>Chart Legend Properties</comment>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Линия</value>
+    <comment>Line</comment>
+  </data>
+  <data name="Nature" xml:space="preserve">
+    <value>Nature</value>
+    <comment>???</comment>
+  </data>
+  <data name="Office2007Black" xml:space="preserve">
+    <value>Офис2007 черный</value>
+    <comment>Office2007Black</comment>
+  </data>
+  <data name="Office2007Blue" xml:space="preserve">
+    <value>офис2007 синий</value>
+    <comment>Office2007Blue</comment>
+  </data>
+  <data name="Office2007Silver" xml:space="preserve">
+    <value>Офис2007 серебряный </value>
+    <comment>Office2007Silver</comment>
+  </data>
+  <data name="MixedGray" xml:space="preserve">
+    <value>Ярко-Серый</value>
+    <comment>BrightGray</comment>
+  </data>
+  <data name="BlueScale" xml:space="preserve">
+    <value>BlueWave</value>
+    <comment>????</comment>
+  </data>
+  <data name="MaroonRed" xml:space="preserve">
+    <value>MaroonRed</value>
+    <comment>???</comment>
+  </data>
+  <data name="GreenScale" xml:space="preserve">
+    <value>Весенняя Зелень</value>
+    <comment>SpringGreen</comment>
+  </data>
+  <data name="MixedViolet" xml:space="preserve">
+    <value>Смешанный Фиолетовый</value>
+    <comment>MixedViolet</comment>
+  </data>
+  <data name="CoolBlueScale" xml:space="preserve">
+    <value>Холодный синий</value>
+    <comment>CoolBlue</comment>
+  </data>
+  <data name="ChocolateOrange" xml:space="preserve">
+    <value>ChocolateOrange</value>
+    <comment>????</comment>
+  </data>
+  <data name="MixedFantasy" xml:space="preserve">
+    <value>MixedFantasy</value>
+    <comment>???</comment>
+  </data>
+  <data name="Panning" xml:space="preserve">
+    <value>Панорамирование</value>
+    <comment>Panning</comment>
+  </data>
+  <data name="Pastel" xml:space="preserve">
+    <value>Pastel</value>
+    <comment>???</comment>
+  </data>
+  <data name="Pie" xml:space="preserve">
+    <value>Pie</value>
+    <comment>???</comment>
+  </data>
+  <data name="PointAndFigure" xml:space="preserve">
+    <value>PointAndFigure</value>
+    <comment>???</comment>
+  </data>
+  <data name="Polar" xml:space="preserve">
+    <value>Полярный</value>
+    <comment>Polar</comment>
+  </data>
+  <data name="printDialogAdvanced" xml:space="preserve">
+    <value>Передовой...</value>
+    <comment>Advanced...</comment>
+  </data>
+  <data name="printDialogBWMode" xml:space="preserve">
+    <value>Черно-Белый Режим</value>
+    <comment>Black And White Mode</comment>
+  </data>
+  <data name="printDialogCancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="printDialogColorMode" xml:space="preserve">
+    <value>Цветовой режим</value>
+    <comment>Color Mode</comment>
+  </data>
+  <data name="printDialogPrint" xml:space="preserve">
+    <value>Печать</value>
+    <comment>Print</comment>
+  </data>
+  <data name="printDialogPrintStretch" xml:space="preserve">
+    <value>Print Stretch</value>
+    <comment>???</comment>
+  </data>
+  <data name="printDialogPrintMode" xml:space="preserve">
+    <value>Режим печати</value>
+    <comment>Print Mode</comment>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Свойства</value>
+    <comment>Properties</comment>
+  </data>
+  <data name="Pyramid" xml:space="preserve">
+    <value>Пирамида</value>
+    <comment>Pyramid</comment>
+  </data>
+  <data name="Radar" xml:space="preserve">
+    <value>Радар</value>
+    <comment>Radar</comment>
+  </data>
+  <data name="RangeArea" xml:space="preserve">
+    <value>Зона действия</value>
+    <comment>Range Area</comment>
+  </data>
+  <data name="RangeColumn" xml:space="preserve">
+    <value>Столбец диапазона</value>
+    <comment>Range Column</comment>
+  </data>
+  <data name="Renko" xml:space="preserve">
+    <value>Renko</value>
+    <comment>???</comment>
+  </data>
+  <data name="ResetZoom" xml:space="preserve">
+    <value>Сброс масштаба</value>
+    <comment>Reset Zoom</comment>
+  </data>
+  <data name="RotatedSpline" xml:space="preserve">
+    <value>RotatedSpline</value>
+    <comment>???</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Save</comment>
+  </data>
+  <data name="Scatter" xml:space="preserve">
+    <value>Разброс</value>
+    <comment>Scatter</comment>
+  </data>
+  <data name="Spline" xml:space="preserve">
+    <value>Spline</value>
+    <comment>???</comment>
+  </data>
+  <data name="SplineArea" xml:space="preserve">
+    <value>SplineArea</value>
+    <comment>???</comment>
+  </data>
+  <data name="StackingArea" xml:space="preserve">
+    <value>Зона штабелирования</value>
+    <comment>StackingArea</comment>
+  </data>
+  <data name="StackingLine" xml:space="preserve">
+    <value>Штабелирующая линия</value>
+    <comment>StackingLine</comment>
+  </data>
+  <data name="StackingLine100" xml:space="preserve">
+    <value>Штабелирующая линия 100</value>
+    <comment>StackingLine100</comment>
+  </data>
+  <data name="StackingSpline" xml:space="preserve">
+    <value>StackingSpline</value>
+    <comment>???</comment>
+  </data>
+  <data name="StackingSpline100" xml:space="preserve">
+    <value>StackingSpline100</value>
+    <comment>???</comment>
+  </data>
+  <data name="StackingSplineArea" xml:space="preserve">
+    <value>StackingSplineArea</value>
+    <comment>???</comment>
+  </data>
+  <data name="StackingSplineArea100" xml:space="preserve">
+    <value>StackingSplineArea100</value>
+    <comment>???</comment>
+  </data>
+  <data name="StackingBar" xml:space="preserve">
+    <value>Штабелирующая планка</value>
+    <comment>StackingBar</comment>
+  </data>
+  <data name="StackingBar100" xml:space="preserve">
+    <value>Штабелирующая планка 100</value>
+    <comment>StackingBar100</comment>
+  </data>
+  <data name="StackingColumn" xml:space="preserve">
+    <value>StackingColumn</value>
+    <comment>StackingColumn</comment>
+  </data>
+  <data name="StackingColumn100" xml:space="preserve">
+    <value>Штабелирующая колонна 100</value>
+    <comment>StackingColumn100</comment>
+  </data>
+  <data name="StepArea" xml:space="preserve">
+    <value>Область шага</value>
+    <comment>StepArea</comment>
+  </data>
+  <data name="StepLine" xml:space="preserve">
+    <value>Шаговая линия</value>
+    <comment>StepLine</comment>
+  </data>
+  <data name="style" xml:space="preserve">
+    <value>Стиль</value>
+    <comment>Style</comment>
+  </data>
+  <data name="ThreeLineBreak" xml:space="preserve">
+    <value>Разделение на Три Строки</value>
+    <comment>ThreeLineBreak</comment>
+  </data>
+  <data name="ToolbarLegend" xml:space="preserve">
+    <value>Show/Hide Legend</value>
+    <comment>???</comment>
+  </data>
+  <data name="ToolbarPrint" xml:space="preserve">
+    <value>Печать</value>
+    <comment>Print</comment>
+  </data>
+  <data name="ToolbarSwitchPrint" xml:space="preserve">
+    <value>Переключение режима Печати</value>
+    <comment>Switch Print Mode</comment>
+  </data>
+  <data name="Tornado" xml:space="preserve">
+    <value>Торнадо</value>
+    <comment>Tornado</comment>
+  </data>
+  <data name="Triad" xml:space="preserve">
+    <value>Триада</value>
+    <comment>Triad</comment>
+  </data>
+  <data name="WarmCold" xml:space="preserve">
+    <value>WarmCold</value>
+    <comment>???</comment>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Увеличить Масштаб</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Уменьшить маштаб</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="AlternatingGridBackground" xml:space="preserve">
+    <value>Фон :</value>
+    <comment>Background :</comment>
+  </data>
+  <data name="AlternatingGridBackgrounDirection" xml:space="preserve">
+    <value>Фоновое направление :</value>
+    <comment>Background Direction :</comment>
+  </data>
+  <data name="AlternatingGridBackgrounMode" xml:space="preserve">
+    <value>Фоновый режим :</value>
+    <comment>Background Mode :</comment>
+  </data>
+  <data name="AnimationOption" xml:space="preserve">
+    <value>Опция анимации :</value>
+    <comment>Animation Option :</comment>
+  </data>
+  <data name="Appearance" xml:space="preserve">
+    <value>Внешность</value>
+    <comment>Appearance</comment>
+  </data>
+  <data name="AutoSetRange" xml:space="preserve">
+    <value>Auto Set Range</value>
+    <comment>???</comment>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Фон :</value>
+    <comment>Background :</comment>
+  </data>
+  <data name="BorderBrush" xml:space="preserve">
+    <value>Бордюрная кисть :</value>
+    <comment>Border Brush :</comment>
+  </data>
+  <data name="BorderThickness" xml:space="preserve">
+    <value>Толщина границы :</value>
+    <comment>Border Thickness :</comment>
+  </data>
+  <data name="ChartAxis" xml:space="preserve">
+    <value>Ось диаграммы</value>
+    <comment>Chart Axis</comment>
+  </data>
+  <data name="ChartVisualStyle" xml:space="preserve">
+    <value>Визуальный стиль диаграммы</value>
+    <comment>Chart Visual Style</comment>
+  </data>
+  <data name="ChartArea" xml:space="preserve">
+    <value>Область Диаграммы</value>
+    <comment>Chart Area Legend</comment>
+  </data>
+  <data name="ChartAreaLegend" xml:space="preserve">
+    <value>Область Диаграммы</value>
+    <comment>Chart Area Legend</comment>
+  </data>
+  <data name="ChartLegend" xml:space="preserve">
+    <value>Условные обозначения диаграммы</value>
+    <comment>Chart Legend</comment>
+  </data>
+  <data name="ChartSeries" xml:space="preserve">
+    <value>Серия диаграмм</value>
+    <comment>Chart Series</comment>
+  </data>
+  <data name="CheckBoxVisibility" xml:space="preserve">
+    <value>Видимость флажка :</value>
+    <comment>Checkbox Visibility :</comment>
+  </data>
+  <data name="CornerRadius" xml:space="preserve">
+    <value>Радиус угла :</value>
+    <comment>Corner Radius :</comment>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Данные</value>
+    <comment>Data</comment>
+  </data>
+  <data name="DateTimeInterval" xml:space="preserve">
+    <value>Интервал времени и даты :</value>
+    <comment>DateTime Interval :</comment>
+  </data>
+  <data name="DateTimeRange" xml:space="preserve">
+    <value>Диапазон даты и времени :</value>
+    <comment>DateTime Range :</comment>
+  </data>
+  <data name="DesiredIntervalCount" xml:space="preserve">
+    <value>Желаемое количество интервалов :</value>
+    <comment>Desired Interval Count :</comment>
+  </data>
+  <data name="EdgeLabelDrawingMode" xml:space="preserve">
+    <value>Режим рисования краевой метки :</value>
+    <comment>Edge Label DrawingMode :</comment>
+  </data>
+  <data name="EmptyPointsInterior" xml:space="preserve">
+    <value>Пустые Точки Внутри :</value>
+    <comment>Empty Points Interior :</comment>
+  </data>
+  <data name="EnableContextMenu" xml:space="preserve">
+    <value>Включить контекстное меню</value>
+    <comment>Enable ContextMenu</comment>
+  </data>
+  <data name="EnableZoomOnScroll" xml:space="preserve">
+    <value>Масштабирование При Прокрутке</value>
+    <comment>Enable Zoom On Scroll</comment>
+  </data>
+  <data name="Foreground" xml:space="preserve">
+    <value>Передний план :</value>
+    <comment>Foreground :</comment>
+  </data>
+  <data name="GridRegionProperties" xml:space="preserve">
+    <value>Альтернативный Фон</value>
+    <comment>Alternative Background</comment>
+  </data>
+  <data name="GridBackground" xml:space="preserve">
+    <value>Фон сетки :</value>
+    <comment>Grid Background :</comment>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Заголовок  :</value>
+    <comment>Header  :</comment>
+  </data>
+  <data name="HeaderAlignment" xml:space="preserve">
+    <value>Выравнивание заголовка :</value>
+    <comment>Header Alignment :</comment>
+  </data>
+  <data name="HidePartialLabels" xml:space="preserve">
+    <value>Скрыть Частичные метки</value>
+    <comment>Hide Partial Labels</comment>
+  </data>
+  <data name="IconVisibility" xml:space="preserve">
+    <value>Видимость значка :</value>
+    <comment>Icon Visibility :</comment>
+  </data>
+  <data name="InteractiveFeatures" xml:space="preserve">
+    <value>Интерактивные функции</value>
+    <comment>Interactive Features</comment>
+  </data>
+  <data name="Interior" xml:space="preserve">
+    <value>Интерьер :</value>
+    <comment>Interior :</comment>
+  </data>
+  <data name="IntersectAction" xml:space="preserve">
+    <value>Пересекающееся действие :</value>
+    <comment>Intersect Action :</comment>
+  </data>
+  <data name="Interval" xml:space="preserve">
+    <value>Интервал :</value>
+    <comment>Interval :</comment>
+  </data>
+  <data name="IsRotated" xml:space="preserve">
+    <value>Вращается</value>
+    <comment>Is Rotated</comment>
+  </data>
+  <data name="IsSorted" xml:space="preserve">
+    <value>Сортируется</value>
+    <comment>Is Sorted</comment>
+  </data>
+  <data name="IsVisibleOnLegend" xml:space="preserve">
+    <value>Is Visible on Legend</value>
+    <comment>???</comment>
+  </data>
+  <data name="IsZoomable" xml:space="preserve">
+    <value>Является Масштабируемым</value>
+    <comment>Is Zoomable</comment>
+  </data>
+  <data name="IsLograthimic" xml:space="preserve">
+    <value>Is Lograthimic</value>
+    <comment>???</comment>
+  </data>
+  <data name="LabelBorderBrush" xml:space="preserve">
+    <value>Кисть для границы этикетки :</value>
+    <comment>Label Border Brush :</comment>
+  </data>
+  <data name="LabelBorderThickness" xml:space="preserve">
+    <value>Толщина границы этикетки :</value>
+    <comment>Label Border Thickness :</comment>
+  </data>
+  <data name="LabelCornerRadius" xml:space="preserve">
+    <value>Радиус угла этикетки :</value>
+    <comment>Label Corner Radius :</comment>
+  </data>
+  <data name="LabelDateTimeFormat" xml:space="preserve">
+    <value>Формат даты и времени этикетки :</value>
+    <comment>Label DateTime Format :</comment>
+  </data>
+  <data name="LabelForeground" xml:space="preserve">
+    <value>Надпись На переднем плане :</value>
+    <comment>Label Foreground :</comment>
+  </data>
+  <data name="LabelFormat" xml:space="preserve">
+    <value>Формат этикетки :</value>
+    <comment>Label Format :</comment>
+  </data>
+  <data name="LabelRotateAngle" xml:space="preserve">
+    <value>Угол поворота этикетки :</value>
+    <comment>Label Rotate Angle :</comment>
+  </data>
+  <data name="LabelsMode" xml:space="preserve">
+    <value>Режим этикетки :</value>
+    <comment>Labels Mode :</comment>
+  </data>
+  <data name="LagrathimicRange" xml:space="preserve">
+    <value>Логарифмический диапазон</value>
+    <comment>Lagrathimic Range</comment>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Legend</value>
+    <comment>???</comment>
+  </data>
+  <data name="LegendIcon" xml:space="preserve">
+    <value>Legend Icon :</value>
+    <comment>???</comment>
+  </data>
+  <data name="LegendLabel" xml:space="preserve">
+    <value>Legend Label :</value>
+    <comment>???</comment>
+  </data>
+  <data name="LineStroke" xml:space="preserve">
+    <value>Штриховая линия :</value>
+    <comment>Line Stroke :</comment>
+  </data>
+  <data name="LograthimicBase" xml:space="preserve">
+    <value>Логарифмическое основание :</value>
+    <comment>Lograthimic Base :</comment>
+  </data>
+  <data name="Margin" xml:space="preserve">
+    <value>Прибыль :</value>
+    <comment>Margin :</comment>
+  </data>
+  <data name="OpposedPosition" xml:space="preserve">
+    <value>Противоположная позиция</value>
+    <comment>Opposed Position</comment>
+  </data>
+  <data name="Orientation" xml:space="preserve">
+    <value>Ориентация :</value>
+    <comment>Orientation :</comment>
+  </data>
+  <data name="Origin" xml:space="preserve">
+    <value>Origin :</value>
+    <comment>???</comment>
+  </data>
+  <data name="Padding" xml:space="preserve">
+    <value>Набивка :</value>
+    <comment>Padding :</comment>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>Диапазон :</value>
+    <comment>Range :</comment>
+  </data>
+  <data name="RangeCalculationMode" xml:space="preserve">
+    <value>Режим расчета дальности :</value>
+    <comment>Range Calculation Mode :</comment>
+  </data>
+  <data name="RangePadding" xml:space="preserve">
+    <value>Заполнение диапазона :</value>
+    <comment>Range Padding :</comment>
+  </data>
+  <data name="SelectChartArea" xml:space="preserve">
+    <value>Выберите область диаграммы:</value>
+    <comment>Select Chart Area:</comment>
+  </data>
+  <data name="SelectChartAxis" xml:space="preserve">
+    <value>Выберите Ось диаграммы</value>
+    <comment>Select Chart Axis</comment>
+  </data>
+  <data name="SelectChartLegend" xml:space="preserve">
+    <value>Выберите Условные обозначения диаграммы</value>
+    <comment>Select Chart Legend</comment>
+  </data>
+  <data name="SelectChartSeries" xml:space="preserve">
+    <value>Выберите серию диаграмм</value>
+    <comment>Select Chart Series</comment>
+  </data>
+  <data name="ShowSeriesEmptyPoints" xml:space="preserve">
+    <value>Показывать Пустые Точки Серии</value>
+    <comment>Show Series Empty Points</comment>
+  </data>
+  <data name="ShowSymbol" xml:space="preserve">
+    <value>Показать Символ</value>
+    <comment>Show Symbol</comment>
+  </data>
+  <data name="SmallTickLinesStroke" xml:space="preserve">
+    <value>Штриховка Небольших Тиковых Линий :</value>
+    <comment>Small Tick Lines Stroke :</comment>
+  </data>
+  <data name="SmallTickSize" xml:space="preserve">
+    <value>Small Tick Size :</value>
+    <comment>???</comment>
+  </data>
+  <data name="SmallTicksPerInterval" xml:space="preserve">
+    <value>Small Ticks Per Interval :</value>
+    <comment>???</comment>
+  </data>
+  <data name="Stroke" xml:space="preserve">
+    <value>Stroke :</value>
+    <comment>???</comment>
+  </data>
+  <data name="StrokeThickness" xml:space="preserve">
+    <value>Толщина хода :</value>
+    <comment>Stroke Thickness :</comment>
+  </data>
+  <data name="TickLineStroke" xml:space="preserve">
+    <value>Tick Line Stroke :</value>
+    <comment>???</comment>
+  </data>
+  <data name="TickSize" xml:space="preserve">
+    <value>Tick Size :</value>
+    <comment>???</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип</value>
+    <comment>Type</comment>
+  </data>
+  <data name="Value Type" xml:space="preserve">
+    <value>Тип значения</value>
+    <comment>Value Type</comment>
+  </data>
+  <data name="VisualStyle" xml:space="preserve">
+    <value>Визуальный Стиль</value>
+    <comment>Visual Style</comment>
+  </data>
+  <data name="AnimateSeriesonebyone" xml:space="preserve">
+    <value>Animate Series one by one</value>
+    <comment>??????</comment>
+  </data>
+  <data name="EmptyPointsStyle" xml:space="preserve">
+    <value>Стиль Пустой точки :</value>
+    <comment>Empty Point Style :</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="LabelBackground" xml:space="preserve">
+    <value>Фон этикетки :</value>
+    <comment>Label Background :</comment>
+  </data>
+  <data name="ValueType" xml:space="preserve">
+    <value>Тип значения:</value>
+    <comment>Value Type :</comment>
+  </data>
+  <data name="AxisHeader" xml:space="preserve">
+    <value>Auto Set Range</value>
+    <comment>???</comment>
+  </data>
+  <data name="AxisPosition" xml:space="preserve">
+    <value>Положение оси</value>
+    <comment>Axis Position</comment>
+  </data>
+  <data name="AxisType" xml:space="preserve">
+    <value>Тип оси</value>
+    <comment>Axis Type</comment>
+  </data>
+  <data name="LabelSettings" xml:space="preserve">
+    <value>Настройки этикетки</value>
+    <comment>Label Settings</comment>
+  </data>
+  <data name="RangeAndInterval" xml:space="preserve">
+    <value>Диапазон и интервал</value>
+    <comment>Range and Interval</comment>
+  </data>
+  <data name="EnableAnimation" xml:space="preserve">
+    <value>Включить анимацию</value>
+    <comment>Enable Animation</comment>
+  </data>
+  <data name="LograthimicRange" xml:space="preserve">
+    <value>Логарифмический диапазон :</value>
+    <comment>Lograthimic Range :</comment>
+  </data>
+  <data name="ChartType" xml:space="preserve">
+    <value>Тип диаграммы :</value>
+    <comment>Chart Type :</comment>
+  </data>
+  <data name="ChartProperties" xml:space="preserve">
+    <value>Свойства диаграммы</value>
+    <comment>Chart Properties</comment>
+  </data>
+  <data name="LegendPosition" xml:space="preserve">
+    <value>Legend Position</value>
+    <comment>???</comment>
+  </data>
+  <data name="Chart" xml:space="preserve">
+    <value>Диаграмма</value>
+    <comment>Chart Area</comment>
+  </data>
+  <data name="ChartPropertiesDialogTitle" xml:space="preserve">
+    <value>Диалоговое окно Свойств диаграммы</value>
+    <comment>Chart Properties Dialog</comment>
+  </data>
+  <data name="ChartTypeHeader" xml:space="preserve">
+    <value>Тип диаграммы</value>
+    <comment>Chart Type</comment>
+  </data>
+  <data name="HeaderSettings" xml:space="preserve">
+    <value>Заголовок</value>
+    <comment>Header</comment>
+  </data>
+  <data name="FastBar" xml:space="preserve">
+    <value>FastBar</value>
+    <comment>???</comment>
+  </data>
+  <data name="StackingArea100" xml:space="preserve">
+    <value>Площадь штабелирования 100</value>
+    <comment>StackingArea100</comment>
+  </data>
+</root>

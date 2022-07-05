@@ -1,0 +1,3391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accounting" xml:space="preserve">
+    <value>Учет</value>
+    <comment>Accounting</comment>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Выравнивание</value>
+    <comment>Alignment</comment>
+  </data>
+  <data name="AllBorder" xml:space="preserve">
+    <value>Все Границы</value>
+    <comment>All Borders</comment>
+  </data>
+  <data name="Border" xml:space="preserve">
+    <value>Граница</value>
+    <comment>Border</comment>
+  </data>
+  <data name="BottomBorder" xml:space="preserve">
+    <value>Нижняя граница</value>
+    <comment>Bottom Border</comment>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>Сообщение</value>
+    <comment>Message</comment>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Буфер обмена</value>
+    <comment>Clipboard</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Валюта</value>
+    <comment>Currency</comment>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Резать</value>
+    <comment>Cut</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="ExistingName" xml:space="preserve">
+    <value>Невозможно переименовать лист с тем же именем, что и другой лист</value>
+    <comment>Cannot rename a sheet to the same name as other sheet</comment>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Шрифт</value>
+    <comment>Font</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Общие</value>
+    <comment>General</comment>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Скрыть</value>
+    <comment>Hide</comment>
+  </data>
+  <data name="ValidationMessage_FileOpen" xml:space="preserve">
+    <value>Не удается открыть указанный файл.</value>
+    <comment>Cannot open the specified file.</comment>
+  </data>
+  <data name="HLink_BrowseFilter" xml:space="preserve">
+    <value>Офисные файлы</value>
+    <comment>Office Files</comment>
+  </data>
+  <data name="HLink_Change" xml:space="preserve">
+    <value>Изменить...</value>
+    <comment>Change...</comment>
+  </data>
+  <data name="HLink_DefaultCell" xml:space="preserve">
+    <value>A1</value>
+    <comment>A1</comment>
+  </data>
+  <data name="HLink_Document" xml:space="preserve">
+    <value>Создать Новый Документ</value>
+    <comment>Create New Document</comment>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>ДОМ</value>
+    <comment>HOME</comment>
+  </data>
+  <data name="Incorrect" xml:space="preserve">
+    <value>Вы ввели неверное имя для листа. Убедитесь, что:
+
+1. Имя, которое вы вводите, не должно превышать 31 символа.
+2. Имя не содержит ни одного из следующих символов: : \/ ? * [ или ]
+3. Вы не оставили имя пустым.</value>
+    <comment>You typed invalid name for a sheet. Make sure that:
+
+1. The name that you type does not exceed 31 characters.
+2. The name does not contain any of following characters:  : \ / ? * [ or ]
+3. You did not leave the name blank.</comment>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Insert</comment>
+  </data>
+  <data name="LeftBorder" xml:space="preserve">
+    <value>Левая граница</value>
+    <comment>Left Border</comment>
+  </data>
+  <data name="LongDate" xml:space="preserve">
+    <value>Долгое Свидание</value>
+    <comment>Long Date</comment>
+  </data>
+  <data name="MergeAcross" xml:space="preserve">
+    <value>Слияние По</value>
+    <comment>Merge Across</comment>
+  </data>
+  <data name="MergeAndCenter" xml:space="preserve">
+    <value>Слияние и центрирование</value>
+    <comment>Merge &amp; Center</comment>
+  </data>
+  <data name="MergeCells" xml:space="preserve">
+    <value>Объединение ячеек</value>
+    <comment>Merge Cells</comment>
+  </data>
+  <data name="NoBorder" xml:space="preserve">
+    <value>Нет Границы</value>
+    <comment>No Border</comment>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Номер</value>
+    <comment>Number</comment>
+  </data>
+  <data name="OutSideBorder" xml:space="preserve">
+    <value>За пределами границ</value>
+    <comment>Outside Borders</comment>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Paste</comment>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Процент</value>
+    <comment>Percentage</comment>
+  </data>
+  <data name="Protect" xml:space="preserve">
+    <value>Защитите Лист...</value>
+    <comment>Protect Sheet...</comment>
+  </data>
+  <data name="ProtectSheetDesc" xml:space="preserve">
+    <value>Защита рабочего листа и содержимого заблокированных ячеек</value>
+    <comment>Protect worksheet and contents of locked cells</comment>
+  </data>
+  <data name="ProtectSheetDescription" xml:space="preserve">
+    <value>Пароль для снятия защиты с листа:</value>
+    <comment>Password to unprotect sheet:</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Переименовать</value>
+    <comment>Rename</comment>
+  </data>
+  <data name="RightBorder" xml:space="preserve">
+    <value>Правая граница</value>
+    <comment>Right Border</comment>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>(Выберите Все)</value>
+    <comment>(Select All)</comment>
+  </data>
+  <data name="SheetProtected" xml:space="preserve">
+    <value>Ячейка, которую вы пытаетесь изменить, защищена и поэтому доступна только для чтения</value>
+    <comment>The Cell that you are trying to change is Protected and therefore read only</comment>
+  </data>
+  <data name="ShortDate" xml:space="preserve">
+    <value>Короткое Свидание</value>
+    <comment>Short Date</comment>
+  </data>
+  <data name="ThickBoxBorder" xml:space="preserve">
+    <value>Толстая Окантовка Коробки</value>
+    <comment>Thick Box Border</comment>
+  </data>
+  <data name="ThickBottomBorder" xml:space="preserve">
+    <value>Толстая Нижняя Граница</value>
+    <comment>Thick Bottom Border</comment>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Время</value>
+    <comment>Time</comment>
+  </data>
+  <data name="TopAndBottomBorder" xml:space="preserve">
+    <value>Верхняя И Нижняя Границы</value>
+    <comment>Top And Bottom Border</comment>
+  </data>
+  <data name="TopandThickBottomBorder" xml:space="preserve">
+    <value>Верхняя и Толстая Нижняя граница</value>
+    <comment>Top and Thick Bottom Border</comment>
+  </data>
+  <data name="TopBorder" xml:space="preserve">
+    <value>Верхняя граница</value>
+    <comment>Top Border</comment>
+  </data>
+  <data name="UnHide" xml:space="preserve">
+    <value>Не скрывать...</value>
+    <comment>UnHide...</comment>
+  </data>
+  <data name="UnHideDescription" xml:space="preserve">
+    <value>Выберите лист, который будет скрыт</value>
+    <comment>Select the Sheet to be hided</comment>
+  </data>
+  <data name="UnMergeCells" xml:space="preserve">
+    <value>Разъединение Ячеек</value>
+    <comment>Unmerge Cells</comment>
+  </data>
+  <data name="UnProtect" xml:space="preserve">
+    <value>Снимите защитную простыню...</value>
+    <comment>UnProtect Sheet...</comment>
+  </data>
+  <data name="UnProtectSheetDesc" xml:space="preserve">
+    <value>Введите пароль, чтобы снять защиту с листа</value>
+    <comment>Enter Password to UnProtect the Sheet</comment>
+  </data>
+  <data name="WrapText" xml:space="preserve">
+    <value>Перенос текста</value>
+    <comment>Wrap Text</comment>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>Указанный вами пароль неверен. Убедитесь, что CAPSLOCK выключен, и повторите попытку</value>
+    <comment>The Password you supplied is not correct. Verify that CAPSLOCK is off and try again</comment>
+  </data>
+  <data name="ConditionalFormatting" xml:space="preserve">
+    <value>Условное форматирование</value>
+    <comment>Conditional Formatting</comment>
+  </data>
+  <data name="EncryptWithPassword" xml:space="preserve">
+    <value>Шифрование с помощью пароля</value>
+    <comment>Encrypt with Password</comment>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Инфо</value>
+    <comment>Info</comment>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+    <comment>Information</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Открыть</value>
+    <comment>Open</comment>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Разрешения</value>
+    <comment>Permissions</comment>
+  </data>
+  <data name="PermissionsDescription" xml:space="preserve">
+    <value>Описание разрешений</value>
+    <comment>PermissionsDescription</comment>
+  </data>
+  <data name="ProtectCurrentSheet" xml:space="preserve">
+    <value>Защитите Текущий Лист</value>
+    <comment>Protect Current Sheet</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Save</comment>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Сохранить Как</value>
+    <comment>Save As</comment>
+  </data>
+  <data name="Styles" xml:space="preserve">
+    <value>Стили</value>
+    <comment>Styles</comment>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>Между...</value>
+    <comment>Between...</comment>
+  </data>
+  <data name="BottomAlign" xml:space="preserve">
+    <value>Выравнивание по низу</value>
+    <comment>BottomAlign</comment>
+  </data>
+  <data name="CenterAlign" xml:space="preserve">
+    <value>Выравнивание по центру</value>
+    <comment>CenterAlign</comment>
+  </data>
+  <data name="ClearRules" xml:space="preserve">
+    <value>Четкие Правила</value>
+    <comment>Clear Rules</comment>
+  </data>
+  <data name="ClearRules_FromEntireSheet" xml:space="preserve">
+    <value>Очистить Правила от Всего Листа</value>
+    <comment>Clear Rules from Entire Sheet</comment>
+  </data>
+  <data name="ClearRules_FromSelectedCells" xml:space="preserve">
+    <value>Удаление правил из выбранных ячеек</value>
+    <comment>Clear Rules from Selected Cells</comment>
+  </data>
+  <data name="ColumnWidth" xml:space="preserve">
+    <value>Ширина столбца...</value>
+    <comment>Column Width...</comment>
+  </data>
+  <data name="CommaStyle" xml:space="preserve">
+    <value>Стиль запятой</value>
+    <comment>CommaStyle</comment>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Уменьшить Отступ</value>
+    <comment>DecreaseIndent</comment>
+  </data>
+  <data name="DeleteColumn" xml:space="preserve">
+    <value>Удаление столбцов Листа</value>
+    <comment>Delete Sheet Columns</comment>
+  </data>
+  <data name="DeleteRow" xml:space="preserve">
+    <value>Удаление строк Листа</value>
+    <comment>Delete Sheet Rows</comment>
+  </data>
+  <data name="DeleteSheet" xml:space="preserve">
+    <value>Удалить лист</value>
+    <comment>Delete Sheet</comment>
+  </data>
+  <data name="EqualTo" xml:space="preserve">
+    <value>Равно...</value>
+    <comment>Equal To...</comment>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Формат</value>
+    <comment>Format</comment>
+  </data>
+  <data name="GreaterThan" xml:space="preserve">
+    <value>Больше, Чем...</value>
+    <comment>Greater Than...</comment>
+  </data>
+  <data name="HideAndUnhide" xml:space="preserve">
+    <value>Скрыть и показать</value>
+    <comment>Hide &amp; Unhide</comment>
+  </data>
+  <data name="HighlightCellRules" xml:space="preserve">
+    <value>Правила выделения ячеек</value>
+    <comment>Highlight Cells Rules</comment>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Увеличить отступ</value>
+    <comment>IncreaseIndent</comment>
+  </data>
+  <data name="AngleCounterclockwise" xml:space="preserve">
+    <value>Угол Против Часовой Стрелки</value>
+    <comment>Angle Counterclockwise</comment>
+  </data>
+  <data name="AngleClockwise" xml:space="preserve">
+    <value>Угол по часовой стрелке</value>
+    <comment>Angle Clockwise</comment>
+  </data>
+  <data name="RotateTextUp" xml:space="preserve">
+    <value>Поворот Текста Вверх</value>
+    <comment>Rotate Text Up</comment>
+  </data>
+  <data name="RotateTextDown" xml:space="preserve">
+    <value>Поверните Текст Вниз</value>
+    <comment>Rotate Text Down</comment>
+  </data>
+  <data name="FormatCellAlignment" xml:space="preserve">
+    <value>Форматирование Выравнивания ячеек</value>
+    <comment>Format Cell Alignment</comment>
+  </data>
+  <data name="InsertColumn" xml:space="preserve">
+    <value>Вставка Столбцов листа</value>
+    <comment>Insert Sheet Columns</comment>
+  </data>
+  <data name="InsertRow" xml:space="preserve">
+    <value>Вставка Строк листа</value>
+    <comment>Insert Sheet Rows</comment>
+  </data>
+  <data name="InsertSheet" xml:space="preserve">
+    <value>Вставной лист</value>
+    <comment>Insert Sheet</comment>
+  </data>
+  <data name="LeftAlign" xml:space="preserve">
+    <value>Выравнивание по левому краю</value>
+    <comment>LeftAlign</comment>
+  </data>
+  <data name="LessThan" xml:space="preserve">
+    <value>меньше, чем...</value>
+    <comment>Less Than...</comment>
+  </data>
+  <data name="MiddleAlign" xml:space="preserve">
+    <value>Выравнивание по центру</value>
+    <comment>MiddleAlign</comment>
+  </data>
+  <data name="RightAlign" xml:space="preserve">
+    <value>Выравнивание по правому краю</value>
+    <comment>RightAlign</comment>
+  </data>
+  <data name="RowHeight" xml:space="preserve">
+    <value>Высота ряда...</value>
+    <comment>Row Height...</comment>
+  </data>
+  <data name="TopAlign" xml:space="preserve">
+    <value>Выравнивание по верхнему краю</value>
+    <comment>TopAlign</comment>
+  </data>
+  <data name="HideColumns" xml:space="preserve">
+    <value>Скрыть столбцы</value>
+    <comment>Hide Columns</comment>
+  </data>
+  <data name="HideRows" xml:space="preserve">
+    <value>Строки заголовка</value>
+    <comment>Hide Rows</comment>
+  </data>
+  <data name="HideSheet" xml:space="preserve">
+    <value>Скрыть лист</value>
+    <comment>Hide Sheet</comment>
+  </data>
+  <data name="UnHideColumns" xml:space="preserve">
+    <value>Не Показывать Столбцы</value>
+    <comment>Unhide Columns</comment>
+  </data>
+  <data name="UnHideRows" xml:space="preserve">
+    <value>Показать строки</value>
+    <comment>Unhide Rows</comment>
+  </data>
+  <data name="UnHideSheet" xml:space="preserve">
+    <value>Неприкрытый Лист...</value>
+    <comment>Unhide Sheet...</comment>
+  </data>
+  <data name="Cells" xml:space="preserve">
+    <value>Ячейки</value>
+    <comment>Cells</comment>
+  </data>
+  <data name="DateOccuring" xml:space="preserve">
+    <value>Происходит Свидание...</value>
+    <comment>A Date Occurring...</comment>
+  </data>
+  <data name="FormatAsTable" xml:space="preserve">
+    <value>Формат в виде таблицы</value>
+    <comment>Format as Table</comment>
+  </data>
+  <data name="TextContains" xml:space="preserve">
+    <value>Текст, который содержит...</value>
+    <comment>Text that Contains...</comment>
+  </data>
+  <data name="AvailableTemplate" xml:space="preserve">
+    <value>Доступный шаблон</value>
+    <comment>Available Template</comment>
+  </data>
+  <data name="BlankWorkbook" xml:space="preserve">
+    <value>Пустая рабочая тетрадь</value>
+    <comment>Blank workbook</comment>
+  </data>
+  <data name="BlankWorkbookDescription" xml:space="preserve">
+    <value>Создает пустую рабочую книгу</value>
+    <comment>Creates an Empty Workbook</comment>
+  </data>
+  <data name="CellStyles" xml:space="preserve">
+    <value>Стили ячеек</value>
+    <comment>Cell Styles</comment>
+  </data>
+  <data name="FillSeries" xml:space="preserve">
+    <value>Заполнить</value>
+    <comment>Fill</comment>
+  </data>
+  <data name="Fill_Left" xml:space="preserve">
+    <value>Слева</value>
+    <comment>Left</comment>
+  </data>
+  <data name="Fill_Right" xml:space="preserve">
+    <value>Правильно</value>
+    <comment>Right</comment>
+  </data>
+  <data name="Fill_Up" xml:space="preserve">
+    <value>Вверх</value>
+    <comment>Up</comment>
+  </data>
+  <data name="Fill_Down" xml:space="preserve">
+    <value>Вниз</value>
+    <comment>Down</comment>
+  </data>
+  <data name="DocumentProperties" xml:space="preserve">
+    <value>Свойства</value>
+    <comment>Properties</comment>
+  </data>
+  <data name="DocumentProperty_AppName" xml:space="preserve">
+    <value>Имя приложения</value>
+    <comment>AppName</comment>
+  </data>
+  <data name="DocumentProperty_Author" xml:space="preserve">
+    <value>Автор</value>
+    <comment>Author</comment>
+  </data>
+  <data name="DocumentProperty_Category" xml:space="preserve">
+    <value>Категории</value>
+    <comment>Categories</comment>
+  </data>
+  <data name="DocumentProperty_Comments" xml:space="preserve">
+    <value>Комментарии</value>
+    <comment>Comments</comment>
+  </data>
+  <data name="DocumentProperty_Company" xml:space="preserve">
+    <value>Компания</value>
+    <comment>Company</comment>
+  </data>
+  <data name="DocumentProperty_Manager" xml:space="preserve">
+    <value>Менеджер</value>
+    <comment>Manager</comment>
+  </data>
+  <data name="DocumentProperty_RelatedPeople" xml:space="preserve">
+    <value>Связанные Люди</value>
+    <comment>Related People</comment>
+  </data>
+  <data name="DocumentProperty_Subject" xml:space="preserve">
+    <value>Предмет</value>
+    <comment>Subject</comment>
+  </data>
+  <data name="DocumentProperty_Tag" xml:space="preserve">
+    <value>Теги</value>
+    <comment>Tags</comment>
+  </data>
+  <data name="DocumentProperty_Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>Title</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Выход</value>
+    <comment>Exit</comment>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Новое</value>
+    <comment>New</comment>
+  </data>
+  <data name="ShowAllProperties" xml:space="preserve">
+    <value>Показать Все Свойства</value>
+    <comment>Show All Properties</comment>
+  </data>
+  <data name="DataValidation" xml:space="preserve">
+    <value>Проверка данных</value>
+    <comment>Data Validation</comment>
+  </data>
+  <data name="DeleteComment" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="EditComment" xml:space="preserve">
+    <value>Редактировать Комментарий</value>
+    <comment>Edit Comment</comment>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Замарозить</value>
+    <comment>Freeze</comment>
+  </data>
+  <data name="FreezeFirstColumn" xml:space="preserve">
+    <value>Заморозить Первую Колонку</value>
+    <comment>Freeze First Column</comment>
+  </data>
+  <data name="FreezePanes" xml:space="preserve">
+    <value>Морозильные стекла</value>
+    <comment>Freeze Panes</comment>
+  </data>
+  <data name="FreezeTopRow" xml:space="preserve">
+    <value>Заморозить Верхний ряд</value>
+    <comment>Freeze Top Row</comment>
+  </data>
+  <data name="Hyperlink" xml:space="preserve">
+    <value>Гиперссылка</value>
+    <comment>Hyperlink</comment>
+  </data>
+  <data name="Illustrations" xml:space="preserve">
+    <value>Иллюстрации</value>
+    <comment>Illustrations</comment>
+  </data>
+  <data name="NewComment" xml:space="preserve">
+    <value>Новый комментарий</value>
+    <comment>New Comment</comment>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Другие</value>
+    <comment>Others</comment>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Изображение</value>
+    <comment>Picture</comment>
+  </data>
+  <data name="AutoFitColumnWidth" xml:space="preserve">
+    <value>Автоматическая подгонка Ширины столбца</value>
+    <comment>AutoFit Column Width</comment>
+  </data>
+  <data name="AutoFitRowHeight" xml:space="preserve">
+    <value>Автоматическая подгонка Высоты строки</value>
+    <comment>AutoFit Row Height</comment>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>и</value>
+    <comment>and</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрывать</value>
+    <comment>Close</comment>
+  </data>
+  <data name="ValidNameRange" xml:space="preserve">
+    <value>Вы должны ввести действительную ссылку, по которой хотите перейти, или ввести действительное имя для выбора</value>
+    <comment>You must enter a Valid reference you want to go to, or type a valid name for selection</comment>
+  </data>
+  <data name="With" xml:space="preserve">
+    <value>с</value>
+    <comment>with</comment>
+  </data>
+  <data name="BetweenWindowDescription" xml:space="preserve">
+    <value>Форматируйте ячейки, которые находятся МЕЖДУ:</value>
+    <comment>Format cells that are BETWEEN:</comment>
+  </data>
+  <data name="BetweenWindowTitle" xml:space="preserve">
+    <value>Между</value>
+    <comment>Between</comment>
+  </data>
+  <data name="EqualToWindowDescription" xml:space="preserve">
+    <value>Форматируйте ячейки, РАВНЫЕ:</value>
+    <comment>Format cells that are EQUAL TO:</comment>
+  </data>
+  <data name="EqualToWindowTitle" xml:space="preserve">
+    <value>Равный</value>
+    <comment>Equal To</comment>
+  </data>
+  <data name="SortAndFilter" xml:space="preserve">
+    <value>Сортировка и фильтрация</value>
+    <comment>Sort &amp; Filter</comment>
+  </data>
+  <data name="FilterErrorMessage" xml:space="preserve">
+    <value>Это не может быть применено к выбранному диапазону. Выберите одну ячейку в диапазоне и повторите попытку.</value>
+    <comment>This can't be applied to the selected range. Select a single cell in a range and try again.</comment>
+  </data>
+  <data name="Filter_NoMatches" xml:space="preserve">
+    <value>Совпадений нет</value>
+    <comment>No Matches</comment>
+  </data>
+  <data name="Filter_Search" xml:space="preserve">
+    <value>Поиск</value>
+    <comment>Search</comment>
+  </data>
+  <data name="SortAscending" xml:space="preserve">
+    <value>Сортировка по возрастанию</value>
+    <comment>Sort Ascending</comment>
+  </data>
+  <data name="SortDescending" xml:space="preserve">
+    <value>Сортировка по убыванию</value>
+    <comment>Sort Descending</comment>
+  </data>
+  <data name="Blanks" xml:space="preserve">
+    <value>(Пробелы)</value>
+    <comment>(Blanks)</comment>
+  </data>
+  <data name="GreaterThanWindowDescription" xml:space="preserve">
+    <value>Форматируйте ячейки, размер которых ПРЕВЫШАЕТ:</value>
+    <comment>Format cells that are GREATER THAN:</comment>
+  </data>
+  <data name="GreaterThanWindowTitle" xml:space="preserve">
+    <value>Больше, Чем</value>
+    <comment>Greater Than</comment>
+  </data>
+  <data name="GreenFillWithDarkGreenText" xml:space="preserve">
+    <value>Зеленая заливка Темно-зеленым текстом</value>
+    <comment>Green Fill with Dark Green Text</comment>
+  </data>
+  <data name="LessThanWindowDescription" xml:space="preserve">
+    <value>Форматируйте ячейки, размер которых МЕНЬШЕ:</value>
+    <comment>Format cells that are LESS THAN:</comment>
+  </data>
+  <data name="LessThanWindowTitle" xml:space="preserve">
+    <value>меньше, чем</value>
+    <comment>Less Than</comment>
+  </data>
+  <data name="LightRedFill" xml:space="preserve">
+    <value>Светло-Красная Заливка</value>
+    <comment>Light Red Fill</comment>
+  </data>
+  <data name="LightRedFillWithDarkRedText" xml:space="preserve">
+    <value>Светло-Красная заливка Темно-красным текстом</value>
+    <comment>Light Red Fill with Dark Red Text</comment>
+  </data>
+  <data name="NotBetweenWindowDescription" xml:space="preserve">
+    <value>Форматируйте ячейки, которые НЕ НАХОДЯТСЯ МЕЖДУ:</value>
+    <comment>Format cells that are NOT BETWEEN:</comment>
+  </data>
+  <data name="NotBetweenWindowTitle" xml:space="preserve">
+    <value>Не Между</value>
+    <comment>Not Between</comment>
+  </data>
+  <data name="RedBorder" xml:space="preserve">
+    <value>Красная кайма</value>
+    <comment>Red Border</comment>
+  </data>
+  <data name="RedText" xml:space="preserve">
+    <value>Красный Текст</value>
+    <comment>Red Text</comment>
+  </data>
+  <data name="ValidationMessage_EnteredInvalidData" xml:space="preserve">
+    <value>Введенное вами значение не является допустимым числом, датой, временем или строкой</value>
+    <comment>The value you entered is not a valid number, date, time or string</comment>
+  </data>
+  <data name="YellowFillWithDarkYellowText" xml:space="preserve">
+    <value>Желтая заливка Темно-желтым текстом</value>
+    <comment>Yellow Fill with Dark Yellow Text</comment>
+  </data>
+  <data name="ContainsTextDescription" xml:space="preserve">
+    <value>Форматирование ячеек, содержащих текст:</value>
+    <comment>Format cells that contain the text:</comment>
+  </data>
+  <data name="ContainsTextTitle" xml:space="preserve">
+    <value>Текст, Содержащий</value>
+    <comment>Text That Contains</comment>
+  </data>
+  <data name="DateOccuringDescription" xml:space="preserve">
+    <value>Форматируйте ячейки, содержащие дату наступления:</value>
+    <comment>Format cells that contain a date occurring:</comment>
+  </data>
+  <data name="DateOccuringTitle" xml:space="preserve">
+    <value>Свидание, Происходящее</value>
+    <comment>A Date Occurring</comment>
+  </data>
+  <data name="Inthelast7days" xml:space="preserve">
+    <value>За последние 7 дней</value>
+    <comment>In the last 7 days</comment>
+  </data>
+  <data name="LastMonth" xml:space="preserve">
+    <value>прошлый месяц</value>
+    <comment>Last Month</comment>
+  </data>
+  <data name="LastWeek" xml:space="preserve">
+    <value>прошлая неделя</value>
+    <comment>Last Week</comment>
+  </data>
+  <data name="NextMonth" xml:space="preserve">
+    <value>В следующем месяце</value>
+    <comment>Next Month</comment>
+  </data>
+  <data name="NextWeek" xml:space="preserve">
+    <value>следующая неделя</value>
+    <comment>Next Week</comment>
+  </data>
+  <data name="ThisMonth" xml:space="preserve">
+    <value>В этом месяце</value>
+    <comment>This Month</comment>
+  </data>
+  <data name="ThisWeek" xml:space="preserve">
+    <value>на этой неделе</value>
+    <comment>This Week</comment>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Сегодня</value>
+    <comment>Today</comment>
+  </data>
+  <data name="Tomorrow" xml:space="preserve">
+    <value>Завтра</value>
+    <comment>Tomorrow</comment>
+  </data>
+  <data name="ValidationMessage_DeleteSheet" xml:space="preserve">
+    <value>Вы не можете отменить удаление листов, и, возможно, вы удаляете некоторые данные. Если вам это не нужно, нажмите кнопку ОК.</value>
+    <comment>You can't undo deleting sheets, and you might be removing some data. If you don't need it, click OK.</comment>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+    <comment>Warning</comment>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>Вчера</value>
+    <comment>Yesterday</comment>
+  </data>
+  <data name="ErrorMessage_DeleteSheet" xml:space="preserve">
+    <value>Рабочая книга должна содержать по крайней мере один видимый лист.                                  Чтобы скрыть, удалить или переместить выбранные листы, необходимо сначала вставить новый лист или показать лист, который уже скрыт.</value>
+    <comment>A workbook must contain atleast one visible sheet.                                  To hide, delete or move the selected sheet(s), you must first insert a new sheet or unhide a sheet which is already hidden.</comment>
+  </data>
+  <data name="ColumnWidthDescription" xml:space="preserve">
+    <value>Ширина столбца:</value>
+    <comment>Column width:</comment>
+  </data>
+  <data name="RowHeightDescription" xml:space="preserve">
+    <value>Высота ряда:</value>
+    <comment>Row height:</comment>
+  </data>
+  <data name="ExceedColumnWidthWarning" xml:space="preserve">
+    <value>Ширина столбца должна составлять от 0 до 255 символов.</value>
+    <comment>Column width must be between 0 and 255 characters.</comment>
+  </data>
+  <data name="ExceedRowHeightWarning" xml:space="preserve">
+    <value>Высота строки должна быть от 0 до 409</value>
+    <comment>Row height must be between 0 and 409</comment>
+  </data>
+  <data name="FormatAsTableDescription" xml:space="preserve">
+    <value>Где находятся данные для вашей таблицы?</value>
+    <comment>Where is the data for your table?</comment>
+  </data>
+  <data name="FormatAsTableWindowTitle" xml:space="preserve">
+    <value>Формат В Виде Таблицы</value>
+    <comment>Format As Table</comment>
+  </data>
+  <data name="ValidationMessage_EnterValidRange" xml:space="preserve">
+    <value>Введите допустимый диапазон</value>
+    <comment>Enter a valid Range</comment>
+  </data>
+  <data name="CellSize" xml:space="preserve">
+    <value>Размер ячейки</value>
+    <comment>Cell Size</comment>
+  </data>
+  <data name="OrganizeSheets" xml:space="preserve">
+    <value>Упорядочить Листы</value>
+    <comment>Organize Sheets</comment>
+  </data>
+  <data name="ProtectSheet" xml:space="preserve">
+    <value>Защитный лист</value>
+    <comment>Protect Sheet</comment>
+  </data>
+  <data name="RenameSheet" xml:space="preserve">
+    <value>Переименовать лист</value>
+    <comment>Rename Sheet</comment>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Видимость</value>
+    <comment>Visibility</comment>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Обычай</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль (необязательно):</value>
+    <comment>Password (optional):</comment>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>ДАННЫЕ</value>
+    <comment>DATA</comment>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Группа</value>
+    <comment>Group</comment>
+  </data>
+  <data name="Hyperlinks" xml:space="preserve">
+    <value>Гиперссылки</value>
+    <comment>Hyperlinks</comment>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>Связи</value>
+    <comment>Links</comment>
+  </data>
+  <data name="Outline" xml:space="preserve">
+    <value>Контур</value>
+    <comment>Outline</comment>
+  </data>
+  <data name="Ungroup" xml:space="preserve">
+    <value>Разгруппировать</value>
+    <comment>Ungroup</comment>
+  </data>
+  <data name="Allow" xml:space="preserve">
+    <value>Позволять :</value>
+    <comment>Allow :</comment>
+  </data>
+  <data name="AnyValue" xml:space="preserve">
+    <value>Любое значение</value>
+    <comment>Any value</comment>
+  </data>
+  <data name="Between_Lower" xml:space="preserve">
+    <value>между</value>
+    <comment>between</comment>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Очистить Все</value>
+    <comment>Clear All</comment>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Комментарии</value>
+    <comment>Comments</comment>
+  </data>
+  <data name="Datatitle" xml:space="preserve">
+    <value>Данные :</value>
+    <comment>Data :</comment>
+  </data>
+  <data name="Datatools" xml:space="preserve">
+    <value>Инструменты обработки данных</value>
+    <comment>Data Tools</comment>
+  </data>
+  <data name="DateAndTime" xml:space="preserve">
+    <value>Дата</value>
+    <comment>Date</comment>
+  </data>
+  <data name="Decimal" xml:space="preserve">
+    <value>Десятичный</value>
+    <comment>Decimal</comment>
+  </data>
+  <data name="Equalto_Lower" xml:space="preserve">
+    <value>равный</value>
+    <comment>equal to</comment>
+  </data>
+  <data name="ErrorAlert" xml:space="preserve">
+    <value>Предупреждение об ошибке</value>
+    <comment>Error Alert</comment>
+  </data>
+  <data name="ErrorAlertDescription" xml:space="preserve">
+    <value>Когда пользователь вводит неверные данные, отображается это предупреждение об ошибке:</value>
+    <comment>When user enters invalid data, show this error alert:</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Сообщение об ошибке:</value>
+    <comment>Error message:</comment>
+  </data>
+  <data name="FormulaBar" xml:space="preserve">
+    <value>Строка формул</value>
+    <comment>Formula Bar</comment>
+  </data>
+  <data name="GreaterThanOrEqualTo_Lower" xml:space="preserve">
+    <value>больше или равно</value>
+    <comment>greater than or equal to</comment>
+  </data>
+  <data name="GreaterThan_Lower" xml:space="preserve">
+    <value>больше, чем</value>
+    <comment>greater than</comment>
+  </data>
+  <data name="Gridlines" xml:space="preserve">
+    <value>Линии сетки</value>
+    <comment>Gridlines</comment>
+  </data>
+  <data name="Headings" xml:space="preserve">
+    <value>Заголовки</value>
+    <comment>Headings</comment>
+  </data>
+  <data name="InputMessage" xml:space="preserve">
+    <value>Входное сообщение</value>
+    <comment>Input Message</comment>
+  </data>
+  <data name="Inputmessagedesc" xml:space="preserve">
+    <value>Входное сообщение:</value>
+    <comment>Input message:</comment>
+  </data>
+  <data name="InputmessageDescription" xml:space="preserve">
+    <value>Когда ячейка выбрана, отобразите это входное сообщение:</value>
+    <comment>When cell is selected, show this input message:</comment>
+  </data>
+  <data name="LessThanOrEqualTo_Lower" xml:space="preserve">
+    <value>меньше или равно</value>
+    <comment>less than or equal to</comment>
+  </data>
+  <data name="Lessthan_Lower" xml:space="preserve">
+    <value>меньше, чем</value>
+    <comment>less than</comment>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Список</value>
+    <comment>List</comment>
+  </data>
+  <data name="NotBetween" xml:space="preserve">
+    <value>Не Между</value>
+    <comment>Not Between</comment>
+  </data>
+  <data name="Notbetween_Lower" xml:space="preserve">
+    <value>не между</value>
+    <comment>not between</comment>
+  </data>
+  <data name="NotEqualTo_Lower" xml:space="preserve">
+    <value>не равны</value>
+    <comment>not equal to</comment>
+  </data>
+  <data name="ProtectSheetLarge" xml:space="preserve">
+    <value>Защитный лист</value>
+    <comment>Protect Sheet</comment>
+  </data>
+  <data name="ProtectWorkbook" xml:space="preserve">
+    <value>Защитить рабочую книгу</value>
+    <comment>Protect Workbook</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Sheet" xml:space="preserve">
+    <value>Лист</value>
+    <comment>Sheet</comment>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Покажите</value>
+    <comment>Show</comment>
+  </data>
+  <data name="TextLength" xml:space="preserve">
+    <value>Длина текста</value>
+    <comment>Text Length</comment>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Заглавие:</value>
+    <comment>Title:</comment>
+  </data>
+  <data name="ValidationCriteria" xml:space="preserve">
+    <value>Критерии валидации</value>
+    <comment>Validation criteria</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>вид</value>
+    <comment>VIEW</comment>
+  </data>
+  <data name="WholeNumber" xml:space="preserve">
+    <value>Целое число</value>
+    <comment>Whole number</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата :</value>
+    <comment>Date :</comment>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Дата окончания :</value>
+    <comment>End date :</comment>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Максимальный :</value>
+    <comment>Maximum :</comment>
+  </data>
+  <data name="Minimum" xml:space="preserve">
+    <value>Минимальный :</value>
+    <comment>Minimum :</comment>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Источник :</value>
+    <comment>Source :</comment>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Дата начала :</value>
+    <comment>Start date :</comment>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Ценность:</value>
+    <comment>Value:</comment>
+  </data>
+  <data name="ProtectWorkbookDescription" xml:space="preserve">
+    <value>Защитите рабочую тетрадь для</value>
+    <comment>Protect workbook for</comment>
+  </data>
+  <data name="ProtectWorkbookDescriptionText" xml:space="preserve">
+    <value>Пароль:</value>
+    <comment>Password:</comment>
+  </data>
+  <data name="ProtectWorkbookTitle" xml:space="preserve">
+    <value>Защитите конструкцию и окна</value>
+    <comment>Protect Structure and Windows</comment>
+  </data>
+  <data name="Structure" xml:space="preserve">
+    <value>Структура</value>
+    <comment>Structure</comment>
+  </data>
+  <data name="UnprotectWorkbookTitle" xml:space="preserve">
+    <value>Снять защиту с Рабочей книги</value>
+    <comment>Unprotect Workbook</comment>
+  </data>
+  <data name="ValidationMessage_Error" xml:space="preserve">
+    <value>Ошибка</value>
+    <comment>Error</comment>
+  </data>
+  <data name="ValidationMessage_InCorrectPassword" xml:space="preserve">
+    <value>Указанный вами пароль неверен. Убедитесь, что клавиша CAPS LOCK выключена, и обязательно используйте правильные заглавные буквы.</value>
+    <comment>The password you supplied is not correct. Verify that the CAPS LOCK key is off and be sure to use correct capitalization.</comment>
+  </data>
+  <data name="Windows" xml:space="preserve">
+    <value>Окна</value>
+    <comment>Windows</comment>
+  </data>
+  <data name="Columns" xml:space="preserve">
+    <value>Столбцы</value>
+    <comment>Columns</comment>
+  </data>
+  <data name="Rows" xml:space="preserve">
+    <value>Строки</value>
+    <comment>Rows</comment>
+  </data>
+  <data name="UnfreezePanes" xml:space="preserve">
+    <value>Разморозьте Стекла</value>
+    <comment>Unfreeze Panes</comment>
+  </data>
+  <data name="ShowErrorMessage" xml:space="preserve">
+    <value>Показывать предупреждение об ошибке после ввода неверных данных</value>
+    <comment>Show error alert after invalid data is entered</comment>
+  </data>
+  <data name="ShowInputMessage" xml:space="preserve">
+    <value>Показывать входное сообщение при выборе ячейки</value>
+    <comment>Show input message when cell is selected</comment>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Комментарий:</value>
+    <comment>Comment:</comment>
+  </data>
+  <data name="IgnoreBlank" xml:space="preserve">
+    <value>Игнорировать пробел</value>
+    <comment>Ignore blank</comment>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Остановка</value>
+    <comment>Stop</comment>
+  </data>
+  <data name="Style" xml:space="preserve">
+    <value>Стиль:</value>
+    <comment>Style:</comment>
+  </data>
+  <data name="DocumentMask_AppName" xml:space="preserve">
+    <value>Добавьте имя приложения</value>
+    <comment>Add an application name</comment>
+  </data>
+  <data name="DocumentMask_Author" xml:space="preserve">
+    <value>Добавить автора</value>
+    <comment>Add an author</comment>
+  </data>
+  <data name="DocumentMask_Category" xml:space="preserve">
+    <value>Добавить категорию</value>
+    <comment>Add a category</comment>
+  </data>
+  <data name="DocumentMask_Company" xml:space="preserve">
+    <value>Укажите компанию</value>
+    <comment>Specify the company</comment>
+  </data>
+  <data name="DocumentMask_Manager" xml:space="preserve">
+    <value>Укажите менеджера</value>
+    <comment>Specify the manager</comment>
+  </data>
+  <data name="DocumentMask_Subject" xml:space="preserve">
+    <value>Укажите тему</value>
+    <comment>Specify the subject</comment>
+  </data>
+  <data name="DocumentMask_Title" xml:space="preserve">
+    <value>Добавить заголовок</value>
+    <comment>Add a title</comment>
+  </data>
+  <data name="NewNameRange" xml:space="preserve">
+    <value>Новое Имя</value>
+    <comment>New Name</comment>
+  </data>
+  <data name="DocumentMask_Comments" xml:space="preserve">
+    <value>Добавить комментарии</value>
+    <comment>Add comments</comment>
+  </data>
+  <data name="DocumentMask_Tag" xml:space="preserve">
+    <value>Добавить тег</value>
+    <comment>Add a tag</comment>
+  </data>
+  <data name="NameManager" xml:space="preserve">
+    <value>Менеджер имен</value>
+    <comment>Name Manager</comment>
+  </data>
+  <data name="DeleteNameRange" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить это имя</value>
+    <comment>Are you sure you want to delete the name</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя:</value>
+    <comment>Name:</comment>
+  </data>
+  <data name="Refers_To" xml:space="preserve">
+    <value>Относится к:</value>
+    <comment>Refers to:</comment>
+  </data>
+  <data name="Scope" xml:space="preserve">
+    <value>Масштаб:</value>
+    <comment>Scope:</comment>
+  </data>
+  <data name="Validation_Edit_NameRanges" xml:space="preserve">
+    <value>Введенное вами имя является недействительным. Причины этого могут включать: 1.Имя не начинается с буквы или подчеркивания.                              2.Имя содержит пробелы или специальные символы.                          3.Имя конфликтует со встроенным именем Excel или именем другого объекта в книге.</value>
+    <comment>The name you entered is invalid. Reasons for this can include :                  1.The name does not begin with a letter or underscore.                              2.The name contains white spaces or special characters.                          3.The name conflicts with an Excel built-in name or the name of another object in the workbook.</comment>
+  </data>
+  <data name="Validation_Edit_NameRanges_Refers_To" xml:space="preserve">
+    <value>Введенная вами формула содержит ошибку.</value>
+    <comment>The Formula you typed contains an error.</comment>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Фильтр</value>
+    <comment>Filter</comment>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Очистить Фильтр</value>
+    <comment>Clear Filter</comment>
+  </data>
+  <data name="DefinedNames" xml:space="preserve">
+    <value>Определенные имена</value>
+    <comment>Defined Names</comment>
+  </data>
+  <data name="EditName" xml:space="preserve">
+    <value>Изменить Имя</value>
+    <comment>Edit Name</comment>
+  </data>
+  <data name="NamesScopedtoWorkbook" xml:space="preserve">
+    <value>Имена, привязанные к Рабочей книге</value>
+    <comment>Names Scoped to Workbook</comment>
+  </data>
+  <data name="NamesScopedtoWorksheet" xml:space="preserve">
+    <value>Имена, привязанные к рабочему листу</value>
+    <comment>Names Scoped to Worksheet</comment>
+  </data>
+  <data name="NameswithErrors" xml:space="preserve">
+    <value>Имена с ошибками</value>
+    <comment>Names with Errors</comment>
+  </data>
+  <data name="NameswithoutErrors" xml:space="preserve">
+    <value>Имена без ошибок</value>
+    <comment>Names without Errors</comment>
+  </data>
+  <data name="TableNames" xml:space="preserve">
+    <value>Имена таблиц</value>
+    <comment>Table Names</comment>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Создать Новый Документ</value>
+    <comment>Create New Document</comment>
+  </data>
+  <data name="LinkTo" xml:space="preserve">
+    <value>Ссылка на:</value>
+    <comment>LinkTo:</comment>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Адрес электронной Почты</value>
+    <comment>E-Mail Address</comment>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Место в Этом Документе</value>
+    <comment>Place in This Document</comment>
+  </data>
+  <data name="Web" xml:space="preserve">
+    <value>Существующий файл или Веб-страница</value>
+    <comment>Existing File or Web Page</comment>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Изменить...</value>
+    <comment>Change...</comment>
+  </data>
+  <data name="EditLater" xml:space="preserve">
+    <value>Отредактируйте новый документ позже</value>
+    <comment>Edit the new document later</comment>
+  </data>
+  <data name="EditNow" xml:space="preserve">
+    <value>Отредактируйте новый документ прямо сейчас</value>
+    <comment>Edit the new document now</comment>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Адрес электронной почты:</value>
+    <comment>E-mail address:</comment>
+  </data>
+  <data name="FullPath" xml:space="preserve">
+    <value>Полный путь:</value>
+    <comment>FullPath:</comment>
+  </data>
+  <data name="HyperlinkAddress" xml:space="preserve">
+    <value>Адрес:</value>
+    <comment>Address:</comment>
+  </data>
+  <data name="HyperlinkCancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="HyperlinkOk" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="Nameofnewdocument" xml:space="preserve">
+    <value>Название нового документа:</value>
+    <comment>Name of new document:</comment>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Удалить ссылку</value>
+    <comment>RemoveLink</comment>
+  </data>
+  <data name="ScreenTip" xml:space="preserve">
+    <value>Скринтип:</value>
+    <comment>ScreenTip:</comment>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Предмет</value>
+    <comment>Subject</comment>
+  </data>
+  <data name="TexttoDisplay" xml:space="preserve">
+    <value>Текст для отображения:</value>
+    <comment>Text to Display:</comment>
+  </data>
+  <data name="Typethecellreference" xml:space="preserve">
+    <value>Введите ссылку на ячейку:</value>
+    <comment>Type the cell reference:</comment>
+  </data>
+  <data name="Whentoedit" xml:space="preserve">
+    <value>Когда редактировать:</value>
+    <comment>When to edit:</comment>
+  </data>
+  <data name="H_Workbook" xml:space="preserve">
+    <value>Рабочая тетрадь</value>
+    <comment>Workbook</comment>
+  </data>
+  <data name="H_www" xml:space="preserve">
+    <value>www.</value>
+    <comment>???</comment>
+  </data>
+  <data name="H_Xlsx" xml:space="preserve">
+    <value>.xlsx</value>
+    <comment>???</comment>
+  </data>
+  <data name="H_Xlsx2" xml:space="preserve">
+    <value>(xlsx)</value>
+    <comment>???</comment>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Вы хотите сохранить изменения, внесенные в ссылку на имя?</value>
+    <comment>Do you want to save changes you made to the name reference?</comment>
+  </data>
+  <data name="EndDateErrorText" xml:space="preserve">
+    <value>Вы должны ввести конечную дату.</value>
+    <comment>You must enter a End Date.</comment>
+  </data>
+  <data name="EndDateStartDateErrorText" xml:space="preserve">
+    <value>Вы должны ввести как Конечную дату, так и Начальную дату</value>
+    <comment>You must enter both a End Date and a Start Date</comment>
+  </data>
+  <data name="Formula" xml:space="preserve">
+    <value>Формула</value>
+    <comment>Formula</comment>
+  </data>
+  <data name="MaximumErrorText" xml:space="preserve">
+    <value>Вы должны ввести максимальное значение.</value>
+    <comment>You must enter a Maximum.</comment>
+  </data>
+  <data name="MinimumErrorText" xml:space="preserve">
+    <value>Вы должны ввести минимум.</value>
+    <comment>You must enter a Minimum.</comment>
+  </data>
+  <data name="MinimumMaximumErrorText" xml:space="preserve">
+    <value>Вы должны ввести как Максимальное, так и Минимальное значение.</value>
+    <comment>You must enter both a Maximum and a Minimum.</comment>
+  </data>
+  <data name="SourceErrorText" xml:space="preserve">
+    <value>Вы должны ввести источник.</value>
+    <comment>You must enter the Source.</comment>
+  </data>
+  <data name="StartDateErrorText" xml:space="preserve">
+    <value>Вы должны ввести дату начала.</value>
+    <comment>You must enter a Start Date.</comment>
+  </data>
+  <data name="ValueErrorText" xml:space="preserve">
+    <value>Вы должны ввести значение.</value>
+    <comment>You must enter a Value.</comment>
+  </data>
+  <data name="EnterMinMaxValue" xml:space="preserve">
+    <value>Вы должны ввести как Максимальное, так и Минимальное значение.</value>
+    <comment>You must enter both a Maximum and a Minimum.</comment>
+  </data>
+  <data name="EnterValue" xml:space="preserve">
+    <value>Вы должны ввести значение.</value>
+    <comment>You must enter a Value.</comment>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>Время окончания:</value>
+    <comment>End time:</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>файл</value>
+    <comment>FILE</comment>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Время начала:</value>
+    <comment>Start time:</comment>
+  </data>
+  <data name="EnterDate" xml:space="preserve">
+    <value>Вы должны ввести дату.</value>
+    <comment>You must enter a Date.</comment>
+  </data>
+  <data name="EnterStartEndDate" xml:space="preserve">
+    <value>Вы должны ввести как Конечную дату, так и Начальную дату.</value>
+    <comment>You must enter both an End Date and a Start Date.</comment>
+  </data>
+  <data name="EnterStartEndTime" xml:space="preserve">
+    <value>Вы должны ввести как Время окончания, так и Время начала.</value>
+    <comment>You must enter both an End Time and a Start Time.</comment>
+  </data>
+  <data name="EnterTime" xml:space="preserve">
+    <value>Вы должны ввести Время.</value>
+    <comment>You must enter a Time.</comment>
+  </data>
+  <data name="InCellDropDown" xml:space="preserve">
+    <value>Выпадающий список в ячейке</value>
+    <comment>In-cell Dropdown</comment>
+  </data>
+  <data name="PasswordtoUnProtect" xml:space="preserve">
+    <value>Пароль:</value>
+    <comment>Password:</comment>
+  </data>
+  <data name="DeleteCells" xml:space="preserve">
+    <value>Удалить Ячейки...</value>
+    <comment>Delete Cells...</comment>
+  </data>
+  <data name="EntireColumn" xml:space="preserve">
+    <value>Целая колонна</value>
+    <comment>Entire column</comment>
+  </data>
+  <data name="EntireRow" xml:space="preserve">
+    <value>Весь ряд</value>
+    <comment>Entire row</comment>
+  </data>
+  <data name="InsertCells" xml:space="preserve">
+    <value>Вставьте ячейки...</value>
+    <comment>Insert Cells...</comment>
+  </data>
+  <data name="MinMaxError" xml:space="preserve">
+    <value>Максимальное значение должно быть больше или равно Минимальному.</value>
+    <comment>The Maximum must be greater than or equal to the Minimum.</comment>
+  </data>
+  <data name="MinMaxDateError" xml:space="preserve">
+    <value>Дата окончания должна быть больше или равна Дате начала.</value>
+    <comment>The End Date must be greater than or equal to the Start Date.</comment>
+  </data>
+  <data name="DateError" xml:space="preserve">
+    <value>Дата, которую вы ввели для данных, является недействительной.</value>
+    <comment>The date you entered for the Date is invalid.</comment>
+  </data>
+  <data name="EndDateError" xml:space="preserve">
+    <value>Дата, которую вы ввели в качестве Даты окончания, недействительна.</value>
+    <comment>The date you entered for the End Date is invalid.</comment>
+  </data>
+  <data name="EndTimeError" xml:space="preserve">
+    <value>Время, которое вы ввели для Времени окончания, является недействительным.</value>
+    <comment>The time you entered for the End Time is invalid.</comment>
+  </data>
+  <data name="MinMaxTimeError" xml:space="preserve">
+    <value>Время окончания должно быть больше или равно времени начала.</value>
+    <comment>The End Time must be greater than or equal to Start Time.</comment>
+  </data>
+  <data name="NameRangeError" xml:space="preserve">
+    <value>Указанный вами именованный диапазон не может быть найден.</value>
+    <comment>A named range you specified cannot be found.</comment>
+  </data>
+  <data name="NumericValueError" xml:space="preserve">
+    <value>Значение должно быть числовым значением, числовым выражением или ссылаться на ячейку, содержащую числовое значение.</value>
+    <comment>The Value must be a numeric value, numeric expression, or refer to a cell containing a numeric value.</comment>
+  </data>
+  <data name="ReferenceError" xml:space="preserve">
+    <value>Этот тип ссылки не может быть использован в формуле проверки данных. Измените ссылку на одну ячейку или используйте ссылку с функцией рабочего листа, например =SUM(A1:E5).</value>
+    <comment>This type of reference cannot be used in a Data Validation formula.  Change the reference to a single cell, or use a reference with worksheet function, such as =SUM(A1:E5).</comment>
+  </data>
+  <data name="StartDateError" xml:space="preserve">
+    <value>Дата, которую вы ввели в качестве Даты начала, недействительна.</value>
+    <comment>The date you entered for the Start Date is invalid.</comment>
+  </data>
+  <data name="StartTimeError" xml:space="preserve">
+    <value>Время, которое вы ввели в качестве Времени начала, является недопустимым.</value>
+    <comment>The time you entered for the Start Time is invalid.</comment>
+  </data>
+  <data name="TimeError" xml:space="preserve">
+    <value>Время, которое вы ввели для этого времени, является недействительным.</value>
+    <comment>The time you entered for the Time is invalid.</comment>
+  </data>
+  <data name="WholeNumberError" xml:space="preserve">
+    <value>Десятичные значения не могут использоваться для условий целых чисел.</value>
+    <comment>Decimal values cannot be used for Whole Number conditions.</comment>
+  </data>
+  <data name="FormulaError" xml:space="preserve">
+    <value>Введенная вами формула содержит ошибку.</value>
+    <comment>The formula you typed contains an error.</comment>
+  </data>
+  <data name="MaxNumericValueError" xml:space="preserve">
+    <value>Максимальное значение должно быть числовым значением, числовым выражением или ссылаться на ячейку, содержащую числовое значение.</value>
+    <comment>The Maximum must be a numeric value, numeric expression, or refer to a cell containing a numeric value.</comment>
+  </data>
+  <data name="MinNumericValueError" xml:space="preserve">
+    <value>Минимум должен быть числовым значением, числовым выражением или ссылаться на ячейку, содержащую числовое значение.</value>
+    <comment>The Minimum must be a numeric value, numeric expression, or refer to a cell containing a numeric value.</comment>
+  </data>
+  <data name="UnProtectSheet" xml:space="preserve">
+    <value>Незащищенный Лист</value>
+    <comment>Unprotect Sheet</comment>
+  </data>
+  <data name="EnterSource" xml:space="preserve">
+    <value>Вы должны ввести источник.</value>
+    <comment>You must enter a Source.</comment>
+  </data>
+  <data name="EnterFormula" xml:space="preserve">
+    <value>Вы должны ввести Формулу.</value>
+    <comment>You must enter a Formula.</comment>
+  </data>
+  <data name="ProtectWorkbookText" xml:space="preserve">
+    <value>Контролируйте, какие изменения пользователи могут вносить в эту книгу</value>
+    <comment>Control what type of changes people can make to this workbook</comment>
+  </data>
+  <data name="InsertDeleteCellsError" xml:space="preserve">
+    <value>Невозможно выполнить это действие в нескольких диапазонах. Выберите один диапазон и повторите попытку.</value>
+    <comment>Unable to perform this action on multiple ranges. Select a single range and try again.</comment>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+    <comment>All</comment>
+  </data>
+  <data name="Caution" xml:space="preserve">
+    <value>Внимание: Если вы потеряете или забудете пароль, он не может быть восстановлен. Желательно хранить список паролей и соответствующие им названия документов в надежном месте.(Помните, что пароли чувствительны к регистру.)</value>
+    <comment>Caution: If you lose or forget the password, it cannot be recovered. It is advisable to keep a list of passwords and their corresponding document names in a safe place.(Remember that passwords are case sensitive.)</comment>
+  </data>
+  <data name="EncryptDescription" xml:space="preserve">
+    <value>Зашифруйте содержимое этого файла</value>
+    <comment>Encrypt the contents of this file</comment>
+  </data>
+  <data name="EncryptDocument" xml:space="preserve">
+    <value>Шифрование документа</value>
+    <comment>Encrypt Document</comment>
+  </data>
+  <data name="CellStyles_GoodBadNeutral" xml:space="preserve">
+    <value>Хорошее, Плохое и Нейтральное</value>
+    <comment>Good, Bad and Neutral</comment>
+  </data>
+  <data name="CellStyles_NumberFormat" xml:space="preserve">
+    <value>Числовой формат</value>
+    <comment>Number Format</comment>
+  </data>
+  <data name="CellStyles_ThemedCellStyles" xml:space="preserve">
+    <value>Тематические Стили Ячеек</value>
+    <comment>Themed Cell Styles</comment>
+  </data>
+  <data name="CellStyles_TitlesAndHeadings" xml:space="preserve">
+    <value>Названия и заголовки</value>
+    <comment>Titles and Headings</comment>
+  </data>
+  <data name="Protection" xml:space="preserve">
+    <value>Защита</value>
+    <comment>Protection</comment>
+  </data>
+  <data name="DoubleValueError" xml:space="preserve">
+    <value>Ваша запись не может быть использована. Может потребоваться целое или десятичное число.</value>
+    <comment>Your entry cannot be used. An integer or decimal number may be required.</comment>
+  </data>
+  <data name="ProtectWorkbookStructure" xml:space="preserve">
+    <value>Защита Структуры Рабочей книги</value>
+    <comment>Protect Workbook Structure</comment>
+  </data>
+  <data name="EncryptWithPasswordDesc" xml:space="preserve">
+    <value>Для открытия этой книги требуется пароль.</value>
+    <comment>Require a password to open this workbook.</comment>
+  </data>
+  <data name="ProtectCurrentSheetDesc" xml:space="preserve">
+    <value>Контролируйте, какие типы изменений пользователи могут вносить в текущий лист.</value>
+    <comment>Control what types of changes people can make to the current sheet.</comment>
+  </data>
+  <data name="ProtectWorkbookStructureDesc" xml:space="preserve">
+    <value>Предотвратите нежелательные изменения структуры рабочей книги, такие как добавление листов.</value>
+    <comment>Prevent unwanted changes to the structure of the workbook, such as adding sheets.</comment>
+  </data>
+  <data name="DocumentProperty_Created" xml:space="preserve">
+    <value>Созданный</value>
+    <comment>Created</comment>
+  </data>
+  <data name="DocumentProperty_LastModified" xml:space="preserve">
+    <value>Последнее изменение</value>
+    <comment>Last Modified</comment>
+  </data>
+  <data name="DocumentProperty_LastModifiedBy" xml:space="preserve">
+    <value>Последнее Изменение Внесено</value>
+    <comment>Last Modified By</comment>
+  </data>
+  <data name="DocumentProperty_LastPrinted" xml:space="preserve">
+    <value>Последний Напечатанный</value>
+    <comment>Last Printed</comment>
+  </data>
+  <data name="DocumentProperty_RelatedDates" xml:space="preserve">
+    <value>Связанные Даты</value>
+    <comment>Related Dates</comment>
+  </data>
+  <data name="NotSavedYet" xml:space="preserve">
+    <value>Еще не спасен</value>
+    <comment>Not saved yet</comment>
+  </data>
+  <data name="ConditionValueError" xml:space="preserve">
+    <value>Пожалуйста, вводите только числовые значения, нельзя применять значение условия в качестве строкового значения.</value>
+    <comment>Please enter only numeric values, cannot apply condition value as string value.</comment>
+  </data>
+  <data name="DocumentProperty_RelatedDocuments" xml:space="preserve">
+    <value>Сопутствующие документы</value>
+    <comment>Related Documents</comment>
+  </data>
+  <data name="InformationAbout" xml:space="preserve">
+    <value>Информация о</value>
+    <comment>Information about</comment>
+  </data>
+  <data name="OpenFileLocation" xml:space="preserve">
+    <value>Расположение Открытого файла</value>
+    <comment>Open File Location</comment>
+  </data>
+  <data name="ColumnWidthTitle" xml:space="preserve">
+    <value>Ширина столбца</value>
+    <comment>Column Width</comment>
+  </data>
+  <data name="RowHeightTitle" xml:space="preserve">
+    <value>Высота ряда</value>
+    <comment>Row Height</comment>
+  </data>
+  <data name="UnHideSheetDescription" xml:space="preserve">
+    <value>Нескрываемый Лист:</value>
+    <comment>Unhide Sheet:</comment>
+  </data>
+  <data name="EnterLength" xml:space="preserve">
+    <value>Вы должны ввести длину.</value>
+    <comment>You must enter a Length.</comment>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Длина:</value>
+    <comment>Length:</comment>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>Новое...</value>
+    <comment>New...</comment>
+  </data>
+  <data name="EnterEndDate" xml:space="preserve">
+    <value>Вы должны ввести конечную дату.</value>
+    <comment>You must enter a End Date.</comment>
+  </data>
+  <data name="EnterEndTime" xml:space="preserve">
+    <value>Вы должны ввести Время окончания.</value>
+    <comment>You must enter a End Time.</comment>
+  </data>
+  <data name="EnterMaximum" xml:space="preserve">
+    <value>Вы должны ввести максимальное</value>
+    <comment>You must enter a Maximum</comment>
+  </data>
+  <data name="ValidationMessage_SaveChanges" xml:space="preserve">
+    <value>Вы хотите сохранить изменения, внесенные в этот файл?</value>
+    <comment>Do you want to save changes that you made to this file?</comment>
+  </data>
+  <data name="FontSizeError" xml:space="preserve">
+    <value>Размер шрифта должен составлять от 1 до 409 пунктов</value>
+    <comment>Font size must be between 1 and 409 points</comment>
+  </data>
+  <data name="DefaultWidth" xml:space="preserve">
+    <value>Ширина по умолчанию...</value>
+    <comment>Default Width...</comment>
+  </data>
+  <data name="EnterMinimum" xml:space="preserve">
+    <value>Вы должны ввести минимум.</value>
+    <comment>You must enter a Minimum.</comment>
+  </data>
+  <data name="EnterStartDate" xml:space="preserve">
+    <value>Вы должны ввести дату начала.</value>
+    <comment>You must enter a Start Date.</comment>
+  </data>
+  <data name="EnterStartTime" xml:space="preserve">
+    <value>Вы должны ввести время начала.</value>
+    <comment>You must enter a Start Time.</comment>
+  </data>
+  <data name="HLink_EditWindowName" xml:space="preserve">
+    <value>Редактировать Гиперссылку</value>
+    <comment>Edit Hyperlink</comment>
+  </data>
+  <data name="HLink_EditLater" xml:space="preserve">
+    <value>Отредактируйте новый документ позже</value>
+    <comment>Edit the new document later</comment>
+  </data>
+  <data name="HLink_EditNow" xml:space="preserve">
+    <value>Отредактируйте новый документ прямо сейчас</value>
+    <comment>Edit the new document now</comment>
+  </data>
+  <data name="HLink_EmailAddress" xml:space="preserve">
+    <value>Адрес электронной почты:</value>
+    <comment>E-mail address:</comment>
+  </data>
+  <data name="HLink_Exist" xml:space="preserve">
+    <value>Существующий файл или Веб-страница</value>
+    <comment>Existing File or Web Page</comment>
+  </data>
+  <data name="HLink_File" xml:space="preserve">
+    <value>Файл</value>
+    <comment>File</comment>
+  </data>
+  <data name="HLink_FullPath" xml:space="preserve">
+    <value>Полный путь:</value>
+    <comment>Full path:</comment>
+  </data>
+  <data name="HLink_HyperlinkAddress" xml:space="preserve">
+    <value>Адрес:</value>
+    <comment>Address:</comment>
+  </data>
+  <data name="ValidationMessage_FileExist1" xml:space="preserve">
+    <value>У вас уже есть файл с именем</value>
+    <comment>You already have a file named</comment>
+  </data>
+  <data name="ValidationMessage_FileExist2" xml:space="preserve">
+    <value>Вы хотите заменить его этим</value>
+    <comment>Do you want to replace it with this one</comment>
+  </data>
+  <data name="ValidationMessage_InavalidFile" xml:space="preserve">
+    <value>Недопустимое имя файла</value>
+    <comment>Invalid file name</comment>
+  </data>
+  <data name="ValidationMessage_CreateFiles" xml:space="preserve">
+    <value>Никакая процедура для создания файлов этого типа не зарегистрирована в командной оболочке.Вы хотите создать пустой файл</value>
+    <comment>No procedure for creating files of this type is registered with the shell.Do you want to create an empty file</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="HLink_InsertWindowName" xml:space="preserve">
+    <value>Вставить Гиперссылку</value>
+    <comment>Insert Hyperlink</comment>
+  </data>
+  <data name="ValidationMessage_InvalidRerence" xml:space="preserve">
+    <value>Ссылка недействительна</value>
+    <comment>Reference is not valid</comment>
+  </data>
+  <data name="HLink_LinkTo" xml:space="preserve">
+    <value>Ссылка на:</value>
+    <comment>Link to:</comment>
+  </data>
+  <data name="HLink_Mail" xml:space="preserve">
+    <value>Адрес электронной почты</value>
+    <comment>E-mail Address</comment>
+  </data>
+  <data name="HLink_MailTo" xml:space="preserve">
+    <value>почтовое отправление</value>
+    <comment>mailto</comment>
+  </data>
+  <data name="HLink_Nameofnewdocument" xml:space="preserve">
+    <value>Название нового документа:</value>
+    <comment>Name of new document:</comment>
+  </data>
+  <data name="HLink_Reference" xml:space="preserve">
+    <value>Место в Этом Документе</value>
+    <comment>Place in This Document</comment>
+  </data>
+  <data name="HLink_RemoveLink" xml:space="preserve">
+    <value>Удалить ссылку</value>
+    <comment>Remove Link</comment>
+  </data>
+  <data name="HLink_ScreenTip" xml:space="preserve">
+    <value>Скринтип:</value>
+    <comment>ScreenTip:</comment>
+  </data>
+  <data name="HLink_SelectInDocument" xml:space="preserve">
+    <value>&lt;&lt;Выделение в документе&gt;&gt;</value>
+    <comment>&lt;&lt;Selection in Document&gt;&gt;</comment>
+  </data>
+  <data name="HLink_Subject" xml:space="preserve">
+    <value>Предмет:</value>
+    <comment>Subject:</comment>
+  </data>
+  <data name="HLink_TexttoDisplay" xml:space="preserve">
+    <value>Текст для отображения:</value>
+    <comment>Text to display:</comment>
+  </data>
+  <data name="HLink_ToolTip" xml:space="preserve">
+    <value>Нажмите один раз, чтобы следовать</value>
+    <comment>Click once to follow</comment>
+  </data>
+  <data name="HLink_Typethecellreference" xml:space="preserve">
+    <value>Введите ссылку на ячейку:</value>
+    <comment>Type the cell reference:</comment>
+  </data>
+  <data name="HLink_Whentoedit" xml:space="preserve">
+    <value>Когда редактировать:</value>
+    <comment>When to edit:</comment>
+  </data>
+  <data name="ValidationMessage_ClipboardPaste" xml:space="preserve">
+    <value>Данные, которые вы вставляете, не имеют того же размера, что и ваш выбор, вы все равно хотите вставить?</value>
+    <comment>The data you're pasting isn't the same size as your selection, Do you want to paste anyway?</comment>
+  </data>
+  <data name="ValidationMessage_MergeCells" xml:space="preserve">
+    <value>Мы не можем сделать это с объединенной ячейкой</value>
+    <comment>We can't do that to a merged cell</comment>
+  </data>
+  <data name="ValidationMessage_MergeCutCells" xml:space="preserve">
+    <value>Эта операция приведет к тому, что некоторые объединенные ячейки будут разъединены, вы хотите продолжить?</value>
+    <comment>This operation will cause some merged cells to unmerge, Do you wish to continue?</comment>
+  </data>
+  <data name="ValidationMessage_MultipleSelections" xml:space="preserve">
+    <value>Эта команда не может быть использована при множественном выборе</value>
+    <comment>That command cannot be used on multiple selections</comment>
+  </data>
+  <data name="ValidationMessage_NotEnoughSpaceToPaste" xml:space="preserve">
+    <value>Мы не можем вставить, потому что область копирования и область вставки имеют разный размер</value>
+    <comment>We can't paste because the Copy area and paste area aren't the same size</comment>
+  </data>
+  <data name="ValidationMessage_ReadOnlyCells" xml:space="preserve">
+    <value>Ячейка, которую вы пытаетесь изменить, находится на защищенном листе и поэтому доступна только для чтения.</value>
+    <comment>The cell that you are trying to change is on a protected sheet and therefore readonly.</comment>
+  </data>
+  <data name="FreezeFirstColumnDescription" xml:space="preserve">
+    <value>Держите первый столбец видимым во время прокрутки остальной части листа.</value>
+    <comment>Keep the first column visible while scrolling through the rest of the worksheet.</comment>
+  </data>
+  <data name="FreezePanesDescription" xml:space="preserve">
+    <value>Держите строки и столбцы видимыми, пока остальная часть листа прокручивается (в зависимости от текущего выбора).</value>
+    <comment>Keep rows and columns visible while the rest of the worksheet scrolls(based on current selection).</comment>
+  </data>
+  <data name="FreezeTopRowDescription" xml:space="preserve">
+    <value>Держите верхнюю строку видимой при прокрутке остальной части листа.</value>
+    <comment>Keep the top row visible while scrolling through the rest of the worksheet.</comment>
+  </data>
+  <data name="StandardWidth" xml:space="preserve">
+    <value>Стандартная ширина</value>
+    <comment>Standard Width</comment>
+  </data>
+  <data name="StandardWidthError" xml:space="preserve">
+    <value>Ваша запись не может быть использована. Может потребоваться целое или десятичное число.</value>
+    <comment>Your entry cannot be used. An integer or decimal number may be required.</comment>
+  </data>
+  <data name="StandardWidthText" xml:space="preserve">
+    <value>Стандартная ширина столбца:</value>
+    <comment>Standard column width:</comment>
+  </data>
+  <data name="EssentialXlsio" xml:space="preserve">
+    <value>Существенный Xlsio</value>
+    <comment>EssentialXlsio</comment>
+  </data>
+  <data name="DefaultValidationError" xml:space="preserve">
+    <value>Введенное вами значение недопустимо.                                                                   Пользователь имеет ограниченные значения, которые могут быть введены в эту ячейку.</value>
+    <comment>The value you entered is not valid.                                                                   A user has restricted values that can be entered into this cell.</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать...</value>
+    <comment>Edit...</comment>
+  </data>
+  <data name="ShowFewerProperties" xml:space="preserve">
+    <value>Показывать Меньше Свойств</value>
+    <comment>Show Fewer Properties</comment>
+  </data>
+  <data name="PasswordTitle" xml:space="preserve">
+    <value>Пароль</value>
+    <comment>Password</comment>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Направление</value>
+    <comment>Direction</comment>
+  </data>
+  <data name="IsSummaryColumnAtRight" xml:space="preserve">
+    <value>Сводные столбцы справа от деталей</value>
+    <comment>Summary columns to right of detail</comment>
+  </data>
+  <data name="IsSummaryRowBelow" xml:space="preserve">
+    <value>Сводные строки ниже подробно</value>
+    <comment>Summary rows below detail</comment>
+  </data>
+  <data name="MultipleSelectionsError" xml:space="preserve">
+    <value>Выбранная вами команда не может быть выполнена с несколькими вариантами выбора. Выберите один диапазон и снова щелкните команду.</value>
+    <comment>The command you chose cannot be performed with multiple selections. Select a single range and click the command again.</comment>
+  </data>
+  <data name="UngroupError" xml:space="preserve">
+    <value>Невозможно разгруппировать. Чтобы начать построение схемы, выберите подробные строки или столбцы и сгруппируйте их.</value>
+    <comment>Cannot ungroup. To start an outline, select the detail rows or columns and group them.</comment>
+  </data>
+  <data name="Warning_GroupingWholeTable" xml:space="preserve">
+    <value>Невозможно сгруппировать всю таблицу целиком. Чтобы начать построение схемы, выберите подробные строки или столбцы и сгруппируйте их.</value>
+    <comment>Cannot Group the Whole Table. To start an outline, select the detail rows or columns and group them.</comment>
+  </data>
+  <data name="TableFormatDark" xml:space="preserve">
+    <value>Темный</value>
+    <comment>Dark</comment>
+  </data>
+  <data name="TableFormatLight" xml:space="preserve">
+    <value>Свет</value>
+    <comment>Light</comment>
+  </data>
+  <data name="TableFormatMedium" xml:space="preserve">
+    <value>Средний</value>
+    <comment>Medium</comment>
+  </data>
+  <data name="TableFormatTextBlockText" xml:space="preserve">
+    <value>Где находятся данные для вашей таблицы?</value>
+    <comment>Where is the data for your table?</comment>
+  </data>
+  <data name="ValidationMessage_MergedTableFormat" xml:space="preserve">
+    <value>Эта операция не была разрешена. Слияние по ячейкам формата таблицы было ограничено.</value>
+    <comment>This operation was not allowed. Merging over the table format cells was restricted.</comment>
+  </data>
+  <data name="ValidationMessage_TableFormatInvalidFormula" xml:space="preserve">
+    <value>Мы обнаружили проблему с этой формулой. Мы не смогли найти ссылку на диапазон или определенное имя.</value>
+    <comment>We found problem with this formula. We couldn't find a range reference or a defined name.</comment>
+  </data>
+  <data name="ValidationMessage_TableFormatInvalidRange" xml:space="preserve">
+    <value>Эта операция запрещена. Операция заключается в попытке сдвинуть ячейки в таблице на вашем рабочем листе.</value>
+    <comment>This operation is not allowed. The operation is attempting to shift cells in a table on your worksheet.</comment>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>Окно</value>
+    <comment>Window</comment>
+  </data>
+  <data name="TableFormat_CheckBoxContent" xml:space="preserve">
+    <value>В моей таблице есть заголовки</value>
+    <comment>My table has headers</comment>
+  </data>
+  <data name="NameAlreadyExist" xml:space="preserve">
+    <value>Введенное имя уже существует. Введите уникальное имя.</value>
+    <comment>The name entered already exists. Enter a unique name.</comment>
+  </data>
+  <data name="ValidationMessage_CutTablePartially" xml:space="preserve">
+    <value>Эта операция запрещена.Операция заключается в попытке сдвинуть ячейки в таблице на вашем рабочем листе</value>
+    <comment>This operation is not allowed.The operation is attempting to shift cells in a table on your worksheet</comment>
+  </data>
+  <data name="UnfreezePanesDescription" xml:space="preserve">
+    <value>Разблокируйте все строки и столбцы, чтобы прокрутить весь лист.</value>
+    <comment>Unlock all rows and columns to scroll through the entire worksheet.</comment>
+  </data>
+  <data name="ValidationMessage_InvalidFileVersion" xml:space="preserve">
+    <value>Версия файла не поддерживается</value>
+    <comment>File version is not supported</comment>
+  </data>
+  <data name="ValidationMessage_ContainsMutidatavalidation1" xml:space="preserve">
+    <value>Выбор содержит более одного типа проверки.</value>
+    <comment>The selection contains more than one type of validation.</comment>
+  </data>
+  <data name="ValidationMessage_ContainsMutidatavalidation2" xml:space="preserve">
+    <value>Удалите текущие настройки и продолжайте</value>
+    <comment>Erase current settings and continue</comment>
+  </data>
+  <data name="ValidationMessage_ContainsValidationWithNormalCell" xml:space="preserve">
+    <value>Выделение содержит несколько ячеек без параметров проверки данных. Хотите ли вы распространить проверку данных на эти результаты?</value>
+    <comment>The selection contains some cells without Data Validation settings. Do you want to extend Data Validation to these results?</comment>
+  </data>
+  <data name="UnhideSheet_Title" xml:space="preserve">
+    <value>Не показывать</value>
+    <comment>Unhide</comment>
+  </data>
+  <data name="DefaultValidationMessage" xml:space="preserve">
+    <value>Введенное вами значение недопустимо.
+Пользователь имеет ограниченное значение, которое может быть введено в эту ячейку.</value>
+    <comment>The value you entered is not valid.
+A user has restricted value that can be entered into this cell.</comment>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Повторить попытку</value>
+    <comment>Retry</comment>
+  </data>
+  <data name="Context_ClearContents" xml:space="preserve">
+    <value>Очистить Содержимое</value>
+    <comment>Clear Contents</comment>
+  </data>
+  <data name="Context_DefineName" xml:space="preserve">
+    <value>Определите Имя...</value>
+    <comment>Define Name...</comment>
+  </data>
+  <data name="Context_Delete" xml:space="preserve">
+    <value>Удалить...</value>
+    <comment>Delete...</comment>
+  </data>
+  <data name="Context_DeleteComment" xml:space="preserve">
+    <value>Удалить комментарий</value>
+    <comment>Delete Comment</comment>
+  </data>
+  <data name="Context_EditComment" xml:space="preserve">
+    <value>Редактировать Комментарий</value>
+    <comment>Edit Comment</comment>
+  </data>
+  <data name="Context_EditHyperlink" xml:space="preserve">
+    <value>Отредактируйте Гиперссылку...</value>
+    <comment>Edit Hyperlink...</comment>
+  </data>
+  <data name="Context_Hyperlink" xml:space="preserve">
+    <value>Гиперссылка...</value>
+    <comment>Hyperlink...</comment>
+  </data>
+  <data name="Context_Insert" xml:space="preserve">
+    <value>Вставить...</value>
+    <comment>Insert...</comment>
+  </data>
+  <data name="Context_InsertComment" xml:space="preserve">
+    <value>Вставить комментарий</value>
+    <comment>Insert Comment</comment>
+  </data>
+  <data name="Context_OpenHyperlink" xml:space="preserve">
+    <value>Открытая Гиперссылка</value>
+    <comment>Open Hyperlink</comment>
+  </data>
+  <data name="Context_RemoveHyperlink" xml:space="preserve">
+    <value>Удалить Гиперссылку</value>
+    <comment>Remove Hyperlink</comment>
+  </data>
+  <data name="PasteOptions" xml:space="preserve">
+    <value>Параметры вставки:</value>
+    <comment>Paste Options:</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Context_PasteAll" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Paste</comment>
+  </data>
+  <data name="Context_PasteFormat" xml:space="preserve">
+    <value>Форматирование</value>
+    <comment>Formatting</comment>
+  </data>
+  <data name="Context_PasteFormulas" xml:space="preserve">
+    <value>Формулы</value>
+    <comment>Formulas</comment>
+  </data>
+  <data name="Context_PasteValues" xml:space="preserve">
+    <value>Ценности</value>
+    <comment>Values</comment>
+  </data>
+  <data name="Context_KeepTextOnly" xml:space="preserve">
+    <value>Сохраняйте Только Текст</value>
+    <comment>Keep Text Only</comment>
+  </data>
+  <data name="Context_ValuesAndFormatting" xml:space="preserve">
+    <value>Значения и форматирование</value>
+    <comment>Values &amp; Formatting</comment>
+  </data>
+  <data name="ColorScales" xml:space="preserve">
+    <value>Цветовые Гаммы</value>
+    <comment>Color Scales</comment>
+  </data>
+  <data name="DataBars" xml:space="preserve">
+    <value>Полосы данных</value>
+    <comment>Data Bars</comment>
+  </data>
+  <data name="IconSets" xml:space="preserve">
+    <value>Наборы значков</value>
+    <comment>Icon Sets</comment>
+  </data>
+  <data name="GradientFill" xml:space="preserve">
+    <value>Градиентная заливка</value>
+    <comment>Gradient Fill</comment>
+  </data>
+  <data name="SolidFill" xml:space="preserve">
+    <value>Сплошная Заливка</value>
+    <comment>Solid Fill</comment>
+  </data>
+  <data name="CF_IconSets_Directional" xml:space="preserve">
+    <value>Направленный</value>
+    <comment>Directional</comment>
+  </data>
+  <data name="CF_IconSets_Indicators" xml:space="preserve">
+    <value>Показатели</value>
+    <comment>Indicators</comment>
+  </data>
+  <data name="CF_IconSets_Ratings" xml:space="preserve">
+    <value>Рейтинги</value>
+    <comment>Ratings</comment>
+  </data>
+  <data name="CF_IconSets_Shapes" xml:space="preserve">
+    <value>Формы</value>
+    <comment>Shapes</comment>
+  </data>
+  <data name="ProtectSheetLabel" xml:space="preserve">
+    <value>Разрешить всем пользователям этого рабочего листа:</value>
+    <comment>Allow all users of this worksheet to:</comment>
+  </data>
+  <data name="DelCols" xml:space="preserve">
+    <value>Удаление столбцов</value>
+    <comment>Delete columns</comment>
+  </data>
+  <data name="DelRows" xml:space="preserve">
+    <value>Удаление строк</value>
+    <comment>Delete rows</comment>
+  </data>
+  <data name="EditObjs" xml:space="preserve">
+    <value>Редактирование объектов</value>
+    <comment>Edit objects</comment>
+  </data>
+  <data name="Formatcells" xml:space="preserve">
+    <value>Форматирование ячеек</value>
+    <comment>Format cells</comment>
+  </data>
+  <data name="FormatCols" xml:space="preserve">
+    <value>Форматирование столбцов</value>
+    <comment>Format columns</comment>
+  </data>
+  <data name="FormatRows" xml:space="preserve">
+    <value>Форматирование строк</value>
+    <comment>Format rows</comment>
+  </data>
+  <data name="InsCols" xml:space="preserve">
+    <value>Вставка столбцов</value>
+    <comment>Insert columns</comment>
+  </data>
+  <data name="InsHyper" xml:space="preserve">
+    <value>Вставка гиперссылок</value>
+    <comment>Insert hyperlinks</comment>
+  </data>
+  <data name="InsRows" xml:space="preserve">
+    <value>Вставка строк</value>
+    <comment>Insert rows</comment>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>Выберите заблокированные ячейки</value>
+    <comment>Select locked cells</comment>
+  </data>
+  <data name="Unlocked" xml:space="preserve">
+    <value>Выберите незапертые ячейки</value>
+    <comment>Select unlocked cells</comment>
+  </data>
+  <data name="ProtectOptions_Deletecolumns" xml:space="preserve">
+    <value>Удаление столбцов</value>
+    <comment>Delete columns</comment>
+  </data>
+  <data name="ProtectOptions_Deleterows" xml:space="preserve">
+    <value>Удаление строк</value>
+    <comment>Delete rows</comment>
+  </data>
+  <data name="ProtectOptions_EditObjects" xml:space="preserve">
+    <value>Редактирование объектов</value>
+    <comment>Edit objects</comment>
+  </data>
+  <data name="ProtectOptions_Formatcells" xml:space="preserve">
+    <value>Форматирование ячеек</value>
+    <comment>Format cells</comment>
+  </data>
+  <data name="ProtectOptions_Formatcolumns" xml:space="preserve">
+    <value>Форматирование столбцов</value>
+    <comment>Format columns</comment>
+  </data>
+  <data name="ProtectOptions_Formatrows" xml:space="preserve">
+    <value>Форматирование строк</value>
+    <comment>Format rows</comment>
+  </data>
+  <data name="ProtectOptions_Insertcolumns" xml:space="preserve">
+    <value>Вставка столбцов</value>
+    <comment>Insert columns</comment>
+  </data>
+  <data name="ProtectOptions_InsertHyperlink" xml:space="preserve">
+    <value>Вставка гиперссылок</value>
+    <comment>Insert hyperlinks</comment>
+  </data>
+  <data name="ProtectOptions_Insertrows" xml:space="preserve">
+    <value>Вставка строк</value>
+    <comment>Insert rows</comment>
+  </data>
+  <data name="ProtectOptions_Locked" xml:space="preserve">
+    <value>Выберите заблокированные ячейки</value>
+    <comment>Select locked cells</comment>
+  </data>
+  <data name="ProtectOptions_Unlocked" xml:space="preserve">
+    <value>Выберите незапертые ячейки</value>
+    <comment>Select unlocked cells</comment>
+  </data>
+  <data name="LockCell" xml:space="preserve">
+    <value>Шлюзовая камера</value>
+    <comment>Lock Cell</comment>
+  </data>
+  <data name="Formulas" xml:space="preserve">
+    <value>Формулы</value>
+    <comment>Formulas</comment>
+  </data>
+  <data name="Context_PasteOptions" xml:space="preserve">
+    <value>Параметры вставки</value>
+    <comment>PasteOptions</comment>
+  </data>
+  <data name="Context_FormatCells" xml:space="preserve">
+    <value>Форматирование ячеек...</value>
+    <comment>Format Cells...</comment>
+  </data>
+  <data name="FormatCells_Accounting_Instruction" xml:space="preserve">
+    <value>Форматы учета выстраивают символы валюты и десятичные точки в столбик.</value>
+    <comment>Accounting formats line up the currency symbols and decimal points in a column.</comment>
+  </data>
+  <data name="FormatCells_BackgroundColor" xml:space="preserve">
+    <value>Цвет фона:</value>
+    <comment>Background Color:</comment>
+  </data>
+  <data name="FormatCells_Bold" xml:space="preserve">
+    <value>Жирный</value>
+    <comment>Bold</comment>
+  </data>
+  <data name="FormatCells_BoldItalic" xml:space="preserve">
+    <value>Жирный Курсив</value>
+    <comment>BoldItalic</comment>
+  </data>
+  <data name="FormatCells_Border_FooterText" xml:space="preserve">
+    <value>Выбранный стиль границы можно применить, нажав на предустановки, диаграмму предварительного просмотра или кнопки выше.</value>
+    <comment>The selected border style can be applied by clicking the presets, preview diagram or the buttons above.</comment>
+  </data>
+  <data name="FormatCells_Bottom" xml:space="preserve">
+    <value>Дно</value>
+    <comment>Bottom</comment>
+  </data>
+  <data name="FormatCells_Category" xml:space="preserve">
+    <value>Категория:</value>
+    <comment>Category:</comment>
+  </data>
+  <data name="FormatCells_Center" xml:space="preserve">
+    <value>Центр</value>
+    <comment>Center</comment>
+  </data>
+  <data name="FormatCells_Color" xml:space="preserve">
+    <value>Цвет:</value>
+    <comment>Color:</comment>
+  </data>
+  <data name="FormatCells_Currency_Instruction" xml:space="preserve">
+    <value>Форматы валют используются для общих денежных значений. Используйте форматы учета для выравнивания десятичных знаков в столбце.</value>
+    <comment>Currency formats are used for general monetary values. Use Accounting formats to align decimal points in a column.</comment>
+  </data>
+  <data name="FormatCells_Custom_Instruction" xml:space="preserve">
+    <value>Введите код числового формата, используя один из существующих кодов в качестве отправной точки.</value>
+    <comment>Type the number format code, using one of the existing codes as a starting point.</comment>
+  </data>
+  <data name="FormatCells_Date" xml:space="preserve">
+    <value>Дата</value>
+    <comment>Date</comment>
+  </data>
+  <data name="FormatCells_Datelist1" xml:space="preserve">
+    <value>* среда,14 марта 2012 г.</value>
+    <comment>* wednesday,March 14,2012</comment>
+  </data>
+  <data name="FormatCells_Datelist2" xml:space="preserve">
+    <value>14-Марта</value>
+    <comment>14-Mar</comment>
+  </data>
+  <data name="FormatCells_Datelist3" xml:space="preserve">
+    <value>14-Марта-12</value>
+    <comment>14-Mar-12</comment>
+  </data>
+  <data name="FormatCells_Datelist4" xml:space="preserve">
+    <value>12 марта</value>
+    <comment>Mar-12</comment>
+  </data>
+  <data name="FormatCells_Datelist5" xml:space="preserve">
+    <value>Март-12</value>
+    <comment>March-12</comment>
+  </data>
+  <data name="FormatCells_Datelist6" xml:space="preserve">
+    <value>14 марта 2012 года</value>
+    <comment>March 14,2012</comment>
+  </data>
+  <data name="FormatCells_Datelist7" xml:space="preserve">
+    <value>14-Мар-2012</value>
+    <comment>14-Mar-2012</comment>
+  </data>
+  <data name="FormatCells_Date_Instruction" xml:space="preserve">
+    <value>Форматы даты отображают серийные номера даты и времени в качестве значений даты. Форматы даты, начинающиеся со звездочки(*), реагируют на изменения региональных настроек даты и времени, заданных для операционной системы. Форматы без звездочки не зависят от настроек операционной системы.</value>
+    <comment>Date formats display date and time serial numbers as date values. Date formats that begin with an asterisk(*) respond to changes in regional date and time settings that are specified for the operating system. Formats without an asterisk are not affected by operating system settings.</comment>
+  </data>
+  <data name="FormatCells_DecimalPlaces" xml:space="preserve">
+    <value>Десятичные знаки:</value>
+    <comment>Decimal places:</comment>
+  </data>
+  <data name="FormatCells_Fill" xml:space="preserve">
+    <value>Заполнить</value>
+    <comment>Fill</comment>
+  </data>
+  <data name="FormatCells_Font" xml:space="preserve">
+    <value>Шрифт:</value>
+    <comment>Font:</comment>
+  </data>
+  <data name="FormatCells_FontSize" xml:space="preserve">
+    <value>Размер:</value>
+    <comment>Size:</comment>
+  </data>
+  <data name="FormatCells_FontStyle" xml:space="preserve">
+    <value>Стиль шрифта:</value>
+    <comment>Font Style:</comment>
+  </data>
+  <data name="FormatCells_Font_FooterText" xml:space="preserve">
+    <value>Это шрифт truetype. Один и тот же шрифт будет использоваться как на вашем принтере, так и на экране.</value>
+    <comment>This is a true type font. The same font will be used on both your printer and your screen.</comment>
+  </data>
+  <data name="FormatCells_FractionType1" xml:space="preserve">
+    <value>До одной цифры (1/4)</value>
+    <comment>Up to one digit(1/4)</comment>
+  </data>
+  <data name="FormatCells_FractionType2" xml:space="preserve">
+    <value>До двух цифр (21/25)</value>
+    <comment>Up to two digits(21/25)</comment>
+  </data>
+  <data name="FormatCells_FractionType3" xml:space="preserve">
+    <value>До трех цифр(312/943)</value>
+    <comment>Up to three digits(312/943)</comment>
+  </data>
+  <data name="FormatCells_FractionType4" xml:space="preserve">
+    <value>Как половинки(1/2)</value>
+    <comment>As halves(1/2)</comment>
+  </data>
+  <data name="FormatCells_FractionType5" xml:space="preserve">
+    <value>Как четверти(2/4)</value>
+    <comment>As quarters(2/4)</comment>
+  </data>
+  <data name="FormatCells_FractionType6" xml:space="preserve">
+    <value>Как восьмые(4/8)</value>
+    <comment>As eighths(4/8)</comment>
+  </data>
+  <data name="FormatCells_FractionType7" xml:space="preserve">
+    <value>Как шестнадцатые(8/16)</value>
+    <comment>As sixteenths(8/16)</comment>
+  </data>
+  <data name="FormatCells_FractionType8" xml:space="preserve">
+    <value>Как десятые доли(3/10)</value>
+    <comment>As tenths(3/10)</comment>
+  </data>
+  <data name="FormatCells_FractionType9" xml:space="preserve">
+    <value>В сотых долях(30/100)</value>
+    <comment>As hundredths(30/100)</comment>
+  </data>
+  <data name="FormatCells_General_Instruction" xml:space="preserve">
+    <value>Ячейки общего формата не имеют определенного числового формата</value>
+    <comment>General format cells have no specific number format</comment>
+  </data>
+  <data name="FormatCells_HeaderFont" xml:space="preserve">
+    <value>Шрифт</value>
+    <comment>Font</comment>
+  </data>
+  <data name="FormatCells_Hidden" xml:space="preserve">
+    <value>Скрытый</value>
+    <comment>Hidden</comment>
+  </data>
+  <data name="FormatCells_Indent" xml:space="preserve">
+    <value>Выемка:</value>
+    <comment>Indent:</comment>
+  </data>
+  <data name="FormatCells_Inside" xml:space="preserve">
+    <value>Внутри</value>
+    <comment>Inside</comment>
+  </data>
+  <data name="FormatCells_Italic" xml:space="preserve">
+    <value>Курсивный</value>
+    <comment>Italic</comment>
+  </data>
+  <data name="FormatCells_LeftIndent" xml:space="preserve">
+    <value>Слева(Отступ)</value>
+    <comment>Left(Indent)</comment>
+  </data>
+  <data name="FormatCells_Line" xml:space="preserve">
+    <value>Линия</value>
+    <comment>Line</comment>
+  </data>
+  <data name="FormatCells_Locked" xml:space="preserve">
+    <value>Запертый</value>
+    <comment>Locked</comment>
+  </data>
+  <data name="FormatCells_NegativeNumber" xml:space="preserve">
+    <value>Отрицательное число:</value>
+    <comment>Negative number:</comment>
+  </data>
+  <data name="FormatCells_NoColor" xml:space="preserve">
+    <value>Нет Цвета</value>
+    <comment>No Color</comment>
+  </data>
+  <data name="FormatCells_None" xml:space="preserve">
+    <value>Никто</value>
+    <comment>None</comment>
+  </data>
+  <data name="FormatCells_NormalFont" xml:space="preserve">
+    <value>Обычный шрифт</value>
+    <comment>Normal Font</comment>
+  </data>
+  <data name="FormatCells_Number_Instruction" xml:space="preserve">
+    <value>Номер используется для общего отображения чисел. Валюта и Бухгалтерский учет предлагают специализированное форматирование денежной стоимости.</value>
+    <comment>Number is used for general display of numbers. Currency And Accounting offer specialized formatting for monetary value.</comment>
+  </data>
+  <data name="FormatCells_Outline" xml:space="preserve">
+    <value>Контур</value>
+    <comment>Outline</comment>
+  </data>
+  <data name="FormatCells_Percentage_Instruction" xml:space="preserve">
+    <value>Процентные форматы умножают значение ячейки на 100 и отображают результат с символом процента.</value>
+    <comment>Percentage formats multiply the cell value by 100 and display the result with a percent symbol.</comment>
+  </data>
+  <data name="FormatCells_Presets" xml:space="preserve">
+    <value>Пресеты</value>
+    <comment>Presets</comment>
+  </data>
+  <data name="FormatCells_Preview" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+    <comment>Preview</comment>
+  </data>
+  <data name="FormatCells_Protection" xml:space="preserve">
+    <value>Защита</value>
+    <comment>Protection</comment>
+  </data>
+  <data name="FormatCells_Protection_FooterText" xml:space="preserve">
+    <value>Блокировка ячеек или скрытие формул не действуют до тех пор, пока вы не защитите рабочий лист (вкладка "Просмотр", кнопка "Защитить лист").</value>
+    <comment>Locking cells or hiding formulas has no effect until you protect the worksheet(View tab,Protect sheet button).</comment>
+  </data>
+  <data name="FormatCells_Regular" xml:space="preserve">
+    <value>Регулярный</value>
+    <comment>Regular</comment>
+  </data>
+  <data name="FormatCells_RightIndent" xml:space="preserve">
+    <value>Справа(Отступ)</value>
+    <comment>Right(Indent)</comment>
+  </data>
+  <data name="FormatCells_Sample" xml:space="preserve">
+    <value>Образец</value>
+    <comment>Sample</comment>
+  </data>
+  <data name="FormatCells_Single" xml:space="preserve">
+    <value>Одиночный</value>
+    <comment>Single</comment>
+  </data>
+  <data name="FormatCells_Special1" xml:space="preserve">
+    <value>почтовый индекс</value>
+    <comment>Zip Code</comment>
+  </data>
+  <data name="FormatCells_Special2" xml:space="preserve">
+    <value>Почтовый индекс +4</value>
+    <comment>Zip Code +4</comment>
+  </data>
+  <data name="FormatCells_Special3" xml:space="preserve">
+    <value>номер телефона</value>
+    <comment>Phone Number</comment>
+  </data>
+  <data name="FormatCells_Special4" xml:space="preserve">
+    <value>Номер социального страхования</value>
+    <comment>Social Security Number</comment>
+  </data>
+  <data name="FormatCells_Special_Instruction" xml:space="preserve">
+    <value>Специальные форматы полезны для отслеживания значений списка и базы данных.</value>
+    <comment>Special formats are useful for tracking list and database values.</comment>
+  </data>
+  <data name="FormatCells_Style" xml:space="preserve">
+    <value>Стиль:</value>
+    <comment>Style:</comment>
+  </data>
+  <data name="FormatCells_Symbol" xml:space="preserve">
+    <value>Символ:</value>
+    <comment>Symbol:</comment>
+  </data>
+  <data name="FormatCells_TextControl" xml:space="preserve">
+    <value>Управление текстом</value>
+    <comment>Text Control</comment>
+  </data>
+  <data name="FormatCells_Time_Instruction" xml:space="preserve">
+    <value>Форматы времени отображают серийные номера даты и времени в качестве значений даты. Форматы даты, начинающиеся со звездочки(*), реагируют на изменения региональных настроек даты и времени, заданных для операционной системы. Форматы без звездочки не зависят от настроек операционной системы.</value>
+    <comment>Time formats display date and time serial numbers as date values. Date formats that begin with an asterisk(*) respond to changes in regional date and time settings that are specified for the operating system. Formats without an asterisk are not affected by operating system settings.</comment>
+  </data>
+  <data name="FormatCells_Title" xml:space="preserve">
+    <value>Форматирование Ячеек</value>
+    <comment>Format Cells</comment>
+  </data>
+  <data name="FormatCells_Top" xml:space="preserve">
+    <value>Верхний</value>
+    <comment>Top</comment>
+  </data>
+  <data name="FormatCells_Type" xml:space="preserve">
+    <value>Тип:</value>
+    <comment>Type:</comment>
+  </data>
+  <data name="FormatCells_Underline" xml:space="preserve">
+    <value>Подчеркивать:</value>
+    <comment>Underline:</comment>
+  </data>
+  <data name="FormatCells_Vertical" xml:space="preserve">
+    <value>Вертикальный:</value>
+    <comment>Vertical:</comment>
+  </data>
+  <data name="Fraction" xml:space="preserve">
+    <value>Крупица</value>
+    <comment>Fraction</comment>
+  </data>
+  <data name="Scientific" xml:space="preserve">
+    <value>Научный</value>
+    <comment>Scientific</comment>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>Особый</value>
+    <comment>Special</comment>
+  </data>
+  <data name="FormatCells_TextAlignment" xml:space="preserve">
+    <value>Выравнивание текста</value>
+    <comment>Text Alignment</comment>
+  </data>
+  <data name="FormatCells_DoubleUnderline" xml:space="preserve">
+    <value>Двойной</value>
+    <comment>Double</comment>
+  </data>
+  <data name="FormatCells_Effects" xml:space="preserve">
+    <value>Эффекты</value>
+    <comment>Effects</comment>
+  </data>
+  <data name="FormatCells_Strikethrough" xml:space="preserve">
+    <value>Зачеркнуто</value>
+    <comment>Strikethrough</comment>
+  </data>
+  <data name="FormatCells_Horizontal" xml:space="preserve">
+    <value>Горизонтальный:</value>
+    <comment>Horizontal:</comment>
+  </data>
+  <data name="FormatCells_SeparatorText" xml:space="preserve">
+    <value>Используйте разделитель 1000 (,)</value>
+    <comment>Use 1000 Separator (,)</comment>
+  </data>
+  <data name="MoreBorders" xml:space="preserve">
+    <value>Больше границ...</value>
+    <comment>More Borders...</comment>
+  </data>
+  <data name="FormatCells_Left" xml:space="preserve">
+    <value>Слева</value>
+    <comment>Left</comment>
+  </data>
+  <data name="FormatCells_Right" xml:space="preserve">
+    <value>Правильно</value>
+    <comment>Right</comment>
+  </data>
+  <data name="FormatCells_Degrees" xml:space="preserve">
+    <value>Степени</value>
+    <comment>Degrees</comment>
+  </data>
+  <data name="Spreadsheet" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValidationMessage_MergeAndCenter" xml:space="preserve">
+    <value>При объединении ячеек сохраняется только значение верхней левой ячейки, а остальные значения отбрасываются.</value>
+    <comment>Merging cells only keeps the upper-left cell value, and discards the other values.</comment>
+  </data>
+  <data name="ValidationMessage_Fill_MergeError" xml:space="preserve">
+    <value>Для этого все объединенные ячейки должны быть одинакового размера.</value>
+    <comment>To do this, all the merged cells need to be the same size.</comment>
+  </data>
+  <data name="Find_Find" xml:space="preserve">
+    <value>Найди</value>
+    <comment>Find</comment>
+  </data>
+  <data name="Find_FindAll" xml:space="preserve">
+    <value>Найти Все</value>
+    <comment>Find All</comment>
+  </data>
+  <data name="Find_FindNext" xml:space="preserve">
+    <value>Найдите Следующий</value>
+    <comment>Find Next</comment>
+  </data>
+  <data name="Find_FindWhat" xml:space="preserve">
+    <value>Найти что:</value>
+    <comment>Find what:</comment>
+  </data>
+  <data name="Find_Lookin" xml:space="preserve">
+    <value>Загляни в:</value>
+    <comment>Look in:</comment>
+  </data>
+  <data name="Find_MatchCase" xml:space="preserve">
+    <value>Спичечный коробок</value>
+    <comment>Match case</comment>
+  </data>
+  <data name="Find_MatchEntireCellContents" xml:space="preserve">
+    <value>Сопоставьте все содержимое ячейки целиком</value>
+    <comment>Match entire cell contents</comment>
+  </data>
+  <data name="Find_Replace" xml:space="preserve">
+    <value>Заменять</value>
+    <comment>Replace</comment>
+  </data>
+  <data name="Find_ReplaceAll" xml:space="preserve">
+    <value>Замените Все</value>
+    <comment>Replace All</comment>
+  </data>
+  <data name="Find_ReplaceWith" xml:space="preserve">
+    <value>Заменить на:</value>
+    <comment>Replace with:</comment>
+  </data>
+  <data name="Find_Search" xml:space="preserve">
+    <value>Поиск:</value>
+    <comment>Search:</comment>
+  </data>
+  <data name="Find_Within" xml:space="preserve">
+    <value>Внутри:</value>
+    <comment>Within:</comment>
+  </data>
+  <data name="Find_RibbonComments" xml:space="preserve">
+    <value>Комментарии</value>
+    <comment>Comments</comment>
+  </data>
+  <data name="Find_RibbonConstants" xml:space="preserve">
+    <value>Константы</value>
+    <comment>Constants</comment>
+  </data>
+  <data name="Find_RibbonFormulas" xml:space="preserve">
+    <value>Формулы</value>
+    <comment>Formulas</comment>
+  </data>
+  <data name="Find_RibbonGoTo" xml:space="preserve">
+    <value>идти к...</value>
+    <comment>Go To...</comment>
+  </data>
+  <data name="Editing" xml:space="preserve">
+    <value>Редактирование</value>
+    <comment>Editing</comment>
+  </data>
+  <data name="Find_FindAndReplace" xml:space="preserve">
+    <value>Найти и заменить</value>
+    <comment>Find and Replace</comment>
+  </data>
+  <data name="Find_RibbonFind" xml:space="preserve">
+    <value>Найди...</value>
+    <comment>Find...</comment>
+  </data>
+  <data name="Find_RibbonReplace" xml:space="preserve">
+    <value>Заменять...</value>
+    <comment>Replace...</comment>
+  </data>
+  <data name="Find_OptionsExpand" xml:space="preserve">
+    <value>Параметры &gt;&gt;</value>
+    <comment>Options &gt;&gt;</comment>
+  </data>
+  <data name="Find_ByColumns" xml:space="preserve">
+    <value>По столбцам</value>
+    <comment>By Columns</comment>
+  </data>
+  <data name="Find_ByRows" xml:space="preserve">
+    <value>По строкам</value>
+    <comment>By Rows</comment>
+  </data>
+  <data name="Find_RibbonFindAndSelect" xml:space="preserve">
+    <value>Найти и выбрать</value>
+    <comment>Find &amp; Select</comment>
+  </data>
+  <data name="Find_Workbook" xml:space="preserve">
+    <value>Рабочая тетрадь</value>
+    <comment>Workbook</comment>
+  </data>
+  <data name="Find_OptionsCollapse" xml:space="preserve">
+    <value>Опции &lt;&lt;</value>
+    <comment>Options &lt;&lt;</comment>
+  </data>
+  <data name="Find_Book" xml:space="preserve">
+    <value>Книга</value>
+    <comment>Book</comment>
+  </data>
+  <data name="Find_Cell" xml:space="preserve">
+    <value>Клетка</value>
+    <comment>Cell</comment>
+  </data>
+  <data name="Find_Name" xml:space="preserve">
+    <value>Имя</value>
+    <comment>Name</comment>
+  </data>
+  <data name="Find_Value" xml:space="preserve">
+    <value>Ценность</value>
+    <comment>Value</comment>
+  </data>
+  <data name="FindError" xml:space="preserve">
+    <value>Мы не смогли найти то, что вы искали. Нажмите кнопку Параметры для получения дополнительных способов поиска.</value>
+    <comment>We could not find what you were looking for. Click options for more ways to search.</comment>
+  </data>
+  <data name="ReplaceError" xml:space="preserve">
+    <value>Не удается найти совпадение.</value>
+    <comment>Cannot find a match.</comment>
+  </data>
+  <data name="Find_CellsFoundDetail" xml:space="preserve">
+    <value>найдена ячейка (ячейки)</value>
+    <comment>cell(s) found</comment>
+  </data>
+  <data name="Find_GoTo" xml:space="preserve">
+    <value>Идти к:</value>
+    <comment>Go to:</comment>
+  </data>
+  <data name="Find_GoToTitle" xml:space="preserve">
+    <value>Идти к</value>
+    <comment>Go To</comment>
+  </data>
+  <data name="Find_Reference" xml:space="preserve">
+    <value>Ссылка:</value>
+    <comment>Reference:</comment>
+  </data>
+  <data name="Find_GoToCellReferenceWarning" xml:space="preserve">
+    <value>В этой формуле отсутствует ссылка на диапазон или определенное имя.</value>
+    <comment>This formula is missing a range reference or a defined name.</comment>
+  </data>
+  <data name="Find_GoToSheetReferenceWarning" xml:space="preserve">
+    <value>Ссылка недействительна.</value>
+    <comment>Reference isn't valid.</comment>
+  </data>
+  <data name="Find_RibbonItemsWarning" xml:space="preserve">
+    <value>Никаких клеток обнаружено не было.</value>
+    <comment>No cells were found.</comment>
+  </data>
+  <data name="ReplaceAllWarning" xml:space="preserve">
+    <value>Мы не смогли найти ничего, что можно было бы заменить. Нажмите кнопку Параметры для получения дополнительных способов поиска.
+
+К вашему сведению: возможно, данные, которые вы пытаетесь заменить, находятся в защищенном листе. Невозможно заменить данные в защищенных листах.</value>
+    <comment>We couldn't find anything to replace. Click options for more ways to search.
+
+FYI: It's possible the data you're trying to replace is in a protected sheet. Can't replace data in protected sheets.</comment>
+  </data>
+  <data name="ReplaceAllEndMessage" xml:space="preserve">
+    <value>замены.</value>
+    <comment>replacements.</comment>
+  </data>
+  <data name="ReplaceAllStartMessage" xml:space="preserve">
+    <value>Все сделано. Мы сделали</value>
+    <comment>All done. We made</comment>
+  </data>
+  <data name="ReplaceProtectedSheetWarning" xml:space="preserve">
+    <value>Вы не можете использовать эту команду на защищенном листе, вы должны сначала снять защиту с листа (вкладка Просмотр, кнопка Снять защиту с листа). Вам может быть предложено ввести пароль.</value>
+    <comment>You cannot use this command on a protected sheet, you must first unprotect the sheet (View tab, Unprotect the sheet button). You may prompted for a password.</comment>
+  </data>
+  <data name="ValidationMessage_InsertRowsColumns" xml:space="preserve">
+    <value>Электронная таблица не может вставлять новые ячейки, потому что это приведет к удалению непустых ячеек с конца листа. Эти ячейки могут казаться пустыми, но содержать пустые значения, некоторое форматирование или формулу. Удалите достаточное количество строк или столбцов, чтобы освободить место для того, что вы хотите вставить, а затем повторите попытку.</value>
+    <comment>Spreadsheet can’t insert new cells because it would push non-empty cells off the end of the worksheet. These cells might appear empty but have blank values, some formatting, or a formula. Delete enough rows or columns to make room for what you want to insert and then try again.</comment>
+  </data>
+  <data name="ArrayFormula_Error" xml:space="preserve">
+    <value>Вы не можете изменить часть массива.</value>
+    <comment>You can't change part of an array.</comment>
+  </data>
+  <data name="Context_FormulaFormatting" xml:space="preserve">
+    <value>Форматирование формул и исходных текстов</value>
+    <comment>Formula and SourceFormatting</comment>
+  </data>
+  <data name="Context_ValueFormatting" xml:space="preserve">
+    <value>Значения и Форматирование источника</value>
+    <comment>Values and SourceFormatting</comment>
+  </data>
+  <data name="File_InfoNever" xml:space="preserve">
+    <value>Никогда</value>
+    <comment>Never</comment>
+  </data>
+  <data name="NameRange_RefersTo" xml:space="preserve">
+    <value>Относится к</value>
+    <comment>RefersTo</comment>
+  </data>
+  <data name="NameRange_Scope" xml:space="preserve">
+    <value>Масштаб</value>
+    <comment>Scope</comment>
+  </data>
+  <data name="ThemeColorsText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CellStyles_Accent" xml:space="preserve">
+    <value>Акцент</value>
+    <comment>Accent</comment>
+  </data>
+  <data name="CellStyles_Bad" xml:space="preserve">
+    <value>Плохой</value>
+    <comment>Bad</comment>
+  </data>
+  <data name="CellStyles_Comma" xml:space="preserve">
+    <value>Запятая</value>
+    <comment>Comma</comment>
+  </data>
+  <data name="CellStyles_Good" xml:space="preserve">
+    <value>Хорошо</value>
+    <comment>Good</comment>
+  </data>
+  <data name="CellStyles_Heading1" xml:space="preserve">
+    <value>Заголовок 1</value>
+    <comment>Heading 1</comment>
+  </data>
+  <data name="CellStyles_Neutral" xml:space="preserve">
+    <value>Нейтральный</value>
+    <comment>Neutral</comment>
+  </data>
+  <data name="CellStyles_Normal" xml:space="preserve">
+    <value>Обычный</value>
+    <comment>Normal</comment>
+  </data>
+  <data name="CellStyles_Percent" xml:space="preserve">
+    <value>Процент</value>
+    <comment>Percent</comment>
+  </data>
+  <data name="CellStyles_Total" xml:space="preserve">
+    <value>Весь</value>
+    <comment>Total</comment>
+  </data>
+  <data name="CellStyles_Heading4" xml:space="preserve">
+    <value>Раздел 4</value>
+    <comment>Heading 4</comment>
+  </data>
+  <data name="CellStyles_Heading3" xml:space="preserve">
+    <value>Заголовок 3</value>
+    <comment>Heading 3</comment>
+  </data>
+  <data name="CellStyles_Heading2" xml:space="preserve">
+    <value>Заголовок 2</value>
+    <comment>Heading 2</comment>
+  </data>
+  <data name="CellStyles_Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>Title</comment>
+  </data>
+  <data name="CellStyles_Accent1_40" xml:space="preserve">
+    <value>40% - Акцент1</value>
+    <comment>40% - Accent1</comment>
+  </data>
+  <data name="CellStyles_Accent1_60" xml:space="preserve">
+    <value>60% - Акцент1</value>
+    <comment>60% - Accent1</comment>
+  </data>
+  <data name="CellStyles_Accent5" xml:space="preserve">
+    <value>Акцент 5</value>
+    <comment>Accent5</comment>
+  </data>
+  <data name="CellStyles_Accent4" xml:space="preserve">
+    <value>Акцент 4</value>
+    <comment>Accent4</comment>
+  </data>
+  <data name="CellStyles_Accent6_40" xml:space="preserve">
+    <value>40% - Акцент 6</value>
+    <comment>40% - Accent6</comment>
+  </data>
+  <data name="CellStyles_Accent6_60" xml:space="preserve">
+    <value>60% - Акцент 6</value>
+    <comment>60% - Accent6</comment>
+  </data>
+  <data name="CellStyles_Accent3_40" xml:space="preserve">
+    <value>40% - Акцент3</value>
+    <comment>40% - Accent3</comment>
+  </data>
+  <data name="CellStyles_Accent3_60" xml:space="preserve">
+    <value>60% - Акцент 3</value>
+    <comment>60% - Accent3</comment>
+  </data>
+  <data name="CellStyles_Accent1" xml:space="preserve">
+    <value>Акцент 1</value>
+    <comment>Accent1</comment>
+  </data>
+  <data name="CellStyles_Accent2_40" xml:space="preserve">
+    <value>40% - Акцент2</value>
+    <comment>40% - Accent2</comment>
+  </data>
+  <data name="CellStyles_Accent2_60" xml:space="preserve">
+    <value>60% - Акцент 2</value>
+    <comment>60% - Accent2</comment>
+  </data>
+  <data name="CellStyles_Accent5_40" xml:space="preserve">
+    <value>40% - Акцент5</value>
+    <comment>40% - Accent5</comment>
+  </data>
+  <data name="CellStyles_Accent5_60" xml:space="preserve">
+    <value>60% - Акцент 5</value>
+    <comment>60% - Accent5</comment>
+  </data>
+  <data name="CellStyles_Accent6" xml:space="preserve">
+    <value>Акцент 6</value>
+    <comment>Accent6</comment>
+  </data>
+  <data name="CellStyles_Accent3" xml:space="preserve">
+    <value>Акцент 3</value>
+    <comment>Accent3</comment>
+  </data>
+  <data name="CellStyles_Accent2" xml:space="preserve">
+    <value>Акцент 2</value>
+    <comment>Accent2</comment>
+  </data>
+  <data name="CellStyles_Accent4_40" xml:space="preserve">
+    <value>40% - Акцент4</value>
+    <comment>40% - Accent4</comment>
+  </data>
+  <data name="CellStyles_Accent4_60" xml:space="preserve">
+    <value>60% - Акцент 4</value>
+    <comment>60% - Accent4</comment>
+  </data>
+  <data name="CellStyles_CommaZero" xml:space="preserve">
+    <value>Запятая [0]</value>
+    <comment>Comma [0]</comment>
+  </data>
+  <data name="CellStyles_Currency" xml:space="preserve">
+    <value>Валюта</value>
+    <comment>Currency</comment>
+  </data>
+  <data name="CellStyles_CurrencyZero" xml:space="preserve">
+    <value>Валюта [0]</value>
+    <comment>Currency [0]</comment>
+  </data>
+  <data name="CellStyles_Accent1_20" xml:space="preserve">
+    <value>20% - Акцент 1</value>
+    <comment>20% - Accent1</comment>
+  </data>
+  <data name="CellStyles_Accent6_20" xml:space="preserve">
+    <value>20% - Акцент 6</value>
+    <comment>20% - Accent6</comment>
+  </data>
+  <data name="CellStyles_Accent3_20" xml:space="preserve">
+    <value>20% - Акцент 3</value>
+    <comment>20% - Accent3</comment>
+  </data>
+  <data name="CellStyles_Accent2_20" xml:space="preserve">
+    <value>20% - Акцент 2</value>
+    <comment>20% - Accent2</comment>
+  </data>
+  <data name="CellStyles_Accent5_20" xml:space="preserve">
+    <value>20% - Акцент 5</value>
+    <comment>20% - Accent5</comment>
+  </data>
+  <data name="CellStyles_Accent4_20" xml:space="preserve">
+    <value>20% - Акцент 4</value>
+    <comment>20% - Accent4</comment>
+  </data>
+  <data name="CellStyles_97to2003Warning" xml:space="preserve">
+    <value>Встроенные стили ячеек не поддерживаются в формате файла Excel 97-2003.</value>
+    <comment>Built-in cell styles are not supported in Excel 97-2003 file format.</comment>
+  </data>
+  <data name="NumberFormat" xml:space="preserve">
+    <value>Числовой формат</value>
+    <comment>Number Format</comment>
+  </data>
+  <data name="NumberSettingsToolTip" xml:space="preserve">
+    <value>См. Параметры форматирования чисел.</value>
+    <comment>See the number formatting options.</comment>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+    <comment>Text</comment>
+  </data>
+  <data name="FormatCells_Text_Instruction" xml:space="preserve">
+    <value>Ячейки текстового формата обрабатываются как текст, даже если в ячейке есть число. Ячейка отображается точно в том виде, в каком она была введена.</value>
+    <comment>Text format cells are treated as text even when a number is in the cell. The cell is displayed exactly as entered.</comment>
+  </data>
+  <data name="NewCommentToolTip" xml:space="preserve">
+    <value>Добавьте комментарии к ячейкам.</value>
+    <comment>Add the comments to the cells.</comment>
+  </data>
+  <data name="DeleteCommentToolTip" xml:space="preserve">
+    <value>Удалите комментарий из выбранной ячейки.</value>
+    <comment>Remove the comment from the selected cell.</comment>
+  </data>
+  <data name="EditCommentToolTip" xml:space="preserve">
+    <value>Отредактируйте комментарий к выбранной ячейке.</value>
+    <comment>Edit the comment on selected cell.</comment>
+  </data>
+  <data name="GridlinesToolTip" xml:space="preserve">
+    <value>Покажите строки на листе между строками и столбцами, чтобы облегчить чтение листа.</value>
+    <comment>Show the lines in the sheet between rows and columns to make the sheet easier to read.</comment>
+  </data>
+  <data name="FormulaBarToolTip" xml:space="preserve">
+    <value>Покажите строку формул, чтобы увидеть формулы в ячейках.</value>
+    <comment>Show the Formula bar to see the formulas in the cells.</comment>
+  </data>
+  <data name="ShowHeadingsToolTip" xml:space="preserve">
+    <value>Показывать заголовки столбцов и номера строк.</value>
+    <comment>Show column headers and row numbers.</comment>
+  </data>
+  <data name="FreezePanesToolTip" xml:space="preserve">
+    <value>Заморозьте часть листа, чтобы она оставалась видимой при прокрутке остальной части листа.</value>
+    <comment>Freeze a portion of the sheet to keep it visible while scrolling through the rest of the sheet.</comment>
+  </data>
+  <data name="ProtectWorksheetToolTip" xml:space="preserve">
+    <value>Все ячейки блокируются, пока вы защищаете лист, за исключением тех, которые вы специально разблокировали.
+Например, вы запрещаете пользователю изменять значения в ячейках и вносить другие изменения в рабочий лист.</value>
+    <comment>All cells are locked while you protect a sheet, except those that you have specifically unlocked.
+For Example you are preventing the user from changing values in cells and making other changes to the worksheet.</comment>
+  </data>
+  <data name="ProtectWorkBookToolTip" xml:space="preserve">
+    <value>Защитите структуру рабочей книги, запретив пользователю добавлять или удалять рабочие листы или отображать скрытые рабочие листы.</value>
+    <comment>Protect the structure of workbook by prevent a user from adding or deleting worksheets or from displaying hidden worksheets.</comment>
+  </data>
+  <data name="HyperLinksToolTip" xml:space="preserve">
+    <value>Создайте ссылку в своем документе для быстрого доступа к веб-страницам и файлам.</value>
+    <comment>Create a link in your document for quick access to webpages and files.</comment>
+  </data>
+  <data name="GroupToolTip" xml:space="preserve">
+    <value>Сгруппируйте строку или столбец или автоматически создайте контур рабочего листа.</value>
+    <comment>Group row or column, or automatically outline a worksheet.</comment>
+  </data>
+  <data name="UngroupToolTip" xml:space="preserve">
+    <value>Разгруппируйте строку или столбец или удалите контур.</value>
+    <comment>Ungroup row or column, or remove an outline.</comment>
+  </data>
+  <data name="DataValidationToolTip" xml:space="preserve">
+    <value>Выберите из списка правила, чтобы ограничить тип данных, которые могут быть введены в ячейку.</value>
+    <comment>Pick from a list of rules to limit the type of data that can be entered in a cell.</comment>
+  </data>
+  <data name="NameManagerToolTip" xml:space="preserve">
+    <value>Создавайте, редактируйте, удаляйте и находите другие имена в рабочей книге.
+Имена могут использоваться в качестве заменителей ссылок на ячейки в формулах.
+Например, =СУММА (Продажи) вместо =СУММА (C20:C30).</value>
+    <comment>Create, edit, delete, and find other names in workbook.
+Names can be used as substitutes for cell references in formulas.
+For example, =SUM(Sales) instead of =SUM (C20:C30).</comment>
+  </data>
+  <data name="FilterToolTip" xml:space="preserve">
+    <value>Включите фильтрацию для выбранных ячеек.
+Затем щелкните стрелку в заголовке столбца, чтобы сузить круг данных.</value>
+    <comment>Enable filtering for the selected cells.
+Then, click the arrow in the column header to narrow down the data.</comment>
+  </data>
+  <data name="OutlineToolTip" xml:space="preserve">
+    <value>Ознакомьтесь с дополнительными опциями для создания контуров.</value>
+    <comment>Checkout advanced options to create outlines.</comment>
+  </data>
+  <data name="PasteToolTipHeader" xml:space="preserve">
+    <value>Вставить (Ctrl+V)</value>
+    <comment>Paste (Ctrl+V)</comment>
+  </data>
+  <data name="CopyToolTipHeader" xml:space="preserve">
+    <value>Копировать (Ctrl+C)</value>
+    <comment>Copy (Ctrl+C)</comment>
+  </data>
+  <data name="CutToolTipHeader" xml:space="preserve">
+    <value>Вырезать (Ctrl+X)</value>
+    <comment>Cut (Ctrl+X)</comment>
+  </data>
+  <data name="BoldToolTipHeader" xml:space="preserve">
+    <value>Жирный</value>
+    <comment>Bold</comment>
+  </data>
+  <data name="ItalicToolTipHeader" xml:space="preserve">
+    <value>Курсивный</value>
+    <comment>Italic</comment>
+  </data>
+  <data name="UnderLineToolTipHeader" xml:space="preserve">
+    <value>подчеркивать</value>
+    <comment>UnderLine</comment>
+  </data>
+  <data name="BottomBorderToolTipHeader" xml:space="preserve">
+    <value>Нижняя граница</value>
+    <comment>Bottom Border</comment>
+  </data>
+  <data name="FontToolTipHeader" xml:space="preserve">
+    <value>Шрифт</value>
+    <comment>Font</comment>
+  </data>
+  <data name="FontSizeToolTipHeader" xml:space="preserve">
+    <value>размер шрифта</value>
+    <comment>Font Size</comment>
+  </data>
+  <data name="IncreaseFontSizeToolTipHeader" xml:space="preserve">
+    <value>Увеличить Размер Шрифта</value>
+    <comment>Increase Font Size</comment>
+  </data>
+  <data name="DecreaseFontSizeToolTipHeader" xml:space="preserve">
+    <value>Уменьшить Размер Шрифта</value>
+    <comment>Decrease Font Size</comment>
+  </data>
+  <data name="FillColorToolTipHeader" xml:space="preserve">
+    <value>Цвет заливки</value>
+    <comment>Fill Color</comment>
+  </data>
+  <data name="FontColorToolTipHeader" xml:space="preserve">
+    <value>Цвет шрифта</value>
+    <comment>Font Color</comment>
+  </data>
+  <data name="AlignmentSettingsToolTipHeader" xml:space="preserve">
+    <value>Настройки выравнивания</value>
+    <comment>Alignment Settings</comment>
+  </data>
+  <data name="TopAlignToolTipHeader" xml:space="preserve">
+    <value>Выравнивание по верхнему краю</value>
+    <comment>Top Align</comment>
+  </data>
+  <data name="BottomAlignToolTipHeader" xml:space="preserve">
+    <value>Выравнивание по низу</value>
+    <comment>Bottom Align</comment>
+  </data>
+  <data name="MiddleAlignToolTipHeader" xml:space="preserve">
+    <value>Выравнивание по центру</value>
+    <comment>Middle Align</comment>
+  </data>
+  <data name="LeftAlignToolTipHeader" xml:space="preserve">
+    <value>Выравнивание по левому краю</value>
+    <comment>Left Align</comment>
+  </data>
+  <data name="RightAlignToolTipHeader" xml:space="preserve">
+    <value>Выравнивание по правому краю</value>
+    <comment>Right Align</comment>
+  </data>
+  <data name="CenterAlignToolTipHeader" xml:space="preserve">
+    <value>Выравнивание по центру</value>
+    <comment>Center Align</comment>
+  </data>
+  <data name="OrientationToolTipHeader" xml:space="preserve">
+    <value>Ориентация</value>
+    <comment>Orientation</comment>
+  </data>
+  <data name="FontSettingsToolTipHeader" xml:space="preserve">
+    <value>Настройки шрифта</value>
+    <comment>Font Settings</comment>
+  </data>
+  <data name="DecreaseIndentToolTipHeader" xml:space="preserve">
+    <value>Уменьшить Отступ</value>
+    <comment>Decrease Indent</comment>
+  </data>
+  <data name="IncreaseIndentToolTipHeader" xml:space="preserve">
+    <value>Увеличить отступ</value>
+    <comment>Increase Indent</comment>
+  </data>
+  <data name="NumberFormatToolTipHeader" xml:space="preserve">
+    <value>Числовой формат</value>
+    <comment>Number Format</comment>
+  </data>
+  <data name="AccountingNumberFormatToolTipHeader" xml:space="preserve">
+    <value>Формат Учетного номера</value>
+    <comment>Accounting Number Format</comment>
+  </data>
+  <data name="PercentageFormatToolTipHeader" xml:space="preserve">
+    <value>Формат в процентах</value>
+    <comment>Percentage Format</comment>
+  </data>
+  <data name="CommaStyleToolTipHeader" xml:space="preserve">
+    <value>Стиль запятой</value>
+    <comment>Comma Style</comment>
+  </data>
+  <data name="IncreaseDecimalToolTipHeader" xml:space="preserve">
+    <value>Увеличение Десятичной дроби</value>
+    <comment>Increase Decimal</comment>
+  </data>
+  <data name="DecreaseDecimalToolTipHeader" xml:space="preserve">
+    <value>Уменьшение Десятичной дроби</value>
+    <comment>Decrease Decimal</comment>
+  </data>
+  <data name="PasteToolTip" xml:space="preserve">
+    <value>Вставьте содержимое буфера обмена в документ.</value>
+    <comment>Paste the contents on the Clipboard to document.</comment>
+  </data>
+  <data name="CutToolTip" xml:space="preserve">
+    <value>Удалите выделение из документа и поместите его в буфер обмена.</value>
+    <comment>Remove the selection from document and put it on the clipboard.</comment>
+  </data>
+  <data name="CopyToolTip" xml:space="preserve">
+    <value>Скопируйте выделенный фрагмент и поместите его в буфер обмена.</value>
+    <comment>Copy the selection and put it on the Clipboard.</comment>
+  </data>
+  <data name="BoldToolTip" xml:space="preserve">
+    <value>Выделите выделенный текст жирным шрифтом.</value>
+    <comment>Make the selected text bold.</comment>
+  </data>
+  <data name="ItalicToolTip" xml:space="preserve">
+    <value>Выделите выделенный текст курсивом.</value>
+    <comment>Italicize the selected text.</comment>
+  </data>
+  <data name="UnderLineToolTip" xml:space="preserve">
+    <value>Подчеркните выделенный текст.</value>
+    <comment>Underline the selected text.</comment>
+  </data>
+  <data name="BottomBorderToolTip" xml:space="preserve">
+    <value>Примените границы к выделенным ячейкам.</value>
+    <comment>Apply borders to the selected cells.</comment>
+  </data>
+  <data name="FontToolTip" xml:space="preserve">
+    <value>Выберите новый шрифт для текста.</value>
+    <comment>Choose a new font for text.</comment>
+  </data>
+  <data name="FontSizeToolTip" xml:space="preserve">
+    <value>Измените размер текста.</value>
+    <comment>Change the size of text.</comment>
+  </data>
+  <data name="IncreaseFontSizeToolTip" xml:space="preserve">
+    <value>Увеличьте размер текста.</value>
+    <comment>Increase the text size.</comment>
+  </data>
+  <data name="DecreaseFontSizeToolTip" xml:space="preserve">
+    <value>Уменьшите размер текста.</value>
+    <comment>Decrease the text size.</comment>
+  </data>
+  <data name="FillColorToolTip" xml:space="preserve">
+    <value>Измените цвет фона выделенных ячеек.</value>
+    <comment>Change the color of the background of the selected cells.</comment>
+  </data>
+  <data name="FontColorToolTip" xml:space="preserve">
+    <value>Измените цвет текста.</value>
+    <comment>Change the color of text.</comment>
+  </data>
+  <data name="FontSettingsToolTip" xml:space="preserve">
+    <value>Настройте текст так, чтобы он выглядел именно так, как вы хотите.</value>
+    <comment>Customize the text so that it looks exactly what you want.</comment>
+  </data>
+  <data name="TopAlignToolTip" xml:space="preserve">
+    <value>Выровняйте текст по верхней части ячейки.</value>
+    <comment>Align text to the top of the cell.</comment>
+  </data>
+  <data name="BottomAlignToolTip" xml:space="preserve">
+    <value>Выровняйте текст по нижней части ячейки.</value>
+    <comment>Align text to the bottom of the cell.</comment>
+  </data>
+  <data name="MiddleAlignToolTip" xml:space="preserve">
+    <value>Выровняйте текст так, чтобы он располагался по центру между верхней и нижней частями ячейки.</value>
+    <comment>Align the text to be centered between the top and bottom of the cell.</comment>
+  </data>
+  <data name="LeftAlignToolTip" xml:space="preserve">
+    <value>Align the contents to the left.</value>
+    <comment>Align the contents to the left.</comment>
+  </data>
+  <data name="RightAlignToolTip" xml:space="preserve">
+    <value>Выровняйте содержимое по правому краю.</value>
+    <comment>Align the contents to the right.</comment>
+  </data>
+  <data name="CenterAlignToolTip" xml:space="preserve">
+    <value>Центрируйте содержимое.</value>
+    <comment>Center content.</comment>
+  </data>
+  <data name="OrientationToolTip" xml:space="preserve">
+    <value>Поверните текст по диагонали и вертикали.</value>
+    <comment>Rotate the text diagonally and vertically.</comment>
+  </data>
+  <data name="DecreaseIndentToolTip" xml:space="preserve">
+    <value>Уменьшите расстояние между границей и текстом в ячейке.</value>
+    <comment>Decrease the margin between the border and the text in the cell.</comment>
+  </data>
+  <data name="IncreaseIndentToolTip" xml:space="preserve">
+    <value>Увеличьте расстояние между границей и текстом в ячейке.</value>
+    <comment>Increase the margin between the border and the text in the cell.</comment>
+  </data>
+  <data name="WrapTextToolTip" xml:space="preserve">
+    <value>Сделайте длинный текст видимым, заключив его в несколько строк.</value>
+    <comment>Make the long text visible by wrapping it into multiple lines.</comment>
+  </data>
+  <data name="MergeAndCenterToolTip" xml:space="preserve">
+    <value>Объедините две или более ячеек или разделите объединенные ячейки на отдельные ячейки.</value>
+    <comment>Merge two or more cells or split the merged cells into individual cells.</comment>
+  </data>
+  <data name="NumberFormatToolTip" xml:space="preserve">
+    <value>Выберите формат ячейки, например процент, валюту, дату или время.</value>
+    <comment>Choose the cell format, such as percentage, currency, date or time.</comment>
+  </data>
+  <data name="AccountingNumberFormatToolTip" xml:space="preserve">
+    <value>Установите формат валюты для выбранной ячейки.</value>
+    <comment>Set the currency format for the selected cell.</comment>
+  </data>
+  <data name="PercentageStyleToolTip" xml:space="preserve">
+    <value>Установите формат в процентах для выбранной ячейки.</value>
+    <comment>Set the percentage format for the selected cell.</comment>
+  </data>
+  <data name="CommaStyleToolTip" xml:space="preserve">
+    <value>Показывает текст с разделителем тысяч.</value>
+    <comment>Shows the text with a thousands separator.</comment>
+  </data>
+  <data name="IncreaseDecimalToolTip" xml:space="preserve">
+    <value>Показывает больше десятичных знаков для более точного значения.</value>
+    <comment>Shows more decimal places for a more precise value.</comment>
+  </data>
+  <data name="DecreaseDecimalToolTip" xml:space="preserve">
+    <value>Показывает меньше знаков после запятой.</value>
+    <comment>Shows fewer decimal places.</comment>
+  </data>
+  <data name="ConditionalFormattingToolTip" xml:space="preserve">
+    <value>Выделите ячейки и визуализируйте данные с помощью полос, цветов и значков на основе критериев.</value>
+    <comment>Highlight the cells and visualize the data using bars, colors and icons based on criteria.</comment>
+  </data>
+  <data name="FormatAsTableToolTip" xml:space="preserve">
+    <value>Быстрое преобразование диапазона ячеек в таблицу в собственном стиле.</value>
+    <comment>Quickly convert a range of cells to a table of its own style.</comment>
+  </data>
+  <data name="CellStylesToolTip" xml:space="preserve">
+    <value>Быстро отформатируйте ячейки, выбрав один из предопределенных стилей.</value>
+    <comment>Quickly format the cells by choosing from predefined styles.</comment>
+  </data>
+  <data name="InsertCellsToolTip" xml:space="preserve">
+    <value>Вставьте ячейки, строки или столбцы в лист или таблицу или добавьте лист в рабочую книгу.</value>
+    <comment>Insert cells, rows, or columns into the sheet or table, or add a sheet to the workbook.</comment>
+  </data>
+  <data name="DeleteCellsToolTip" xml:space="preserve">
+    <value>Удалите ячейки, строки или столбцы с листа или таблицы или удалите лист из рабочей книги.</value>
+    <comment>Delete cells, rows, or columns from the sheet or table, or remove a sheet from the workbook.</comment>
+  </data>
+  <data name="FormatCellsToolTip" xml:space="preserve">
+    <value>Измените высоту строки или ширину столбца, упорядочьте листы, защитите или скройте ячейки.</value>
+    <comment>Change the row height or column width, organize sheets, or protect or hide cells.</comment>
+  </data>
+  <data name="FindAndSelectToolTip" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть параметры поиска текста в документе.
+
+Вы также можете заменить существующий текст новым текстом или форматом.</value>
+    <comment>Click to see the options for finding text in  document.
+
+You can also replace the existing text with a new text or format.</comment>
+  </data>
+  <data name="FindToolTip" xml:space="preserve">
+    <value>Найдите и выберите нужный текст.</value>
+    <comment>Find and select the specific text.</comment>
+  </data>
+  <data name="FillToolTip" xml:space="preserve">
+    <value>Заполняет ваши данные или формулу в соседних ячейках.</value>
+    <comment>Fills your data or formula into adjacent cells.</comment>
+  </data>
+  <data name="ReplaceToolTip" xml:space="preserve">
+    <value>Найдите и выберите конкретный текст и замените его новым текстом или форматированием.</value>
+    <comment>Find and select the specific text, and replace it new text or formatting.</comment>
+  </data>
+  <data name="GoToToolTip" xml:space="preserve">
+    <value>Перейти к позволяет перейти прямо к определенному диапазону ячеек в вашем документе.</value>
+    <comment>Go To lets you jump right to a specific cell range in your document.</comment>
+  </data>
+  <data name="GoToFormulasToolTip" xml:space="preserve">
+    <value>Перейти К Формулам</value>
+    <comment>Go To Formulas</comment>
+  </data>
+  <data name="GoToConditionalFormattingToolTip" xml:space="preserve">
+    <value>Перейти К Условному Форматированию</value>
+    <comment>Go To Conditional Formatting</comment>
+  </data>
+  <data name="GoToConstantsToolTip" xml:space="preserve">
+    <value>Перейдите К Константам</value>
+    <comment>Go To Constants</comment>
+  </data>
+  <data name="GoToDataValidationToolTip" xml:space="preserve">
+    <value>Перейдите К Проверке Данных</value>
+    <comment>Go To Data Validation</comment>
+  </data>
+  <data name="LockCellToolTip" xml:space="preserve">
+    <value>Заблокируйте выбранные ячейки, чтобы люди не могли вносить в них изменения.
+
+Вы должны включить функцию защиты листа, чтобы эта функция заработала.</value>
+    <comment>Lock the selected cells to keep people from making changes to them.
+
+You must turn on Protect Sheet in order for this feature to work.</comment>
+  </data>
+  <data name="CellsToolTip" xml:space="preserve">
+    <value>Вставьте или удалите ячейки, строки, столбцы или таблицу и упорядочите листы.</value>
+    <comment>Insert or delete the cells, rows or columns or table and organize the sheets.</comment>
+  </data>
+  <data name="AlignmentSettingsToolTip" xml:space="preserve">
+    <value>См. Параметры выравнивания ячеек.</value>
+    <comment>See the cell alignment options.</comment>
+  </data>
+</root>

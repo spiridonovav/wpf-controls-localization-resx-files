@@ -1,0 +1,1152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A3" xml:space="preserve">
+    <value>A3</value>
+    <comment>A3</comment>
+  </data>
+  <data name="A4" xml:space="preserve">
+    <value>A4</value>
+    <comment>A4</comment>
+  </data>
+  <data name="A5" xml:space="preserve">
+    <value>A5</value>
+    <comment>A5</comment>
+  </data>
+  <data name="Abc" xml:space="preserve">
+    <value>Abc</value>
+    <comment>Abc</comment>
+  </data>
+  <data name="Align" xml:space="preserve">
+    <value>Выравнивать</value>
+    <comment>Align</comment>
+  </data>
+  <data name="AlignBottomScreenTipText" xml:space="preserve">
+    <value>Выровнять Дно</value>
+    <comment>Align Bottom</comment>
+  </data>
+  <data name="AlignBottomText" xml:space="preserve">
+    <value>Выровняйте текст по нижней части текстового блока.</value>
+    <comment>Align text to the bottom of the text block.</comment>
+  </data>
+  <data name="AlignCenterScreenTipText" xml:space="preserve">
+    <value>Выровнять по центру</value>
+    <comment>Align Center</comment>
+  </data>
+  <data name="AlignCenterText" xml:space="preserve">
+    <value>Центрируйте свой контент.</value>
+    <comment>Center your content.</comment>
+  </data>
+  <data name="AlignLeftScreenTipText" xml:space="preserve">
+    <value>Выровнять по Левому краю</value>
+    <comment>Align Left</comment>
+  </data>
+  <data name="AlignLeftText" xml:space="preserve">
+    <value>Выровняйте содержимое по левому краю.</value>
+    <comment>Align your content to the left.</comment>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Выравнивание</value>
+    <comment>Alignment</comment>
+  </data>
+  <data name="AlignmentHeader" xml:space="preserve">
+    <value>Выравнивание</value>
+    <comment>Alignment</comment>
+  </data>
+  <data name="AlignMiddleScreenTipText" xml:space="preserve">
+    <value>Выровнять Середину</value>
+    <comment>Align Middle</comment>
+  </data>
+  <data name="AlignMiddleText" xml:space="preserve">
+    <value>Выровняйте текст так, чтобы он располагался по центру между верхней и нижней частями текстового блока.</value>
+    <comment>Align text so that it is centered between top and bottom of the text block.</comment>
+  </data>
+  <data name="AlignRightScreenTipText" xml:space="preserve">
+    <value>Выровнять по Правому краю</value>
+    <comment>Align Right</comment>
+  </data>
+  <data name="AlignRightText" xml:space="preserve">
+    <value>Выровняйте содержимое по правому краю.</value>
+    <comment>Align your content to the right.</comment>
+  </data>
+  <data name="AlignText" xml:space="preserve">
+    <value>Расположите фигуры на странице, изменив их выравнивание.</value>
+    <comment>Position shapes on the page by changing their alignment.</comment>
+  </data>
+  <data name="AlignTopScreenTipText" xml:space="preserve">
+    <value>Выровнять Верхнюю часть</value>
+    <comment>Align Top</comment>
+  </data>
+  <data name="AlignTopText" xml:space="preserve">
+    <value>Выровняйте текст по верхней части текстового блока.</value>
+    <comment>Align text to the top of the text block.</comment>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+    <comment>All</comment>
+  </data>
+  <data name="AllowThemes" xml:space="preserve">
+    <value>Разрешить темы</value>
+    <comment>Allow Themes</comment>
+  </data>
+  <data name="ApplyThemesShapes" xml:space="preserve">
+    <value>Применяйте темы к новым фигурам</value>
+    <comment>Apply Themes to New Shapes</comment>
+  </data>
+  <data name="Arrange" xml:space="preserve">
+    <value>Организовать</value>
+    <comment>Arrange</comment>
+  </data>
+  <data name="Arrows" xml:space="preserve">
+    <value>Стрелки</value>
+    <comment>Arrows</comment>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Фон</value>
+    <comment>Background</comment>
+  </data>
+  <data name="Backgrounds" xml:space="preserve">
+    <value>Фоны</value>
+    <comment>Backgrounds</comment>
+  </data>
+  <data name="BackgroundTooltipText" xml:space="preserve">
+    <value>Примените стиль фона к странице.</value>
+    <comment>Apply a background style to the page.</comment>
+  </data>
+  <data name="BalancedAccent1" xml:space="preserve">
+    <value>Сбалансированный эффект, Вариант Акцента 1</value>
+    <comment>Balanced Effect, Variant Accent1</comment>
+  </data>
+  <data name="BalancedAccent2" xml:space="preserve">
+    <value>Сбалансированный эффект, Вариант Акцента 2</value>
+    <comment>Balanced Effect, Variant Accent2</comment>
+  </data>
+  <data name="BalancedAccent3" xml:space="preserve">
+    <value>Сбалансированный эффект, Вариант Акцента 3</value>
+    <comment>Balanced Effect, Variant Accent3</comment>
+  </data>
+  <data name="BalancedAccent4" xml:space="preserve">
+    <value>Сбалансированный Эффект, Вариант Акцента 4</value>
+    <comment>Balanced Effect, Variant Accent4</comment>
+  </data>
+  <data name="BalancedAccent5" xml:space="preserve">
+    <value>Сбалансированный Эффект, Вариант Акцента 5</value>
+    <comment>Balanced Effect, Variant Accent5</comment>
+  </data>
+  <data name="BalancedAccent6" xml:space="preserve">
+    <value>Сбалансированный Эффект, Вариант Акцента 6</value>
+    <comment>Balanced Effect, Variant Accent6</comment>
+  </data>
+  <data name="BalancedAccent7" xml:space="preserve">
+    <value>Сбалансированный Эффект, Вариант Акцента 7</value>
+    <comment>Balanced Effect, Variant Accent7</comment>
+  </data>
+  <data name="Bezier" xml:space="preserve">
+    <value>Bezier</value>
+    <comment>???</comment>
+  </data>
+  <data name="BoldScreenTip" xml:space="preserve">
+    <value>Жирный</value>
+    <comment>Bold</comment>
+  </data>
+  <data name="BoldToolTip" xml:space="preserve">
+    <value>Выделите текст жирным шрифтом</value>
+    <comment>Make your text Bold</comment>
+  </data>
+  <data name="Bridging" xml:space="preserve">
+    <value>Наведение мостов</value>
+    <comment>Bridging</comment>
+  </data>
+  <data name="BringForward" xml:space="preserve">
+    <value>Выдвинуть Вперед</value>
+    <comment>Bring Forward</comment>
+  </data>
+  <data name="BringForwardTooltipText" xml:space="preserve">
+    <value>Переместите выбранный объект на один уровень вперед, чтобы он был скрыт за меньшим количеством объектов.</value>
+    <comment>Bring the selected object forward one level so that it's hidden behind fewer objects.</comment>
+  </data>
+  <data name="BringToFront" xml:space="preserve">
+    <value>Вывести На Передний План</value>
+    <comment>Bring To Front</comment>
+  </data>
+  <data name="BringToFrontTooltipText" xml:space="preserve">
+    <value>Поместите выбранный объект перед всеми другими объектами.</value>
+    <comment>Bring the selected object in front of all other objects.</comment>
+  </data>
+  <data name="BubbleTheme" xml:space="preserve">
+    <value>Bubble Theme</value>
+    <comment>???</comment>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Буфер обмена</value>
+    <comment>Clipboard</comment>
+  </data>
+  <data name="ClipboardHeader" xml:space="preserve">
+    <value>Буфер обмена</value>
+    <comment>Clipboard</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрывать</value>
+    <comment>Close</comment>
+  </data>
+  <data name="CloudsTheme" xml:space="preserve">
+    <value>Тема Облаков</value>
+    <comment>Clouds Theme</comment>
+  </data>
+  <data name="Connector" xml:space="preserve">
+    <value>Соединитель</value>
+    <comment>Connector</comment>
+  </data>
+  <data name="Connectors" xml:space="preserve">
+    <value>Соединители</value>
+    <comment>Connectors</comment>
+  </data>
+  <data name="ConnectorsText" xml:space="preserve">
+    <value>Измените внешний вид разъемов на схеме.</value>
+    <comment>Change the appearance of the connectors in the diagram.</comment>
+  </data>
+  <data name="ConnectorText" xml:space="preserve">
+    <value>Рисуйте связи между объектами.</value>
+    <comment>Draw connectors between objects.</comment>
+  </data>
+  <data name="ConnectorTooltipText" xml:space="preserve">
+    <value>Добавьте один соединитель на Страницу.</value>
+    <comment>Add One Connector to the Page.</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="CopyScreenTip" xml:space="preserve">
+    <value>Копировать (Ctrl+C)</value>
+    <comment>Copy (Ctrl+C)</comment>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Поместите копию выделенного фрагмента в буфер обмена, чтобы вставить его в другое место.</value>
+    <comment>Put a copy of the selection on the clipboard so you paste it somewhere else.</comment>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Обычный</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="Custom1Theme" xml:space="preserve">
+    <value>Пользовательская тема 1</value>
+    <comment>Custom 1 Theme</comment>
+  </data>
+  <data name="Custom2Theme" xml:space="preserve">
+    <value>Пользовательская тема 2</value>
+    <comment>Custom 2 Theme</comment>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Резать</value>
+    <comment>Cut</comment>
+  </data>
+  <data name="CutScreenTip" xml:space="preserve">
+    <value>Вырезать (Ctrl+X)</value>
+    <comment>Cut (Ctrl+X)</comment>
+  </data>
+  <data name="CutText" xml:space="preserve">
+    <value>Удалите выделение и поместите его в буфер обмена, чтобы вставить его куда-нибудь еще.</value>
+    <comment>Remove the selection and put it on the clipboard so you paste it somewhere else.</comment>
+  </data>
+  <data name="Dashes" xml:space="preserve">
+    <value>Тире</value>
+    <comment>Dashes</comment>
+  </data>
+  <data name="DaybreakTheme" xml:space="preserve">
+    <value>Daybreak Theme</value>
+    <comment>???</comment>
+  </data>
+  <data name="Design" xml:space="preserve">
+    <value>Дизайн</value>
+    <comment>Design</comment>
+  </data>
+  <data name="DiagramParts" xml:space="preserve">
+    <value>Diagram Parts</value>
+    <comment>Diagram Parts</comment>
+  </data>
+  <data name="DrawingTools" xml:space="preserve">
+    <value>Инструменты для рисования</value>
+    <comment>Drawing Tools</comment>
+  </data>
+  <data name="DrawingToolsText" xml:space="preserve">
+    <value>Используйте основные инструменты рисования, такие как прямоугольник, эллипс и линия.</value>
+    <comment>Use basic drawing tools such as rectangle,ellipse and line.</comment>
+  </data>
+  <data name="Editing" xml:space="preserve">
+    <value>Редактирование</value>
+    <comment>Editing</comment>
+  </data>
+  <data name="Ellipse" xml:space="preserve">
+    <value>Ellipse</value>
+    <comment>???</comment>
+  </data>
+  <data name="Executive" xml:space="preserve">
+    <value>Исполнительный</value>
+    <comment>Executive</comment>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Экспорт</value>
+    <comment>Export</comment>
+  </data>
+  <data name="FacetTheme" xml:space="preserve">
+    <value>Тема фасета</value>
+    <comment>Facet Theme</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+    <comment>File</comment>
+  </data>
+  <data name="Fill" xml:space="preserve">
+    <value>Заполнить</value>
+    <comment>Fill</comment>
+  </data>
+  <data name="FillText" xml:space="preserve">
+    <value>Заполните выбранную фигуру сплошным цветом, градиентом или рисунком.</value>
+    <comment>Fill the selected shape with a solid color,gradient or pattern.</comment>
+  </data>
+  <data name="FitToPage" xml:space="preserve">
+    <value>Подходит к окну</value>
+    <comment>Fit to Window</comment>
+  </data>
+  <data name="FitToPageTooltipText" xml:space="preserve">
+    <value>Подогнать страницу к текущему окну.</value>
+    <comment>Fit page to current window.</comment>
+  </data>
+  <data name="FitToWidth" xml:space="preserve">
+    <value>Подгонка по ширине</value>
+    <comment>Fit to Width</comment>
+  </data>
+  <data name="FitToWidthTooltipText" xml:space="preserve">
+    <value>Подгоните страницу к текущей ширине окна.</value>
+    <comment>Fit page to current width of the window.</comment>
+  </data>
+  <data name="FocusedAccent1" xml:space="preserve">
+    <value>Сфокусированный эффект, Вариант Акцента 1</value>
+    <comment>Focused Effect, Variant Accent1</comment>
+  </data>
+  <data name="FocusedAccent2" xml:space="preserve">
+    <value>Сфокусированный эффект, Вариант Акцента 2</value>
+    <comment>Focused Effect, Variant Accent2</comment>
+  </data>
+  <data name="FocusedAccent3" xml:space="preserve">
+    <value>Сфокусированный эффект, Вариант Акцента 3</value>
+    <comment>Focused Effect, Variant Accent3</comment>
+  </data>
+  <data name="FocusedAccent4" xml:space="preserve">
+    <value>Сфокусированный эффект, Вариант Акцента 4</value>
+    <comment>Focused Effect, Variant Accent4</comment>
+  </data>
+  <data name="FocusedAccent5" xml:space="preserve">
+    <value>Сфокусированный эффект, Вариант Акцента 5</value>
+    <comment>Focused Effect, Variant Accent5</comment>
+  </data>
+  <data name="FocusedAccent6" xml:space="preserve">
+    <value>Сфокусированный эффект, Вариант Акцента 6</value>
+    <comment>Focused Effect, Variant Accent6</comment>
+  </data>
+  <data name="FocusedAccent7" xml:space="preserve">
+    <value>Сфокусированный эффект, Вариант Акцента 7</value>
+    <comment>Focused Effect, Variant Accent7</comment>
+  </data>
+  <data name="FontColorScreenTipText" xml:space="preserve">
+    <value>Цвет шрифта</value>
+    <comment>Font Color</comment>
+  </data>
+  <data name="FontColorTooltipText" xml:space="preserve">
+    <value>Измените цвет вашего текста.</value>
+    <comment>Change the color of your text.</comment>
+  </data>
+  <data name="FontHeader" xml:space="preserve">
+    <value>Шрифт</value>
+    <comment>Font</comment>
+  </data>
+  <data name="FontSizeScreenTip" xml:space="preserve">
+    <value>размер шрифта</value>
+    <comment>Font Size</comment>
+  </data>
+  <data name="FontSizeToolTipText" xml:space="preserve">
+    <value>Измените размер шрифта вашего текста.</value>
+    <comment>Change the font size of your text.</comment>
+  </data>
+  <data name="FontToolTipText" xml:space="preserve">
+    <value>Выберите новое семейство шрифтов для вашего текста.</value>
+    <comment>Pick a new font family for your text.</comment>
+  </data>
+  <data name="FreeHand" xml:space="preserve">
+    <value>Свободная рука</value>
+    <comment>FreeHand</comment>
+  </data>
+  <data name="GemstoneTheme" xml:space="preserve">
+    <value>Тема драгоценных камней</value>
+    <comment>Gemstone Theme</comment>
+  </data>
+  <data name="GridLines" xml:space="preserve">
+    <value>Линии сетки</value>
+    <comment>Grid Lines</comment>
+  </data>
+  <data name="GridlinesTooltipText" xml:space="preserve">
+    <value>Линии сетки позволяют легко выравнивать объекты по тексту, другим объектам или определенному объекту.</value>
+    <comment>The gridlines make it easy for you to align objects with text,other objects or a particular object.</comment>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Группа</value>
+    <comment>Group</comment>
+  </data>
+  <data name="GroupObjects" xml:space="preserve">
+    <value>Группировать Объекты</value>
+    <comment>Group Objects</comment>
+  </data>
+  <data name="GroupObjectsTooltipText" xml:space="preserve">
+    <value>Соединяйте объекты вместе, чтобы перемещать и форматировать их так, как если бы они были одним объектом.</value>
+    <comment>Join objects together to move and format them as if they were a single object.</comment>
+  </data>
+  <data name="GrowFontScreenTipText" xml:space="preserve">
+    <value>Увеличить Размер Шрифта</value>
+    <comment>Increase Font Size</comment>
+  </data>
+  <data name="GrowFontTooltipText" xml:space="preserve">
+    <value>Сделайте свой текст немного больше.</value>
+    <comment>Make your text a bit bigger.</comment>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Домой</value>
+    <comment>Home</comment>
+  </data>
+  <data name="HomeCaption" xml:space="preserve">
+    <value>Домой</value>
+    <comment>Home</comment>
+  </data>
+  <data name="HorizontalFlip" xml:space="preserve">
+    <value>Горизонтальный переворот</value>
+    <comment>Horizontal Flip</comment>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Insert</comment>
+  </data>
+  <data name="IntegralTheme" xml:space="preserve">
+    <value>Неотъемлемая Тема</value>
+    <comment>Integral Theme</comment>
+  </data>
+  <data name="IntenseAccent1" xml:space="preserve">
+    <value>Интенсивный эффект, Вариант Акцента 1</value>
+    <comment>Intense Effect, Variant Accent1</comment>
+  </data>
+  <data name="IntenseAccent2" xml:space="preserve">
+    <value>Intense Effect, Variant Accent2</value>
+    <comment>Intense Effect, Variant Accent2</comment>
+  </data>
+  <data name="IntenseAccent3" xml:space="preserve">
+    <value>Интенсивный эффект, Вариант Акцента 3</value>
+    <comment>Intense Effect, Variant Accent3</comment>
+  </data>
+  <data name="IntenseAccent4" xml:space="preserve">
+    <value>Интенсивный Эффект, Вариант Акцента 4</value>
+    <comment>Intense Effect, Variant Accent4</comment>
+  </data>
+  <data name="IntenseAccent5" xml:space="preserve">
+    <value>Интенсивный Эффект, Вариант Акцента 5</value>
+    <comment>Intense Effect, Variant Accent5</comment>
+  </data>
+  <data name="IntenseAccent6" xml:space="preserve">
+    <value>Интенсивный Эффект, Вариант Акцента 6</value>
+    <comment>Intense Effect, Variant Accent6</comment>
+  </data>
+  <data name="IntenseAccent7" xml:space="preserve">
+    <value>Интенсивный Эффект, Вариант Акцента 7</value>
+    <comment>Intense Effect, Variant Accent7</comment>
+  </data>
+  <data name="IonTheme" xml:space="preserve">
+    <value>Тема значка</value>
+    <comment>Ion Theme</comment>
+  </data>
+  <data name="ItalicScreenTipText" xml:space="preserve">
+    <value>Курсивный</value>
+    <comment>Italic</comment>
+  </data>
+  <data name="ItalicTooltipText" xml:space="preserve">
+    <value>Выделите свой текст курсивом.</value>
+    <comment>Italicize your text.</comment>
+  </data>
+  <data name="JustifyScreenTipText" xml:space="preserve">
+    <value>Оправдывать</value>
+    <comment>Justify</comment>
+  </data>
+  <data name="JustifyTooltipText" xml:space="preserve">
+    <value>Равномерно распределите текст между полями.</value>
+    <comment>Distribute your text evenly between the margins.</comment>
+  </data>
+  <data name="Landscape" xml:space="preserve">
+    <value>Пейзаж</value>
+    <comment>Landscape</comment>
+  </data>
+  <data name="Legal" xml:space="preserve">
+    <value>Законный</value>
+    <comment>Legal</comment>
+  </data>
+  <data name="Letter" xml:space="preserve">
+    <value>Письмо</value>
+    <comment>Letter</comment>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Линия</value>
+    <comment>Line</comment>
+  </data>
+  <data name="LinearTheme" xml:space="preserve">
+    <value>Линейная Тема</value>
+    <comment>Linear Theme</comment>
+  </data>
+  <data name="LineText" xml:space="preserve">
+    <value>Укажите цвет, ширину и стиль линий для выбранной фигуры.</value>
+    <comment>Specify the color, width and line style for the selected shape.</comment>
+  </data>
+  <data name="LoadToolTip" xml:space="preserve">
+    <value>Загрузка</value>
+    <comment>Load</comment>
+  </data>
+  <data name="ModerateAccent1" xml:space="preserve">
+    <value>Умеренный эффект, Вариант Акцента 1</value>
+    <comment>Moderate Effect, Variant Accent1</comment>
+  </data>
+  <data name="ModerateAccent2" xml:space="preserve">
+    <value>Умеренный эффект, Вариант Акцента 2</value>
+    <comment>Moderate Effect, Variant Accent2</comment>
+  </data>
+  <data name="ModerateAccent3" xml:space="preserve">
+    <value>Умеренный эффект, Вариант Акцента 3</value>
+    <comment>Moderate Effect, Variant Accent3</comment>
+  </data>
+  <data name="ModerateAccent4" xml:space="preserve">
+    <value>Умеренный эффект, Вариант Акцента 4</value>
+    <comment>Moderate Effect, Variant Accent4</comment>
+  </data>
+  <data name="ModerateAccent5" xml:space="preserve">
+    <value>Умеренный эффект, Вариант Акцента 5</value>
+    <comment>Moderate Effect, Variant Accent5</comment>
+  </data>
+  <data name="ModerateAccent6" xml:space="preserve">
+    <value>Умеренный эффект, Вариант Акцента 6</value>
+    <comment>Moderate Effect, Variant Accent6</comment>
+  </data>
+  <data name="ModerateAccent7" xml:space="preserve">
+    <value>Умеренный Эффект, Вариант Акцента 7</value>
+    <comment>Moderate Effect, Variant Accent7</comment>
+  </data>
+  <data name="Modern" xml:space="preserve">
+    <value>Современный</value>
+    <comment>Modern</comment>
+  </data>
+  <data name="MultiplePages" xml:space="preserve">
+    <value>Несколько Страниц</value>
+    <comment>Multiple Pages</comment>
+  </data>
+  <data name="MultiplePagesTooltipText" xml:space="preserve">
+    <value>Позволяет создавать несколько страниц в зависимости от ширины и высоты страницы.</value>
+    <comment>Helps you to create multiple pages depends on page width and page height.</comment>
+  </data>
+  <data name="NewToolTip" xml:space="preserve">
+    <value>Новое</value>
+    <comment>New</comment>
+  </data>
+  <data name="OfficeTheme" xml:space="preserve">
+    <value>Офисная тема</value>
+    <comment>Office Theme</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Открыть</value>
+    <comment>Open</comment>
+  </data>
+  <data name="Orientation" xml:space="preserve">
+    <value>Ориентация</value>
+    <comment>Orientation</comment>
+  </data>
+  <data name="Orthogonal" xml:space="preserve">
+    <value>Ортогональный</value>
+    <comment>Orthogonal</comment>
+  </data>
+  <data name="OverviewTitle" xml:space="preserve">
+    <value>Обзор</value>
+    <comment>Overview</comment>
+  </data>
+  <data name="PageBreaks" xml:space="preserve">
+    <value>Разрывы страниц</value>
+    <comment>Page Breaks</comment>
+  </data>
+  <data name="PageBreaksTooltipText" xml:space="preserve">
+    <value>Включите разрывы страниц, чтобы увидеть, что будет напечатано на каждой странице вашего документа.</value>
+    <comment>Turn on Page breaks to see what will be printed on each page of your document.</comment>
+  </data>
+  <data name="PageOrientation" xml:space="preserve">
+    <value>Ориентация страницы</value>
+    <comment>Page Orientation</comment>
+  </data>
+  <data name="PageOrientationTooltipText" xml:space="preserve">
+    <value>Переключение страницы между книжным и альбомным макетами.</value>
+    <comment>Switch page between potrait and landscape layouts.</comment>
+  </data>
+  <data name="PageSetup" xml:space="preserve">
+    <value>Настройка страницы</value>
+    <comment>Page Setup</comment>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>Размер страницы</value>
+    <comment>Page Size</comment>
+  </data>
+  <data name="PageSizeTooltipText" xml:space="preserve">
+    <value>Выберите размер страницы.</value>
+    <comment>Choose a page size.</comment>
+  </data>
+  <data name="PanTool" xml:space="preserve">
+    <value>Инструмент для панорамирования</value>
+    <comment>Pan Tool</comment>
+  </data>
+  <data name="PanToolText" xml:space="preserve">
+    <value>Переместите диаграмму.</value>
+    <comment>Pan the diagram.</comment>
+  </data>
+  <data name="SelectAnnotation" xml:space="preserve">
+    <value>Выберите Аннотацию</value>
+    <comment>Select Annotation</comment>
+  </data>
+  <data name="SelectAnnotationText" xml:space="preserve">
+    <value>Выделяйте, перемещайте, изменяйте размер или поворачивайте аннотацию внутри узла/соединителя.</value>
+    <comment>Select, move, resize or rotate the annotation within a node/connector.</comment>
+  </data>
+  <data name="PanZoom" xml:space="preserve">
+    <value>Панорамирование Масштабирование</value>
+    <comment>Pan Zoom</comment>
+  </data>
+  <data name="PanZoomTooltipText" xml:space="preserve">
+    <value>Покажите окно панорамирования И масштабирования.</value>
+    <comment>Show the Pan Zoom Window.</comment>
+  </data>
+  <data name="ParallelTheme" xml:space="preserve">
+    <value>Параллельная тема</value>
+    <comment>Parallel Theme</comment>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Paste</comment>
+  </data>
+  <data name="PasteScreenTip" xml:space="preserve">
+    <value>Вставить (Ctrl+V)</value>
+    <comment>Paste (Ctrl+V)</comment>
+  </data>
+  <data name="PasteText" xml:space="preserve">
+    <value>Добавьте содержимое из буфера обмена в свой документ.</value>
+    <comment>Add Content on the Clipboard to your document.</comment>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Изображение</value>
+    <comment>Picture</comment>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Изображения</value>
+    <comment>Pictures</comment>
+  </data>
+  <data name="PicturesTooltipText" xml:space="preserve">
+    <value>Вставляйте изображения со своего компьютера или с других компьютеров, к которым вы подключены.</value>
+    <comment>Insert pictures from your computer or from other computers that you are connected to.</comment>
+  </data>
+  <data name="PointerTool" xml:space="preserve">
+    <value>Инструмент-указатель</value>
+    <comment>Pointer Tool</comment>
+  </data>
+  <data name="PointerToolText" xml:space="preserve">
+    <value>Выделяйте, перемещайте и изменяйте размер объектов.</value>
+    <comment>Select, move and resize objects.</comment>
+  </data>
+  <data name="Polyline" xml:space="preserve">
+    <value>Ломаная линия</value>
+    <comment>Polyline</comment>
+  </data>
+  <data name="Portrait" xml:space="preserve">
+    <value>Портрет</value>
+    <comment>Portrait</comment>
+  </data>
+  <data name="PortVisibilityText" xml:space="preserve">
+    <value>Точка подключения</value>
+    <comment>Connection Point</comment>
+  </data>
+  <data name="PortVisibilityToolTipText" xml:space="preserve">
+    <value>Добавляйте, перемещайте и управляйте видимостью точек соединения на фигурах.
+
+Удерживайте клавишу Ctrl, чтобы добавить точку соединения на фигурах.</value>
+    <comment>Add, move and control the visibility of the connection points on shapes.
+
+Hold the Ctrl key to add a connection point on shapes.</comment>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Позиция</value>
+    <comment>Position</comment>
+  </data>
+  <data name="PositionText" xml:space="preserve">
+    <value>Расположите фигуры на странице, изменив их выравнивание, интервал и поворот.</value>
+    <comment>Position shapes on the page by changing their alignment,spacing and rotation.</comment>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Печать</value>
+    <comment>Print</comment>
+  </data>
+  <data name="Professional" xml:space="preserve">
+    <value>Профессиональный</value>
+    <comment>Professional</comment>
+  </data>
+  <data name="ProminenceTheme" xml:space="preserve">
+    <value>Тема известности</value>
+    <comment>Prominence Theme</comment>
+  </data>
+  <data name="RadianceTheme" xml:space="preserve">
+    <value>Тема Сияния</value>
+    <comment>Radiance Theme</comment>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Прямоугольник</value>
+    <comment>Rectangle</comment>
+  </data>
+  <data name="RedoToolTip" xml:space="preserve">
+    <value>Переделывать</value>
+    <comment>Redo</comment>
+  </data>
+  <data name="RefinedAccent1" xml:space="preserve">
+    <value>Изысканный Эффект, Вариант Акцента 1</value>
+    <comment>Refined Effect, Variant Accent1</comment>
+  </data>
+  <data name="RefinedAccent2" xml:space="preserve">
+    <value>Изысканный Эффект, Вариант Акцента 2</value>
+    <comment>Refined Effect, Variant Accent2</comment>
+  </data>
+  <data name="RefinedAccent3" xml:space="preserve">
+    <value>Изысканный Эффект, Вариант Акцента 3</value>
+    <comment>Refined Effect, Variant Accent3</comment>
+  </data>
+  <data name="RefinedAccent4" xml:space="preserve">
+    <value>Изысканный Эффект, Вариант Акцента 4</value>
+    <comment>Refined Effect, Variant Accent4</comment>
+  </data>
+  <data name="RefinedAccent5" xml:space="preserve">
+    <value>Изысканный Эффект, Вариант Акцента 5</value>
+    <comment>Refined Effect, Variant Accent5</comment>
+  </data>
+  <data name="RefinedAccent6" xml:space="preserve">
+    <value>Изысканный Эффект, Вариант Акцента 6</value>
+    <comment>Refined Effect, Variant Accent6</comment>
+  </data>
+  <data name="RefinedAccent7" xml:space="preserve">
+    <value>Изысканный Эффект, Вариант Акцента 7</value>
+    <comment>Refined Effect, Variant Accent7</comment>
+  </data>
+  <data name="RemoveThemes" xml:space="preserve">
+    <value>Удаление тем</value>
+    <comment>Remove Themes</comment>
+  </data>
+  <data name="RetrospectTheme" xml:space="preserve">
+    <value>Ретроспективная тема</value>
+    <comment>Retrospect Theme</comment>
+  </data>
+  <data name="RotateCounterClockwise" xml:space="preserve">
+    <value>Поверните Против часовой стрелки</value>
+    <comment>Rotate Counter-Clockwise</comment>
+  </data>
+  <data name="RotateClockwise" xml:space="preserve">
+    <value>Поверните по часовой стрелке</value>
+    <comment>Rotate Clockwise</comment>
+  </data>
+  <data name="Ruler" xml:space="preserve">
+    <value>Правитель</value>
+    <comment>Ruler</comment>
+  </data>
+  <data name="RulerText" xml:space="preserve">
+    <value>Просмотрите линейки, используемые для измерения и выравнивания объектов в документе.</value>
+    <comment>View the rulers used to measure and line up objects in the document.</comment>
+  </data>
+  <data name="SaveMessage" xml:space="preserve">
+    <value>Вы хотите сохранить диаграмму?</value>
+    <comment>Do you want to save Diagram?</comment>
+  </data>
+  <data name="SaveTitle" xml:space="preserve">
+    <value>Sfдиаграмма</value>
+    <comment>SfDiagram</comment>
+  </data>
+  <data name="SaveToolTip" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Save</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выбрать</value>
+    <comment>Select</comment>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>выбрать все</value>
+    <comment>Select All</comment>
+  </data>
+  <data name="SelectConnectors" xml:space="preserve">
+    <value>Выберите Соединители</value>
+    <comment>Select Connectors</comment>
+  </data>
+  <data name="SelectNodes" xml:space="preserve">
+    <value>Выберите узлы</value>
+    <comment>Select Nodes</comment>
+  </data>
+  <data name="SelectText" xml:space="preserve">
+    <value>Выберите все объекты на вашей диаграмме.</value>
+    <comment>Select all objects in your diagram.</comment>
+  </data>
+  <data name="SendBackward" xml:space="preserve">
+    <value>Отправить назад</value>
+    <comment>Send Backward</comment>
+  </data>
+  <data name="SendBackwardTooltipText" xml:space="preserve">
+    <value>Отправьте выбранный объект на один уровень назад, чтобы он был скрыт за другими объектами.</value>
+    <comment>Send the selected object back one level so that it's hidden behind more objects.</comment>
+  </data>
+  <data name="SendToBack" xml:space="preserve">
+    <value>Отправить Обратно</value>
+    <comment>Send To Back</comment>
+  </data>
+  <data name="SendToBackTooltipText" xml:space="preserve">
+    <value>Отправьте выбранный объект позади всех других объектов.</value>
+    <comment>Send the selected object behind all other objects.</comment>
+  </data>
+  <data name="SequenceTheme" xml:space="preserve">
+    <value>Тема последовательности</value>
+    <comment>Sequence Theme</comment>
+  </data>
+  <data name="ShapeStyles" xml:space="preserve">
+    <value>Стили формы</value>
+    <comment>Shape Styles</comment>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Покажите</value>
+    <comment>Show</comment>
+  </data>
+  <data name="ShrinkFontScreenTipText" xml:space="preserve">
+    <value>Уменьшить Размер Шрифта</value>
+    <comment>Decrease Font Size</comment>
+  </data>
+  <data name="ShrinkFontTooltipText" xml:space="preserve">
+    <value>Сделайте свой текст немного меньше.</value>
+    <comment>Make your text a bit smaller.</comment>
+  </data>
+  <data name="SimpleTheme" xml:space="preserve">
+    <value>Простая Тема</value>
+    <comment>Simple Theme</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Размер</value>
+    <comment>Size</comment>
+  </data>
+  <data name="SliceTheme" xml:space="preserve">
+    <value>Тема Среза</value>
+    <comment>Slice Theme</comment>
+  </data>
+  <data name="SmokeTheme" xml:space="preserve">
+    <value>Тема дыма</value>
+    <comment>Smoke Theme</comment>
+  </data>
+  <data name="SnapToGrid" xml:space="preserve">
+    <value>Привязка к сетке</value>
+    <comment>Snap to grid</comment>
+  </data>
+  <data name="SnapToGridTooltipText" xml:space="preserve">
+    <value>Помогает привязать объекты к линиям сетки на диаграмме.</value>
+    <comment>Helps to snap objects with respect to grid lines in the Diagram.</comment>
+  </data>
+  <data name="SnapToObject" xml:space="preserve">
+    <value>Привязка к объекту</value>
+    <comment>Snap to Object</comment>
+  </data>
+  <data name="SnapToObjectTooltipText" xml:space="preserve">
+    <value>Включите направляющие, которые помогают выравнивать объекты в документе. Направляющие вытягиваются из горизонтальной и вертикальной линейки.</value>
+    <comment>Turn on guideline that help align objects in the document. Guidelines are dragged out from the horizontal and vertical ruler.</comment>
+  </data>
+  <data name="SpaceAcross" xml:space="preserve">
+    <value>Пространство Через</value>
+    <comment>Space Across</comment>
+  </data>
+  <data name="SpaceDown" xml:space="preserve">
+    <value>Пространство Внизу</value>
+    <comment>Space Down</comment>
+  </data>
+  <data name="Statement" xml:space="preserve">
+    <value>Заявление</value>
+    <comment>Statement</comment>
+  </data>
+  <data name="StraightLine" xml:space="preserve">
+    <value>Прямая Линия</value>
+    <comment>Straight Line</comment>
+  </data>
+  <data name="StrikeScreenTipText" xml:space="preserve">
+    <value>Зачеркнуто</value>
+    <comment>StrikeThrough</comment>
+  </data>
+  <data name="StrikeTooltipText" xml:space="preserve">
+    <value>Вычеркните что-нибудь, проведя через это линию.</value>
+    <comment>Cross something out by drawing a line through it.</comment>
+  </data>
+  <data name="SubtlyAccent1" xml:space="preserve">
+    <value>Тонкий Эффект, Вариант Акцента 1</value>
+    <comment>Subtly Effect, Variant Accent1</comment>
+  </data>
+  <data name="SubtlyAccent2" xml:space="preserve">
+    <value>Тонкий Эффект, Вариант Акцента 2</value>
+    <comment>Subtly Effect, Variant Accent2</comment>
+  </data>
+  <data name="SubtlyAccent3" xml:space="preserve">
+    <value>Тонкий Эффект, Вариант Акцента 3</value>
+    <comment>Subtly Effect, Variant Accent3</comment>
+  </data>
+  <data name="SubtlyAccent4" xml:space="preserve">
+    <value>Тонкий Эффект, Вариант Акцента 4</value>
+    <comment>Subtly Effect, Variant Accent4</comment>
+  </data>
+  <data name="SubtlyAccent5" xml:space="preserve">
+    <value>Тонкий Эффект, Вариант Акцента 5</value>
+    <comment>Subtly Effect, Variant Accent5</comment>
+  </data>
+  <data name="SubtlyAccent6" xml:space="preserve">
+    <value>Тонкий Эффект, Вариант Акцента 6</value>
+    <comment>Subtly Effect, Variant Accent6</comment>
+  </data>
+  <data name="SubtlyAccent7" xml:space="preserve">
+    <value>Subtly Effect, Variant Accent7</value>
+    <comment>Subtly Effect, Variant Accent7</comment>
+  </data>
+  <data name="Tabloid" xml:space="preserve">
+    <value>Бульварный</value>
+    <comment>Tabloid</comment>
+  </data>
+  <data name="TaskPanes" xml:space="preserve">
+    <value>Панели задач</value>
+    <comment>Task Panes</comment>
+  </data>
+  <data name="TaskPanesTooltipText" xml:space="preserve">
+    <value>Показывать окна для просмотра фигур и данных о фигурах, а также для легкого перемещения по диаграмме.</value>
+    <comment>Show windows to view shapes and shape data and to easily move around within the diagram.</comment>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+    <comment>Text</comment>
+  </data>
+  <data name="TextTooltipText" xml:space="preserve">
+    <value>Добавьте текстовую фигуру.</value>
+    <comment>Add a text shape.</comment>
+  </data>
+  <data name="Themes" xml:space="preserve">
+    <value>Темы</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="ThemeStyle" xml:space="preserve">
+    <value>Тематический Стиль</value>
+    <comment>Theme Style</comment>
+  </data>
+  <data name="ToolsHeader" xml:space="preserve">
+    <value>Инструменты</value>
+    <comment>Tools</comment>
+  </data>
+  <data name="Trendy" xml:space="preserve">
+    <value>Модный</value>
+    <comment>Trendy</comment>
+  </data>
+  <data name="UnderlineScreenTipText" xml:space="preserve">
+    <value>Подчеркивание (Ctrl+U)</value>
+    <comment>Underline (Ctrl+U)</comment>
+  </data>
+  <data name="UnderlineTooltipText" xml:space="preserve">
+    <value>Подчеркните свой текст.</value>
+    <comment>Underline your text.</comment>
+  </data>
+  <data name="UndoToolTip" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Undo</comment>
+  </data>
+  <data name="UnGroup" xml:space="preserve">
+    <value>Разгруппировать</value>
+    <comment>UnGroup</comment>
+  </data>
+  <data name="UnGroupObjectsTooltipText" xml:space="preserve">
+    <value>Разорвите связь между соединенными объектами, чтобы вы могли перемещать их по отдельности.</value>
+    <comment>Break the connection between joined objects so that you can move them individually.</comment>
+  </data>
+  <data name="Variant1" xml:space="preserve">
+    <value>Вариант 1</value>
+    <comment>Variant 1</comment>
+  </data>
+  <data name="Variant2" xml:space="preserve">
+    <value>Вариант 2</value>
+    <comment>Variant 2</comment>
+  </data>
+  <data name="Variant3" xml:space="preserve">
+    <value>Вариант 3</value>
+    <comment>Variant 3</comment>
+  </data>
+  <data name="Variant4" xml:space="preserve">
+    <value>Вариант 4</value>
+    <comment>Variant 4</comment>
+  </data>
+  <data name="Variants" xml:space="preserve">
+    <value>Варианты</value>
+    <comment>Variants</comment>
+  </data>
+  <data name="VariantStyle" xml:space="preserve">
+    <value>Вариант Стиля</value>
+    <comment>Variant Style</comment>
+  </data>
+  <data name="VerticalFlip" xml:space="preserve">
+    <value>Вертикальное сальто</value>
+    <comment>Vertical Flip</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Смотреть</value>
+    <comment>View</comment>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Вес</value>
+    <comment>Weight</comment>
+  </data>
+  <data name="WhispTheme" xml:space="preserve">
+    <value>Тема Шепота</value>
+    <comment>Whisp Theme</comment>
+  </data>
+  <data name="ZephyrTheme" xml:space="preserve">
+    <value>Тема Зефира</value>
+    <comment>Zephyr Theme</comment>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Увеличение</value>
+    <comment>Zoom</comment>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Увеличьте Масштаб</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="ZoomInTooltipText" xml:space="preserve">
+    <value>Увеличьте масштаб до нужного вам уровня.</value>
+    <comment>Zoom in to the level that's right for you.</comment>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Уменьшите масштаб</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="ZoomOutTooltipText" xml:space="preserve">
+    <value>Уменьшите масштаб до нужного вам уровня.</value>
+    <comment>Zoom out to the level that's right for you.</comment>
+  </data>
+</root>

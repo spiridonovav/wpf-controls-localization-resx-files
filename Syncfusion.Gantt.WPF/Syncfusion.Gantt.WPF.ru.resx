@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BaselineCost" xml:space="preserve">
+    <value>Базовая стоимость</value>
+    <comment>Baseline Cost</comment>
+  </data>
+  <data name="BaselineCostMissing" xml:space="preserve">
+    <value>Имя сопоставления базовых затрат отсутствует или указано неверное имя сопоставления.</value>
+    <comment>Baseline cost mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="BaselineFinish" xml:space="preserve">
+    <value>Базовая отделка</value>
+    <comment>Baseline Finish</comment>
+  </data>
+  <data name="BaselineFinishMissing" xml:space="preserve">
+    <value>Имя сопоставления даты окончания базовой линии отсутствует или имя сопоставления неверно.</value>
+    <comment>Baseline finish date mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="BaselineStart" xml:space="preserve">
+    <value>Начало базовой линии</value>
+    <comment>Baseline Start</comment>
+  </data>
+  <data name="BaselineStartMissing" xml:space="preserve">
+    <value>Имя сопоставления даты начала базовой линии отсутствует или имя сопоставления неверно.</value>
+    <comment>Baseline start date mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="ChildTaskMissing" xml:space="preserve">
+    <value>Имя сопоставления дочерних задач отсутствует или указано неверное имя сопоставления.</value>
+    <comment>Child task mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Стоимость</value>
+    <comment>Cost</comment>
+  </data>
+  <data name="CostMissing" xml:space="preserve">
+    <value>Имя сопоставления затрат отсутствует или имя сопоставления неверно.</value>
+    <comment>Cost mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="CostVariance" xml:space="preserve">
+    <value>Разница в затратах</value>
+    <comment>Cost Variance</comment>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Дни</value>
+    <comment>days</comment>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Продолжительность</value>
+    <comment>Duration</comment>
+  </data>
+  <data name="DurationTooltip" xml:space="preserve">
+    <value>Продолжительность:</value>
+    <comment>Duration:</comment>
+  </data>
+  <data name="EndTimeTooltip" xml:space="preserve">
+    <value>Время окончания :</value>
+    <comment>EndTime :</comment>
+  </data>
+  <data name="EndTooltip" xml:space="preserve">
+    <value>Конец :</value>
+    <comment>End :</comment>
+  </data>
+  <data name="ExportError" xml:space="preserve">
+    <value>Ошибка при экспорте</value>
+    <comment>Error on Exporting</comment>
+  </data>
+  <data name="ExportTaskError" xml:space="preserve">
+    <value>Экспортировать можно только задачу типа Task Details.</value>
+    <comment>Only the task of type TaskDetails can be export.</comment>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Заканчивать</value>
+    <comment>Finish</comment>
+  </data>
+  <data name="FinishDate" xml:space="preserve">
+    <value>Заканчивать</value>
+    <comment>Finish</comment>
+  </data>
+  <data name="FinishDateMissing" xml:space="preserve">
+    <value>Имя сопоставления даты завершения отсутствует или имя сопоставления неверно.</value>
+    <comment>Finish date mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="FinishDateTooltip" xml:space="preserve">
+    <value>Дата окончания:</value>
+    <comment>Finish Date:</comment>
+  </data>
+  <data name="FinishPoint" xml:space="preserve">
+    <value>Заканчивать</value>
+    <comment>Finish</comment>
+  </data>
+  <data name="FinishPointMissing" xml:space="preserve">
+    <value>Имя сопоставления конечной точки отсутствует или имя сопоставления неверно.</value>
+    <comment>Finish point mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="FinishTooltip" xml:space="preserve">
+    <value>Заканчивать:</value>
+    <comment>Finish:</comment>
+  </data>
+  <data name="FinishVariance" xml:space="preserve">
+    <value>Окончательная дисперсия</value>
+    <comment>Finish Variance</comment>
+  </data>
+  <data name="ImportError" xml:space="preserve">
+    <value>Ошибка при импорте</value>
+    <comment>Error on Importing</comment>
+  </data>
+  <data name="InlineMissing" xml:space="preserve">
+    <value>Имя сопоставления встроенных задач отсутствует или указано неверное имя сопоставления.</value>
+    <comment>InLine task mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="MileStone" xml:space="preserve">
+    <value>IsMileStone</value>
+    <comment>???</comment>
+  </data>
+  <data name="Predecessor" xml:space="preserve">
+    <value>Предшественник</value>
+    <comment>Predecessor</comment>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Прогресс (%)</value>
+    <comment>Progress (%)</comment>
+  </data>
+  <data name="ProgressMissing" xml:space="preserve">
+    <value>Имя сопоставления прогресса отсутствует или имя сопоставления неверно.</value>
+    <comment>Progress mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="ProgressTooltip" xml:space="preserve">
+    <value>Прогресс :</value>
+    <comment>Progress :</comment>
+  </data>
+  <data name="ResourceInfo" xml:space="preserve">
+    <value>Имена ресурсов</value>
+    <comment>Resource Names</comment>
+  </data>
+  <data name="SourceToolTip" xml:space="preserve">
+    <value>Источник :</value>
+    <comment>Source :</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Начать</value>
+    <comment>Start</comment>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Начать</value>
+    <comment>Start</comment>
+  </data>
+  <data name="StartDateMissing" xml:space="preserve">
+    <value>Имя сопоставления даты начала отсутствует или имя сопоставления неверно.</value>
+    <comment>Start date mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="StartDateTooltip" xml:space="preserve">
+    <value>Дата начала:</value>
+    <comment>Start Date:</comment>
+  </data>
+  <data name="StartFinishDurationMissing" xml:space="preserve">
+    <value>Имя сопоставления начала/окончания/продолжительности отсутствует или указано неверное имя сопоставления.</value>
+    <comment>Start/Finish/Duration mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="StartFinishMissing" xml:space="preserve">
+    <value>Имя сопоставления начальной/конечной точки отсутствует или указано неверное имя сопоставления.</value>
+    <comment>Start/Finish point mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="StartPoint" xml:space="preserve">
+    <value>Начать</value>
+    <comment>Start</comment>
+  </data>
+  <data name="StartPointMissing" xml:space="preserve">
+    <value>Имя сопоставления начальной точки отсутствует или имя сопоставления неверно.</value>
+    <comment>Start point mapping name is missing or mapping name is wrong.</comment>
+  </data>
+  <data name="StartTimeTooltip" xml:space="preserve">
+    <value>Время начала:</value>
+    <comment>StartTime:</comment>
+  </data>
+  <data name="StartTooltip" xml:space="preserve">
+    <value>Начать :</value>
+    <comment>Start :</comment>
+  </data>
+  <data name="StartVariance" xml:space="preserve">
+    <value>Начальная дисперсия</value>
+    <comment>Start Variance</comment>
+  </data>
+  <data name="TargetToolTip" xml:space="preserve">
+    <value>Цель :</value>
+    <comment>Target :</comment>
+  </data>
+  <data name="TaskName" xml:space="preserve">
+    <value>Имя задачи</value>
+    <comment>Task Name</comment>
+  </data>
+  <data name="TaskNameTooltip" xml:space="preserve">
+    <value>Имя задачи:</value>
+    <comment>Task Name:</comment>
+  </data>
+  <data name="XMLExport" xml:space="preserve">
+    <value>Экспорт XML</value>
+    <comment>XML Export</comment>
+  </data>
+</root>

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddShape" xml:space="preserve">
+    <value>Добавьте Форму</value>
+    <comment>Add Shape</comment>
+  </data>
+  <data name="AddText" xml:space="preserve">
+    <value>Добавить текст</value>
+    <comment>Add Text</comment>
+  </data>
+  <data name="AlignLeft" xml:space="preserve">
+    <value>Выровнять по Левому краю</value>
+    <comment>Align Left</comment>
+  </data>
+  <data name="AlignRight" xml:space="preserve">
+    <value>Выровнять по Правому краю</value>
+    <comment>Align Right</comment>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>Стрела</value>
+    <comment>Arrow</comment>
+  </data>
+  <data name="Automatic" xml:space="preserve">
+    <value>Автоматический</value>
+    <comment>Automatic</comment>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Жирный</value>
+    <comment>Bold</comment>
+  </data>
+  <data name="BrowseImage" xml:space="preserve">
+    <value>Просмотр изображения</value>
+    <comment>Browse Image</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Центр</value>
+    <comment>Center</comment>
+  </data>
+  <data name="Circle" xml:space="preserve">
+    <value>Круг</value>
+    <comment>Circle</comment>
+  </data>
+  <data name="Crop" xml:space="preserve">
+    <value>Урожай</value>
+    <comment>Crop</comment>
+  </data>
+  <data name="CropHeight" xml:space="preserve">
+    <value>Высота. Нажмите Ввод, чтобы изменить высоту обрезки</value>
+    <comment>Height. Click Enter to change crop height</comment>
+  </data>
+  <data name="CropWidth" xml:space="preserve">
+    <value>Ширина. Нажмите Ввод, чтобы изменить ширину обрезки</value>
+    <comment>Width. Click Enter to change crop width</comment>
+  </data>
+  <data name="DefaultText" xml:space="preserve">
+    <value>Введите текст</value>
+    <comment>Enter Text</comment>
+  </data>
+  <data name="Fill" xml:space="preserve">
+    <value>Заполнить</value>
+    <comment>Fill</comment>
+  </data>
+  <data name="Flip" xml:space="preserve">
+    <value>Переворот </value>
+    <comment>Flip</comment>
+  </data>
+  <data name="FlipHorizontal" xml:space="preserve">
+    <value>Переверните Горизонтально</value>
+    <comment>Flip Horizontal</comment>
+  </data>
+  <data name="FlipVertical" xml:space="preserve">
+    <value>Переверните по Вертикали</value>
+    <comment>Flip Vertical</comment>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Шрифт</value>
+    <comment>Font</comment>
+  </data>
+  <data name="FontColor" xml:space="preserve">
+    <value>Цвет шрифта</value>
+    <comment>Font Color</comment>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>размер шрифта</value>
+    <comment>Font Size</comment>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Высота</value>
+    <comment>Height</comment>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Курсивный</value>
+    <comment>Italic</comment>
+  </data>
+  <data name="Pan" xml:space="preserve">
+    <value>Кастрюля</value>
+    <comment>Pan</comment>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Ручка</value>
+    <comment>Pen</comment>
+  </data>
+  <data name="RecentlyUsed" xml:space="preserve">
+    <value>Недавно Использованный</value>
+    <comment>Recently Used</comment>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Прямоугольник</value>
+    <comment>Rectangle</comment>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Переделывать</value>
+    <comment>Redo</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Сброс</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="ResetZoom" xml:space="preserve">
+    <value>Сброс масштаба</value>
+    <comment>Reset Zoom</comment>
+  </data>
+  <data name="Rotate" xml:space="preserve">
+    <value>Вращать</value>
+    <comment>Rotate</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Save</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выбрать</value>
+    <comment>Select</comment>
+  </data>
+  <data name="ShapeStroke" xml:space="preserve">
+    <value>Граница</value>
+    <comment>Border</comment>
+  </data>
+  <data name="ShapeStrokeWidth" xml:space="preserve">
+    <value>Ширина границы</value>
+    <comment>Border Width</comment>
+  </data>
+  <data name="StandardColors" xml:space="preserve">
+    <value>Стандартные цвета</value>
+    <comment>Standard Colors</comment>
+  </data>
+  <data name="Stroke" xml:space="preserve">
+    <value>Инсульт</value>
+    <comment>Stroke</comment>
+  </data>
+  <data name="StrokeWidth" xml:space="preserve">
+    <value>Ширина хода</value>
+    <comment>Stroke Width</comment>
+  </data>
+  <data name="ThemeColors" xml:space="preserve">
+    <value>Тематические цвета</value>
+    <comment>Theme Colors</comment>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Подчеркивать</value>
+    <comment>Underline</comment>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Undo</comment>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Ширина</value>
+    <comment>Width</comment>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Увеличение</value>
+    <comment>Zoom</comment>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Увеличьте Масштаб</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="ZoomLevel" xml:space="preserve">
+    <value>Уровень масштабирования</value>
+    <comment>Zoom Level</comment>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Уменьшите масштаб</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="Ellipse" xml:space="preserve">
+    <value>Ellipse</value>
+    <comment>???</comment>
+  </data>
+</root>

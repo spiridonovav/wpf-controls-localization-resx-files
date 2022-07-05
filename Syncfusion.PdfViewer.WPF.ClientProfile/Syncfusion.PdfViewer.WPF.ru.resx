@@ -1,0 +1,916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Средство выбора цвета</value>
+    <comment>Color picker</comment>
+  </data>
+  <data name="CurrentPageNumber" xml:space="preserve">
+    <value>Индекс текущей страницы</value>
+    <comment>Current page index</comment>
+  </data>
+  <data name="DecreaseMagnification" xml:space="preserve">
+    <value>Нажмите, чтобы уменьшить увеличение всей страницы.</value>
+    <comment>Click to decrease the magnification of the entire page.</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="DrawCircle" xml:space="preserve">
+    <value>Круг</value>
+    <comment>Circle</comment>
+  </data>
+  <data name="DrawingTools" xml:space="preserve">
+    <value>Инструменты для рисования</value>
+    <comment>Drawing Tools</comment>
+  </data>
+  <data name="DrawInk" xml:space="preserve">
+    <value>Нарисуйте свободную форму</value>
+    <comment>Draw free form</comment>
+  </data>
+  <data name="DrawLine" xml:space="preserve">
+    <value>Линия</value>
+    <comment>Line</comment>
+  </data>
+  <data name="DrawRectangle" xml:space="preserve">
+    <value>Прямоугольник</value>
+    <comment>Rectangle</comment>
+  </data>
+  <data name="FitPage" xml:space="preserve">
+    <value>Нажмите, чтобы показывать по одной странице за раз.</value>
+    <comment>Click to show one page at a time.</comment>
+  </data>
+  <data name="FitWidth" xml:space="preserve">
+    <value>Нажмите, чтобы заполнить окно каждой страницей, и непрерывно прокручивайте страницы.</value>
+    <comment>Click to fill the window with each page and scroll through pages continuously.</comment>
+  </data>
+  <data name="GoToFirstPage" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к следующей странице документа.</value>
+    <comment>Click to go to first page in the document.</comment>
+  </data>
+  <data name="GoToLastPage" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к последней странице документа.</value>
+    <comment>Click to go to last page in the document.</comment>
+  </data>
+  <data name="GoToNextPage" xml:space="preserve">
+    <value>Нажмите, чтобы перейти к следующей странице документа.</value>
+    <comment>Click to go to next page in the document.</comment>
+  </data>
+  <data name="GoToPreviousPage" xml:space="preserve">
+    <value>Нажмите, чтобы перейти на предыдущую страницу документа.</value>
+    <comment>Click to go to previous page in the document.</comment>
+  </data>
+  <data name="HighlightText" xml:space="preserve">
+    <value>Выделите текст</value>
+    <comment>Highlight text</comment>
+  </data>
+  <data name="IncreaseMagnification" xml:space="preserve">
+    <value>Нажмите, чтобы увеличить масштаб всей страницы.</value>
+    <comment>Click to increase the magnification of the entire page.</comment>
+  </data>
+  <data name="OpenDocument" xml:space="preserve">
+    <value>Нажмите, чтобы открыть PDF-документ</value>
+    <comment>Click to open a PDF Document</comment>
+  </data>
+  <data name="FilesViewMessage" xml:space="preserve">
+    <value>Нажмите, чтобы открыть, сохранить и распечатать PDF-документ</value>
+    <comment>Click to open, save and print a PDF Document</comment>
+  </data>
+  <data name="FileText" xml:space="preserve">
+    <value>Файл</value>
+    <comment>File</comment>
+  </data>
+  <data name="OpenHeaderText" xml:space="preserve">
+    <value>Открыть</value>
+    <comment>Open</comment>
+  </data>
+  <data name="SaveHeaderText" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Save</comment>
+  </data>
+  <data name="SaveAsHeaderText" xml:space="preserve">
+    <value>Сохранить Как</value>
+    <comment>Save As</comment>
+  </data>
+  <data name="PrintHeaderText" xml:space="preserve">
+    <value>Печать</value>
+    <comment>Print</comment>
+  </data>
+  <data name="OpenPopupNote" xml:space="preserve">
+    <value>Открыть всплывающую заметку</value>
+    <comment>Open Pop-up Note</comment>
+  </data>
+  <data name="PageCount" xml:space="preserve">
+    <value>Общее количество страниц</value>
+    <comment>Total page count</comment>
+  </data>
+  <data name="PrintDocument" xml:space="preserve">
+    <value>Нажмите, чтобы распечатать этот PDF-файл или страницы из него.</value>
+    <comment>Click to Print this PDF file or pages from it.</comment>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Свойства</value>
+    <comment>Properties</comment>
+  </data>
+  <data name="SaveAsDocument" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить документ на локальном диске</value>
+    <comment>Click to save the document in the local disk</comment>
+  </data>
+  <data name="SaveDocument" xml:space="preserve">
+    <value>Нажмите, чтобы сохранить документ на локальном диске</value>
+    <comment>Click to save the document in the local disk</comment>
+  </data>
+  <data name="SearchText" xml:space="preserve">
+    <value>Нажмите для поиска текста</value>
+    <comment>Click to search text</comment>
+  </data>
+  <data name="StrikeoutText" xml:space="preserve">
+    <value>Зачеркнутый текст</value>
+    <comment>Strikethrough text</comment>
+  </data>
+  <data name="UnderlineText" xml:space="preserve">
+    <value>Подчеркивание текста</value>
+    <comment>Underline text</comment>
+  </data>
+  <data name="Appearance" xml:space="preserve">
+    <value>Внешность</value>
+    <comment>Appearance</comment>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Автор</value>
+    <comment>Author</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Цвет</value>
+    <comment>Color</comment>
+  </data>
+  <data name="FillColor" xml:space="preserve">
+    <value>Цвет заливки</value>
+    <comment>Fill color</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Общие</value>
+    <comment>General</comment>
+  </data>
+  <data name="HighlightProperties" xml:space="preserve">
+    <value>Выделите свойства</value>
+    <comment>Highlight properties</comment>
+  </data>
+  <data name="InkProperties" xml:space="preserve">
+    <value>Свойства чернил</value>
+    <comment>Ink properties</comment>
+  </data>
+  <data name="LineProperties" xml:space="preserve">
+    <value>Свойства линии</value>
+    <comment>Line properties</comment>
+  </data>
+  <data name="MakeDefault" xml:space="preserve">
+    <value>Установить по умолчанию</value>
+    <comment>Set as default</comment>
+  </data>
+  <data name="MakePropertiesDefault" xml:space="preserve">
+    <value>Сделать Свойства по умолчанию</value>
+    <comment>Make Properties default</comment>
+  </data>
+  <data name="MatchCase" xml:space="preserve">
+    <value>Спичечный коробок</value>
+    <comment>Match Case</comment>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Модифицированный</value>
+    <comment>Modified</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="Opacity" xml:space="preserve">
+    <value>Непрозрачность</value>
+    <comment>Opacity</comment>
+  </data>
+  <data name="OvalProperties" xml:space="preserve">
+    <value>Свойства овала</value>
+    <comment>Oval properties</comment>
+  </data>
+  <data name="RectangleProperties" xml:space="preserve">
+    <value>Свойства прямоугольника</value>
+    <comment>Rectangle properties</comment>
+  </data>
+  <data name="StrikeoutProperties" xml:space="preserve">
+    <value>Свойства зачеркивания</value>
+    <comment>Strikethrough properties</comment>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Предмет</value>
+    <comment>Subject</comment>
+  </data>
+  <data name="Thickness" xml:space="preserve">
+    <value>Толщина</value>
+    <comment>Thickness</comment>
+  </data>
+  <data name="UnderlineProperties" xml:space="preserve">
+    <value>Подчеркните свойства</value>
+    <comment>Underline properties</comment>
+  </data>
+  <data name="ZoomLevel" xml:space="preserve">
+    <value>Текущий уровень масштабирования</value>
+    <comment>Current zoom level</comment>
+  </data>
+  <data name="CloseSearchBar" xml:space="preserve">
+    <value>Закрыть Панель Поиска</value>
+    <comment>Close Search Bar</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="EssentialPdfViewer" xml:space="preserve">
+    <value>Необходимый Просмотрщик Pdf-файлов</value>
+    <comment>Essential Pdf Viewer</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Следующий</value>
+    <comment>Next</comment>
+  </data>
+  <data name="NoMatchesFound" xml:space="preserve">
+    <value>Программа чтения завершила поиск в документе. Совпадений обнаружено не было</value>
+    <comment>Reader has finished searching the document. No matches were found</comment>
+  </data>
+  <data name="NoMoreMatchesFound" xml:space="preserve">
+    <value>Программа чтения завершила поиск в документе. Больше совпадений найдено не было</value>
+    <comment>Reader has finished searching the document. No more matches were found</comment>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>от</value>
+    <comment>of</comment>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Предыдущий</value>
+    <comment>Previous</comment>
+  </data>
+  <data name="SearchIndicator" xml:space="preserve">
+    <value>Поисковый</value>
+    <comment>Searching</comment>
+  </data>
+  <data name="DocumentProtected" xml:space="preserve">
+    <value>Этот документ защищен. Пожалуйста, введите пароль для открытия документа.</value>
+    <comment>This document is protected. Please enter a document open password.</comment>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Введите пароль</value>
+    <comment>Enter password</comment>
+  </data>
+  <data name="PasswordCancelButton" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="PasswordOkButton" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="CloseBookmark" xml:space="preserve">
+    <value>Нажмите, чтобы закрыть панель закладок</value>
+    <comment>Click to close the bookmark pane</comment>
+  </data>
+  <data name="ViewBookmarks" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть закладки</value>
+    <comment>Click to view the bookmarks</comment>
+  </data>
+  <data name="ViewLayers" xml:space="preserve">
+    <value>Щелкните, чтобы просмотреть слои</value>
+    <comment>Click to view the layers</comment>
+  </data>
+  <data name="BookmarkTitle" xml:space="preserve">
+    <value>Книжные закладки</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="CloseLayer" xml:space="preserve">
+    <value>Щелкните, чтобы закрыть панель слоев</value>
+    <comment>Click to close the layer pane</comment>
+  </data>
+  <data name="LayerTitle" xml:space="preserve">
+    <value>Слои</value>
+    <comment>Layers</comment>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Цвет фона</value>
+    <comment>Background color</comment>
+  </data>
+  <data name="BorderColor" xml:space="preserve">
+    <value>Цвет границы</value>
+    <comment>Border color</comment>
+  </data>
+  <data name="BorderThickness" xml:space="preserve">
+    <value>Толщина границы</value>
+    <comment>Border thickness</comment>
+  </data>
+  <data name="FreeTextProperties" xml:space="preserve">
+    <value>Свойства свободного текста</value>
+    <comment>Free text properties</comment>
+  </data>
+  <data name="TextProperties" xml:space="preserve">
+    <value>Свойства текста</value>
+    <comment>Text properties</comment>
+  </data>
+  <data name="CloseThumbnail" xml:space="preserve">
+    <value>Щелкните, чтобы закрыть панель миниатюр</value>
+    <comment>Click to close the thumbnail pane</comment>
+  </data>
+  <data name="EnlargePageThumbnails" xml:space="preserve">
+    <value>Увеличить миниатюры страниц</value>
+    <comment>Enlarge page thumbnails</comment>
+  </data>
+  <data name="ReducePageThumbnails" xml:space="preserve">
+    <value>Уменьшите количество миниатюр страниц</value>
+    <comment>Reduce page thumbnails</comment>
+  </data>
+  <data name="ThumbnailTitle" xml:space="preserve">
+    <value>Миниатюры страниц</value>
+    <comment>Page Thumbnails</comment>
+  </data>
+  <data name="ViewThumbnails" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть миниатюры</value>
+    <comment>Click to view the thumbnails</comment>
+  </data>
+  <data name="CloseFontPopUp" xml:space="preserve">
+    <value>Нажмите, чтобы закрыть свойства текста</value>
+    <comment>Click to close the text properties</comment>
+  </data>
+  <data name="AddLayer" xml:space="preserve">
+    <value>Нажмите, чтобы добавить слой.</value>
+    <comment>Click to add a layer.</comment>
+  </data>
+  <data name="DeleteLayer" xml:space="preserve">
+    <value>Щелкните, чтобы удалить слой</value>
+    <comment>Click to delete a layer</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Переименовать</value>
+    <comment>Rename</comment>
+  </data>
+  <data name="FreeTextBox" xml:space="preserve">
+    <value>Добавить текстовое поле</value>
+    <comment>Add text box</comment>
+  </data>
+  <data name="ClosePageOrganizerMessage" xml:space="preserve">
+    <value>Нажмите, чтобы закрыть панель "Упорядочить страницы".</value>
+    <comment>Click to close organize pages pane.</comment>
+  </data>
+  <data name="DeletePagesMesage" xml:space="preserve">
+    <value>Удаление страниц</value>
+    <comment>Delete pages</comment>
+  </data>
+  <data name="PageOrganizerTitle" xml:space="preserve">
+    <value>Упорядочивание Страниц</value>
+    <comment>Organize Pages</comment>
+  </data>
+  <data name="RotateClockwiseMessage" xml:space="preserve">
+    <value>Поверните по часовой стрелке</value>
+    <comment>Rotate clockwise</comment>
+  </data>
+  <data name="CounterclockwiseMessage" xml:space="preserve">
+    <value>Поверните против часовой стрелки</value>
+    <comment>Rotate counterclockwise</comment>
+  </data>
+  <data name="ViewPageOrganizerMessage" xml:space="preserve">
+    <value>Поворачивайте, переставляйте или удаляйте страницы</value>
+    <comment>Rotate, rearrange, or delete pages</comment>
+  </data>
+  <data name="ApplyRedactionMessage" xml:space="preserve">
+    <value>Нажмите, чтобы навсегда удалить отмеченное содержимое.</value>
+    <comment>Click to permanently remove marked content.</comment>
+  </data>
+  <data name="RedactionMessage" xml:space="preserve">
+    <value>Нажмите, чтобы выполнить уменьшение.</value>
+    <comment>Click to perform redaction.</comment>
+  </data>
+  <data name="MarkForRedactionMessage" xml:space="preserve">
+    <value>Нажмите, чтобы пометить содержимое для постоянного удаления.</value>
+    <comment>Click to mark content for permanent removal.</comment>
+  </data>
+  <data name="RedactionPropertiesMessage" xml:space="preserve">
+    <value>Щелкните, чтобы просмотреть свойства инструмента редактирования.</value>
+    <comment>Click to view redaction tool properties.</comment>
+  </data>
+  <data name="RedactionPropertiesLabel" xml:space="preserve">
+    <value>Свойства инструмента редактирования</value>
+    <comment>Redaction tool properties</comment>
+  </data>
+  <data name="CustomTextLabel" xml:space="preserve">
+    <value>Пользовательский текст</value>
+    <comment>Custom text</comment>
+  </data>
+  <data name="FontColorLabel" xml:space="preserve">
+    <value>Цвет шрифта</value>
+    <comment>Font color</comment>
+  </data>
+  <data name="FontLabel" xml:space="preserve">
+    <value>Шрифт</value>
+    <comment>Font</comment>
+  </data>
+  <data name="FontSizeLabel" xml:space="preserve">
+    <value>Размер шрифта</value>
+    <comment>Font size</comment>
+  </data>
+  <data name="OverlayTextTitleLabel" xml:space="preserve">
+    <value>Наложение текста</value>
+    <comment>Overlay text</comment>
+  </data>
+  <data name="RedactedAreaFillLabel" xml:space="preserve">
+    <value>Цвет заливки отредактированной области</value>
+    <comment>Redacted area fill color</comment>
+  </data>
+  <data name="RedactionMarkAppearancelabel" xml:space="preserve">
+    <value>Внешний вид метки редактирования</value>
+    <comment>Redaction mark appearance</comment>
+  </data>
+  <data name="FillOpacityLabel" xml:space="preserve">
+    <value>Непрозрачность заливки</value>
+    <comment>Fill opacity</comment>
+  </data>
+  <data name="OutlineColorLabel" xml:space="preserve">
+    <value>Цвет контура</value>
+    <comment>Outline color</comment>
+  </data>
+  <data name="UseOverlayTextLabel" xml:space="preserve">
+    <value>Используйте наложенный текст</value>
+    <comment>Use overlay text</comment>
+  </data>
+  <data name="AddSignatureLabel" xml:space="preserve">
+    <value>Добавить подпись</value>
+    <comment>Add signature</comment>
+  </data>
+  <data name="ApplyLabel" xml:space="preserve">
+    <value>Применять</value>
+    <comment>Apply</comment>
+  </data>
+  <data name="ClearLabel" xml:space="preserve">
+    <value>Четкий</value>
+    <comment>Clear</comment>
+  </data>
+  <data name="CreateSignatureLabel" xml:space="preserve">
+    <value>Создать подпись</value>
+    <comment>Create signature</comment>
+  </data>
+  <data name="HandwrittenSignatureMessage" xml:space="preserve">
+    <value>Подпишите документ, нарисовав подпись.</value>
+    <comment>Sign document by drawing a signature.</comment>
+  </data>
+  <data name="AddStampMessage" xml:space="preserve">
+    <value>Нажмите, чтобы добавить штамп</value>
+    <comment>Click to add stamp</comment>
+  </data>
+  <data name="StampPropertiesLabel" xml:space="preserve">
+    <value>Свойства штампа</value>
+    <comment>Stamp properties</comment>
+  </data>
+  <data name="StandardLabel" xml:space="preserve">
+    <value>Стандартный Бизнес</value>
+    <comment>Standard Business</comment>
+  </data>
+  <data name="ExportDataMessage" xml:space="preserve">
+    <value>Экспорт данных из файла формы</value>
+    <comment>Export data from a Form file</comment>
+  </data>
+  <data name="FormDataLabel" xml:space="preserve">
+    <value>Данные формы</value>
+    <comment>Form Data</comment>
+  </data>
+  <data name="FormDataMessage" xml:space="preserve">
+    <value>Данные формы</value>
+    <comment>Form Data</comment>
+  </data>
+  <data name="FormExportLabel" xml:space="preserve">
+    <value>Экспорт</value>
+    <comment>Export</comment>
+  </data>
+  <data name="FormImportLabel" xml:space="preserve">
+    <value>Импорт</value>
+    <comment>Import</comment>
+  </data>
+  <data name="ImportDataMessage" xml:space="preserve">
+    <value>Импорт данных в файл формы</value>
+    <comment>Import data into a Form file</comment>
+  </data>
+  <data name="ApplyRedactionLabel" xml:space="preserve">
+    <value>Применять</value>
+    <comment>Apply</comment>
+  </data>
+  <data name="MarkForRedactionLabel" xml:space="preserve">
+    <value>Пометка для редактирования</value>
+    <comment>Mark for Redaction</comment>
+  </data>
+  <data name="RedactionLabel" xml:space="preserve">
+    <value>Сокращение</value>
+    <comment>Redaction</comment>
+  </data>
+  <data name="HandwrittenSignaturePropertiesLabel" xml:space="preserve">
+    <value>Свойства рукописной подписи</value>
+    <comment>Handwritten signature properties</comment>
+  </data>
+  <data name="CloseFormOptionsMessage" xml:space="preserve">
+    <value>Параметры закрытия формы</value>
+    <comment>Close form options</comment>
+  </data>
+  <data name="CloseRedactionMessage" xml:space="preserve">
+    <value>Закрыть редакцию</value>
+    <comment>Close redact</comment>
+  </data>
+  <data name="Panning" xml:space="preserve">
+    <value>Щелкните для перемещения по документу</value>
+    <comment>Click to pan around the document</comment>
+  </data>
+  <data name="AddStickyNote" xml:space="preserve">
+    <value>Добавить заметку</value>
+    <comment>Add sticky note</comment>
+  </data>
+  <data name="StickyNoteProperties" xml:space="preserve">
+    <value>Свойства липкой заметки</value>
+    <comment>Sticky note properties</comment>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Икона</value>
+    <comment>Icon</comment>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Комментарий</value>
+    <comment>Comment</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Помощь</value>
+    <comment>Help</comment>
+  </data>
+  <data name="InsertText" xml:space="preserve">
+    <value>Вставить текст</value>
+    <comment>Insert Text</comment>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Ключ</value>
+    <comment>Key</comment>
+  </data>
+  <data name="NewParagraph" xml:space="preserve">
+    <value>Новый абзац</value>
+    <comment>New Paragraph</comment>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Примечание</value>
+    <comment>Note</comment>
+  </data>
+  <data name="Paragraph" xml:space="preserve">
+    <value>Параграф</value>
+    <comment>Paragraph</comment>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>Стрела</value>
+    <comment>Arrow</comment>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Конец</value>
+    <comment>End</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Начать</value>
+    <comment>Start</comment>
+  </data>
+  <data name="BorderStyle" xml:space="preserve">
+    <value>Стиль границы</value>
+    <comment>Border Style</comment>
+  </data>
+  <data name="DrawPolygon" xml:space="preserve">
+    <value>Полигон</value>
+    <comment>Polygon</comment>
+  </data>
+  <data name="Cloud" xml:space="preserve">
+    <value>Облако</value>
+    <comment>Cloud</comment>
+  </data>
+  <data name="PolygonProperties" xml:space="preserve">
+    <value>Свойства полигонов</value>
+    <comment>Polygon properties</comment>
+  </data>
+  <data name="DrawPolyline" xml:space="preserve">
+    <value>Ломаная линия</value>
+    <comment>Polyline</comment>
+  </data>
+  <data name="PolygonLineProperties" xml:space="preserve">
+    <value>Свойства линии полигона</value>
+    <comment>Polygon line properties</comment>
+  </data>
+  <data name="MarqueeZoom" xml:space="preserve">
+    <value>Увеличьте масштаб до выбранной области</value>
+    <comment>Zoom to selected area</comment>
+  </data>
+  <data name="MoreActions" xml:space="preserve">
+    <value>Нажмите, чтобы просмотреть дополнительные действия</value>
+    <comment>Click to view more actions</comment>
+  </data>
+  <data name="SelectionTool" xml:space="preserve">
+    <value>Инструмент выделения текста</value>
+    <comment>Selection tool for text</comment>
+  </data>
+  <data name="BookmarkNotExists" xml:space="preserve">
+    <value>Этот пункт назначения закладки не существует</value>
+    <comment>This bookmark destination doesn't exist</comment>
+  </data>
+  <data name="ConfirmationBeforeClose" xml:space="preserve">
+    <value>Вы хотите сохранить изменения перед закрытием?</value>
+    <comment>Do you want to save changes before closing?</comment>
+  </data>
+  <data name="DeletePagesConfirmation" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить страницы из документа?</value>
+    <comment>Are you sure you want to delete the pages from the document?</comment>
+  </data>
+  <data name="DeletePagesLimitation" xml:space="preserve">
+    <value>Вы не можете удалить все страницы. Должна остаться хотя бы одна страница</value>
+    <comment>You cannot delete all pages. At least one page should remain</comment>
+  </data>
+  <data name="FileAlreadyOpenedInformation" xml:space="preserve">
+    <value>Этот файл уже открыт. Пожалуйста, закройте его перед сохранением</value>
+    <comment>This file is already opened. Please close it before saving</comment>
+  </data>
+  <data name="IncorrectNumericEntry" xml:space="preserve">
+    <value>Недопустимое числовое значение</value>
+    <comment>Invalid numeric value</comment>
+  </data>
+  <data name="InvalidPasswordError" xml:space="preserve">
+    <value>Неверный пароль</value>
+    <comment>Password is invalid</comment>
+  </data>
+  <data name="PageNotExists" xml:space="preserve">
+    <value>В этом документе нет страницы с номером "{0}".</value>
+    <comment>There is no page numbered '{0}' in this document</comment>
+  </data>
+  <data name="RedactionConfirmation" xml:space="preserve">
+    <value>Вы уверены, что хотите продолжить?</value>
+    <comment>Are you sure you want to continue?</comment>
+  </data>
+  <data name="RedactionWarning" xml:space="preserve">
+    <value>Вы собираетесь навсегда удалить все содержимое, которое было помечено для редактирования. После сохранения документа эта операция не может быть отменена</value>
+    <comment>You are about to permanently remove all content that has been marked for redaction. Once the document is saved, this operation cannot be undone</comment>
+  </data>
+  <data name="RequestCorrectPassword" xml:space="preserve">
+    <value>Пожалуйста, откройте документ еще раз и введите правильный пароль</value>
+    <comment>Please open the document again and enter the correct password</comment>
+  </data>
+  <data name="ValueExceedsLimit" xml:space="preserve">
+    <value>Значение должно находиться в диапазоне от {0} до {1}</value>
+    <comment>The value must be between {0} and {1}</comment>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+    <comment>Error</comment>
+  </data>
+  <data name="IncorrectPassword" xml:space="preserve">
+    <value>Неверный пароль</value>
+    <comment>Incorrect password</comment>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+    <comment>Information</comment>
+  </data>
+  <data name="LoadingPage" xml:space="preserve">
+    <value>Загрузка страниц</value>
+    <comment>Loading Pages</comment>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Сообщение</value>
+    <comment>Message</comment>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+    <comment>Warning</comment>
+  </data>
+  <data name="EnableMultiplePageSelection" xml:space="preserve">
+    <value>Включить выбор нескольких страниц</value>
+    <comment>Enable multiple page selection</comment>
+  </data>
+  <data name="CustomStampHeaderText" xml:space="preserve">
+    <value>Таможенные штампы</value>
+    <comment>Custom Stamps</comment>
+  </data>
+  <data name="BrowseButtonHeaderText" xml:space="preserve">
+    <value>Добавить Штамп</value>
+    <comment>Add Stamp</comment>
+  </data>
+  <data name="InkEraser" xml:space="preserve">
+    <value>Щелкните, чтобы стереть часть аннотации тушью (рисунки от руки)</value>
+    <comment>Click to erase a part of the ink annotation (freehand drawings)</comment>
+  </data>
+  <data name="Butt" xml:space="preserve">
+    <value>Торец</value>
+    <comment>Butt</comment>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Закрытый</value>
+    <comment>Closed</comment>
+  </data>
+  <data name="Diamond" xml:space="preserve">
+    <value>Бриллиант</value>
+    <comment>Diamond</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Никто</value>
+    <comment>None</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Открыть</value>
+    <comment>Open</comment>
+  </data>
+  <data name="ReversedClose" xml:space="preserve">
+    <value>Закрыто (Реверс)</value>
+    <comment>Closed (Reverse)</comment>
+  </data>
+  <data name="ReversedOpen" xml:space="preserve">
+    <value>Открыть (Реверс)</value>
+    <comment>Open (Reverse)</comment>
+  </data>
+  <data name="Round" xml:space="preserve">
+    <value>Круглый</value>
+    <comment>Round</comment>
+  </data>
+  <data name="Slash" xml:space="preserve">
+    <value>Косая черта</value>
+    <comment>Slash</comment>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>Площадь</value>
+    <comment>Square</comment>
+  </data>
+  <data name="FreeText" xml:space="preserve">
+    <value>Свободный текст</value>
+    <comment>Free Text</comment>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Выделять</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="Ink" xml:space="preserve">
+    <value>Чернила</value>
+    <comment>Ink</comment>
+  </data>
+  <data name="Oval" xml:space="preserve">
+    <value>Овальный</value>
+    <comment>Oval</comment>
+  </data>
+  <data name="PolygonalLine" xml:space="preserve">
+    <value>Многоугольная линия</value>
+    <comment>Polygonal Line</comment>
+  </data>
+  <data name="Stamp" xml:space="preserve">
+    <value>Штамп</value>
+    <comment>Stamp</comment>
+  </data>
+  <data name="StickyNote" xml:space="preserve">
+    <value>Липкая записка</value>
+    <comment>Sticky Note</comment>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Зачеркнуто</value>
+    <comment>Strikethrough</comment>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Подчеркивать</value>
+    <comment>Underline</comment>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>Запертый</value>
+    <comment>Locked</comment>
+  </data>
+  <data name="FormNameRequestDialogTitle" xml:space="preserve">
+    <value>Имя формы</value>
+    <comment>Form Name</comment>
+  </data>
+  <data name="FormNameRequestText" xml:space="preserve">
+    <value>Введите имя формы</value>
+    <comment>Enter Form name</comment>
+  </data>
+  <data name="PasswordRequestDialogTitle" xml:space="preserve">
+    <value>Пароль</value>
+    <comment>Password</comment>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Прямоугольник</value>
+    <comment>Rectangle</comment>
+  </data>
+</root>

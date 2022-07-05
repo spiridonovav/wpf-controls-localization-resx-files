@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessCalendarText" xml:space="preserve">
+    <value>Календарь</value>
+    <comment>Calendar</comment>
+  </data>
+  <data name="AccessEmptyDateText" xml:space="preserve">
+    <value>Никто</value>
+    <comment>None</comment>
+  </data>
+  <data name="AccessTodayText" xml:space="preserve">
+    <value>Сегодня :</value>
+    <comment>Today :</comment>
+  </data>
+  <data name="AccessWatchText" xml:space="preserve">
+    <value>Часы</value>
+    <comment>Watch</comment>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>Добавь</value>
+    <comment>Add</comment>
+  </data>
+  <data name="AddToQAT" xml:space="preserve">
+    <value>Добавить на панель быстрого доступа</value>
+    <comment>Add to Quick Access Toolbar</comment>
+  </data>
+  <data name="AutoHide" xml:space="preserve">
+    <value>Автоматическое скрытие</value>
+    <comment>Auto Hide</comment>
+  </data>
+  <data name="AwlButtonTooltipText" xml:space="preserve">
+    <value>Автоматическое скрытие</value>
+    <comment>Auto Hide</comment>
+  </data>
+  <data name="BackText" xml:space="preserve">
+    <value>Назад</value>
+    <comment>Back</comment>
+  </data>
+  <data name="Buttons" xml:space="preserve">
+    <value>Кнопки</value>
+    <comment>Buttons</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Выберите команды из</value>
+    <comment>Choose commands from</comment>
+  </data>
+  <data name="CloseAllButThis" xml:space="preserve">
+    <value>Закройте Все, Кроме Этого</value>
+    <comment>Close All But This</comment>
+  </data>
+  <data name="CloseButtonTooltipText" xml:space="preserve">
+    <value>Закрывать</value>
+    <comment>Close</comment>
+  </data>
+  <data name="CloseTooltip" xml:space="preserve">
+    <value>Закрывать</value>
+    <comment>Close</comment>
+  </data>
+  <data name="ContextMenuButtonTooltipText" xml:space="preserve">
+    <value>Контекстное меню</value>
+    <comment>Context Menu</comment>
+  </data>
+  <data name="MaximizeButtonTooltipText" xml:space="preserve">
+    <value>Максимизировать</value>
+    <comment>Maximize</comment>
+  </data>
+  <data name="MinimizeButtonTooltipText" xml:space="preserve">
+    <value>Минимизировать</value>
+    <comment>Minimize</comment>
+  </data>
+  <data name="RestoreButtonTooltipText" xml:space="preserve">
+    <value>Восстанавливать</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="CustomizeQAT" xml:space="preserve">
+    <value>Настройка Панели быстрого доступа</value>
+    <comment>Customize Quick Access Toolbar</comment>
+  </data>
+  <data name="CustomizeQATContextMenu" xml:space="preserve">
+    <value>Настройка Панели быстрого доступа...</value>
+    <comment>Customize Quick Access Toolbar...</comment>
+  </data>
+  <data name="Dockable" xml:space="preserve">
+    <value>Состыковываемый</value>
+    <comment>Dockable</comment>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Документ</value>
+    <comment>Document</comment>
+  </data>
+  <data name="FinishText" xml:space="preserve">
+    <value>Заканчивать</value>
+    <comment>Finish</comment>
+  </data>
+  <data name="FloatButtonTooltipText" xml:space="preserve">
+    <value>Поплавок</value>
+    <comment>Float</comment>
+  </data>
+  <data name="Floating" xml:space="preserve">
+    <value>Плавающий</value>
+    <comment>Floating</comment>
+  </data>
+  <data name="GroupbarMItemAddItem" xml:space="preserve">
+    <value>Добавить Элемент</value>
+    <comment>Add Item</comment>
+  </data>
+  <data name="GroupbarMItemAddTab" xml:space="preserve">
+    <value>addTab</value>
+    <comment>Add Tab</comment>
+  </data>
+  <data name="GroupbarMItemCopy" xml:space="preserve">
+    <value>Копировать</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="GroupbarMItemCut" xml:space="preserve">
+    <value>Резать</value>
+    <comment>Cut</comment>
+  </data>
+  <data name="GroupbarMItemDeleteItem" xml:space="preserve">
+    <value>Удалить Элемент</value>
+    <comment>Delete Item</comment>
+  </data>
+  <data name="GroupbarMItemDeleteTab" xml:space="preserve">
+    <value>Удалить вкладку</value>
+    <comment>Delete Tab</comment>
+  </data>
+  <data name="GroupbarMItemListView" xml:space="preserve">
+    <value>просмотр списка</value>
+    <comment>List View</comment>
+  </data>
+  <data name="GroupbarMItemMoveDown" xml:space="preserve">
+    <value>Двигайтесь Вниз</value>
+    <comment>Move Down</comment>
+  </data>
+  <data name="GroupbarMItemMoveUp" xml:space="preserve">
+    <value>двигаться вверх</value>
+    <comment>Move Up</comment>
+  </data>
+  <data name="GroupbarMItemPaste" xml:space="preserve">
+    <value>Вставить</value>
+    <comment>Paste</comment>
+  </data>
+  <data name="GroupbarMItemRenameItem" xml:space="preserve">
+    <value>Переименовать Элемент</value>
+    <comment>Rename Item</comment>
+  </data>
+  <data name="GroupbarMItemRenameTab" xml:space="preserve">
+    <value>Переименовать таблицу</value>
+    <comment>Rename Tab</comment>
+  </data>
+  <data name="GroupbarMItemSortAsc" xml:space="preserve">
+    <value>Сортировать По Asc</value>
+    <comment>Sort Asc</comment>
+  </data>
+  <data name="GroupbarMItemSortDec" xml:space="preserve">
+    <value>Сортировать по</value>
+    <comment>Sort Dec</comment>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Помогите</value>
+    <comment>Help</comment>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Закрывать</value>
+    <comment>Close</comment>
+  </data>
+  <data name="MaximizeRibbon" xml:space="preserve">
+    <value>Разверните ленту</value>
+    <comment>Maximize Ribbon</comment>
+  </data>
+  <data name="MaximizeTooltip" xml:space="preserve">
+    <value>Максимизировать</value>
+    <comment>Maximize</comment>
+  </data>
+  <data name="MDIClose" xml:space="preserve">
+    <value>Закрывать</value>
+    <comment>Close</comment>
+  </data>
+  <data name="MDIDockable" xml:space="preserve">
+    <value>Состыковываемый</value>
+    <comment>Dockable</comment>
+  </data>
+  <data name="MDIDocument" xml:space="preserve">
+    <value>Документ</value>
+    <comment>Document</comment>
+  </data>
+  <data name="MDIFloating" xml:space="preserve">
+    <value>Плавающий</value>
+    <comment>Floating</comment>
+  </data>
+  <data name="MDIMaximize" xml:space="preserve">
+    <value>Максимизировать</value>
+    <comment>Maximize</comment>
+  </data>
+  <data name="MDIMinimize" xml:space="preserve">
+    <value>Минимизировать</value>
+    <comment>Minimize</comment>
+  </data>
+  <data name="MDIMove" xml:space="preserve">
+    <value>Подвиньте</value>
+    <comment>Move</comment>
+  </data>
+  <data name="MDIResize" xml:space="preserve">
+    <value>Move it</value>
+    <comment>Подвиньте</comment>
+  </data>
+  <data name="MDIRestore" xml:space="preserve">
+    <value>Восстанавливать</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="MinimizeRibbon" xml:space="preserve">
+    <value>Свернуть ленту</value>
+    <comment>Minimize Ribbon</comment>
+  </data>
+  <data name="MinimizeTooltip" xml:space="preserve">
+    <value>Минимизировать</value>
+    <comment>Minimize</comment>
+  </data>
+  <data name="FullScreenTooltip" xml:space="preserve">
+    <value>Полноэкранный режим</value>
+    <comment>FullScreenMode</comment>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Модифицировать...</value>
+    <comment>Modify...</comment>
+  </data>
+  <data name="MoveToNextTabGroup" xml:space="preserve">
+    <value>Перейти К Следующей Группе Вкладок</value>
+    <comment>Move To Next Tab Group</comment>
+  </data>
+  <data name="MoveToPreviousTabGroup" xml:space="preserve">
+    <value>Перейти К Предыдущей Группе Вкладок</value>
+    <comment>Move To Previous Tab Group</comment>
+  </data>
+  <data name="NewHorizontalTabGroup" xml:space="preserve">
+    <value>Новая Группа Горизонтальных Вкладок</value>
+    <comment>New Horizontal Tab Group</comment>
+  </data>
+  <data name="NewVerticalTabGroup" xml:space="preserve">
+    <value>Новая Вертикальная Группа Вкладок</value>
+    <comment>New Vertical Tab Group</comment>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Следующий</value>
+    <comment>Next</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>ОК</value>
+    <comment>OK</comment>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Опции</value>
+    <comment>Options</comment>
+  </data>
+  <data name="QAT" xml:space="preserve">
+    <value>Панель быстрого доступа</value>
+    <comment>Quick Access Toolbar</comment>
+  </data>
+  <data name="QATMoreCommands" xml:space="preserve">
+    <value>Больше Команд...</value>
+    <comment>More Commands...</comment>
+  </data>
+  <data name="QATResetContent" xml:space="preserve">
+    <value>Вы уверены, что хотите восстановить содержимое панели быстрого доступа по умолчанию?</value>
+    <comment>Are you sure you want to restore the Quick Access Toolbar to its defaults content?</comment>
+  </data>
+  <data name="QATResetTitle" xml:space="preserve">
+    <value>Сброс настроек</value>
+    <comment>Reset Customizations</comment>
+  </data>
+  <data name="QATShowAbove" xml:space="preserve">
+    <value>Показать панель быстрого доступа Над лентой</value>
+    <comment>Show Quick Access Toolbar Above the Ribbon</comment>
+  </data>
+  <data name="QATShowBelow" xml:space="preserve">
+    <value>Показать панель быстрого доступа Под лентой</value>
+    <comment>Show Quick Access Toolbar Below the Ribbon</comment>
+  </data>
+  <data name="RemoveFromQAT" xml:space="preserve">
+    <value>Удалить с панели быстрого доступа</value>
+    <comment>Remove from Quick Access Toolbar</comment>
+  </data>
+  <data name="RemoveItem" xml:space="preserve">
+    <value>Удалять</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Сброс</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="RestoreTooltip" xml:space="preserve">
+    <value>Восстановление Вниз</value>
+    <comment>Restore Down</comment>
+  </data>
+  <data name="Showfewerbuttons" xml:space="preserve">
+    <value>Показывать меньше кнопок</value>
+    <comment>Show fewer buttons</comment>
+  </data>
+  <data name="Showmorebuttons" xml:space="preserve">
+    <value>Показать больше кнопок</value>
+    <comment>Show more buttons</comment>
+  </data>
+  <data name="ShowQATBelow" xml:space="preserve">
+    <value>Показать панель быстрого доступа под лентой</value>
+    <comment>Show Quick Access Toolbar below the Ribbon</comment>
+  </data>
+  <data name="Tabbed" xml:space="preserve">
+    <value>С вкладками</value>
+    <comment>Tabbed</comment>
+  </data>
+  <data name="TabClose" xml:space="preserve">
+    <value>Закрыть</value>
+    <comment>Close</comment>
+  </data>
+  <data name="TabCloseAll" xml:space="preserve">
+    <value>Закрыть Все</value>
+    <comment>Close All</comment>
+  </data>
+  <data name="QATDuplicateAlert" xml:space="preserve">
+    <value>Выбранная команда уже находится на панели быстрого доступа</value>
+    <comment>The selected command is already on the Quick Access Toolbar</comment>
+  </data>
+  <data name="QATAllCommandsCaption" xml:space="preserve">
+    <value>Все Команды</value>
+    <comment>All Commands</comment>
+  </data>
+  <data name="QATRibbonMenuCaption" xml:space="preserve">
+    <value>Меню ленты</value>
+    <comment>Ribbon Menu</comment>
+  </data>
+  <data name="QATTabCaption" xml:space="preserve">
+    <value>Табуляция</value>
+    <comment>Tab</comment>
+  </data>
+  <data name="MenuItemCancel" xml:space="preserve">
+    <value>Отменить</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="NewTabgroup" xml:space="preserve">
+    <value>Новая группа вкладок</value>
+    <comment>New Tab Group</comment>
+  </data>
+  <data name="Maximize" xml:space="preserve">
+    <value>Максимизировать</value>
+    <comment>Maximize</comment>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Минимизировать</value>
+    <comment>Minimize</comment>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Восстанавливать</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="BackStageButtonHeader" xml:space="preserve">
+    <value>Файл</value>
+    <comment>File</comment>
+  </data>
+  <data name="ApplicationMenuButtonHeader" xml:space="preserve">
+    <value>Файл</value>
+    <comment>File</comment>
+  </data>
+  <data name="LoadOnDemandHeader" xml:space="preserve">
+    <value>Погрузка....</value>
+    <comment>Loading....</comment>
+  </data>
+  <data name="CustomizeRibbon" xml:space="preserve">
+    <value>Настройка ленты</value>
+    <comment>Customize Ribbon</comment>
+  </data>
+  <data name="CustomizeRibbonLabel" xml:space="preserve">
+    <value>Настройка ленты</value>
+    <comment>Customize the Ribbon</comment>
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="NewBar" xml:space="preserve">
+    <value>Новая Группа</value>
+    <comment>New Group</comment>
+  </data>
+  <data name="NewTab" xml:space="preserve">
+    <value>Новая вкладка</value>
+    <comment>New Tab</comment>
+  </data>
+  <data name="RenameItem" xml:space="preserve">
+    <value>Переименовать</value>
+    <comment>Rename</comment>
+  </data>
+  <data name="CustomizationLabel" xml:space="preserve">
+    <value>Настройки :</value>
+    <comment>Customizations :</comment>
+  </data>
+  <data name="CustomizeQATHeader" xml:space="preserve">
+    <value>Настройка ленты</value>
+    <comment>Customize Ribbon</comment>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>Сбросьте все настройки</value>
+    <comment>Reset all customizations</comment>
+  </data>
+  <data name="ResetSelectedTab" xml:space="preserve">
+    <value>Сброс только выбранной вкладки ленты</value>
+    <comment>Reset only selected Ribbon tab</comment>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>отображаемое имя :</value>
+    <comment>Display Name :</comment>
+  </data>
+  <data name="DeleteSeletedRibbonCustomization" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить настройки вкладок / панелей ленты?</value>
+    <comment>Are you sure want to delete Ribbon tabs/bars customizations?</comment>
+  </data>
+  <data name="DeleteAllHeader" xml:space="preserve">
+    <value>Сброс Настройки ленты</value>
+    <comment>Reset Ribbon Customization</comment>
+  </data>
+  <data name="DeleteAllRibbonCustomization" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить все настройки ленты?</value>
+    <comment>Are you sure want to delete all Ribbon customizations?</comment>
+  </data>
+  <data name="DeleteCustomizationHeader" xml:space="preserve">
+    <value>Удаление настроек вкладок/полос ленты</value>
+    <comment>Delete Ribbon tabs/bars Customization</comment>
+  </data>
+  <data name="NewBarInTreeView" xml:space="preserve">
+    <value>New Bar</value>
+    <comment>???</comment>
+  </data>
+  <data name="CustomizationWarning" xml:space="preserve">
+    <value>Команды могут быть добавлены только в пользовательские группы.
+
+Чтобы добавить пользовательскую группу, перейдите на вкладку, на которой вы хотите отобразить группу, а затем нажмите кнопку Создать группу.</value>
+    <comment>Commands can only be added to custom groups.
+
+To add a custom group,click the tab where you want the group to appear,and then click New Group.</comment>
+  </data>
+  <data name="CustomizationItemWarning" xml:space="preserve">
+    <value>Выбранный элемент уже присутствует в этой группе</value>
+    <comment>Selected item already present in that group</comment>
+  </data>
+  <data name="WarningHeader" xml:space="preserve">
+    <value>Настройка ленты</value>
+    <comment>Ribbon Customization</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+    <comment>No</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="Topmost" xml:space="preserve">
+    <value>Самый верхний</value>
+    <comment>Topmost</comment>
+  </data>
+  <data name="QATToolTip" xml:space="preserve">
+    <value>Настройка Панели быстрого доступа</value>
+    <comment>Customize Quick Access Toolbar</comment>
+  </data>
+  <data name="CardViewHeader" xml:space="preserve">
+    <value>Перетащите сюда заголовок столбца, чтобы сгруппировать его по этому столбцу</value>
+    <comment>Drag a column header here to group by that column</comment>
+  </data>
+  <data name="CardViewClearFilter" xml:space="preserve">
+    <value>Очистить Фильтр</value>
+    <comment>Clear Filter</comment>
+  </data>
+  <data name="VerticalSplit" xml:space="preserve">
+    <value>Вертикальный Раскол</value>
+    <comment>Vertical Split</comment>
+  </data>
+  <data name="HorizontalSplit" xml:space="preserve">
+    <value>Горизонтальный Раскол</value>
+    <comment>Horizontal Split</comment>
+  </data>
+  <data name="SwapPanes" xml:space="preserve">
+    <value>Поменять местами Панели</value>
+    <comment>Swap Panes</comment>
+  </data>
+  <data name="CollapsePane" xml:space="preserve">
+    <value>Свернуть панель</value>
+    <comment>Collapse Pane</comment>
+  </data>
+  <data name="ExpandPane" xml:space="preserve">
+    <value>Развернуть панель</value>
+    <comment>Expand Pane</comment>
+  </data>
+  <data name="PinTab" xml:space="preserve">
+    <value>Контактный язычок</value>
+    <comment>Pin Tab</comment>
+  </data>
+  <data name="UnpinTab" xml:space="preserve">
+    <value>Открепить язычок</value>
+    <comment>Unpin Tab</comment>
+  </data>
+  <data name="RenameWindowTitle" xml:space="preserve">
+    <value>Переименовать</value>
+    <comment>Rename</comment>
+  </data>
+  <data name="Dock" xml:space="preserve">
+    <value>Док</value>
+    <comment>Dock</comment>
+  </data>
+  <data name="Float" xml:space="preserve">
+    <value>Поплавок</value>
+    <comment>Float</comment>
+  </data>
+  <data name="QATCommandsNotInRibbonCaption" xml:space="preserve">
+    <value>Команды, отсутствующие на ленте</value>
+    <comment>Commands Not in the Ribbon</comment>
+  </data>
+  <data name="MoreTabs" xml:space="preserve">
+    <value>Дополнительные вкладки</value>
+    <comment>More Tabs</comment>
+  </data>
+  <data name="FirstTab" xml:space="preserve">
+    <value>Первая вкладка</value>
+    <comment>First Tab</comment>
+  </data>
+  <data name="LastTab" xml:space="preserve">
+    <value>Последняя вкладка</value>
+    <comment>Last Tab</comment>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Следующая страница</value>
+    <comment>Next Page</comment>
+  </data>
+  <data name="NextTab" xml:space="preserve">
+    <value>Следующая вкладка</value>
+    <comment>Next Tab</comment>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>Предыдущая страница</value>
+    <comment>Previous Page</comment>
+  </data>
+  <data name="PreviousTab" xml:space="preserve">
+    <value>Предыдущая вкладка</value>
+    <comment>Previous Tab</comment>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>выбрать все</value>
+    <comment>Select All</comment>
+  </data>
+  <data name="NewHorizontalDocumentGroup" xml:space="preserve">
+    <value>Новая Горизонтальная Группа Документов</value>
+    <comment>New Horizontal Document Group</comment>
+  </data>
+  <data name="NewVerticalDocumentGroup" xml:space="preserve">
+    <value>Новая Вертикальная Группа Документов</value>
+    <comment>New Vertical Document Group</comment>
+  </data>
+  <data name="DockAsTabbedDocument" xml:space="preserve">
+    <value>Закрепите Как Документ С Вкладками</value>
+    <comment>Dock As Tabbed Document</comment>
+  </data>
+</root>
